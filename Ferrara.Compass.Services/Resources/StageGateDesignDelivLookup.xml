@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Cross-Functional Kick-off Meeting" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Create list of existing ingredients and provide to InTech Specifications" LookupFieldValue="1" Active="1" Owner="InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Initial PPA ([Price Point Architecture], like to have, must have)" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+  <GlobalLookupField Id="1" Subtask="N" Title="IP Assessment" LookupFieldValue="1" Active="1" Owner="Legal" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Directional Prototyping (product & structural package)" LookupFieldValue="1" Active="1" Owner="InTech / Package Engineering / Innovation Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Graphics Packaging Exploration" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Initiate Preliminary PLM Specifications and Recipes" LookupFieldValue="1" Active="1" Owner="InTech PD" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Discuss and Align to Bio-Engineering Strategy and Scope" LookupFieldValue="1" Active="1" Owner="Marketing/Regulatory/PD" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Assessment of Feasibility - Manufacturing / InTech / Quality / Regulatory / Legal / Procurement" LookupFieldValue="1" Active="1" Owner="Manufacturing / InTech PD / Regulatory / Quality / Legal / Procurement / Package Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Quality Preliminary General Assessment" LookupFieldValue="1" Active="1" Owner="Innovation Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Design Safety Assessment (DSA) For Novelty, Play Value" LookupFieldValue="1" Active="1" Owner="DSA Team" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct Make vs Buy Analysis.  Determine whether the product will be made internally or externally" LookupFieldValue="1" Active="1" Owner="Manufacturing / Procurement" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Validate available make/buy capacity" LookupFieldValue="1" Active="1" Owner="Supply Planning / Procurement / VFM" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Understand Capital Requirements" LookupFieldValue="1" Active="1" Owner="Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Customer Specific Concepts Sell Sheet" LookupFieldValue="1" Active="1" Owner="Marketing" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Discuss Sales Samples strategy" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Create High Level Timeline" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Initial Financial Estimates" LookupFieldValue="1" Active="1" Owner="Finance" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Updated Brief" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+</ArrayOfGlobalLookupField>

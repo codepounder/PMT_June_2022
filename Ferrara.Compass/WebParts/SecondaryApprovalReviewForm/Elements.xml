@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="SecondaryApprovalReviewForm" List="113" Url="_catalogs/wp">
+    <File Path="SecondaryApprovalReviewForm\SecondaryApprovalReviewForm.webpart" Url="Ferrara.Compass_SecondaryApprovalReviewForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

@@ -1,0 +1,1 @@
+bin\Debug\Ferrara.Compass.DragonflyUpdateTimerJob.wsp

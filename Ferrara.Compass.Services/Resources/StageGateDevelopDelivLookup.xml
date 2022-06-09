@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Updated Timeline" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Initiate Preliminary PLM Specifications and Recipes" LookupFieldValue="1" Active="1" Owner="InTech PD" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Re-check Risk Assessment and Product Concept Fit" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="FPO Concept Sell Sheet (Strategic Retail Partner Pre-Sell in) (Done via Project Team Mtg)" LookupFieldValue="1" Active="1" Owner="SSCM (Sales Strategy Customer Marketing)" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Preliminary Packaging and Raw Material Supply (Feasibility and supplier capacity)" LookupFieldValue="1" Active="1" Owner="Procurement" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Verify if Purchased Candy Semis are needed" LookupFieldValue="1" Active="1" Owner="Procurement / VFM" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Determine if Transfer SEMIs or WIPs will be needed" LookupFieldValue="1" Active="1" Owner="Ops / InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Develop Preliminary Structural Packaging" LookupFieldValue="1" Active="1" Owner="Package Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct Trials (Recipe)" LookupFieldValue="1" Active="1" Owner="InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Preliminary HACCP (Hazard Analysis and Critical Control Points) / Draft of Quality Control Plan" LookupFieldValue="1" Active="1" Owner="Food Safety Quality / Innovation Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Validate Capital Spend and Complete Capex Documents (if applicable)" LookupFieldValue="1" Active="1" Owner="Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Initiate ordering of equipment" LookupFieldValue="1" Active="1" Owner="Engineering / Ops or InTech (moldboard)" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Hygenic Design of equipment" LookupFieldValue="1" Active="1" Owner="Food Safety / Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Develop Graphics (Design Art) (including graphic design Qual / Quant Research, if applicable)" LookupFieldValue="1" Active="1" Owner="Marketing" />
+  <GlobalLookupField Id="1" Subtask="N" Title="CrossFunctional Alignment Meeting" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+</ArrayOfGlobalLookupField>

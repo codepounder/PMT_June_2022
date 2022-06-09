@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Co-Man - Canels" LookupFieldValue="11588" Active="1" />
+  <GlobalLookupField Id="2" Title="Co-Man - Primrose" LookupFieldValue="1265" Active="1" />
+  <GlobalLookupField Id="3" Title="Accredo - Sugarland, TX" LookupFieldValue="12914" Active="1" />
+  <GlobalLookupField Id="4" Title="Akers - Chicago, IL" LookupFieldValue="12317" Active="1" />
+  <GlobalLookupField Id="5" Title="Belmark - De Pere, WI" LookupFieldValue="10527" Active="1" />
+  <GlobalLookupField Id="6" Title="Bemis - Bellwood, IL" LookupFieldValue="11808" Active="1" />
+  <GlobalLookupField Id="7" Title="Bemis - New London, WI" LookupFieldValue="11808" Active="1" />
+  <GlobalLookupField Id="8" Title="Bemis - OshKosh, WI" LookupFieldValue="11808" Active="1" />
+  <GlobalLookupField Id="9" Title="Consolidated - Ridgefield Park, NJ" LookupFieldValue="5521" Active="1" />
+  <GlobalLookupField Id="10" Title="Field Packaging - Chicago, IL" LookupFieldValue="6044" Active="1" />
+  <GlobalLookupField Id="11" Title="Formel - Franklin Park, IL" LookupFieldValue="7272" Active="1" />
+  <GlobalLookupField Id="12" Title="General Converting (GCI) - Bolingbrook, IL" LookupFieldValue="727" Active="1" />
+  <GlobalLookupField Id="13" Title="Hansen (R&amp;D) - Acworth, GA" LookupFieldValue="11975" Active="1" />
+  <GlobalLookupField Id="14" Title="International Paper (IP) - McAllen, TX" LookupFieldValue="10563" Active="1" />
+  <GlobalLookupField Id="15" Title="International Paper (IP) - Minneapolis, MN" LookupFieldValue="10563" Active="1" />
+  <GlobalLookupField Id="16" Title="Kapstone - Aurora, IL" LookupFieldValue="10612" Active="1" />
+  <GlobalLookupField Id="17" Title="Kapstone - Mesquite, TX" LookupFieldValue="10612" Active="1" />
+  <GlobalLookupField Id="18" Title="Kapstone Container - Cedar Rapids, IA" LookupFieldValue="10612" Active="1" />
+  <GlobalLookupField Id="19" Title="Kapstone Container - Fridley, MN" LookupFieldValue="10612" Active="1" />
+  <GlobalLookupField Id="20" Title="Kendall - Jefferson, WI" LookupFieldValue="11459" Active="1" />
+  <GlobalLookupField Id="21" Title="Kendall - Pittsburg, KS" LookupFieldValue="11459" Active="1" />
+  <GlobalLookupField Id="22" Title="Malnove - Omaha, NE" LookupFieldValue="14119" Active="1" />
+  <GlobalLookupField Id="23" Title="Menasha - Lakeville, MN" LookupFieldValue="15751" Active="1" />
+  <GlobalLookupField Id="24" Title="Multifilm - Elgin, IL" LookupFieldValue="11180" Active="1" />
+  <GlobalLookupField Id="25" Title="Packaging Corp of America (PCA) - Chicago, IL" LookupFieldValue="12766" Active="1" />
+  <GlobalLookupField Id="26" Title="Packaging Corporation of America (PCA) - Omaha, NE" LookupFieldValue="12766" Active="1" />
+  <GlobalLookupField Id="27" Title="Packaging Products Corp (PPC) - Mission, KS" LookupFieldValue="12766" Active="1" />
+  <GlobalLookupField Id="28" Title="PrintPack - Atlanta, GA" LookupFieldValue="1263" Active="1" />
+  <GlobalLookupField Id="29" Title="Rock-Tenn - Kimball, TN" LookupFieldValue="9053" Active="1" />
+  <GlobalLookupField Id="30" Title="Rock-Tenn - Waxahachie, TX" LookupFieldValue="9053" Active="1" />
+  <GlobalLookupField Id="31" Title="Spectrum - Downers Grove, IL" LookupFieldValue="14109" Active="1" />
+  <GlobalLookupField Id="32" Title="WestRock - Harrison, AR" LookupFieldValue="14109" Active="1" />
+  <GlobalLookupField Id="33" Title="WestRock - Clinton, IA" LookupFieldValue="14109" Active="1" />
+  <GlobalLookupField Id="34" Title="Menasha - Chicago, IL" LookupFieldValue="15752" Active="1" />
+  <GlobalLookupField Id="35" Title="Imprint - Aurora, IL" LookupFieldValue="846" Active="1" />
+  <GlobalLookupField Id="36" Title="The Royal Group - Cicero, IL" LookupFieldValue="11831" Active="1" />
+  <GlobalLookupField Id="37" Title="Omega Plastics - Knoxville, TN" LookupFieldValue="10556" Active="1" />
+  <GlobalLookupField Id="38" Title="GPI - Queretaro, Mexico" LookupFieldValue="38" Active="1" />
+  <GlobalLookupField Id="39" Title="Sonoco Hickory - Hickory, NC" LookupFieldValue="10635" Active="1" />
+  <GlobalLookupField Id="40" Title="Westrock - Waxahachie" LookupFieldValue="14109" Active="1" />
+  <GlobalLookupField Id="41" Title="Tekna - McAllen" LookupFieldValue="14803" Active="1" />
+  <GlobalLookupField Id="42" Title="AUTO I.D. - Hidalgo" LookupFieldValue="14684" Active="1" />
+  <GlobalLookupField Id="43" Title="Bunzl - Woodridge" LookupFieldValue="8539" Active="1" />
+  <GlobalLookupField Id="44" Title="Marvatex - Cincinnati OH" LookupFieldValue="7408" Active="1" />
+  <GlobalLookupField Id="45" Title="NovaPack - Saltillo" LookupFieldValue="14108" Active="1" />
+  <GlobalLookupField Id="46" Title="Standfast - Addison" LookupFieldValue="46" Active="1" />
+  <GlobalLookupField Id="47" Title="Gates Packaging - Leander " LookupFieldValue="12214" Active="1" />
+  <GlobalLookupField Id="48" Title="Carga Segura - Neuevo Leon" LookupFieldValue="13396" Active="1" />
+  <GlobalLookupField Id="49" Title="Integrated Packaging - Monterrey" LookupFieldValue="49" Active="1" />
+  <GlobalLookupField Id="50" Title="Associated Packaging - Mesquite" LookupFieldValue="11964" Active="1" />
+  <GlobalLookupField Id="51" Title="Berry Plastics - Cincinnati, OH" LookupFieldValue="5163" Active="1" />
+  <GlobalLookupField Id="52" Title="Grupo Ercus - Mexico City, MX" LookupFieldValue="52" Active="1" />
+  <GlobalLookupField Id="53" Title="Co-Man – Kreative" LookupFieldValue="15770" Active="1" />
+  <GlobalLookupField Id="54" Title="Co-Man - Milanowek/Poland Co." LookupFieldValue="16142" Active="1" />
+  <GlobalLookupField Id="55" Title="International Paper (IP) - Montgomery, IL" LookupFieldValue="55" Active="1" />
+  <GlobalLookupField Id="56" Title="Co-Man - Sunrise" LookupFieldValue="56" Active="1" />
+  <GlobalLookupField Id="57" Title="Co-Man - OAKLEAF - Scarborough, ON" LookupFieldValue="57" Active="1" />
+  <GlobalLookupField Id="58" Title="Co-Man - Zachary Confections - Mt. Prospect, IL" LookupFieldValue="11425" Active="1" />
+  <GlobalLookupField Id="59" Title="Co-man - Ercus" LookupFieldValue="15374" Active="1" />
+  <GlobalLookupField Id="60" Title="Co-Man Melster" LookupFieldValue="11186" Active="1" />
+  <GlobalLookupField Id="61" Title="International Paper (IP) - Bedford Park, IL" LookupFieldValue="10560" Active="1" />
+  <GlobalLookupField Id="62" Title="International Paper (IP) - Carol Stream, IL " LookupFieldValue="4283" Active="1" />
+  <GlobalLookupField Id="63" Title="International Paper (IP) - Rockford, IL " LookupFieldValue="4283" Active="1" />
+  <GlobalLookupField Id="64" Title="Flejes Sultana" LookupFieldValue="10573" Active="1" />
+  <GlobalLookupField Id="65" Title="Morcor - Elgin, IL" LookupFieldValue="6054" Active="1" />
+  <GlobalLookupField Id="66" Title="Hart Industries - Owings Mills MD" LookupFieldValue="16768" Active="1" />
+  <GlobalLookupField Id="67" Title="Malnove – Jax, FL" LookupFieldValue="14119" Active="1" />
+  <GlobalLookupField Id="68" Title="R&amp;D Printing, Inc - " LookupFieldValue="68" Active="1" />
+  <GlobalLookupField Id="69" Title="Burstan - Elk Grove Village, IL" LookupFieldValue="8337" Active="1" />
+  <GlobalLookupField Id="70" Title="TricorBraun - Woodridge IL" LookupFieldValue="13038" Active="1" />
+  <GlobalLookupField Id="71" Title="GBOX- Apodaca, Mexico" LookupFieldValue="16663" Active="1" />
+  <GlobalLookupField Id="72" Title="Bemis – Lancaster, WI" LookupFieldValue="11808" Active="1" />
+  <GlobalLookupField Id="73" Title="Warner &amp; Warner - Plover, WI" LookupFieldValue="14625" Active="1" />
+  <GlobalLookupField Id="74" Title="Royal Group - Cicero, IL" LookupFieldValue="74" Active="1" />
+  <GlobalLookupField Id="75" Title="Box, Tray &amp; Giraffe Inc. - Jiaozhou City, QINGD" LookupFieldValue="16706" Active="1" />
+  <GlobalLookupField Id="76" Title="Galaxy - China" LookupFieldValue="16694" Active="1" />
+  <GlobalLookupField Id="77" Title="Assemblers - Chicago, IL" LookupFieldValue="16233" Active="1" />
+  <GlobalLookupField Id="78" Title="IP Fort Worth - Fort Worth, TX" LookupFieldValue="78" Active="1" />
+  <GlobalLookupField Id="79" Title="Shenzhen Amos Sweets &amp; Foods Co.,LTD - Shenzhen, China" LookupFieldValue="16845" Active="1" />
+  <GlobalLookupField Id="80" Title="Panoramic Inc - Janesville WI" LookupFieldValue="12323" Active="1" />
+  <GlobalLookupField Id="81" Title="Packaging Corporation of America - Minneapolis MN" LookupFieldValue="12776" Active="1" />
+  <GlobalLookupField Id="82" Title="Creative Werks - Bensenville, IL" LookupFieldValue="9026" Active="1" />
+  <GlobalLookupField Id="83" Title="GPI–Solon - Solon, OH" LookupFieldValue="83" Active="1" />
+  <GlobalLookupField Id="84" Title="US Packaging - Elkhorn, WI" LookupFieldValue="16721" Active="1" />
+  <GlobalLookupField Id="85" Title="Comar - Saddle Brook, NJ" LookupFieldValue="85" Active="1" />
+  <GlobalLookupField Id="86" Title="Pacific Packaging - Baldwin Park, CA" LookupFieldValue="86" Active="1" />
+  <GlobalLookupField Id="87" Title="Fort Dearborn - Elkgrove, IL" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="87" Title="TC Flexstar" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="87" Title="Family Features" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="87" Title="Toray" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="87" Title="Jindal" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="88" Title="Inteplast" LookupFieldValue="88" Active="1" />
+  <GlobalLookupField Id="89" Title="Johnson Bryce" LookupFieldValue="89" Active="1" />
+  <GlobalLookupField Id="90" Title="Reynolds Presto" LookupFieldValue="90" Active="1" />
+  <GlobalLookupField Id="91" Title="BGR" LookupFieldValue="91" Active="1" />
+  <GlobalLookupField Id="92" Title="D Thomas" LookupFieldValue="92" Active="1" />
+  <GlobalLookupField Id="93" Title="Traco Packaging" LookupFieldValue="93" Active="1" />
+  <GlobalLookupField Id="94" Title="Sonoco" LookupFieldValue="94" Active="1" />
+  <GlobalLookupField Id="95" Title="Seda" LookupFieldValue="95" Active="1" />
+  <GlobalLookupField Id="96" Title="WS Packaging" LookupFieldValue="96" Active="1" />
+  <GlobalLookupField Id="97" Title="Georgia Pacific" LookupFieldValue="97" Active="1" />
+  <GlobalLookupField Id="98" Title="Group O" LookupFieldValue="98" Active="1" />
+  <GlobalLookupField Id="99" Title="Accurate Box" LookupFieldValue="99" Active="1" />
+  <GlobalLookupField Id="100" Title="Muname Company" LookupFieldValue="100" Active="1" />
+  <GlobalLookupField Id="101" Title="Americraft" LookupFieldValue="101" Active="1" />
+  <GlobalLookupField Id="102" Title="North American Paper" LookupFieldValue="102" Active="1" />
+  <GlobalLookupField Id="103" Title="BPM Paper" LookupFieldValue="103" Active="1" />
+</ArrayOfGlobalLookupField>

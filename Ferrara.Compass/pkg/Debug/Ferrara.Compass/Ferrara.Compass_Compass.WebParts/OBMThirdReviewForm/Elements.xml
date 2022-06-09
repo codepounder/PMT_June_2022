@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="OBMThirdReviewForm" List="113" Url="_catalogs/wp">
+    <File Path="OBMThirdReviewForm\OBMThirdReviewForm.webpart" Url="Ferrara.Compass_OBMThirdReviewForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

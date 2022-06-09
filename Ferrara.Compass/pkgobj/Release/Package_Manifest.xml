@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="db27c9b0-1fd9-4c7d-803d-54000b8531e0" ResetWebServer="TRUE" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Ferrara.Compass.Abstractions.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Ferrara.Compass.Abstractions" Namespace="Ferrara.Compass.Abstractions" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Ferrara.Compass.DependencyResolution.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Ferrara.Compass.DependencyResolution" Namespace="Ferrara.Compass.DependencyResolution" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Ferrara.Compass.Services.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Ferrara.Compass.Services" Namespace="Ferrara.Compass.Services" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="itextsharp.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="itextsharp.dll" Namespace="itextsharp.dll" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Microsoft.Practices.Unity.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Microsoft.Practices.Unity.dll" Namespace="Microsoft.Practices.Unity.dll" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Ferrara.Compass.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.CompassAdministrationForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.InitialApprovalReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyWorkflowTasksForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectHeaderForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectNotesForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.InitialCapacityReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ItemProposalForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.InitialCostingReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.TradePromoGroupForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.DistributionForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.OpsForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.QAForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ExternalManufacturingForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.SAPInitialItemSetupForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.OBMFirstReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.OBMSecondReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.OBMThirdReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.SAPBOMSetupForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyOpenProjectsForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BillOfMaterialsSetUpForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectDashboard2" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.CommercializationSummaryForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ComponentCostingQuoteForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.GraphicsRequestForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectDashboard" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.GraphicsRequestDetailForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.SecondaryApprovalReviewForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectTimelineUpdateForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ComponentCostingSummaryForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.FirstProductionCheckForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.DistributionCenterCheckForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MaterialsReceivedCheckForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.AllOpenProjectsForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncNutritionalsForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.CompassWorldSyncMainForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.AllProjectDetailsDashboard" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncRequestFile" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncRequestUpload" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncRequestDashboard" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.PrelimSAPInitialItemSetupForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncRequestReceipt" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.sharedheaderfiles" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.SAPFinalRoutingsSummaryForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.WorldSyncFuseFile" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateCreateProjectForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateNecessaryDeliverables" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateProjectPanelForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.PMTHeaderForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateGenerateIPFsForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateGenerateBriefPDF" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateFinanceSummaryForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.StageGateFinancialBriefListForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.AllParentProjectDetailsDashboard" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyOpenProjects2" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyWorkflowTasksForm2" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.SAPCompleteItemSetupForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupMaterialWarehouseForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupPEForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ProjectHeaderForm_New" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupSAPForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupPE2Form" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupProcForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BOMSetupPE3Form" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.GraphicsRequestDetailForm_New" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.GraphicsRequestForm_New" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.UpdateProjectNotesForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.FinishedGoodPackSpecForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyWorkflowTasksForm3" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.MyWorkflowTasksForm_New" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.BEQRCForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.ItemProposalNoUCForm" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\Ferrara.Compass.WebParts\CompassAdministrationForm\CompassAdministrationFormUserControl.ascx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\step-form-wizard-all.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\step-form-wizard.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\themes\circle.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\themes\sea.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\themes\simple.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\themes\sky.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\sass\themes\sun.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.eot" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.woff" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\FontAwesome.otf" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\animated.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\bordered-pulled.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\core.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\fixed-width.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\font-awesome.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\icons.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\larger.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\list.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\mixins.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\path.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\rotated-flipped.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\screen-reader.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\stacked.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\less\variables.less" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\font-awesome.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_animated.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_bordered-pulled.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_core.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_fixed-width.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_icons.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_larger.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_list.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_mixins.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_path.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_rotated-flipped.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_screen-reader.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_stacked.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\scss\_variables.scss" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\fonts\fontawesome-webfont.eot" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\fonts\fontawesome-webfont.ttf" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\fonts\fontawesome-webfont.woff" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\fonts\fontawesome-webfont.woff2" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\fonts\FontAwesome.otf" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\langs\readme.md" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\fonts\tinymce-mobile.woff" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CompleteChildProject.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CancelProject.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\MoveIPF.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\LoadBrief.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\DashboardEmailForm.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CompassErrorPage.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CopyIPF.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\MoveBOMForm.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\UploadForm.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\BootStrap\bootstrap-grid.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\BootStrap\bootstrap-table.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\BootStrap\bootstrap.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\StageGateStyles.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\Compass-Blue.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\Compass-Green.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\Compass-Red.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\Compass.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\CompassGraphicsRequest.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\CompassStepper-Blue.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\CompassStepper-Green.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\CompassStepper-Red.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\CompassStepper.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\datepicker.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\datepicker3.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.dateselect.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.steps.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\minus20X20.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\plus20X20.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\delete.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\generate.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\generated.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\moveArrow.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\Request4.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\Requested.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\rsz_request4.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\BEQRC.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\BOMSetup_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\ExtMan.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\MaterialWarehouseSetup.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PE_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PE2_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PE3_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PROC_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\SAPCompleteItemSetup.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\sharedBOM_New.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\stageGateJS.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\QA.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\BOMRev2.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\BOMRev1.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\BOMSetup.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\buttons.html5.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\dataTables.buttons.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\jszip.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\main.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\normalize.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\step-form-wizard.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery-ui-1.8.22.custom.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.dataTables.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.mCustomScrollbar.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\report_styles.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\styles.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\css\font-awesome.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\css\font-awesome.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.svg" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\ATTACHTB.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\cancel.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\copy_csv_xls_pdf.swf" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\DELETE.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\EDIT.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\Email.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\Ferrara_Logo.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\Graphics_Summary1.jpg" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\Graphics_Summary2.jpg" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\loaderImage.gif" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\loading.gif" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\loading_small.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\minus.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\plus.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\REDO.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\SAVE.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\sort_asc.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\sort_both.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\sort_desc.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\UPLOAD.GIF" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\UploadDoc.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\greenCircle.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\redCircle.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t1-arr-left-hover.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t1-arr-left.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t1-arr-right.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t1-arr.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-arr-left.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-arr-right.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-nav-arr-down.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-nav-arr-rtl.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-nav-arr.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-nav-bg-down.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t2-nav-bg.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t4-arr-left.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\t4-arr-right.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\yellowCircle.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Format.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery-ui.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.accordion.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Bootstrap\bootstrap-datepicker.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Bootstrap\bootstrap-table-export.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Bootstrap\bootstrap-table-filter.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Bootstrap\bootstrap-table.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Bootstrap\bootstrap.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\dataTables.editor.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\dataTables.tableTools.2.2.3.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\IPF.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\jquery.dataTables.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.dateselect.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.dateselect.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.maskedinput.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.maskMoney.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.steps.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.updatepanel.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\modernizr-2.6.2.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PE.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PE2.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\PROC.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\regex-filter.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery-ui.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\jquery.dataTables.columnFilter.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\jquery.dataTables.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\DataTables\jquery.dataTables1.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.mCustomScrollbar.concat.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\jquery.multifile.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\Compass.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\obsolescence.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\sharedBOM.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tableExport.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\jquery.tinymce.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\license.txt" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\advlist\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\anchor\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\autolink\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\autoresize\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\autosave\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\bbcode\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\charmap\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\codesample\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\code\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\colorpicker\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\contextmenu\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\directionality\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\emoticons\js\emojis.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\emoticons\js\emojis.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\emoticons\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\fullpage\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\fullscreen\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\help\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\hr\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\imagetools\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\image\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\importcss\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\link\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\lists\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\media\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\noneditable\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\pagebreak\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\paste\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\preview\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\print\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\quickbars\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\save\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\searchreplace\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\spellchecker\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\tabfocus\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\table\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\template\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\textcolor\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\textpattern\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\toc\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\visualblocks\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\visualchars\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\plugins\wordcount\plugin.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\content\default\content.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\content\document\content.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\content\writer\content.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.mobile.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\skin.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\skin.mobile.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.inline.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.mobile.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\skin.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\skins\ui\oxide\skin.mobile.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\themes\mobile\theme.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\themes\silver\theme.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\tinymce\tinymce.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\js\WFReport.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\bootstrap\css\bootstrap.min.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\jquery-validation\additional-methods.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\jquery-validation\jquery.validate.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\mcustom-scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\mcustom-scrollbar\mCSB_buttons.png" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\parsley\parsley.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\plugins\parsley\parsley.min.js" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBEQRC.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMEditable_New.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMGridPackMeas_New.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMGrid_New.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMPackMeas_New.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMSetupProjectDetails.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucSGSItemDetailInfo.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMEditable.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucConsolidatedFinancialSummary.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucSGSProjectGateInfo.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucSGSProjectInformation.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucGateDets.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMGrid.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucBOMPackMeas.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucTransferSemiBOMs.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucSemiDetails.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucTS.ascx" />
+    <TemplateFile Location="ControlTemplates\Ferrara.Compass\ucFinancialBrief.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Ferrara.Compass_Compass.Groups\Feature.xml" />
+    <FeatureManifest Location="Ferrara.Compass_Compass.Lists\Feature.xml" />
+    <FeatureManifest Location="Ferrara.Compass_Compass.WebParts\Feature.xml" />
+    <FeatureManifest Location="Ferrara.Compass_Compass.Pages\Feature.xml" />
+    <FeatureManifest Location="Ferrara.Compass_Compass.SupportLists\Feature.xml" />
+    <FeatureManifest Location="Ferrara.Compass_Compass.LookUpLists\Feature.xml" />
+  </FeatureManifests>
+</Solution>

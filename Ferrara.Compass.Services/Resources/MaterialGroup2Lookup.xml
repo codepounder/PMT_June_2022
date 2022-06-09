@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="ED-KBLRF Shoppe 8-13.6 oz (12 ct) (A00)" LookupFieldValue="A00" Active="1" />
+  <GlobalLookupField Id="2" Title="ED-KBLRF Stripe 8-13.6 oz (12 ct) (G01)" LookupFieldValue="G01" Active="1" />
+  <GlobalLookupField Id="3" Title="ED-KBLR Dreams 8-13.6 oz (12 ct) (G02)" LookupFieldValue="G02" Active="1" />
+  <GlobalLookupField Id="4" Title="ED-KBLR EL Fudge 8-13.6 oz (12 ct) (G03)" LookupFieldValue="G03" Active="1" />
+  <GlobalLookupField Id="5" Title="ED-BFO DOY CNFCTNS 8 oz (6 ct) (A47)" LookupFieldValue="A47" Active="1" />
+  <GlobalLookupField Id="6" Title="ED-BFO DOY FS 8 oz (6 ct) (G04)" LookupFieldValue="G04" Active="1" />
+  <GlobalLookupField Id="7" Title="PL CNFCTNS 0.9-10 oz (8 ct) (A59)" LookupFieldValue="A59" Active="1" />
+  <GlobalLookupField Id="8" Title="PL FS 0.9-10 oz (8 ct) (G17)" LookupFieldValue="G17" Active="1" />
+  <GlobalLookupField Id="9" Title="ED-KBLRFS 8.5-12 oz (6 ct) (A63)" LookupFieldValue="A63" Active="1" />
+  <GlobalLookupField Id="10" Title="ED-BFO CNFCTNS Peg 4 oz (12 ct) (A67)" LookupFieldValue="A67" Active="1" />
+  <GlobalLookupField Id="11" Title="ED-BFO FS Peg 4 oz (12 ct) (G05)" LookupFieldValue="G05" Active="1" />
+  <GlobalLookupField Id="12" Title="ED-KBLRCC 0.214-0.226 oz (600 ct) (B03)" LookupFieldValue="B03" Active="1" />
+  <GlobalLookupField Id="13" Title="CONES CK 34DX600CT BULK (G06)" LookupFieldValue="G06" Active="1" />
+  <GlobalLookupField Id="14" Title="SN-Hwn-Brach's 34-41 oz (6 ct) (B40)" LookupFieldValue="B40" Active="1" />
+  <GlobalLookupField Id="15" Title="TR SBC &amp; COOKIE 6/ 60CT/33.9 OZ (G07)" LookupFieldValue="G07" Active="1" />
+  <GlobalLookupField Id="16" Title="ED-KBLRCC 0.132-0.153 oz (1000 ct) (B58)" LookupFieldValue="B58" Active="1" />
+  <GlobalLookupField Id="17" Title="CONES CK 10DX1000CT BULK (G08)" LookupFieldValue="G08" Active="1" />
+  <GlobalLookupField Id="18" Title="ED-Kblr Elfin Mix Other 6.5 oz (6 ct) (B95)" LookupFieldValue="B95" Active="1" />
+  <GlobalLookupField Id="19" Title="ED-Kblr Elfin Mix EL Fdg 6.5 oz (6 ct) (G09)" LookupFieldValue="G09" Active="1" />
+  <GlobalLookupField Id="20" Title="ED-BFO CNFCTNS 8 oz (6 ct) (C02)" LookupFieldValue="C02" Active="1" />
+  <GlobalLookupField Id="21" Title="ED-BFO FS 8 oz (6 ct) (G10)" LookupFieldValue="G10" Active="1" />
+  <GlobalLookupField Id="22" Title="TBD ND SPACE JAM DOY DSPLY 60CT (G11)" LookupFieldValue="G11" Active="1" />
+  <GlobalLookupField Id="23" Title="60CT ASST SWT, SPREE SUB FLOOR (G12)" LookupFieldValue="G12" Active="1" />
+  <GlobalLookupField Id="24" Title="CONES VAN CP PNTD IC 0.138X1000 BULK (G13)" LookupFieldValue="G13" Active="1" />
+  <GlobalLookupField Id="25" Title="CONES CK IC 0.302X400 BULK (G14)" LookupFieldValue="G14" Active="1" />
+  <GlobalLookupField Id="26" Title="FDG SHP GRHPR MNT COOK 10OZX12 HOL (G15)" LookupFieldValue="G15" Active="1" />
+  <GlobalLookupField Id="27" Title="FDG SHP FDGE STRIPES COOK 11.5OZX12 HOL (G16)" LookupFieldValue="G16" Active="1" />
+  <GlobalLookupField Id="28" Title="ED-V&amp;M Fdg Strp Cad 20-24 oz (4 ct) (A31)" LookupFieldValue="A31" Active="1" />
+  <GlobalLookupField Id="29" Title="ED-V&amp;M FA Cad 20-24 oz (4 ct) (G18)" LookupFieldValue="G18" Active="1" />
+  <GlobalLookupField Id="30" Title="ED-Trolli 3.8-7.2 oz (9-12 ct) (A01)" LookupFieldValue="A01" Active="1" />
+  <GlobalLookupField Id="31" Title="ED-KBLRCD 9.6-16.4 oz (12 ct) (A02)" LookupFieldValue="A02" Active="1" />
+  <GlobalLookupField Id="32" Title="ED-ST 3.5-4 oz x 12 (4 ct) (A03)" LookupFieldValue="A03" Active="1" />
+  <GlobalLookupField Id="33" Title="ED-V&amp;M Cad 12-14.4 oz (4 ct) (A04)" LookupFieldValue="A04" Active="1" />
+  <GlobalLookupField Id="34" Title="ED-Sathers 2/$2 2-5 oz (12 ct) (A06)" LookupFieldValue="A06" Active="1" />
+  <GlobalLookupField Id="35" Title="ED-Mother's 11-16 oz (12 ct) (A08)" LookupFieldValue="A08" Active="1" />
+  <GlobalLookupField Id="36" Title="ED-KBLRC 4-6 oz (12 ct) (A09)" LookupFieldValue="A09" Active="1" />
+  <GlobalLookupField Id="37" Title="ED-Nerds TBox 4.25-5 oz (12 ct) (A10)" LookupFieldValue="A10" Active="1" />
+  <GlobalLookupField Id="38" Title="ED-Nerds Sgl 0.92-1.65 oz x 24 (12 ct) (A11)" LookupFieldValue="A11" Active="1" />
+  <GlobalLookupField Id="39" Title="ED-N&amp;L CgMkr 0.9 oz x 24 (12 ct) (A12)" LookupFieldValue="A12" Active="1" />
+  <GlobalLookupField Id="40" Title="ED-BFO 0.8 oz x 65 (160 ct) (A13)" LookupFieldValue="A13" Active="1" />
+  <GlobalLookupField Id="41" Title="ED-ST M Peg 4.5-6 oz (12 ct) (A15)" LookupFieldValue="A15" Active="1" />
+  <GlobalLookupField Id="42" Title="ED-FA 12.4 oz (12 ct) (A16)" LookupFieldValue="A16" Active="1" />
+  <GlobalLookupField Id="43" Title="ED-Trolli L Peg 6.3-7.2 oz (8 ct) (A17)" LookupFieldValue="A17" Active="1" />
+  <GlobalLookupField Id="44" Title="ED-Murray SF 6.5-9 oz (12 ct) (A18)" LookupFieldValue="A18" Active="1" />
+  <GlobalLookupField Id="45" Title="ED-KBLRSW 2.75 oz (144 ct) (A19)" LookupFieldValue="A19" Active="1" />
+  <GlobalLookupField Id="46" Title="ED-KBLRC 9 oz (12 ct) (A20)" LookupFieldValue="A20" Active="1" />
+  <GlobalLookupField Id="47" Title="ED-KBLRFS 13.2-17.3 oz (12 ct) (A21)" LookupFieldValue="A21" Active="1" />
+  <GlobalLookupField Id="48" Title="ED-ST Sgl 1.5-1.8 oz x 36 (10 ct) (A22)" LookupFieldValue="A22" Active="1" />
+  <GlobalLookupField Id="49" Title="ED-V&amp;M Club 45 oz (1 ct) (A23)" LookupFieldValue="A23" Active="1" />
+  <GlobalLookupField Id="50" Title="ED-LT Sgl 1.5-2 oz x 24 (12 ct) (A24)" LookupFieldValue="A24" Active="1" />
+  <GlobalLookupField Id="51" Title="ED-ST Sgl 1.65-1.8 oz x 24 (12 ct) (A25)" LookupFieldValue="A25" Active="1" />
+  <GlobalLookupField Id="52" Title="ED-ST LD 9 oz (12 ct) (A26)" LookupFieldValue="A26" Active="1" />
+  <GlobalLookupField Id="53" Title="ED-Keebler Other 10.1-15 oz (12 ct) (A27)" LookupFieldValue="A27" Active="1" />
+  <GlobalLookupField Id="54" Title="ED-Nips TBox 4 oz (12 ct) (A28)" LookupFieldValue="A28" Active="1" />
+  <GlobalLookupField Id="55" Title="PL 0.9 oz x 32 (4 ct) (A29)" LookupFieldValue="A29" Active="1" />
+  <GlobalLookupField Id="56" Title="ED-LT CgMkr 0.8 oz x 24 (12 ct) (A32)" LookupFieldValue="A32" Active="1" />
+  <GlobalLookupField Id="57" Title="ED-Trolli DOY 7.25-9 oz (6 ct) (A33)" LookupFieldValue="A33" Active="1" />
+  <GlobalLookupField Id="58" Title="SN-Hwn-Brach's 20 oz (24 ct) (A34)" LookupFieldValue="A34" Active="1" />
+  <GlobalLookupField Id="59" Title="ED-Brach's Peg 3.5-13 oz (12 ct) (A35)" LookupFieldValue="A35" Active="1" />
+  <GlobalLookupField Id="60" Title="ED-Nerds Sgl 1.65 oz x 36 (10 ct) (A36)" LookupFieldValue="A36" Active="1" />
+  <GlobalLookupField Id="61" Title="ED-ST DOY 8-12 oz (8 ct) (A37)" LookupFieldValue="A37" Active="1" />
+  <GlobalLookupField Id="62" Title="ED-LT CgMkr 0.34 oz x 145 (8 ct) (A39)" LookupFieldValue="A39" Active="1" />
+  <GlobalLookupField Id="63" Title="ED-KBLRCC 3-3.25 oz (6 ct) (A40)" LookupFieldValue="A40" Active="1" />
+  <GlobalLookupField Id="64" Title="SN-Hwn-Brach's 11 oz (36 ct) (A41)" LookupFieldValue="A41" Active="1" />
+  <GlobalLookupField Id="65" Title="ED-LT S Peg 3.5-4.2 oz (12 ct) (A42)" LookupFieldValue="A42" Active="1" />
+  <GlobalLookupField Id="66" Title="ED-GS Chewy TBox 3.75-5 oz (12 ct) (A43)" LookupFieldValue="A43" Active="1" />
+  <GlobalLookupField Id="67" Title="ED-Trolli DOY BBag 25.5-28.8 oz (6 ct) (A44)" LookupFieldValue="A44" Active="1" />
+  <GlobalLookupField Id="68" Title="ED-LH CgMkr 25 Cent 0.8 oz x 24 (12 ct) (A45)" LookupFieldValue="A45" Active="1" />
+  <GlobalLookupField Id="69" Title="ED-ST S Peg 3-3.5 oz (12 ct) (A46)" LookupFieldValue="A46" Active="1" />
+  <GlobalLookupField Id="70" Title="PL 5 oz (6 ct) (A48)" LookupFieldValue="A48" Active="1" />
+  <GlobalLookupField Id="71" Title="ED-JF TBox 5-5.5 oz (12 ct) (A49)" LookupFieldValue="A49" Active="1" />
+  <GlobalLookupField Id="72" Title="ED-V&amp;M Cad 29.2-31.2 oz (4 ct) (A50)" LookupFieldValue="A50" Active="1" />
+  <GlobalLookupField Id="73" Title="ED-Murray 12-16 oz (8 ct) (A51)" LookupFieldValue="A51" Active="1" />
+  <GlobalLookupField Id="74" Title="SN-Hwn-Brach's 16.2 oz (28 ct) (A52)" LookupFieldValue="A52" Active="1" />
+  <GlobalLookupField Id="75" Title="ED-BFG S Peg 4-4.5 oz (12 ct) (A53)" LookupFieldValue="A53" Active="1" />
+  <GlobalLookupField Id="76" Title="ED-KBLRWC 4-5 oz (6 ct) A (A54)" LookupFieldValue="A54" Active="1" />
+  <GlobalLookupField Id="77" Title="ED-FA 3-18 oz (6 ct) (A55)" LookupFieldValue="A55" Active="1" />
+  <GlobalLookupField Id="78" Title="ED-BFFS 0.8 oz x 40 (6 ct) (A56)" LookupFieldValue="A56" Active="1" />
+  <GlobalLookupField Id="79" Title="ED-ST DOY 8-12 oz (5 ct) (A57)" LookupFieldValue="A57" Active="1" />
+  <GlobalLookupField Id="80" Title="ED-V&amp;M Cad Cup 2.7-3 oz (10 ct) (A58)" LookupFieldValue="A58" Active="1" />
+  <GlobalLookupField Id="81" Title="ED-BFG DOY BBag 28.8 oz (6 ct) (A60)" LookupFieldValue="A60" Active="1" />
+  <GlobalLookupField Id="82" Title="ED-Nerds Bulk 30 LB (A61)" LookupFieldValue="A61" Active="1" />
+  <GlobalLookupField Id="83" Title="ED-Sathers 2/$1.50 2-4.85 oz (12 ct) (A62)" LookupFieldValue="A62" Active="1" />
+  <GlobalLookupField Id="84" Title="PL 6.5-10 oz (8 ct) (A64)" LookupFieldValue="A64" Active="1" />
+  <GlobalLookupField Id="85" Title="ED-LH TBox 5 oz (12 ct) (A65)" LookupFieldValue="A65" Active="1" />
+  <GlobalLookupField Id="86" Title="Sathers Bulk 5-30 LB (1-6 ct) (A66)" LookupFieldValue="A66" Active="1" />
+  <GlobalLookupField Id="87" Title="ED-Jackson Cookies 12 oz (12 ct) (A68)" LookupFieldValue="A68" Active="1" />
+  <GlobalLookupField Id="88" Title="SN-Hwn-Brach's 14 oz (12 ct) (A69)" LookupFieldValue="A69" Active="1" />
+  <GlobalLookupField Id="89" Title="SN-Hwn-Brach's 50.64-106 oz (4-8 ct) (A70)" LookupFieldValue="A70" Active="1" />
+  <GlobalLookupField Id="90" Title="ED-Nerds M Peg 6oz (12 ct) (A71)" LookupFieldValue="A71" Active="1" />
+  <GlobalLookupField Id="91" Title="ED-BFFS 0.8 x 28 (4 ct) (A74)" LookupFieldValue="A74" Active="1" />
+  <GlobalLookupField Id="92" Title="ED-ST TBox 3.75 oz (12 ct) (A75)" LookupFieldValue="A75" Active="1" />
+  <GlobalLookupField Id="93" Title="SN-Xmas-Brach's 5.5 oz (12 ct) (A76)" LookupFieldValue="A76" Active="1" />
+  <GlobalLookupField Id="94" Title="ED-Nerds DOY 10 oz (8 ct) (A77)" LookupFieldValue="A77" Active="1" />
+  <GlobalLookupField Id="95" Title="ED-N&amp;L S Peg 3.5-4 oz (12 ct) (A78)" LookupFieldValue="A78" Active="1" />
+  <GlobalLookupField Id="96" Title="ED-N&amp;L CG 2.44 oz x 24 (12 ct) (A80)" LookupFieldValue="A80" Active="1" />
+  <GlobalLookupField Id="97" Title="ED-Trolli 28.8 oz (4 ct) (A82)" LookupFieldValue="A82" Active="1" />
+  <GlobalLookupField Id="98" Title="PL 6-20 oz (12 ct) (A83)" LookupFieldValue="A83" Active="1" />
+  <GlobalLookupField Id="99" Title="PLCr Orig Grhm 6 oz (12 ct) (A84)" LookupFieldValue="A84" Active="1" />
+  <GlobalLookupField Id="100" Title="ED-ST S Peg 3 oz (12 ct) (A85)" LookupFieldValue="A85" Active="1" />
+  <GlobalLookupField Id="101" Title="ED-Brach's Choc LD 10-12 oz (12 ct) (A86)" LookupFieldValue="A86" Active="1" />
+  <GlobalLookupField Id="102" Title="ED-PS S Peg 3.2 oz (12 ct) (A87)" LookupFieldValue="A87" Active="1" />
+  <GlobalLookupField Id="103" Title="ED-Murray SF 0.75-1 oz (120 ct) (A88)" LookupFieldValue="A88" Active="1" />
+  <GlobalLookupField Id="104" Title="ED-BFG DOY 8-9 oz (6 ct) (A89)" LookupFieldValue="A89" Active="1" />
+  <GlobalLookupField Id="105" Title="ED-Trolli TBox 3.5 oz (12 ct) (A90)" LookupFieldValue="A90" Active="1" />
+  <GlobalLookupField Id="106" Title="PL 8-9 oz (10 ct) (A91)" LookupFieldValue="A91" Active="1" />
+  <GlobalLookupField Id="107" Title="SN-Estr-Brach's 9 oz (36 ct) (A92)" LookupFieldValue="A92" Active="1" />
+  <GlobalLookupField Id="108" Title="ED-FA Mod/Shpr 3 (A93)" LookupFieldValue="A93" Active="1" />
+  <GlobalLookupField Id="109" Title="SN-Xmas-Brach's 10-14 oz (24 ct) (A94)" LookupFieldValue="A94" Active="1" />
+  <GlobalLookupField Id="110" Title="SN-Xmas-Brach's 5.3-5.7 oz x 12 (48 ct) (A95)" LookupFieldValue="A95" Active="1" />
+  <GlobalLookupField Id="111" Title="SN-Estr-Brach's 13-14.5 oz (24 ct) (A96)" LookupFieldValue="A96" Active="1" />
+  <GlobalLookupField Id="112" Title="ED-Sathers Peg 4.25-7.75 oz (12 ct) (A97)" LookupFieldValue="A97" Active="1" />
+  <GlobalLookupField Id="113" Title="ED-BFG 5 LB (6 ct) (A98)" LookupFieldValue="A98" Active="1" />
+  <GlobalLookupField Id="114" Title="ED-Brach's Choc DOY 4.3-6 oz (8 ct) (A99)" LookupFieldValue="A99" Active="1" />
+  <GlobalLookupField Id="115" Title="ED-KBLRSM 10 oz (12 ct) (B00)" LookupFieldValue="B00" Active="1" />
+  <GlobalLookupField Id="116" Title="PL 0.9-7 oz (24 ct) (B01)" LookupFieldValue="B01" Active="1" />
+  <GlobalLookupField Id="117" Title="ED-Brach's Choc DOY 10 oz (5 ct) (B02)" LookupFieldValue="B02" Active="1" />
+  <GlobalLookupField Id="118" Title="ED-Trolli 14 oz (6 ct) (B04)" LookupFieldValue="B04" Active="1" />
+  <GlobalLookupField Id="119" Title="ED-LH TBox 5.75 oz (24 ct) (B06)" LookupFieldValue="B06" Active="1" />
+  <GlobalLookupField Id="120" Title="ED-N&amp;L DOY 8-10 oz (6 ct) (B07)" LookupFieldValue="B07" Active="1" />
+  <GlobalLookupField Id="121" Title="ED-BFO 0.8 oz x 24 (6 ct) (B08)" LookupFieldValue="B08" Active="1" />
+  <GlobalLookupField Id="122" Title="ED-Trolli 1.5-2 oz x 18 (8 ct) (B10)" LookupFieldValue="B10" Active="1" />
+  <GlobalLookupField Id="123" Title="PL 9 oz (12 ct) (B11)" LookupFieldValue="B11" Active="1" />
+  <GlobalLookupField Id="124" Title="ED-Trolli 5 LB (6 ct) (B12)" LookupFieldValue="B12" Active="1" />
+  <GlobalLookupField Id="125" Title="ED-BFG 28.8 oz (4 ct) (B13)" LookupFieldValue="B13" Active="1" />
+  <GlobalLookupField Id="126" Title="PL 10 oz (6 ct) (B14)" LookupFieldValue="B14" Active="1" />
+  <GlobalLookupField Id="127" Title="SN-Hwn-Brach's 44 oz (8 ct) (B15)" LookupFieldValue="B15" Active="1" />
+  <GlobalLookupField Id="128" Title="ED-Trolli DOY BBag 28.8 oz (B16)" LookupFieldValue="B16" Active="1" />
+  <GlobalLookupField Id="129" Title="ED-Nerds 0.92-1.6 oz (12 ct) (B17)" LookupFieldValue="B17" Active="1" />
+  <GlobalLookupField Id="130" Title="ED-FA Mod/Shpr 2 (B18)" LookupFieldValue="B18" Active="1" />
+  <GlobalLookupField Id="131" Title="ED-Trolli M Peg 4.5-5 oz (72 ct) (B19)" LookupFieldValue="B19" Active="1" />
+  <GlobalLookupField Id="132" Title="PLCr Choc Grhm 6 oz (12 ct) (B20)" LookupFieldValue="B20" Active="1" />
+  <GlobalLookupField Id="133" Title="ED-ST SUB 8-9 oz (6 ct) (B21)" LookupFieldValue="B21" Active="1" />
+  <GlobalLookupField Id="134" Title="ED-BFG 6 LB (Full Pallet) (B22)" LookupFieldValue="B22" Active="1" />
+  <GlobalLookupField Id="135" Title="ED-FD S Peg 3oz (12 ct) (B23)" LookupFieldValue="B23" Active="1" />
+  <GlobalLookupField Id="136" Title="ED-KBLRC Mod/Shpr 6 oz (72 ct) (B24)" LookupFieldValue="B24" Active="1" />
+  <GlobalLookupField Id="137" Title="ED-BFG 1.5 oz x 24 (12 ct) (B26)" LookupFieldValue="B26" Active="1" />
+  <GlobalLookupField Id="138" Title="ED-Sathers 2/$5 9-19.2 oz (8 ct) (B29)" LookupFieldValue="B29" Active="1" />
+  <GlobalLookupField Id="139" Title="SN-Estr-ST 13-14 oz (24 ct) (B30)" LookupFieldValue="B30" Active="1" />
+  <GlobalLookupField Id="140" Title="ED-Nerds DOY 10 oz (5 ct) (B32)" LookupFieldValue="B32" Active="1" />
+  <GlobalLookupField Id="141" Title="ED-Brach's NC M LD 14-24 oz (12 ct) (B33)" LookupFieldValue="B33" Active="1" />
+  <GlobalLookupField Id="142" Title="SN-Hwn-Brach's 113-118 oz (4 ct) (B34)" LookupFieldValue="B34" Active="1" />
+  <GlobalLookupField Id="143" Title="ED-FD CgMkr .43 oz x 48 (12 ct) (B35)" LookupFieldValue="B35" Active="1" />
+  <GlobalLookupField Id="144" Title="SN-Hwn-Brach's 45-47 oz (8 ct) (B36)" LookupFieldValue="B36" Active="1" />
+  <GlobalLookupField Id="145" Title="ED-ST 1.8 oz x 24 (8 ct) (B37)" LookupFieldValue="B37" Active="1" />
+  <GlobalLookupField Id="146" Title="PL 6-7 oz (8 ct) (B38)" LookupFieldValue="B38" Active="1" />
+  <GlobalLookupField Id="147" Title="ED-Nerds LD 12 oz (12 ct) (B39)" LookupFieldValue="B39" Active="1" />
+  <GlobalLookupField Id="148" Title="ED-FS Sgl 1.8 oz x 12 (16 ct) (B41)" LookupFieldValue="B41" Active="1" />
+  <GlobalLookupField Id="149" Title="ED-Nerds S 0.92-1.65 oz x 24 (12 ct) (B42)" LookupFieldValue="B42" Active="1" />
+  <GlobalLookupField Id="150" Title="SN-Hwn-ST 62.2-65 oz (6 ct) (B43)" LookupFieldValue="B43" Active="1" />
+  <GlobalLookupField Id="151" Title="ED-Bob's Tub 34.5 oz (4 ct) (B44)" LookupFieldValue="B44" Active="1" />
+  <GlobalLookupField Id="152" Title="ED-Bob's DOY 10 oz (4 ct) (B45)" LookupFieldValue="B45" Active="1" />
+  <GlobalLookupField Id="153" Title="ED-Trolli L Peg 7.2 oz (72 ct) (B46)" LookupFieldValue="B46" Active="1" />
+  <GlobalLookupField Id="154" Title="ED-Bob's Sugar Free 6 oz (8 ct) (B48)" LookupFieldValue="B48" Active="1" />
+  <GlobalLookupField Id="155" Title="ED-RB 1.7-2.5 oz x 24 (12 ct) (B49)" LookupFieldValue="B49" Active="1" />
+  <GlobalLookupField Id="156" Title="ED-BFO 0.8 oz x 8 (8 ct) (B50)" LookupFieldValue="B50" Active="1" />
+  <GlobalLookupField Id="157" Title="PL Circle K 0.8 oz x 8-10 (10 ct) (B52)" LookupFieldValue="B52" Active="1" />
+  <GlobalLookupField Id="158" Title="SN-Hwn-Brach's 4.2 oz (18 ct) (B53)" LookupFieldValue="B53" Active="1" />
+  <GlobalLookupField Id="159" Title="ED-Trolli L Peg 6.3 oz (9 ct) (B54)" LookupFieldValue="B54" Active="1" />
+  <GlobalLookupField Id="160" Title="SN-Hwn-Brach's 40 oz (6 ct) (B55)" LookupFieldValue="B55" Active="1" />
+  <GlobalLookupField Id="161" Title="SN-Xmas-Nerds TBox 5 oz (12 ct) (B56)" LookupFieldValue="B56" Active="1" />
+  <GlobalLookupField Id="162" Title="Sathers Bulk 5 LB (6 ct) (B57)" LookupFieldValue="B57" Active="1" />
+  <GlobalLookupField Id="163" Title="SN-Hwn-Brach's 69-80 oz (6 ct) (B59)" LookupFieldValue="B59" Active="1" />
+  <GlobalLookupField Id="164" Title="ED-Nerds 4 oz x 12 (4 ct) (B60)" LookupFieldValue="B60" Active="1" />
+  <GlobalLookupField Id="165" Title="SN-Hwn-Brach's 11 oz (12 ct) (B61)" LookupFieldValue="B61" Active="1" />
+  <GlobalLookupField Id="166" Title="ED-Nerds Bulk 28 - 30 LB (B62)" LookupFieldValue="B62" Active="1" />
+  <GlobalLookupField Id="167" Title="PL 3.25-4.25 oz (6 ct) (B63)" LookupFieldValue="B63" Active="1" />
+  <GlobalLookupField Id="168" Title="ED-Trolli LD 14 oz (12 ct) (B64)" LookupFieldValue="B64" Active="1" />
+  <GlobalLookupField Id="169" Title="PL 0.8 oz x 20 (6 ct) (B65)" LookupFieldValue="B65" Active="1" />
+  <GlobalLookupField Id="170" Title="ED-BFG S Peg 4.5 oz (72 ct) (B66)" LookupFieldValue="B66" Active="1" />
+  <GlobalLookupField Id="171" Title="ED-KBLRC 4.2-6 oz (12 ct) (B67)" LookupFieldValue="B67" Active="1" />
+  <GlobalLookupField Id="172" Title="ED-KBLRSC 0.42-0.92 oz (400 ct) (B68)" LookupFieldValue="B68" Active="1" />
+  <GlobalLookupField Id="173" Title="ED-FD Sgl 1.4 oz x 24 (12 ct) (B69)" LookupFieldValue="B69" Active="1" />
+  <GlobalLookupField Id="174" Title="ED-Brach's NC Peg 3.5-7 oz (10 ct) (B70)" LookupFieldValue="B70" Active="1" />
+  <GlobalLookupField Id="175" Title="ED-N&amp;L SS CG 3.5 oz x 18 (6 ct) (B71)" LookupFieldValue="B71" Active="1" />
+  <GlobalLookupField Id="176" Title="ED-BC Bulk Sug Oatmeal 13.3 oz (12 ct) (B72)" LookupFieldValue="B72" Active="1" />
+  <GlobalLookupField Id="177" Title="ED-Brach's Bulk PAM 5 LB (4 ct) (B73)" LookupFieldValue="B73" Active="1" />
+  <GlobalLookupField Id="178" Title="PL 2.75-3.25 oz (12 ct) (B74)" LookupFieldValue="B74" Active="1" />
+  <GlobalLookupField Id="179" Title="ED-Brach's NC 20-23 oz (12 ct) (B75)" LookupFieldValue="B75" Active="1" />
+  <GlobalLookupField Id="180" Title="ED-SB 54-61 oz (8 ct) (B76)" LookupFieldValue="B76" Active="1" />
+  <GlobalLookupField Id="181" Title="SN-Estr-Brach's 12-14 oz (24 ct) (B77)" LookupFieldValue="B77" Active="1" />
+  <GlobalLookupField Id="182" Title="ED-Brach's NC S Peg 5.25-6 oz (12 ct) (B78)" LookupFieldValue="B78" Active="1" />
+  <GlobalLookupField Id="183" Title="SN-Xmas-Brach's 5.3-5.7 oz x 12 (24 ct) (B79)" LookupFieldValue="B79" Active="1" />
+  <GlobalLookupField Id="184" Title="SN-Vday-FD 9.46-10.32 oz (18 ct) (B80)" LookupFieldValue="B80" Active="1" />
+  <GlobalLookupField Id="185" Title="PL 16 oz (12 ct) (B81)" LookupFieldValue="B81" Active="1" />
+  <GlobalLookupField Id="186" Title="SN-Hwn-Brach's 38.5-46.25 oz (8 ct) (B82)" LookupFieldValue="B82" Active="1" />
+  <GlobalLookupField Id="187" Title="ED-Trolli M Peg 4.25-5 oz x 8 (2 ct) (B83)" LookupFieldValue="B83" Active="1" />
+  <GlobalLookupField Id="188" Title="ED-BFFS 0.8 oz x 10 (10 ct) (B84)" LookupFieldValue="B84" Active="1" />
+  <GlobalLookupField Id="189" Title="SN-Hwn-ST 9-12 oz (24 ct) (B85)" LookupFieldValue="B85" Active="1" />
+  <GlobalLookupField Id="190" Title="Brach's Bulk Jelly Bean 30 LB (B86)" LookupFieldValue="B86" Active="1" />
+  <GlobalLookupField Id="191" Title="SN-Hwn-FD (44-48 ct) (B87)" LookupFieldValue="B87" Active="1" />
+  <GlobalLookupField Id="192" Title="PLC Otml&amp;Sgr SYS 13.3 oz (12 ct) (B88)" LookupFieldValue="B88" Active="1" />
+  <GlobalLookupField Id="193" Title="ED-Brach's NC Tub 22 oz (12 ct) (B89)" LookupFieldValue="B89" Active="1" />
+  <GlobalLookupField Id="194" Title="ED-Brach's NC PAM 6.9 LB (3 ct) (B91)" LookupFieldValue="B91" Active="1" />
+  <GlobalLookupField Id="195" Title="ED-RH M Peg 4.5 oz (8 ct) (B92)" LookupFieldValue="B92" Active="1" />
+  <GlobalLookupField Id="196" Title="PL Tub 20 oz (12 ct) (B93)" LookupFieldValue="B93" Active="1" />
+  <GlobalLookupField Id="197" Title="SN-Estr-ST 4.5 oz (10 ct) (B94)" LookupFieldValue="B94" Active="1" />
+  <GlobalLookupField Id="198" Title="ED-Brach's DOY 10 oz (6 ct) (B96)" LookupFieldValue="B96" Active="1" />
+  <GlobalLookupField Id="199" Title="ED-Keebler Oatmeal 13.7 oz (12 ct) (B97)" LookupFieldValue="B97" Active="1" />
+  <GlobalLookupField Id="200" Title="SN-Hwn - 04629 - T ASSTD SUGAR F$ 8/44OZ (B99)" LookupFieldValue="B99" Active="1" />
+  <GlobalLookupField Id="201" Title="ED-LH S Peg 4 oz (60 ct) (C00)" LookupFieldValue="C00" Active="1" />
+  <GlobalLookupField Id="202" Title="SN-Vday-Nerds 16.8-17.2 oz (12 ct) (C01)" LookupFieldValue="C01" Active="1" />
+  <GlobalLookupField Id="203" Title="Sathers Bulk 30 LB (C03)" LookupFieldValue="C03" Active="1" />
+  <GlobalLookupField Id="204" Title="SN-Hwn-Brach's 12-14 oz (12 ct) (C04)" LookupFieldValue="C04" Active="1" />
+  <GlobalLookupField Id="205" Title="ED-Trolli M Peg 5 oz (12 ct) (C06)" LookupFieldValue="C06" Active="1" />
+  <GlobalLookupField Id="206" Title="ED-Other Cookies Bulk 30 LB (1 ct) (C07)" LookupFieldValue="C07" Active="1" />
+  <GlobalLookupField Id="207" Title="SN-Hwn-Brach's 6 oz (36 ct) (C08)" LookupFieldValue="C08" Active="1" />
+  <GlobalLookupField Id="208" Title="SN-Estr-Nestle 63.7-72 oz (4 ct) (C09)" LookupFieldValue="C09" Active="1" />
+  <GlobalLookupField Id="209" Title="PL 0.8 oz x 12 (8 ct) (C10)" LookupFieldValue="C10" Active="1" />
+  <GlobalLookupField Id="210" Title="ED-ST 1.5 oz (120 ct) (C11)" LookupFieldValue="C11" Active="1" />
+  <GlobalLookupField Id="211" Title="SN-Estr-ST 50-52 oz (6 ct) (C12)" LookupFieldValue="C12" Active="1" />
+  <GlobalLookupField Id="212" Title="ED-LH Tube 3 oz x 8 (8 ct) (C13)" LookupFieldValue="C13" Active="1" />
+  <GlobalLookupField Id="213" Title="SN-Hwn-LH 5 oz (24 ct) (C14)" LookupFieldValue="C14" Active="1" />
+  <GlobalLookupField Id="214" Title="SN-Xmas-Brach's 10 oz (24 ct) (C15)" LookupFieldValue="C15" Active="1" />
+  <GlobalLookupField Id="215" Title="SN-Xmas-Brach's 39.9 oz x 260 (150 ct) (C16)" LookupFieldValue="C16" Active="1" />
+  <GlobalLookupField Id="216" Title="Brach's Non ED Bulk 30 LB (C17)" LookupFieldValue="C17" Active="1" />
+  <GlobalLookupField Id="217" Title="SN-Hwn-Brach's 48 oz (6 ct) (C19)" LookupFieldValue="C19" Active="1" />
+  <GlobalLookupField Id="218" Title="ED-BFO DOY 8 oz (36 ct) (C20)" LookupFieldValue="C20" Active="1" />
+  <GlobalLookupField Id="219" Title="ED-ST 1.65-1.8 oz x 24 (12 ct) (C22)" LookupFieldValue="C22" Active="1" />
+  <GlobalLookupField Id="220" Title="ED-N&amp;L SS M Peg 6 oz (12 ct) (C24)" LookupFieldValue="C24" Active="1" />
+  <GlobalLookupField Id="221" Title="SN-Xmas-Bob's 5 oz (12 ct) (C25)" LookupFieldValue="C25" Active="1" />
+  <GlobalLookupField Id="222" Title="ED-LH M Peg 5.5 oz (12 ct) (C26)" LookupFieldValue="C26" Active="1" />
+  <GlobalLookupField Id="223" Title="SN-Hwn-Brach's 17-20 oz (24 ct) (C27)" LookupFieldValue="C27" Active="1" />
+  <GlobalLookupField Id="224" Title="ED-BFO 4 oz (12 ct) (C28)" LookupFieldValue="C28" Active="1" />
+  <GlobalLookupField Id="225" Title="ED-Trolli eComm (8 ct) (C29)" LookupFieldValue="C29" Active="1" />
+  <GlobalLookupField Id="226" Title="ED-Bob's DOY BBag 25 oz (10 ct) (C30)" LookupFieldValue="C30" Active="1" />
+  <GlobalLookupField Id="227" Title="ED-Nerds 1.6 oz x 24 (10 ct) (C31)" LookupFieldValue="C31" Active="1" />
+  <GlobalLookupField Id="228" Title="ED-BFO 5 LB (4 ct) (C32)" LookupFieldValue="C32" Active="1" />
+  <GlobalLookupField Id="229" Title="ED-N&amp;L DOY 22 oz (6 ct) (C33)" LookupFieldValue="C33" Active="1" />
+  <GlobalLookupField Id="230" Title="SN-Vday-Nerds 0.92 oz x 24 (3 ct) (C34)" LookupFieldValue="C34" Active="1" />
+  <GlobalLookupField Id="231" Title="SN-Xmas-Brach's 8 oz (24 ct) (C35)" LookupFieldValue="C35" Active="1" />
+  <GlobalLookupField Id="232" Title="SN-Estr-ST 12-14 oz (12 ct) (C36)" LookupFieldValue="C36" Active="1" />
+  <GlobalLookupField Id="233" Title="ED-Trolli DOY 11 oz (6 ct) (C38)" LookupFieldValue="C38" Active="1" />
+  <GlobalLookupField Id="234" Title="PL Circle K 0.8 oz x 22 (10 ct) (C39)" LookupFieldValue="C39" Active="1" />
+  <GlobalLookupField Id="235" Title="SN-Xmas-Brach's 20 oz (12 ct) (C40)" LookupFieldValue="C40" Active="1" />
+  <GlobalLookupField Id="236" Title="ED-BFO 0.8 oz x 15 (5 ct) (C42)" LookupFieldValue="C42" Active="1" />
+  <GlobalLookupField Id="237" Title="ED-BFG S Peg 4.5 oz x 8 (2 ct) (C43)" LookupFieldValue="C43" Active="1" />
+  <GlobalLookupField Id="238" Title="ED-BFG M Peg 7.5 oz (8 ct) (C45)" LookupFieldValue="C45" Active="1" />
+  <GlobalLookupField Id="239" Title="ED-Trolli 3.8-4 oz (11 ct) (C46)" LookupFieldValue="C46" Active="1" />
+  <GlobalLookupField Id="240" Title="PLC Otml&amp;Sgr USFS 13.3 oz (12 ct) (C47)" LookupFieldValue="C47" Active="1" />
+  <GlobalLookupField Id="241" Title="ED-BFG DOY 9 oz (36 ct) (C48)" LookupFieldValue="C48" Active="1" />
+  <GlobalLookupField Id="242" Title="SN-Xmas-Brach's Tub 18 oz (12 ct) (C49)" LookupFieldValue="C49" Active="1" />
+  <GlobalLookupField Id="243" Title="FORMER 50 CENT CT GOOD PUBL PRICE (C50)" LookupFieldValue="C50" Active="1" />
+  <GlobalLookupField Id="244" Title="ED-Chuckles Tub 21 oz (12 ct) (C51)" LookupFieldValue="C51" Active="1" />
+  <GlobalLookupField Id="245" Title="Brach's Bulk 25 LB (C53)" LookupFieldValue="C53" Active="1" />
+  <GlobalLookupField Id="246" Title="SN-Xmas-PL 5.5 oz x 12 (2 ct) (C54)" LookupFieldValue="C54" Active="1" />
+  <GlobalLookupField Id="247" Title="ED-Brach's NC DOY BBag 48-50 oz (8 ct) (C55)" LookupFieldValue="C55" Active="1" />
+  <GlobalLookupField Id="248" Title="ED-Trolli 120-142 g (10-12 ct) (C56)" LookupFieldValue="C56" Active="1" />
+  <GlobalLookupField Id="249" Title="ED-Brach's Bulk PAM Pnt 5-10 LB (2-4 ct) (C58)" LookupFieldValue="C58" Active="1" />
+  <GlobalLookupField Id="250" Title="ED-LH DOY 7.25-10 oz (6 ct) (C59)" LookupFieldValue="C59" Active="1" />
+  <GlobalLookupField Id="251" Title="ED-Sathers 4.25 oz (60 ct) (C60)" LookupFieldValue="C60" Active="1" />
+  <GlobalLookupField Id="252" Title="ED-ST 5 oz (12 ct) (C61)" LookupFieldValue="C61" Active="1" />
+  <GlobalLookupField Id="253" Title="PLC Otml&amp;Sgr PFG 13.3 oz (12 ct) (C62)" LookupFieldValue="C62" Active="1" />
+  <GlobalLookupField Id="254" Title="ED-Brach's NC PAM 6.3 LB (3 ct) (C63)" LookupFieldValue="C63" Active="1" />
+  <GlobalLookupField Id="255" Title="SN-Xmas-ST 1.2-1.6 oz (24 ct) (C64)" LookupFieldValue="C64" Active="1" />
+  <GlobalLookupField Id="256" Title="SN-Hwn-Brach's 12 oz (12 ct) (C65)" LookupFieldValue="C65" Active="1" />
+  <GlobalLookupField Id="257" Title="SN-Hwn-Brach's 8-9 oz (12 ct) (C66)" LookupFieldValue="C66" Active="1" />
+  <GlobalLookupField Id="258" Title="ED-N&amp;L SS S Peg 4 oz (12 ct) (C67)" LookupFieldValue="C67" Active="1" />
+  <GlobalLookupField Id="259" Title="PL 0.8 oz x 22 (10 ct) (C68)" LookupFieldValue="C68" Active="1" />
+  <GlobalLookupField Id="260" Title="SN-Xmas-N&amp;L 2.6 oz x 6 (24 ct) (C70)" LookupFieldValue="C70" Active="1" />
+  <GlobalLookupField Id="261" Title="ED-Brach's Choc PAM 6 LB (3 ct) (C72)" LookupFieldValue="C72" Active="1" />
+  <GlobalLookupField Id="262" Title="PL 0.8 oz x 8-10 (10 ct) (C74)" LookupFieldValue="C74" Active="1" />
+  <GlobalLookupField Id="263" Title="PL 3.5 oz (40 ct) (C75)" LookupFieldValue="C75" Active="1" />
+  <GlobalLookupField Id="264" Title="ED-BBB M Peg 5 oz (12 ct) (C76)" LookupFieldValue="C76" Active="1" />
+  <GlobalLookupField Id="265" Title="ED-N&amp;L TBox 4 oz (10 ct) (C77)" LookupFieldValue="C77" Active="1" />
+  <GlobalLookupField Id="266" Title="ED-KBLRWC 4-5 oz (6 ct) B (C78)" LookupFieldValue="C78" Active="1" />
+  <GlobalLookupField Id="267" Title="ED-N&amp;L SS M Peg 6 oz (8 ct) (C79)" LookupFieldValue="C79" Active="1" />
+  <GlobalLookupField Id="268" Title="ED-RH M Peg 5.5 oz (12 ct) (C80)" LookupFieldValue="C80" Active="1" />
+  <GlobalLookupField Id="269" Title="ED-Brach's NC 36-40 oz (5 ct) (C81)" LookupFieldValue="C81" Active="1" />
+  <GlobalLookupField Id="270" Title="ED-LT S Peg 4.2 oz (10 ct) (C82)" LookupFieldValue="C82" Active="1" />
+  <GlobalLookupField Id="271" Title="ED-N&amp;L 2.75 oz x 18 (4 ct) (C83)" LookupFieldValue="C83" Active="1" />
+  <GlobalLookupField Id="272" Title="SN-Vday-Brach's 8-12 oz (24 ct) (C84)" LookupFieldValue="C84" Active="1" />
+  <GlobalLookupField Id="273" Title="ED-BFFS 0.7-0.8 oz x 22 (6 ct) (C85)" LookupFieldValue="C85" Active="1" />
+  <GlobalLookupField Id="274" Title="SN-Vday-ST TBox 4.5 oz (10 ct) (C86)" LookupFieldValue="C86" Active="1" />
+  <GlobalLookupField Id="275" Title="ED-Brach's Bulk PAM 7 LB (4 ct) (C87)" LookupFieldValue="C87" Active="1" />
+  <GlobalLookupField Id="276" Title="ED-Trolli 7.25-9 oz (6 ct) (C89)" LookupFieldValue="C89" Active="1" />
+  <GlobalLookupField Id="277" Title="ED-Trolli 3.75-4 oz (12 ct) (C90)" LookupFieldValue="C90" Active="1" />
+  <GlobalLookupField Id="278" Title="ED-Sathers 4 oz (60 ct) (C91)" LookupFieldValue="C91" Active="1" />
+  <GlobalLookupField Id="279" Title="ED-BFFS Tetris 0.8 oz x 28 (6 ct) (C92)" LookupFieldValue="C92" Active="1" />
+  <GlobalLookupField Id="280" Title="ED-BFO Peg 6 oz (12 ct) (C93)" LookupFieldValue="C93" Active="1" />
+  <GlobalLookupField Id="281" Title="SN-Hwn-Brach's 11 oz (24 ct) (C95)" LookupFieldValue="C95" Active="1" />
+  <GlobalLookupField Id="282" Title="ED-SB 36 oz (9 ct) (C96)" LookupFieldValue="C96" Active="1" />
+  <GlobalLookupField Id="283" Title="ED-N&amp;L SS DOY 8 oz (6 ct) (C98)" LookupFieldValue="C98" Active="1" />
+  <GlobalLookupField Id="284" Title="SN-Vday-Brach's 3 oz x 8 (2 ct) (C99)" LookupFieldValue="C99" Active="1" />
+  <GlobalLookupField Id="285" Title="FRA Bulk 5-30 LB (1-6 ct) (D00)" LookupFieldValue="D00" Active="1" />
+  <GlobalLookupField Id="286" Title="SN-Vday-Brach's Bulk 30 LB (D01)" LookupFieldValue="D01" Active="1" />
+  <GlobalLookupField Id="287" Title="SN-Xmas-Brach's Bulk 30 LB (D02)" LookupFieldValue="D02" Active="1" />
+  <GlobalLookupField Id="288" Title="ED-N/A - Discontinued (D03)" LookupFieldValue="D03" Active="1" />
+  <GlobalLookupField Id="289" Title="ED-FA Mod/Shpr .49 oz (588 ct) (D04)" LookupFieldValue="D04" Active="1" />
+  <GlobalLookupField Id="290" Title="ED-KBLRCD 11.6-12.6 oz (12 ct) (D05)" LookupFieldValue="D05" Active="1" />
+  <GlobalLookupField Id="291" Title="SN-Vday-Trolli 10 oz (18 ct) (D10)" LookupFieldValue="D10" Active="1" />
+  <GlobalLookupField Id="292" Title="Liscensed FS 8OZX8 (10 CT) (D20)" LookupFieldValue="D20" Active="1" />
+  <GlobalLookupField Id="293" Title="Liscensed FS 17.6OZX6 (22 CT) (D21)" LookupFieldValue="D21" Active="1" />
+  <GlobalLookupField Id="294" Title="Fruity Snacks 15.8-17.6 OZ X6 (22 CT) (D22)" LookupFieldValue="D22" Active="1" />
+  <GlobalLookupField Id="295" Title="Stretch Island 14.8-15 oz (30 CT) (D23)" LookupFieldValue="D23" Active="1" />
+  <GlobalLookupField Id="296" Title="Stretch Island 9.8 oz (6 CT) (D24)" LookupFieldValue="D24" Active="1" />
+  <GlobalLookupField Id="297" Title="Fruity Snacks 8OZX8 (10 CT) (D25)" LookupFieldValue="D25" Active="1" />
+  <GlobalLookupField Id="298" Title="ED-KBLRFS 3 flavor Tray (20ct) (D26)" LookupFieldValue="D26" Active="1" />
+  <GlobalLookupField Id="299" Title="ED-ST Chewymini 30LB (D27)" LookupFieldValue="D27" Active="1" />
+  <GlobalLookupField Id="300" Title="AO-PG_ED CNFCTNS_BBB (X20)" LookupFieldValue="X20" Active="1" />
+  <GlobalLookupField Id="301" Title="AO-PG_SSNL CNFCTNS_Holiday (Y14)" LookupFieldValue="Y14" Active="1" />
+  <GlobalLookupField Id="302" Title="AO-PG_BULK CNFCTNS_JAWBSTR (X09)" LookupFieldValue="X09" Active="1" />
+  <GlobalLookupField Id="303" Title="AO-PG_BULK CNFCTNS_AFB (X10)" LookupFieldValue="X10" Active="1" />
+  <GlobalLookupField Id="304" Title="AO-PG_BULK CNFCTNS_LMNHD (X11)" LookupFieldValue="X11" Active="1" />
+  <GlobalLookupField Id="305" Title="AO-PG_BULK CNFCTNS_BRCHS (X12)" LookupFieldValue="X12" Active="1" />
+  <GlobalLookupField Id="306" Title="AO-PG_SSNL CNFCTNS_VDAY (Y15)" LookupFieldValue="Y15" Active="1" />
+  <GlobalLookupField Id="307" Title="AO-PG_SSNL CNFCTNS_EASTER (Y16)" LookupFieldValue="Y16" Active="1" />
+  <GlobalLookupField Id="308" Title="AO-PG_BULK CNFCTNS_SATHERS (X13)" LookupFieldValue="X13" Active="1" />
+  <GlobalLookupField Id="309" Title="AO-PG_BULK CNFCTNS_DNU FCC (X14)" LookupFieldValue="X14" Active="1" />
+  <GlobalLookupField Id="310" Title="AO-PG_ED CNFCTNS_JAWBSTR (X21)" LookupFieldValue="X21" Active="1" />
+  <GlobalLookupField Id="311" Title="AO-PG_ED CNFCTNS_AFB (X22)" LookupFieldValue="X22" Active="1" />
+  <GlobalLookupField Id="312" Title="AO-PG_ED CNFCTNS_LMNHD (X23)" LookupFieldValue="X23" Active="1" />
+  <GlobalLookupField Id="313" Title="AO-PG_ED CNFCTNS_TROLLI (X24)" LookupFieldValue="X24" Active="1" />
+  <GlobalLookupField Id="314" Title="AO-PG_ED CNFCTNS_BF GUMMI (X25)" LookupFieldValue="X25" Active="1" />
+  <GlobalLookupField Id="315" Title="AO-PG_ED CNFCTNS_BOBS (X26)" LookupFieldValue="X26" Active="1" />
+  <GlobalLookupField Id="316" Title="AO-PG_SSNL CNFCTNS_HWN (Y17)" LookupFieldValue="Y17" Active="1" />
+  <GlobalLookupField Id="317" Title="AO-PG_ED CNFCTNS_BRCHS (X27)" LookupFieldValue="X27" Active="1" />
+  <GlobalLookupField Id="318" Title="AO-PG_ED CNFCTNS_RAINBLO (X28)" LookupFieldValue="X28" Active="1" />
+  <GlobalLookupField Id="319" Title="AO-PG_ED CNFCTNS_REDHOT (X29)" LookupFieldValue="X29" Active="1" />
+  <GlobalLookupField Id="320" Title="AO-PG_SSNL FS_VDAY (Y09)" LookupFieldValue="Y09" Active="1" />
+  <GlobalLookupField Id="321" Title="AO-PG_ED CNFCTNS_N&amp;L (X30)" LookupFieldValue="X30" Active="1" />
+  <GlobalLookupField Id="322" Title="AO-PG_PL CNFCTNS_PL - WALMART (X74)" LookupFieldValue="X74" Active="1" />
+  <GlobalLookupField Id="323" Title="AO-PG_SSNL FS_HWN (Y10)" LookupFieldValue="Y10" Active="1" />
+  <GlobalLookupField Id="324" Title="AO-PG_ED CNFCTNS_JUJY FRT (X31)" LookupFieldValue="X31" Active="1" />
+  <GlobalLookupField Id="325" Title="AO-PG_ED CNFCTNS_SATHERS (X32)" LookupFieldValue="X32" Active="1" />
+  <GlobalLookupField Id="326" Title="AO-PG_ED CNFCTNS_SPR BUBBLE (X33)" LookupFieldValue="X33" Active="1" />
+  <GlobalLookupField Id="327" Title="AO-PG_BULK CNFCTNS_JUJY FRT (X15)" LookupFieldValue="X15" Active="1" />
+  <GlobalLookupField Id="328" Title="AO-PG_ED FS_BF FS (X67)" LookupFieldValue="X67" Active="1" />
+  <GlobalLookupField Id="329" Title="AO-PG_ED CNFCTNS_FRT STRP (X34)" LookupFieldValue="X34" Active="1" />
+  <GlobalLookupField Id="330" Title="AO-PG_ED CNFCTNS_BFO (X35)" LookupFieldValue="X35" Active="1" />
+  <GlobalLookupField Id="331" Title="AO-PG_ED CNFCTNS_CHKLS (X36)" LookupFieldValue="X36" Active="1" />
+  <GlobalLookupField Id="332" Title="AO-PG_SSNL FS_Holiday (Y11)" LookupFieldValue="Y11" Active="1" />
+  <GlobalLookupField Id="333" Title="AO-PG_ED CNFCTNS_NERDS (X37)" LookupFieldValue="X37" Active="1" />
+  <GlobalLookupField Id="334" Title="AO-PG_ED FS_BFO (X68)" LookupFieldValue="X68" Active="1" />
+  <GlobalLookupField Id="335" Title="AO-PG_ED CNFCTNS_LAFFY TAFFY (X38)" LookupFieldValue="X38" Active="1" />
+  <GlobalLookupField Id="336" Title="AO-PG_SSNL FS_EASTER (Y12)" LookupFieldValue="Y12" Active="1" />
+  <GlobalLookupField Id="337" Title="AO-PG_ED CNFCTNS_SWTRTS (X39)" LookupFieldValue="X39" Active="1" />
+  <GlobalLookupField Id="338" Title="AO-PG_PL FS_PL- KROGER (X83)" LookupFieldValue="X83" Active="1" />
+  <GlobalLookupField Id="339" Title="AO-PG_ED CNFCTNS_SPREE (X40)" LookupFieldValue="X40" Active="1" />
+  <GlobalLookupField Id="340" Title="AO-PG_ED CNFCTNS_RUNTS (X41)" LookupFieldValue="X41" Active="1" />
+  <GlobalLookupField Id="341" Title="AO-PG_PL CNFCTNS_PL - WALGRNS (X75)" LookupFieldValue="X75" Active="1" />
+  <GlobalLookupField Id="342" Title="AO-PG_ED COOKIES_KBLR CD (X51)" LookupFieldValue="X51" Active="1" />
+  <GlobalLookupField Id="343" Title="AO-PG_ED CNFCTNS_DNU SHPR (X42)" LookupFieldValue="X42" Active="1" />
+  <GlobalLookupField Id="344" Title="AO-PG_AO_DNU PL (X01)" LookupFieldValue="X01" Active="1" />
+  <GlobalLookupField Id="345" Title="AO-PG_ED FS_FERRERO BF (X69)" LookupFieldValue="X69" Active="1" />
+  <GlobalLookupField Id="346" Title="AO-PG_AO_FERRERO BF (X02)" LookupFieldValue="X02" Active="1" />
+  <GlobalLookupField Id="347" Title="AO-PG_ED FS_FRTY SNCKS (X70)" LookupFieldValue="X70" Active="1" />
+  <GlobalLookupField Id="348" Title="AO-PG_PL FS_PL - ALDI (X84)" LookupFieldValue="X84" Active="1" />
+  <GlobalLookupField Id="349" Title="AO-PG_AO_TROLLI (X03)" LookupFieldValue="X03" Active="1" />
+  <GlobalLookupField Id="350" Title="AO-PG_ED FS_LICNSD FS (X71)" LookupFieldValue="X71" Active="1" />
+  <GlobalLookupField Id="351" Title="AO-PG_PL CNFCTNS_PL - PUBLIX (X76)" LookupFieldValue="X76" Active="1" />
+  <GlobalLookupField Id="352" Title="AO-PG_AO_BRCHS (X04)" LookupFieldValue="X04" Active="1" />
+  <GlobalLookupField Id="353" Title="AO-PG_ED COOKIES_KBLR F STRIPE (X52)" LookupFieldValue="X52" Active="1" />
+  <GlobalLookupField Id="354" Title="AO-PG_ED COOKIES_KBLR AO (X53)" LookupFieldValue="X53" Active="1" />
+  <GlobalLookupField Id="355" Title="AO-PG_ED COOKIES_MTHRS (X54)" LookupFieldValue="X54" Active="1" />
+  <GlobalLookupField Id="356" Title="AO-PG_ED CNFCTNS_PXY STIX (X43)" LookupFieldValue="X43" Active="1" />
+  <GlobalLookupField Id="357" Title="AO-PG_ED FS_STRCH ISL (X72)" LookupFieldValue="X72" Active="1" />
+  <GlobalLookupField Id="358" Title="AO-PG_ED COOKIES_OTG VP (X55)" LookupFieldValue="X55" Active="1" />
+  <GlobalLookupField Id="359" Title="AO-PG_BULK CNFCTNS_BF GUMMI (X16)" LookupFieldValue="X16" Active="1" />
+  <GlobalLookupField Id="360" Title="AO-PG_AO_MISC (X05)" LookupFieldValue="X05" Active="1" />
+  <GlobalLookupField Id="361" Title="AO-PG_PL FS_PL - OTHER (X85)" LookupFieldValue="X85" Active="1" />
+  <GlobalLookupField Id="362" Title="AO-PG_PL FS_PL - WALMART (X86)" LookupFieldValue="X86" Active="1" />
+  <GlobalLookupField Id="363" Title="AO-PG_PL CNFCTNS_PL - 7 ELEVEN (X77)" LookupFieldValue="X77" Active="1" />
+  <GlobalLookupField Id="364" Title="AO-PG_PL FS_PL - SIG SLCT (X87)" LookupFieldValue="X87" Active="1" />
+  <GlobalLookupField Id="365" Title="AO-PG_PL CNFCTNS_PL - TARGET (X78)" LookupFieldValue="X78" Active="1" />
+  <GlobalLookupField Id="366" Title="AO-PG_ED CNFCTNS_BC (X44)" LookupFieldValue="X44" Active="1" />
+  <GlobalLookupField Id="367" Title="AO-PG_ED CNFCTNS_FUN DIP (X45)" LookupFieldValue="X45" Active="1" />
+  <GlobalLookupField Id="368" Title="AO-PG_ED CNFCTNS_NIPS (X46)" LookupFieldValue="X46" Active="1" />
+  <GlobalLookupField Id="369" Title="AO-PG_ED CNFCTNS_GBSTPR (X47)" LookupFieldValue="X47" Active="1" />
+  <GlobalLookupField Id="370" Title="AO-PG_PL CNFCTNS_PL- KROGER (X90)" LookupFieldValue="X90" Active="1" />
+  <GlobalLookupField Id="371" Title="AO-PG_PL FS_PL- SAMS CLUB (X88)" LookupFieldValue="X88" Active="1" />
+  <GlobalLookupField Id="372" Title="AO-PG_PL FS_DNU PL (X89)" LookupFieldValue="X89" Active="1" />
+  <GlobalLookupField Id="373" Title="AO-PG_BULK COOKIES_MTHRS (X91)" LookupFieldValue="X91" Active="1" />
+  <GlobalLookupField Id="374" Title="AO-PG_ED COOKIES_KBLR SNDIES (X56)" LookupFieldValue="X56" Active="1" />
+  <GlobalLookupField Id="375" Title="AO-PG_ED COOKIES_KBLR ANMLS (X57)" LookupFieldValue="X57" Active="1" />
+  <GlobalLookupField Id="376" Title="AO-PG_SSNL COOKIES_Holiday (Y06)" LookupFieldValue="Y06" Active="1" />
+  <GlobalLookupField Id="377" Title="AO-PG_ED CONES_KBLR CONES (X19)" LookupFieldValue="X19" Active="1" />
+  <GlobalLookupField Id="378" Title="AO-PG_BULK CONES_CONES (X08)" LookupFieldValue="X08" Active="1" />
+  <GlobalLookupField Id="379" Title="AO-PG_BULK COOKIES_CKIES AO (X18)" LookupFieldValue="X18" Active="1" />
+  <GlobalLookupField Id="380" Title="AO-PG_BULK COOKIES_KBLR ANMLS (X92)" LookupFieldValue="X92" Active="1" />
+  <GlobalLookupField Id="381" Title="AO-PG_BULK COOKIES_KBLR F STRIPE (X93)" LookupFieldValue="X93" Active="1" />
+  <GlobalLookupField Id="382" Title="AO-PG_BULK COOKIES_LBB (X94)" LookupFieldValue="X94" Active="1" />
+  <GlobalLookupField Id="383" Title="AO-PG_BULK CRUSTS_CRUSTS (X95)" LookupFieldValue="X95" Active="1" />
+  <GlobalLookupField Id="384" Title="AO-PG_PL CRUSTS_PL - OTHER (X80)" LookupFieldValue="X80" Active="1" />
+  <GlobalLookupField Id="385" Title="AO-PG_PL CRUSTS_PL - ALDI (X81)" LookupFieldValue="X81" Active="1" />
+  <GlobalLookupField Id="386" Title="AO-PG_PL COOKIES_PL - OTHER (X79)" LookupFieldValue="X79" Active="1" />
+  <GlobalLookupField Id="387" Title="AO-PG_ED COOKIES_FA (X58)" LookupFieldValue="X58" Active="1" />
+  <GlobalLookupField Id="388" Title="AO-PG_PL CRUSTS_PL - WALMART (X82)" LookupFieldValue="X82" Active="1" />
+  <GlobalLookupField Id="389" Title="AO-PG_ED CRUSTS_KBLR CRSTS (X65)" LookupFieldValue="X65" Active="1" />
+  <GlobalLookupField Id="390" Title="AO-PG_ED COOKIES_CKIES AO (X59)" LookupFieldValue="X59" Active="1" />
+  <GlobalLookupField Id="391" Title="AO-PG_BULK COOKIES_KBLR SNDIES (X96)" LookupFieldValue="X96" Active="1" />
+  <GlobalLookupField Id="392" Title="AO-PG_ED COOKIES_MURRAY (X60)" LookupFieldValue="X60" Active="1" />
+  <GlobalLookupField Id="393" Title="AO-PG_ED COOKIES_KBLR SGR WFRS (X61)" LookupFieldValue="X61" Active="1" />
+  <GlobalLookupField Id="394" Title="AO-PG_ED COOKIES_KBLR VIENNA FGRS (X63)" LookupFieldValue="X63" Active="1" />
+  <GlobalLookupField Id="395" Title="AO-PG_SSNL COOKIES_HWN (Y07)" LookupFieldValue="Y07" Active="1" />
+  <GlobalLookupField Id="396" Title="AO-PG_BULK COOKIES_KBLR SGR WFRS (X97)" LookupFieldValue="X97" Active="1" />
+  <GlobalLookupField Id="397" Title="AO-PG_ED COOKIES_KBLR DRMS (X64)" LookupFieldValue="X64" Active="1" />
+  <GlobalLookupField Id="398" Title="AO-PG_ED COOKIES_KBLR F SHPE (X62)" LookupFieldValue="X62" Active="1" />
+  <GlobalLookupField Id="399" Title="AO-PG_SSNL COOKIES_EASTER (Y08)" LookupFieldValue="Y08" Active="1" />
+  <GlobalLookupField Id="400" Title="AO-PG_ED ED_DNU OTHR1 (X66)" LookupFieldValue="X66" Active="1" />
+  <GlobalLookupField Id="401" Title="AO-PG_ED CNFCTNS_DNU CCC (X48)" LookupFieldValue="X48" Active="1" />
+  <GlobalLookupField Id="402" Title="AO-PG_ED CNFCTNS_DNU OTHR1 (X49)" LookupFieldValue="X49" Active="1" />
+  <GlobalLookupField Id="403" Title="AO-PG_ED CNFCTNS_FERRERO BF (X50)" LookupFieldValue="X50" Active="1" />
+  <GlobalLookupField Id="404" Title="AO-PG_BULK CNFCTNS_N&amp;L (X17)" LookupFieldValue="X17" Active="1" />
+  <GlobalLookupField Id="405" Title="AO-PG_AO_NERDS (X06)" LookupFieldValue="X06" Active="1" />
+  <GlobalLookupField Id="406" Title="AO-PG_AO_OTG MISC (X07)" LookupFieldValue="X07" Active="1" />
+  <GlobalLookupField Id="407" Title="AO-PG_AO_DNU CHOCO (X99)" LookupFieldValue="X99" Active="1" />
+  <GlobalLookupField Id="408" Title="AO-PG_COMAN_WRIG - MARS (Y01)" LookupFieldValue="Y01" Active="1" />
+  <GlobalLookupField Id="409" Title="AO-PG_AO_DNU MISC (X98)" LookupFieldValue="X98" Active="1" />
+  <GlobalLookupField Id="410" Title="AO-PG_AO_DNU BULK (Y02)" LookupFieldValue="Y02" Active="1" />
+  <GlobalLookupField Id="411" Title="AO-PG_AO_DNU CNTRCT MFG (Y03)" LookupFieldValue="Y03" Active="1" />
+  <GlobalLookupField Id="412" Title="AO-PG_AO_DNU CG (Y04)" LookupFieldValue="Y04" Active="1" />
+  <GlobalLookupField Id="413" Title="AO-PG_BULK CONES LOB (Y30)" LookupFieldValue="Y30" Active="1" />
+  <GlobalLookupField Id="414" Title="AO-PG_ED COOKIES LOB (Y20)" LookupFieldValue="Y20" Active="1" />
+  <GlobalLookupField Id="415" Title="AO-PG_ED CNFCTNS LOB (Y18)" LookupFieldValue="Y18" Active="1" />
+  <GlobalLookupField Id="416" Title="AO-PG_ED FS LOB (Y23)" LookupFieldValue="Y23" Active="1" />
+  <GlobalLookupField Id="417" Title="AO-PG_AO LOB (Y19)" LookupFieldValue="Y19" Active="1" />
+  <GlobalLookupField Id="418" Title="AO-PG_PL FS LOB (Y24)" LookupFieldValue="Y24" Active="1" />
+  <GlobalLookupField Id="419" Title="AO-PG_UNKWN 1 LOB (Y25)" LookupFieldValue="Y25" Active="1" />
+  <GlobalLookupField Id="420" Title="AO-PG_SSNL CNFCTNS LOB (Y26)" LookupFieldValue="Y26" Active="1" />
+  <GlobalLookupField Id="421" Title="AO-PG_BULK CNFCTNS LOB (Y21)" LookupFieldValue="Y21" Active="1" />
+  <GlobalLookupField Id="422" Title="AO-PG_PL CNFCTNS LOB (Y27)" LookupFieldValue="Y27" Active="1" />
+  <GlobalLookupField Id="423" Title="AO-PG_SSNL FS LOB (Y28)" LookupFieldValue="Y28" Active="1" />
+  <GlobalLookupField Id="424" Title="AO-PG_ED CONES LOB (Y22)" LookupFieldValue="Y22" Active="1" />
+  <GlobalLookupField Id="425" Title="AO-PG_UNKWN 2 LOB (Y29)" LookupFieldValue="Y29" Active="1" />
+  <GlobalLookupField Id="426" Title="AO-PG_SSNL COOKIES_VDAY (Y05)" LookupFieldValue="Y05" Active="1" />
+  <GlobalLookupField Id="427" Title="AO-PG_COMAN_Promotion_In_Motion (Y34)" LookupFieldValue="Y34" Active="1" />
+  <GlobalLookupField Id="428" Title="AO-PG_COMAN_Natrol (Y33)" LookupFieldValue="Y33" Active="1" />
+  <GlobalLookupField Id="429" Title="AO-PG_COMAN_AO Non Choc (Y31)" LookupFieldValue="Y31" Active="1" />
+  <GlobalLookupField Id="430" Title="AO-PG_COMAN_Ferrero (Y32)" LookupFieldValue="Y32" Active="1" />
+  <GlobalLookupField Id="431" Title="AO-PG_COMAN_Other (Y36)" LookupFieldValue="Y36" Active="1" />
+  <GlobalLookupField Id="432" Title="AO-PG_COMAN_Natures Bounty (Y35)" LookupFieldValue="Y35" Active="1" />
+  <GlobalLookupField Id="433" Title="ED-KELSEN_PLACEHOLDER (Y37)" LookupFieldValue="Y37" Active="1" />
+  <GlobalLookupField Id="434" Title="ED-DELACRE_PLACEHOLDER (Y38)" LookupFieldValue="Y38" Active="1" />
+</ArrayOfGlobalLookupField>
+

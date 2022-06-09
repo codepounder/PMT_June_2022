@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="CompassAdministrationForm" List="113" Url="_catalogs/wp">
+    <File Path="CompassAdministrationForm\CompassAdministrationForm.webpart" Url="Ferrara.Compass_CompassAdministrationForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

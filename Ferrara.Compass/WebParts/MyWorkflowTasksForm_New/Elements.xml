@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="MyWorkflowTasksForm_New" List="113" Url="_catalogs/wp">
+    <File Path="MyWorkflowTasksForm_New\MyWorkflowTasksForm_New.webpart" Url="Ferrara.Compass_MyWorkflowTasksForm_New.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

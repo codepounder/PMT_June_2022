@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="FP20 – ITASCA" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="FP12 SLOC – RAY EMERICK" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="FP13 SLOC – CROSSROADS" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="FP12 – MAYWOOD DR." LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="FP12 SLOC – FANNIE MAY" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="FP05 – BELLWOOD" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="FP31 – 31ST STREET" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="FQ23 – 110TH STREET" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="FQ21 – AUGUSTA" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="FQ21 SLOC – NITRO" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="FQ22- FLORENCE" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="FQ22 SLOC – FLORENCE OVERFLOW" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="FQ24 – BALTIMORE" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="FQ25 – LOUISVILLE" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="FP30 – ATLANTA " LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="FP13 – BOLINGBROOK" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="FP14 – BOLINGBROOK PACK CENTER" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="FP07 – DALLAS" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="FP13 SLOC – LAGROU" LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="20" Title="FM01 – VERNELL" LookupFieldValue="20" Active="1" />
+  <GlobalLookupField Id="21" Title="FM02 – REYNOSA" LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="21" Title="FS05 - Tara International - CCC" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="21" Title="FS03 - Creative Werks - Bensenville - CCC" LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="21" Title="FS04 - Creative Werks - Elk Grove - CCC" LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="21" Title="FS12 - Menasha - Alsip" LookupFieldValue="25" Active="1" />
+  <GlobalLookupField Id="21" Title="FS10 - Bauderer Packaging - Addison" LookupFieldValue="26" Active="1" />
+  <GlobalLookupField Id="21" Title="FS11 - Hope Industries - Grand Rapids, MI" LookupFieldValue="27" Active="1" />
+  <GlobalLookupField Id="22" Title="NOT APPLICABLE" LookupFieldValue="28" Active="1" />
+  <GlobalLookupField Id="29" Title="SL41 – DEKALB DC" LookupFieldValue="29" Active="1" />
+  <GlobalLookupField Id="30" Title="FP40 - DEKALB PACK CENTER" LookupFieldValue="30" Active="1" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="d1ba8836-f2cd-43f9-8657-f036d98e10d8" solutionId="d1ba8836-f2cd-43f9-8657-f036d98e10d8" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.DataCleanupJob" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="a240ec53-f633-4f9c-bc3c-69b93645d037" />
+  </features>
+</package>

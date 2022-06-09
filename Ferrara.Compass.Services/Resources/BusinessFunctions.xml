@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Marketing" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="SSCM" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Supply Planning" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Manufacturing" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Packaging Engineering" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Procurement" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="Engineering" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="Project Management" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="InTech Regulatory" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="Quality" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="InTech Product Development" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="InTech Process Engineering" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="12" Title="Marketing - International" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="12" Title="Operations" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="12" Title="Other" LookupFieldValue="15" Active="1" />
+</ArrayOfGlobalLookupField>

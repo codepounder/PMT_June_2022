@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="2%" LookupFieldValue="1" Active="1" Preload="0" />
+  <GlobalLookupField Id="2" Title="4%" LookupFieldValue="2" Active="1" Preload="0" />
+  <GlobalLookupField Id="3" Title="6%" LookupFieldValue="3" Active="1" Preload="1" />
+  <GlobalLookupField Id="4" Title="8%" LookupFieldValue="4" Active="1" Preload="0" />
+  <GlobalLookupField Id="5" Title="10%" LookupFieldValue="5" Active="1" Preload="1" />
+  <GlobalLookupField Id="6" Title="11%" LookupFieldValue="6" Active="1" Preload="0" />
+  <GlobalLookupField Id="7" Title="13%" LookupFieldValue="7" Active="1" Preload="0" />
+  <GlobalLookupField Id="8" Title="15%" LookupFieldValue="8" Active="1" Preload="0" />
+  <GlobalLookupField Id="9" Title="22%" LookupFieldValue="9" Active="1" Preload="0" />
+  <GlobalLookupField Id="10" Title="25%" LookupFieldValue="10" Active="1" Preload="0" />
+  <GlobalLookupField Id="11" Title="27%" LookupFieldValue="11" Active="1" Preload="0" />
+  <GlobalLookupField Id="12" Title="28%" LookupFieldValue="12" Active="1" Preload="0" />
+  <GlobalLookupField Id="13" Title="31%" LookupFieldValue="13" Active="1" Preload="0" />
+  <GlobalLookupField Id="14" Title="33%" LookupFieldValue="14" Active="1" Preload="0" />
+  <GlobalLookupField Id="15" Title="35%" LookupFieldValue="15" Active="1" Preload="0" />
+  <GlobalLookupField Id="16" Title="41%" LookupFieldValue="16" Active="1" Preload="0" />
+  <GlobalLookupField Id="17" Title="46%" LookupFieldValue="17" Active="1" Preload="0" />
+  <GlobalLookupField Id="18" Title="47%" LookupFieldValue="18" Active="1" Preload="0" />
+  <GlobalLookupField Id="19" Title="50%" LookupFieldValue="19" Active="1" Preload="0" />
+  <GlobalLookupField Id="20" Title="59%" LookupFieldValue="20" Active="1" Preload="0" />
+  <GlobalLookupField Id="21" Title="60%" LookupFieldValue="21" Active="1" Preload="0" />
+  <GlobalLookupField Id="22" Title="67%" LookupFieldValue="22" Active="1" Preload="0" />
+  <GlobalLookupField Id="23" Title="70%" LookupFieldValue="23" Active="1" Preload="0" />
+  <GlobalLookupField Id="24" Title="80%" LookupFieldValue="24" Active="1" Preload="0" />
+  <GlobalLookupField Id="25" Title="83%" LookupFieldValue="25" Active="1" Preload="0" />
+  <GlobalLookupField Id="26" Title="92%" LookupFieldValue="26" Active="1" Preload="0" />
+  <GlobalLookupField Id="27" Title="100%" LookupFieldValue="27" Active="1" Preload="0" />
+  <GlobalLookupField Id="28" Title="118%" LookupFieldValue="28" Active="1" Preload="0" />
+  <GlobalLookupField Id="29" Title="125%" LookupFieldValue="29" Active="1" Preload="0" />
+  <GlobalLookupField Id="30" Title="176%" LookupFieldValue="30" Active="1" Preload="0" />
+  <GlobalLookupField Id="31" Title="200%" LookupFieldValue="31" Active="1" Preload="0" />
+  <GlobalLookupField Id="32" Title="271%" LookupFieldValue="32" Active="1" Preload="0" />
+  <GlobalLookupField Id="33" Title="375%" LookupFieldValue="33" Active="1" Preload="0" />
+  <GlobalLookupField Id="34" Title="400%" LookupFieldValue="34" Active="1" Preload="0" />
+  <GlobalLookupField Id="35" Title="1250%" LookupFieldValue="35" Active="1" Preload="0" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="EA" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="CS" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="FT" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="ROL" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="IN2" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="LB" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="PAL" LookupFieldValue="7" Active="1" />
+</ArrayOfGlobalLookupField>

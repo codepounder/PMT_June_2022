@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="InitialCostingReviewForm" List="113" Url="_catalogs/wp">
+    <File Path="InitialCostingReviewForm\InitialCostingReviewForm.webpart" Url="Ferrara.Compass_InitialCostingReviewForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

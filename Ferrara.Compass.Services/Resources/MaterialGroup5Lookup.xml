@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="37" Title="Bulk Bag (BBG)" LookupFieldValue="37" Active="1" />
+  <GlobalLookupField Id="38" Title="BAG IN BOX (BBO)" LookupFieldValue="38" Active="1" />
+  <GlobalLookupField Id="40" Title="Bottle (BOT)" LookupFieldValue="40" Active="1" />
+  <GlobalLookupField Id="41" Title="Bulk Box (BOX)" LookupFieldValue="41" Active="1" />
+  <GlobalLookupField Id="42" Title="BAG/POUCH (BPO)" LookupFieldValue="42" Active="1" />
+  <GlobalLookupField Id="43" Title="CUP/BOWL (CBO)" LookupFieldValue="43" Active="1" />
+  <GlobalLookupField Id="44" Title="CUP/BOWL IN TRAY (CBT)" LookupFieldValue="44" Active="1" />
+  <GlobalLookupField Id="1" Title="Cane Tray (CTY)" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="4" Title="DOY Bag (DOY)" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Flow Wrap Slug (FWS)" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Non Mix Gusset (GUS)" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="8" Title="Horizontal Wrapped (HZW)" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="Multiple (MLT)" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="11" Title="Mini Pouch(1 oz or less) (MPC)" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="Mixed Bag (MXB)" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="Novelty (NTY)" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="OVERWRAPPED TRAY (OTR)" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="Pouch/VFFS &lt;4oz (PB4)" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="Pouch/VFFS &gt;8oz (PB8)" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="Pouch/VFFS 4-8oz (PBM)" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="Paperboard Box (PBX)" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="Pouches in Carton (PCL)" LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="21" Title="POUCH/SLEEVE IN A BOX/CADDY (PSC)" LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="22" Title="POUCH/SLEEVE IN A TRAY (PST)" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="23" Title="Rollwrap (RLW)" LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="24" Title="Reseal Tray/Wrap (RTW)" LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="25" Title="Sleeve in Box (cones) (SBX)" LookupFieldValue="25" Active="1" />
+  <GlobalLookupField Id="26" Title="Shipper (SHP)" LookupFieldValue="26" Active="1" />
+  <GlobalLookupField Id="27" Title="Slug/Carton (SLC)" LookupFieldValue="27" Active="1" />
+  <GlobalLookupField Id="28" Title="Slug (SLG)" LookupFieldValue="28" Active="1" />
+  <GlobalLookupField Id="29" Title="Single serve U-board (SSU)" LookupFieldValue="29" Active="1" />
+  <GlobalLookupField Id="30" Title="TRAY IN BOX (TBO)" LookupFieldValue="30" Active="1" />
+  <GlobalLookupField Id="31" Title="Theater Box (TBX)" LookupFieldValue="31" Active="1" />
+  <GlobalLookupField Id="32" Title="Tin (TIN)" LookupFieldValue="32" Active="1" />
+  <GlobalLookupField Id="33" Title="Tote (TOT)" LookupFieldValue="33" Active="1" />
+  <GlobalLookupField Id="34" Title="Tray/Carton (TRC)" LookupFieldValue="34" Active="1" />
+  <GlobalLookupField Id="35" Title="Tub (TUB)" LookupFieldValue="35" Active="1" />
+  <GlobalLookupField Id="36" Title="Tray/Wrap (TWR)" LookupFieldValue="36" Active="1" />
+  <GlobalLookupField Id="45" Title="Variety Pouches in Carton (VPC)" LookupFieldValue="45" Active="1" />
+  <GlobalLookupField Id="46" Title="WIP (WIP)" LookupFieldValue="46" Active="1" />
+</ArrayOfGlobalLookupField>

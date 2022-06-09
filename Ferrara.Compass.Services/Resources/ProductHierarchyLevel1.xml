@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Seasonal (000000023)" LookupFieldValue="000000023 " Active="1" />
+  <GlobalLookupField Id="2" Title="Bulk (000000024)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="3" Title="Everyday (000000025)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="4" Title="Private Label (000000026)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="5" Title="Co-Manufacturing (000000027)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="6" Title="LBB (000000030)" LookupFieldValue="000000030" Active="1" />
+</ArrayOfGlobalLookupField>

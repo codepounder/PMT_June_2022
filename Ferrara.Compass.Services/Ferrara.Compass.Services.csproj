@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1CE7F572-2471-4062-897B-DCD75DF563D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ferrara.Compass.Services</RootNamespace>
+    <AssemblyName>Ferrara.Compass.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Ferrara.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp, Version=5.5.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BEQRCService.cs" />
+    <Compile Include="BOMSetupMaterialWarehouseService.cs" />
+    <Compile Include="CompassWorldSyncService.cs" />
+    <Compile Include="ExcelExportSyncService.cs" />
+    <Compile Include="ExcelHandler.cs" />
+    <Compile Include="FinishedGoodPackSpecService.cs" />
+    <Compile Include="MaterialsReceivedService.cs" />
+    <Compile Include="DashboardService.cs" />
+    <Compile Include="BOMSetupService.cs" />
+    <Compile Include="SAPCompleteItemSetupService.cs" />
+    <Compile Include="SAPFinalRoutingsService.cs" />
+    <Compile Include="StageGateFinancialServices.cs" />
+    <Compile Include="StageGateGeneralService.cs" />
+    <Compile Include="StageGateCreateProjectService.cs" />
+    <Compile Include="UpdateNotesService.cs" />
+    <Compile Include="ProjectTimelineUpdateService.cs" />
+    <Compile Include="ApprovalService.cs" />
+    <Compile Include="BillOfMaterialsService.cs" />
+    <Compile Include="CacheManagementService.cs" />
+    <Compile Include="CommercializationService.cs" />
+    <Compile Include="ComponentCostingQuoteService.cs" />
+    <Compile Include="ConfigurationManagementService.cs" />
+    <Compile Include="DistributionService.cs" />
+    <Compile Include="ExternalManufacturingService.cs" />
+    <Compile Include="OBMSecondReviewService.cs" />
+    <Compile Include="SecondaryApprovalReviewService.cs" />
+    <Compile Include="ProjectTimelineTypeService.cs" />
+    <Compile Include="MixesService.cs" />
+    <Compile Include="SAPBOMSetupService.cs" />
+    <Compile Include="SAPInitialItemSetUpService.cs" />
+    <Compile Include="TradePromoGroupService.cs" />
+    <Compile Include="DefaultListEntryService.cs" />
+    <Compile Include="EmailLoggingService.cs" />
+    <Compile Include="EmailService.cs" />
+    <Compile Include="EmailTemplateService.cs" />
+    <Compile Include="EventReceivers\ConfigurationListEventReceiver.cs" />
+    <Compile Include="EventReceivers\EmailTemplateListEventReceiver.cs" />
+    <Compile Include="EventReceivers\FormAccessListEventReceiver.cs" />
+    <Compile Include="EventReceivers\WorkflowStepListEventReceiver.cs" />
+    <Compile Include="ExcelService.cs" />
+    <Compile Include="ExceptionService.cs" />
+    <Compile Include="FinalCostingService.cs" />
+    <Compile Include="GraphicsService.cs" />
+    <Compile Include="InitialApprovalReviewService.cs" />
+    <Compile Include="InitialCapacityReviewService.cs" />
+    <Compile Include="InitialCostingReviewService.cs" />
+    <Compile Include="ItemProposalService.cs" />
+    <Compile Include="LoggerService.cs" />
+    <Compile Include="NotificationService.cs" />
+    <Compile Include="OBMFirstReviewService.cs" />
+    <Compile Include="OPSService.cs" />
+    <Compile Include="PackagingItemService.cs" />
+    <Compile Include="PDFService.cs" />
+    <Compile Include="ProjectHeaderService.cs" />
+    <Compile Include="ProjectNotesService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QAService.cs" />
+    <Compile Include="ReportService.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SAPBOMService.cs" />
+    <Compile Include="SAPMaterialMasterService.cs" />
+    <Compile Include="ShipperFinishedGoodService.cs" />
+    <Compile Include="UserAssignmentService.cs" />
+    <Compile Include="UserManagementService.cs" />
+    <Compile Include="UtilityService.cs" />
+    <Compile Include="VersionHistoryService.cs" />
+    <Compile Include="WorkflowService.cs" />
+    <Compile Include="WorldSyncNutritionalService.cs" />
+    <Compile Include="WorldSyncRequestService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BioEngineeringLabelingRequiredLookup.xml" />
+    <Content Include="Resources\BioEngineeringLabelingcceptableLookup.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\BusinessFunctions.xml" />
+    <Content Include="Resources\ComponentPurchasedIntoLocations.xml" />
+    <Content Include="Resources\DistributionDeploymentModes.xml" />
+    <Content Include="Resources\MaterialGroup1Lookup.xml" />
+    <Content Include="Resources\OverallRiskLookup.xml" />
+    <Content Include="Resources\OverallStatusLookup.xml" />
+    <Content Include="Resources\FilmUnWindLookup.xml" />
+    <Content Include="Resources\GlutenFreeLookup.xml" />
+    <Content Include="Resources\GMOClaimLookup.xml" />
+    <Content Include="Resources\GoodSourceLookup.xml" />
+    <Content Include="Resources\KosherTypes.xml" />
+    <Content Include="Resources\MadeInUSAClaimLookup.xml" />
+    <Content Include="Resources\AllergensLookup.xml" />
+    <Content Include="Resources\AlternateClassificationSchemes.xml" />
+    <Content Include="Resources\BackSeamTypes.xml" />
+    <Content Include="Resources\CasesTypes.xml" />
+    <Content Include="Resources\ChannelLookup.xml" />
+    <Content Include="Resources\CoManufacturers.xml" />
+    <Content Include="Resources\CoManufacturingClassificationTypes.xml" />
+    <Content Include="Resources\CoPackers.xml" />
+    <Content Include="Resources\CorrugatedPrintStyleTypes.xml" />
+    <Content Include="Resources\CostingUnitTypes.xml" />
+    <Content Include="Resources\CountryOfOrigin.xml" />
+    <Content Include="Resources\CriticalInitiativesLookup.xml" />
+    <Content Include="Resources\Customers.xml" />
+    <Content Include="Resources\DataCarrierTypeCodes.xml" />
+    <Content Include="Resources\DistributionCenters.xml" />
+    <Content Include="Resources\ExternalGraphicsVendorTypes.xml" />
+    <Content Include="Resources\FilmPrintStyleTypes.xml" />
+    <Content Include="Resources\FilmStyleTypes.xml" />
+    <Content Include="Resources\FilmSubstrateLookup.xml" />
+    <Content Include="Resources\FlowThroughTypesLookup.xml" />
+    <Content Include="Resources\BrandOwnerGLNs.xml" />
+    <Content Include="Resources\GS1tradeKeyCodes.xml" />
+    <Content Include="Resources\IncotermsLookup.xml" />
+    <Content Include="Resources\MakePackTransfersLookup.xml" />
+    <Content Include="Resources\ManufacturerCountryOfOriginLookup.xml" />
+    <Content Include="Resources\ManufacturingLocations.xml" />
+    <Content Include="Resources\MaterialGroup2Lookup.xml" />
+    <Content Include="Resources\MaterialGroup4Lookup.xml" />
+    <Content Include="Resources\MaterialGroup5Lookup.xml" />
+    <Content Include="Resources\MRPCLookup.xml" />
+    <None Include="Ferrara.Compass.Services.csproj.vspscc" />
+    <None Include="Resources\NaturalFlavorsLookup.xml" />
+    <None Include="Resources\NaturalColorsLookup.xml" />
+    <Content Include="Resources\NutrientQuantityContainedTypes.xml" />
+    <Content Include="Resources\DailyValueIntakePctMeasPrecCode.xml" />
+    <Content Include="Resources\NutrientQuantityUOMs.xml" />
+    <Content Include="Resources\NutrientTypes.xml" />
+    <Content Include="Resources\OrderUnitofMeasureLookup.xml" />
+    <Content Include="Resources\PackagingComponentTypes.xml" />
+    <Content Include="Resources\PackingLocations.xml" />
+    <Content Include="Resources\PackTrialResult.xml" />
+    <Content Include="Resources\PackUnitLookup.xml" />
+    <Content Include="Resources\PercentagesLookup.xml" />
+    <Content Include="Resources\GateDetailColorsLookup.xml" />
+    <Content Include="Resources\PlantLines.xml" />
+    <Content Include="Resources\PMTProjectTypes.xml" />
+    <Content Include="Resources\PRDateCategoryLookup.xml" />
+    <Content Include="Resources\PreparationStates.xml" />
+    <Content Include="Resources\PrinterSupplierLookup.xml" />
+    <Content Include="Resources\PrintStyleTypes.xml" />
+    <Content Include="Resources\ProcurementTypes.xml" />
+    <Content Include="Resources\ProductHierarchyLevel1.xml" />
+    <Content Include="Resources\ProductHierarchyLevel2.xml" />
+    <Content Include="Resources\ProductTypes.xml" />
+    <Content Include="Resources\ProjectCategoryLookup.xml" />
+    <Content Include="Resources\StageGatePostLaunchDelivLookup.xml" />
+    <Content Include="Resources\StageGateLaunchDelivLookup.xml" />
+    <Content Include="Resources\StageGateIndustrializDelivLookup.xml" />
+    <Content Include="Resources\StageGateValidateDelivLookup.xml" />
+    <Content Include="Resources\StageGateDevelopDelivLookup.xml" />
+    <Content Include="Resources\StageGateDesignDelivLookup.xml" />
+    <Content Include="Resources\ProjectTypes.xml" />
+    <Content Include="Resources\ProjectTypesSubCategoryLookup.xml" />
+    <Content Include="Resources\PurchasedIntoCenterLookup.xml" />
+    <Content Include="Resources\RetailPackTypes.xml" />
+    <Content Include="Resources\SAPBaseUOMLookup.xml" />
+    <Content Include="Resources\SecondaryInitialReviewDecisions.xml" />
+    <Content Include="Resources\ServingSizes.xml" />
+    <Content Include="Resources\StageGateStageStatusLookup.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resources\StageGateSGMeetingLookup.xml" />
+    <Content Include="Resources\Stages.xml" />
+    <Content Include="Resources\SubstrateColorLookup.xml" />
+    <Content Include="Resources\SubstrateLookup.xml" />
+    <Content Include="Resources\SupplierLeadTimeTypes.xml" />
+    <Content Include="Resources\TargetFCCMarginLookup.xml" />
+    <Content Include="Resources\TaskCheckboxesLookup.xml" />
+    <Content Include="Resources\TimelineTypesLookup.xml" />
+    <Content Include="Resources\TradeChannels.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ferrara.Compass.Abstractions\Ferrara.Compass.Abstractions.csproj">
+      <Project>{143e513c-8454-4a14-a908-a61f6bbdda23}</Project>
+      <Name>Ferrara.Compass.Abstractions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ferrara.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

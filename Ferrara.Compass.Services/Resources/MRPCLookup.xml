@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Pack-Everyday (201)" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="Pack-Seasnl Dedctd (202)" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Pack-Co-Man/NVAL (203)" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Pack-Seasnl Shared (204)" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Pack-ND MRP Type (205)" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Pack-Rpd Mvng Matl (206)" LookupFieldValue="6" Active="1" />
+</ArrayOfGlobalLookupField>

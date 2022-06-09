@@ -1,0 +1,754 @@
+﻿/**********************************************/
+/*
+Percentage in Textbox - Local
+Currency in Textbox - Local
+Form Text Box Size - Local / Application
+SharePoint People Picker - SharePoint Style*/
+/**********************************************/
+/*CUSTOM PMT CLASSES*/
+/**********************************************/
+/*Form Title - PMT*/
+.content{
+	/*max-width:1200px;*/
+}
+/*Comment Text Box - PMT Italic*/
+.comment-block {
+    color:#B8B9BD;
+    font-style:italic;  
+}
+.markrequired{
+	color:red;
+	padding-top:7px;
+	padding-right:2px;
+}
+/*Upload functionality - Local / Application (preference to use Packaging components example)
+Grid - PMT
+*/
+
+/*DATE PICKER OVERRIDES*/
+/**********************************************/
+/*Date      picker - Date Picker*/
+
+
+/*BOOTSTRAP OVERRIDES*/
+/**********************************************/
+/*Text in dropdown - Boot
+Form Comment - Boot
+Form Label - Boot
+Text in textbox - Boot*/
+
+/*h2*/
+.content h2, .ms-dlgTitleText{
+	font-size:24px;
+    font-weight:bold;
+	color:#000000;
+}
+p.help-block small{
+    font-style:italic;
+    font-size:9px;
+    color:#000000;
+}
+
+/*hr*/
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width:100%;
+}
+.headSummary{
+    font-weight:bold;
+    padding-top:5px;
+    color: #99E02B;
+    font-size: 16px;
+}
+
+/*row*/
+.row{
+margin-right: -15px;
+margin-left: -15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.RowBottomMargin{
+	/*border-bottom: 1px gray solid;
+	margin-bottom:5px;*/
+}
+/*label*/
+.label{
+	font-weight: normal;
+	font-size: 16px;
+}
+/*.CompassLabel{
+	width:100px;
+}*/
+#lblItemNote{
+	color: #B8B9BD;
+    font-style: italic;
+}
+/*Form*/
+.form-group{
+	/*float:left;
+	clear:both;*/
+}
+.form-control{
+    height:38px;
+}
+.container input[type="textarea"] {
+    display: block;
+    width: 100%;
+	height:auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.container input[type="text"], .container select {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+#txtChangeNotes{
+	width:100%;
+}
+/*Form Buttons - Boot*/
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #B8B9BD;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/*FontAwesome*/
+    .icon{
+    position : absolute;
+    right : -40px;
+  padding-top:35px;
+  
+}
+.icon a{
+padding:5px;
+}
+
+.columns-parent{
+    position:relative;
+    padding-bottom:15px;
+
+}
+*/
+/*required Form Asterisk - Boot*/
+:required  {  
+	 background: url(https://cdn0.iconfinder.com/data/icons/fugue/icon/asterisk-small.png) no-repeat;
+	 background-position:left top;
+	}
+/*SHAREPOINT OVERRIDES*/
+/**********************************************/
+
+/*--Hide Quick Launch --*/
+.ms-core-navigation { DISPLAY: none }
+#contentBox { margin-left: 5px }
+/* Hide Page Title */
+#DeltaPlaceHolderPageTitleInTitleArea {display: none;}
+/*webparts*/
+.ms-WPBorder{
+	border: 1px solid #ffffff;
+}
+/*buttons*/
+input[type="submit"], button{
+/*width:80px;*/
+display: block;
+padding: 0.5em 1em;
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+ font-size: 14px;
+    line-height: 1.4285;
+}
+input[type="submit"]:hover{
+    /*width:80px;*/
+    font-size: 14px;
+    line-height: 1.4285;
+
+}
+/*MISC*/
+/*save button*/
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_btnSave{
+	
+}
+/*file browse*/
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_fileUploadFormulation{
+	height:100% !important;
+}
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_fileUploadGraphics{
+	height:100% !important;
+}
+
+
+/*--OLD COMPASS CSS VALUES BELOW --*/
+
+    h1 {
+        color: #99E02B;
+        font-size:40px;
+        font-weight: 500;
+        line-height: 1.25em;
+        margin: 0.5em 0;
+        height:50px;
+    }
+
+    h2, .ms-dlgTitleText {
+        color: #99E02B;
+        font-size:20px;
+        font-weight: 500;
+        line-height: 1.25em;
+        margin: 0.5em 0;
+        padding:10px 0px 20px 0;
+        height:20px;
+    }
+
+    .ms-inputuserfield
+    {
+            font-size: 8pt;
+            border: 1px solid #a5a5a5;
+     }
+    div.ms-inputuserfield a
+    {
+            color: #000000;
+            text-decoration: none;
+            font-weight: normal;
+            font-style: normal;
+    }
+    div.ms-inputuserfield
+    {
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .ProjectNotesContainer{
+        width: 500px;
+    }
+
+    .CommentField {
+        line-height: 75px;
+    }
+
+    .RowBottomMargin {
+        margin-bottom: 10px;
+        padding:10px 15px
+    }
+
+    .RowNotesBottomMargin {
+        margin-bottom: 30px;
+    }
+
+    div.PageHeader
+    {
+        font-weight:bold;
+        font-size:20px !important;
+        padding:5px 5px !important;
+    }
+    div.PageSubHeader
+    {
+        font-weight:bold;
+        font-size:24px !important;
+        padding:5px 5px !important;
+    }
+
+    div.PageTitle
+    {
+        background: #99E02B !important;
+        color:White;
+        font-weight:bold;
+        font-size:18px !important;
+        padding:5px 10px !important;
+        height:30px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    div.PageSection
+    {
+        background: #99E02B !important;
+        color:White;
+        font-weight:bold;
+        font-size:18px !important;
+        padding:5px 10px !important;
+        height:30px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    div.CompassSeparator
+    {
+        background: #0F1A20 !important;
+        padding:1px 20px !important;
+        height:1px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+		margin:0;
+     }
+
+    .tobHeading td span
+    {
+        font-size:18px;
+    }
+    
+    .subHeading
+    {
+        background: #4863A0 !important;
+        color:White;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 10px !important;
+        height:10px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .tableheader
+    {
+        font-size: 14px;
+        background-color: #4863A0;
+        color: #CCCCFF;
+        font-weight: bold;
+        padding: 2px,2px,2px,2px;
+    }
+    
+    .minorHeading
+    {
+        color:#4863A0;
+        font-weight:bold;
+        font-size:12px !important;
+        height:10px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+   }
+
+    .ButtonControl, .btn, #TableMain .ButtonControl, .button
+    {
+        background-color:#99E02B !important;
+        color:White !important;
+		border:none !important;
+        width:75px;
+        font-weight:bold;
+        -moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+        border-radius: 5px;
+    }
+    .ButtonControl.disabled, .ButtonControl.aspNetDisabled, .btn.aspNetDisabled
+    {
+        background:#68B684 !important;
+        cursor: not-allowed;
+		opacity: .65;
+    }
+
+    .ButtonControlAutoSize
+    {
+        background-color:#99E02B !important;
+        color:White !important;
+        font-weight:bold;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-size: 14px;
+		line-height: 1.42857143;
+    }
+
+    .LabelControl, .head, .title
+    {
+        color:Black;
+        font-weight:bold;
+        /*font-size:12px !important;*/
+        padding: 2px,2px,2px,2px;
+        height:15px;
+    }
+
+    div.CompassLabel
+    {
+        color:Black;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 15px !important;
+        height:15px;
+    }
+
+    div.CompassLabelGreen
+    {
+        color:Green;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 15px !important;
+        height:15px;
+    }
+
+    #TableMain table
+    {
+        margin-bottom:10px;
+        padding-bottom:15px;
+    }
+
+    #TableMain2 table
+    {
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+
+    .RowHeader
+    {
+        background-color:#666666;
+        color:White;
+    }
+    
+    .FormName
+    {
+        font-weight:bold;
+    }
+    
+    .CompletedStep
+    {
+        background-color:rgb(153,204,51);
+    }
+
+    .DisabledStep
+    {
+        background-color: #68B684;
+    }
+
+   .CurrentWFStep
+    {
+        background-color:Pink;
+    }
+    
+    .RowEven
+    {
+        background-color:rgb(176,216,255);
+    }
+
+    .SubHeader
+    {
+        font-weight:bold;
+        background-color:rgb(176,216,255);
+    }
+    
+    .SubHeader td
+    {
+        padding:5px;
+        font-size:18px;
+    }    
+
+    .AccessDenied td
+    {
+        color:Red;
+        font-weight:bold;
+        padding:5px;
+        font-size:18px;
+    }
+        
+    .AccessRequest td
+    {
+        color:Green;
+        font-weight:bold;
+        padding:5px;
+        font-size:18px;
+    }    
+    
+    .SubLabel td
+    {
+        font-style: italic !important;
+        font-size:8px !important;
+    }
+    
+    .CompassMessage
+    {
+        background-color: transparent;
+        color: Green;
+        font-weight: bold;
+        font-size: large;
+        text-align:center;
+    }
+    
+	.ValidationSummary, .AccessDenied, .ms-descriptiontext
+    {
+		color: Red;
+        font-weight: bold;
+    }
+      .PageAccessDenied
+    {
+    color: Red;
+    font-weight: bold;
+    font-size:30px;
+    } 
+    .ValidationSummary ul
+    {
+        color: Red;
+    }
+
+    .ValidationSummary ul li
+    {
+        color: Red;
+    }
+    
+    .commemtsSeperator
+    {
+        background-color: rgba(255,255,255,0.9);
+        border-top: 8px solid #99E02B;
+        float: left;
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ButtonArea {
+         vertical-align: middle;
+         padding: 8px;
+         float:right;
+     }
+
+    .highlightElement {
+        background-color:#FFC0CB !important;
+    }
+
+    .errorMessage {
+        padding-left:20px;
+        float:left; 
+        display: inline;
+        color:red
+    }
+
+    .ReloadAttachment {
+        opacity:0;
+    }
+
+    .showItem {
+        display:block;
+    }
+
+    .hideItem {
+        display:none;
+    }
+/* Styles for Item Proposal form */
+	.setLeft {
+       left:0px;
+       display:block !important;
+    }
+    .showItemspAnnual {
+		display:inline-block;
+    }
+/* End styles for Item Proposal form */
+/* Datepicker Styles */
+.ui-datepicker {
+	width: 216px;
+	height: auto;
+	margin: 5px auto 0;
+	font: 9pt Arial, sans-serif;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+.ui-datepicker a {
+	text-decoration: none;
+}
+.ui-datepicker table {
+	width: 100%;
+}
+.ui-datepicker-header {
+	background: #99E02B;
+	color: #FFFFFF;
+	font-weight: bold;
+	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, 2);
+	-moz-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
+	filter: dropshadow(color=#000, offx=1, offy=-1);
+	line-height: 30px;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #111;
+}
+.ui-datepicker-title {
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-header a:hover {
+	color: #000000;
+}
+.ui-datepicker-prev, .ui-datepicker-next {
+	color:#ffffff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	cursor: pointer;
+	overflow: hidden;
+}
+.ui-datepicker-prev {
+	float: left;
+	background-position: center -30px;
+}
+.ui-datepicker-next {
+	float: right;
+	background-position: center 0px;
+}
+.ui-datepicker thead {
+	background-color: #f7f7f7;
+	background-image: -moz-linear-gradient(top,  #f7f7f7 0%, #f1f1f1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#f1f1f1));
+	background-image: -webkit-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -o-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: -ms-linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	background-image: linear-gradient(top,  #f7f7f7 0%,#f1f1f1 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f1f1f1',GradientType=0 );
+	border-bottom: 1px solid #bbb;
+}
+.ui-datepicker th {
+	text-transform: uppercase;
+	font-size: 6pt;
+	padding: 5px 0;
+	color: #666666;
+	filter: dropshadow(color=#fff, offx=1, offy=0);
+}
+.ui-datepicker tbody td {
+	padding: 0;
+	border-right: 1px solid #bbb;
+}
+.ui-datepicker tbody td:last-child {
+	border-right: 0px;
+}
+.ui-datepicker tbody tr {
+	border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+	border-bottom: 0px;
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	color: #666666;
+	filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+	background: #ededed;
+	background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+	background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+	background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+	-webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	-moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+	box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-calendar .ui-state-hover {
+	background: #f7f7f7;
+}
+.ui-datepicker-calendar .ui-state-active {
+	background: #99E02B;
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+	color: #e0e0e0;
+	filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+	border: 1px solid #55838f;
+	position: relative;
+	margin: -1px;
+}
+.ui-datepicker-unselectable .ui-state-default {
+	background: #f4f4f4;
+	color: #b4b3b3;
+}
+.ui-datepicker-calendar td:first-child .ui-state-active {
+	width: 29px;
+	margin-left: 0;
+}
+.ui-datepicker-calendar td:last-child .ui-state-active {
+	width: 29px;
+	margin-right: 0;
+}
+.ui-datepicker-calendar tr:last-child .ui-state-active {
+	height: 29px;
+	margin-bottom: 0;
+}
+.ui-datepicker-calendar .ui-state-disabled {
+	background:#ffffff;
+}
+/* End Datepicker styles */
+/* @FM - Newest Style Additions */
+.container .form-control[readonly] {
+	background-color: #eee;
+	border-style: None;
+}
+/* iframe styles */
+#TableMain input[type="submit"]{
+	float:left;
+	margin-top:-25px
+}
+/*input[type="file"]
+{
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}*/
+.ms-dlgTitleText{
+	padding-bottom: 30px;
+}
+#TableMain {width:500px;}
+/* End iframe styles */
+.tableCol-75 {vertical-align:top;}
+div.PageSubHeader {color:#99E02B;}
+.row .row {margin-top: 35px; margin-left: 10px;}
+.ValidationSummary {
+	margin-top:20px;
+}
+.ValidationSummary a {
+	cursor: pointer;
+}
+.ProjectNotesContainer {margin-top:175px;}
+.HiddenButton{opacity:0;z-index:-1;}
+.SuccessMessage{ 
+	color: red;
+    font-weight: bold;
+    font-style: italic;
+}

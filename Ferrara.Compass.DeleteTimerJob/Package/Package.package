@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="f84d46a3-5458-4df5-828b-52a79af55857" solutionId="f84d46a3-5458-4df5-828b-52a79af55857" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.DeleteTimerJob" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll">
+      <safeControls>
+        <safeControl assemblyName="Microsoft.Practices.Unity.dll" namespaceName="Microsoft.Practices.Unity.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="b4b2723f-fba0-4777-b477-a20bf578ae2f" />
+  </features>
+</package>

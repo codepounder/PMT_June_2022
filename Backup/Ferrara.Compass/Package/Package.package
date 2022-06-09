@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="db27c9b0-1fd9-4c7d-803d-54000b8531e0" solutionId="db27c9b0-1fd9-4c7d-803d-54000b8531e0" resetWebServer="true" sharePointProductVersion="15.0" name="Ferrara.Compass" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="Ferrara.Compass.Abstractions.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.Abstractions\Ferrara.Compass.Abstractions.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.Abstractions" namespaceName="Ferrara.Compass.Abstractions" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Ferrara.Compass.DependencyResolution.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.DependencyResolution\Ferrara.Compass.DependencyResolution.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.DependencyResolution" namespaceName="Ferrara.Compass.DependencyResolution" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Ferrara.Compass.Services.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.Services\Ferrara.Compass.Services.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.Services" namespaceName="Ferrara.Compass.Services" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <customAssembly location="itextsharp.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\itextsharp.dll">
+      <safeControls>
+        <safeControl assemblyName="itextsharp.dll" namespaceName="itextsharp.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll">
+      <safeControls>
+        <safeControl assemblyName="Microsoft.Practices.Unity.dll" namespaceName="Microsoft.Practices.Unity.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="3210f4bb-8904-46da-b380-649e2d07b195" />
+    <featureReference itemId="eb7ed9c9-1c52-49e7-9c49-a4cc4ab7ef2f" />
+    <featureReference itemId="bbdad095-570b-4601-99ea-95d9f3912b79" />
+    <featureReference itemId="21d57d77-7902-4a97-9653-3394be30093a" />
+    <featureReference itemId="6189a1d3-d84f-430e-9cdf-63a94b71aecd" />
+    <featureReference itemId="44101107-1e6d-43d5-8260-b5665831cb7e" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="f616a983-ed3d-4c15-a2ce-b10a6e62d3d1" />
+    <projectItemReference itemId="c2829600-0213-48ed-b87a-3d208f78e9f5" />
+  </projectItems>
+</package>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="StageGateCreateProjectForm" List="113" Url="_catalogs/wp">
+    <File Path="StageGateCreateProjectForm\StageGateCreateProjectForm.webpart" Url="Ferrara.Compass_StageGateCreateProjectForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

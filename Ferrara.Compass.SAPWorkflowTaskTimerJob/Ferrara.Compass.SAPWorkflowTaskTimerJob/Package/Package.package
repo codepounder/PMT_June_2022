@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4bd1ae9a-94b0-4595-9c44-f50f9c81f5eb" solutionId="4bd1ae9a-94b0-4595-9c44-f50f9c81f5eb" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.SAPWorkflowTaskTimerJob" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="0a26d386-0875-4236-833d-779194517db0" />
+  </features>
+</package>

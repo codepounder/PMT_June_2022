@@ -1,0 +1,271 @@
+﻿/*--Hide Quick Launch --*/
+#s4-leftpanel
+{
+    display:none
+}
+.s4-ca
+{
+    margin-left:0px
+}
+.ms-inputuserfield
+{
+        font-size: 8pt;
+        font-family: Verdana,sans-serif;
+        border: 1px solid #a5a5a5;
+ }
+div.ms-inputuserfield a
+{
+        color: #000000;
+        text-decoration: none;
+        font-weight: normal;
+        font-style: normal;
+}
+div.ms-inputuserfield
+{
+    padding-left: 1px;
+    padding-top: 2px;
+}
+table,table tr td
+    {
+        border:0;
+        color:#000;
+        font-family:Arial !important;
+        font-weight:bold;
+        font-size:13px !important;
+    }
+    
+    
+    #TableMain table tr td
+    {
+       height:30px;
+       vertical-align:bottom;
+    }
+    #TableMain tr td.top
+    {
+       vertical-align:top;
+    }
+    #TableMain table
+    {
+        border-bottom: 1px dashed #848484;
+        margin-bottom:10px;
+        padding-bottom:15px;
+    }
+   #TableMain table input[type="text"] {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   padding: 2px;
+  color:#000;
+font-family:Arial !important;
+
+   } 
+   #TableMain table select {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   height:24px;
+   padding: 2px;
+   color:#000;
+   font-family:Arial !important;  
+   font-size: 12px;   
+   }
+   #TableMain table textarea {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   color:#000;
+   font-family:Arial !important;    
+   padding: 2px;
+   font-size: 12px;
+   }
+
+   .tobBox tr td
+   {
+       height:auto;
+   }
+   .tobBox tbody > tr > td
+   {
+       padding-top:10px;
+   }
+   .tobBox,.proposedItem table
+   {
+       margin:0;
+       padding:0;
+   }
+   .proposedItem 
+   {
+       padding:0;
+   }
+   .proposedItem table
+   {
+       border:0;
+   }
+   .proposedItem tbody tr + tr td
+   {
+        padding-top: 10px;
+        vertical-align: top;
+   }
+   .proposedItem table tbody tr td
+   {
+        padding-top: 0;
+   }
+    table.packagingTable {
+       font-size:11px;
+       color:#333333;
+       border-width: 1px;
+       border-color: #666666;
+       border-collapse: collapse;
+}
+table.packagingTable th {
+       border-width: 1px;
+       padding: 8px;
+       border-style: solid;
+       border-color: #666666;
+       background-color: #dedede;
+}
+table.packagingTable td {
+       border-width: 1px;
+       padding: 8px;
+       border-style: solid;
+       border-color: #666666;
+       background-color: #ffffff;
+}
+.tobHeading
+{
+    background: #4863A0;
+}
+.tobHeading td
+{
+    padding:5px 10px !important;
+    color:#fff;
+}
+.tobHeading td span
+{
+    font-size:18px;
+}
+.tobHeading + tr td 
+{
+    height:1px !important;
+}
+.borderNone,.ms-usereditor,.ms-usereditor table
+{
+    border:0 !important;
+}
+.tobHeading td
+{
+    height:auto !important;
+}
+.tobBox,.ms-usereditor table,.ms-usereditor
+{
+    margin:0 !important;
+    padding:0 !important;
+}
+.ms-usereditor tr + tr td 
+{
+    height:auto !important;
+}
+.floatleft 
+{
+    margin-bottom:10px;
+}
+
+table.gridBox {
+    font-family: arial,verdana,sans-serif;
+    font-size:12px;
+    color:#333;
+    border-width: 1px;
+    border-color: #666;
+    border-collapse: collapse;
+    width:970px;
+}
+table.gridBox th {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color:#666;
+    background-color: #dedede;
+    font-weight:bold;
+}
+table.gridBox td {
+    border-width: 1px;
+    padding: 10px;
+    border-style: solid;
+    border-color: #666;
+    background-color: #fff;
+}
+.ButtonControl
+{
+    background-color: #4863A0;
+    color: White;
+    width: 75px;
+    font-weight: bold;
+}
+.ButtonControl1
+{
+    background-color: #4863A0;
+    color: White;
+    width: 235px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ButtonControlAutoSize
+{
+    background-color: #4863A0;
+    color: White;
+    font-weight: bold;
+}
+
+    #TableNarrow table tr td
+    {
+       height:20px;
+       /*vertical-align:bottom;*/
+    }
+    #TableNarrow tr td.top
+    {
+       vertical-align:top;
+    }
+    #TableNarrow table
+    {
+        margin-bottom:10px;
+        padding-bottom:15px;
+    }
+   #TableNarrow table input[type="text"] {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   padding: 2px;
+  color:#000;
+font-family:Arial !important;
+
+   } 
+   #TableNarrow table select {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   height:24px;
+   padding: 2px;
+   color:#000;
+   font-family:Arial !important;  
+   font-size: 12px;   
+   }
+   #TableNarrow table textarea {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   border: 1px solid #848484;
+   outline:0;
+   color:#000;
+   font-family:Arial !important;    
+   padding: 2px;
+   font-size: 12px;
+   }

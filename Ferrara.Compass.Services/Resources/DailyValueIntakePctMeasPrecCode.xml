@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="About" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="Absence" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Approximately" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Exact" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Greater than" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Greater than or equal" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="Less than" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="Less than or equal" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="Not significant source of" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="Trace" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="Undetectable" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="Unspecified" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="Usually" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="Varied" LookupFieldValue="14" Active="1" />
+
+</ArrayOfGlobalLookupField>

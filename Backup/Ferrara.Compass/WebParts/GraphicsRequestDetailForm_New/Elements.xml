@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="GraphicsRequestDetailForm_New" List="113" Url="_catalogs/wp">
+    <File Path="GraphicsRequestDetailForm_New\GraphicsRequestDetailForm_New.webpart" Url="Ferrara.Compass_GraphicsRequestDetailForm_New.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

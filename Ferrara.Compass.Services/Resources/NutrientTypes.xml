@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Biotin" LookupFieldValue="1" Active="1" Preload="0" />
+  <GlobalLookupField Id="2" Title="Calcium" LookupFieldValue="2" Active="1" Preload="0" />
+  <GlobalLookupField Id="3" Title="Calories" LookupFieldValue="3" Active="1" Preload="1" />
+  <GlobalLookupField Id="4" Title="Calories From Fat" LookupFieldValue="4" Active="1" Preload="0" />
+  <GlobalLookupField Id="5" Title="Carbohydrates" LookupFieldValue="5" Active="1" Preload="1" />
+  <GlobalLookupField Id="6" Title="Chloride" LookupFieldValue="6" Active="1" Preload="0" />
+  <GlobalLookupField Id="7" Title="Cholestrol" LookupFieldValue="7" Active="1" Preload="0" />
+  <GlobalLookupField Id="8" Title="Chromium" LookupFieldValue="8" Active="1" Preload="0" />
+  <GlobalLookupField Id="9" Title="Copper" LookupFieldValue="9" Active="1" Preload="0" />
+  <GlobalLookupField Id="10" Title="Folate" LookupFieldValue="10" Active="1" Preload="0" />
+  <GlobalLookupField Id="11" Title="Insoluable Fibre" LookupFieldValue="11" Active="1" Preload="0" />
+  <GlobalLookupField Id="12" Title="Iodine" LookupFieldValue="12" Active="1" Preload="0" />
+  <GlobalLookupField Id="13" Title="Iron" LookupFieldValue="13" Active="1" Preload="0" />
+  <GlobalLookupField Id="14" Title="Lactose" LookupFieldValue="14" Active="1" Preload="0" />
+  <GlobalLookupField Id="15" Title="Magnesium" LookupFieldValue="15" Active="1" Preload="0" />
+  <GlobalLookupField Id="16" Title="Manganese" LookupFieldValue="16" Active="1" Preload="0" />
+  <GlobalLookupField Id="17" Title="Molybdenum" LookupFieldValue="17" Active="1" Preload="0" />
+  <GlobalLookupField Id="18" Title="Monounsaturated Fat" LookupFieldValue="18" Active="1" Preload="0" />
+  <GlobalLookupField Id="19" Title="Niacin" LookupFieldValue="19" Active="1" Preload="0" />
+  <GlobalLookupField Id="20" Title="Pantothenic" LookupFieldValue="20" Active="1" Preload="0" />
+  <GlobalLookupField Id="21" Title="Phosphorous" LookupFieldValue="21" Active="1" Preload="0" />
+  <GlobalLookupField Id="22" Title="Polyunsaturated Fat" LookupFieldValue="22" Active="1" Preload="0" />
+  <GlobalLookupField Id="23" Title="Potassium" LookupFieldValue="23" Active="1" Preload="0" />
+  <GlobalLookupField Id="24" Title="Protein" LookupFieldValue="24" Active="1" Preload="0" />
+  <GlobalLookupField Id="25" Title="RiboflavinB2" LookupFieldValue="25" Active="1" Preload="0" />
+  <GlobalLookupField Id="26" Title="Saturated Fat" LookupFieldValue="26" Active="1" Preload="0" />
+  <GlobalLookupField Id="27" Title="Selenium" LookupFieldValue="27" Active="1" Preload="0" />
+  <GlobalLookupField Id="28" Title="Sodium" LookupFieldValue="28" Active="1" Preload="0" />
+  <GlobalLookupField Id="29" Title="Soluable Fibre" LookupFieldValue="29" Active="1" Preload="0" />
+  <GlobalLookupField Id="30" Title="Thiamin" LookupFieldValue="30" Active="1" Preload="0" />
+  <GlobalLookupField Id="31" Title="Total Dietary Fiber" LookupFieldValue="31" Active="1" Preload="0" />
+  <GlobalLookupField Id="32" Title="Total Fat" LookupFieldValue="32" Active="1" Preload="0" />
+  <GlobalLookupField Id="33" Title="Total Sugar" LookupFieldValue="33" Active="1" Preload="0" />
+  <GlobalLookupField Id="34" Title="Transfatty Acid" LookupFieldValue="34" Active="1" Preload="0" />
+  <GlobalLookupField Id="35" Title="Vitamin A" LookupFieldValue="35" Active="1" Preload="0" />
+  <GlobalLookupField Id="36" Title="Vitamin B12" LookupFieldValue="36" Active="1" Preload="0" />
+  <GlobalLookupField Id="37" Title="Vitamin B6" LookupFieldValue="37" Active="1" Preload="0" />
+  <GlobalLookupField Id="38" Title="Vitamin C" LookupFieldValue="38" Active="1" Preload="0" />
+  <GlobalLookupField Id="39" Title="Vitamin D" LookupFieldValue="39" Active="1" Preload="0" />
+  <GlobalLookupField Id="40" Title="Vitamin E" LookupFieldValue="40" Active="1" Preload="0" />
+  <GlobalLookupField Id="41" Title="Vitamin K" LookupFieldValue="41" Active="1" Preload="0" />
+  <GlobalLookupField Id="42" Title="Zinc" LookupFieldValue="42" Active="1" Preload="0" />
+</ArrayOfGlobalLookupField>

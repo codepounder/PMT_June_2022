@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="BOMSetupPE2Form" List="113" Url="_catalogs/wp">
+    <File Path="BOMSetupPE2Form\BOMSetupPE2Form.webpart" Url="Ferrara.Compass_BOMSetupPE2Form.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

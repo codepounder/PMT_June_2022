@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="FCC Internal" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="NON-FCC ARCOR" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="NON-FCC ASSEMBLERS (FS02)" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="NON-FCC ATKINSON CANDY" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="NON-FCC ATLANTIC CANDY CO" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="NON-FCC BAUDERER PACKAGING LLC (FS10)" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="NON-FCC BISCOAMERICA" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="NON-FCC BISCOMERICA CORPORATION (FS13)" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="NON-FCC BLOMMER CHOCOLATE" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="NON-FCC BOX, TRAY, &amp; GIRAFFE INC." LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="NON-FCC CANDY POP" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="NON-FCC CANDY.COM" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="NON-FCC CANEL'S SA DE CV" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="NON-FCC CANO PACKAGING CORPORATION" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="NON-FCC CE DE CANDY INC" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="NON-FCC COREGISTICS, WHEELING IL" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="NON-FCC CREATIVE WERKS" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="NON-FCC CREATIVE WERKS LLC-Bensenville (FS03)" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="NON-FCC CREATIVE WERKS LLC-Elk Grove (FS04)" LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="20" Title="NON-FCC CTI" LookupFieldValue="20" Active="1" />
+  <GlobalLookupField Id="21" Title="NON-FCC DADDY RAY'S" LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="22" Title="NON-FCC DARE" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="23" Title="NON-FCC EMBARE INDUSTRIAS ALIMENTICIAS S.A." LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="24" Title="NON-FCC FERRERO" LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="25" Title="NON-FCC GALAXY" LookupFieldValue="25" Active="1" />
+  <GlobalLookupField Id="26" Title="NON-FCC GANONG" LookupFieldValue="26" Active="1" />
+  <GlobalLookupField Id="27" Title="NON-FCC GEORGIA NUT" LookupFieldValue="27" Active="1" />
+  <GlobalLookupField Id="28" Title="NON-FCC GOETZE'S CANDY CO" LookupFieldValue="28" Active="1" />
+  <GlobalLookupField Id="29" Title="NON-FCC GRUPO ERCUS" LookupFieldValue="29" Active="1" />
+  <GlobalLookupField Id="30" Title="NON-FCC HEARTHSIDE FOOD - Bolingbrook (FS06)" LookupFieldValue="30" Active="1" />
+  <GlobalLookupField Id="31" Title="NON-FCC HEARTHSIDE FOOD - Geneva (FS07)" LookupFieldValue="31" Active="1" />
+  <GlobalLookupField Id="32" Title="NON-FCC HEARTHSIDE FOOD - London (FS08)" LookupFieldValue="32" Active="1" />
+  <GlobalLookupField Id="33" Title="NON-FCC HEARTHSIDE FOOD - McComb (FS09)" LookupFieldValue="33" Active="1" />
+  <GlobalLookupField Id="34" Title="NON-FCC HEARTHSIDE, LONDON" LookupFieldValue="34" Active="1" />
+  <GlobalLookupField Id="35" Title="NON-FCC HOPE NETWORK WEST MICHIGAN (FS11)" LookupFieldValue="35" Active="1" />
+  <GlobalLookupField Id="36" Title="NON-FCC IMPACT CONFECTIONS INC" LookupFieldValue="36" Active="1" />
+  <GlobalLookupField Id="37" Title="NON-FCC ISLAND DELIGHTS, INC." LookupFieldValue="37" Active="1" />
+  <GlobalLookupField Id="38" Title="NON-FCC JINJIANG (HOLEYWOOD)" LookupFieldValue="38" Active="1" />
+  <GlobalLookupField Id="39" Title="NON-FCC JUST BORN INC." LookupFieldValue="39" Active="1" />
+  <GlobalLookupField Id="40" Title="NON-FCC KELLOGG" LookupFieldValue="40" Active="1" />
+  <GlobalLookupField Id="41" Title="NON-FCC KENNY'S CANDY" LookupFieldValue="41" Active="1" />
+  <GlobalLookupField Id="42" Title="NON-FCC KIWI" LookupFieldValue="42" Active="1" />
+  <GlobalLookupField Id="43" Title="NON-FCC KREATIVE" LookupFieldValue="43" Active="1" />
+  <GlobalLookupField Id="44" Title="NON-FCC KUA CANDY" LookupFieldValue="44" Active="1" />
+  <GlobalLookupField Id="45" Title="NON-FCC MELSTER" LookupFieldValue="45" Active="1" />
+  <GlobalLookupField Id="46" Title="NON-FCC MENASHA PACKAGING COMPANY, LLC (FS12)" LookupFieldValue="46" Active="1" />
+  <GlobalLookupField Id="47" Title="NON-FCC MILANOWEK/POLAND CO" LookupFieldValue="47" Active="1" />
+  <GlobalLookupField Id="48" Title="NON-FCC NESTLE USA" LookupFieldValue="48" Active="1" />
+  <GlobalLookupField Id="49" Title="NON-FCC PEACOCK ENGINEERING" LookupFieldValue="49" Active="1" />
+  <GlobalLookupField Id="50" Title="NON-FCC PEARSON CANDY COMPANY" LookupFieldValue="50" Active="1" />
+  <GlobalLookupField Id="51" Title="NON-FCC PECCIN" LookupFieldValue="51" Active="1" />
+  <GlobalLookupField Id="52" Title="NON-FCC PERFETTI VAN MELLE USA" LookupFieldValue="52" Active="1" />
+  <GlobalLookupField Id="53" Title="NON-FCC PISSA" LookupFieldValue="53" Active="1" />
+  <GlobalLookupField Id="54" Title="NON-FCC PRIMROSE CANDY" LookupFieldValue="54" Active="1" />
+  <GlobalLookupField Id="55" Title="NON-FCC PROFESSIONAL PACKAGING SYSTEMS" LookupFieldValue="55" Active="1" />
+  <GlobalLookupField Id="56" Title="NON-FCC RITO MINTS" LookupFieldValue="56" Active="1" />
+  <GlobalLookupField Id="57" Title="NON-FCC RM PALMER" LookupFieldValue="57" Active="1" />
+  <GlobalLookupField Id="58" Title="NON-FCC RYDER INTEGRATED, STATHAM GA" LookupFieldValue="58" Active="1" />
+  <GlobalLookupField Id="59" Title="NON-FCC RYTWAY ELK GROVE" LookupFieldValue="59" Active="1" />
+  <GlobalLookupField Id="60" Title="NON-FCC RYTWAY GIBSON CITY" LookupFieldValue="60" Active="1" />
+  <GlobalLookupField Id="61" Title="NON-FCC SANFILIPPO" LookupFieldValue="61" Active="1" />
+  <GlobalLookupField Id="62" Title="NON-FCC SHENZHEN AMOS" LookupFieldValue="62" Active="1" />
+  <GlobalLookupField Id="63" Title="NON-FCC SHENZHEN AMOS SWEETS &amp; FOODS CO.,LTD" LookupFieldValue="63" Active="1" />
+  <GlobalLookupField Id="64" Title="NON-FCC SHI CHINA" LookupFieldValue="64" Active="1" />
+  <GlobalLookupField Id="65" Title="NON-FCC SM ENTERPRISES" LookupFieldValue="65" Active="1" />
+  <GlobalLookupField Id="66" Title="NON-FCC SMARTIES CANDY COMPANY" LookupFieldValue="66" Active="1" />
+  <GlobalLookupField Id="67" Title="NON-FCC SPANGLER CANDY CO." LookupFieldValue="67" Active="1" />
+  <GlobalLookupField Id="68" Title="NON-FCC SUB COLLECTOR PLANT (FS01)" LookupFieldValue="68" Active="1" />
+  <GlobalLookupField Id="69" Title="NON-FCC SUNRISE" LookupFieldValue="69" Active="1" />
+  <GlobalLookupField Id="70" Title="NON-FCC SUPERIOR NUT" LookupFieldValue="70" Active="1" />
+  <GlobalLookupField Id="71" Title="NON-FCC SWEETWORKS / OAK LEAF CONFECTIONS" LookupFieldValue="71" Active="1" />
+  <GlobalLookupField Id="72" Title="NON-FCC TARA" LookupFieldValue="72" Active="1" />
+  <GlobalLookupField Id="73" Title="NON-FCC TARA INTERNATIONAL LP (FS05)" LookupFieldValue="73" Active="1" />
+  <GlobalLookupField Id="74" Title="NON-FCC US PACKAGING" LookupFieldValue="74" Active="1" />
+  <GlobalLookupField Id="75" Title="NON-FCC VARIOUS" LookupFieldValue="75" Active="1" />
+  <GlobalLookupField Id="76" Title="NON-FCC VIDAL" LookupFieldValue="76" Active="1" />
+  <GlobalLookupField Id="77" Title="NON-FCC VIDAL GOLOSINAS" LookupFieldValue="77" Active="1" />
+  <GlobalLookupField Id="78" Title="NON-FCC WARRELL" LookupFieldValue="78" Active="1" />
+  <GlobalLookupField Id="79" Title="NON-FCC WEPACK LOGISTICS" LookupFieldValue="79" Active="1" />
+  <GlobalLookupField Id="80" Title="NON-FCC WHETSTONE INDUSTRIES INC" LookupFieldValue="80" Active="1" />
+  <GlobalLookupField Id="81" Title="NON-FCC ZACHARY CONFECTIONS" LookupFieldValue="81" Active="1" />
+  <GlobalLookupField Id="82" Title="Various Manufacturers" LookupFieldValue="82" Active="1" />
+  <GlobalLookupField Id="84" Title="NON-FCC KELLOGG’S – GRAND RAPIDS" LookupFieldValue="84" Active="1" />
+  <GlobalLookupField Id="85" Title="NON-FCC KELLOGG’S – CINCINNATI" LookupFieldValue="85" Active="1" />
+  <GlobalLookupField Id="86" Title="NON-FCC KELLOGG’S – ROME" LookupFieldValue="86" Active="1" />
+  <GlobalLookupField Id="87" Title="NON-FCC RICHMOND BAKERY" LookupFieldValue="87" Active="1" />
+  <GlobalLookupField Id="88" Title="NON-FCC CAROLINA FOODS" LookupFieldValue="88" Active="1" />
+  <GlobalLookupField Id="89" Title="NON-FCC NOEL" LookupFieldValue="89" Active="1" />
+  <GlobalLookupField Id="90" Title="NON-FCC KELSEN" LookupFieldValue="90" Active="1" />
+  <GlobalLookupField Id="91" Title="NON-FCC DELACRE" LookupFieldValue="91" Active="1" />
+  <GlobalLookupField Id="92" Title="NON-FCC HEARTHSIDE FOOD - WENONA" LookupFieldValue="92" Active="1" />
+  <GlobalLookupField Id="93" Title="NON-FCC HEARTHSIDE FOOD - McCOMB" LookupFieldValue="93" Active="1" />
+  <GlobalLookupField Id="94" Title="NON-FCC US PACKAGING (FS17)" LookupFieldValue="94" Active="1" />
+  <GlobalLookupField Id="95" Title="NON-FCC UTZ" LookupFieldValue="95" Active="1" />
+</ArrayOfGlobalLookupField>

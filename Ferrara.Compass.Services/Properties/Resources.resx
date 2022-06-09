@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AllergensLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\allergenslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CasesTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\casestypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ChannelLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\channellookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CorrugatedPrintStyleTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\corrugatedprintstyletypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CountryOfOrigin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\countryoforigin.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CriticalInitiativesLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\criticalinitiativeslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Customers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\customers.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="DistributionCenters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\distributioncenters.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ExternalGraphicsVendorTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\externalgraphicsvendortypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FilmPrintStyleTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filmprintstyletypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FilmStyleTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filmstyletypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FlowThroughTypesLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\flowthroughtypeslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="KosherTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\koshertypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ManufacturingLocations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\manufacturinglocations.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MaterialGroup1Lookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\materialgroup1lookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MaterialGroup2Lookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\materialgroup2lookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MaterialGroup4Lookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\materialgroup4lookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MaterialGroup5Lookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\materialgroup5lookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MRPCLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\mrpclookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PackagingComponentTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\packagingcomponenttypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PackingLocations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\packinglocations.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PackUnitLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\packunitlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PlantLines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\plantlines.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PrinterSupplierLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\printersupplierlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProcurementTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\procurementtypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProductHierarchyLevel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\producthierarchylevel1.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProductHierarchyLevel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\producthierarchylevel2.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProjectCategoryLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\projectcategorylookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProjectTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\projecttypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RetailPackTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\retailpacktypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SAPBaseUOMLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\sapbaseuomlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SubstrateLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\substratelookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TargetFCCMarginLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\targetfccmarginlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MakePackTransfersLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\makepacktransferslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PurchasedIntoCenterLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\purchasedintocenterlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SubstrateColorLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\substratecolorlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FilmSubstrateLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filmsubstratelookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CoManufacturers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\comanufacturers.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CoManufacturingClassificationTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\comanufacturingclassificationtypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CoPackers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\copackers.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ManufacturerCountryOfOriginLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\manufacturercountryoforiginlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SupplierLeadTimeTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\supplierleadtimetypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PackTrialResult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\packtrialresult.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SecondaryInitialReviewDecisions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SecondaryInitialReviewDecisions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="IncotermsLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IncotermsLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OrderUnitofMeasureLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OrderUnitofMeasureLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PRDateCategoryLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRDateCategoryLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TimelineTypesLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TimelineTypesLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BackSeamTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\backseamtypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="CostingUnitTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\costingunittypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NutrientTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\nutrienttypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NutrientQuantityContainedTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\nutrientquantitycontainedtypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NutrientQuantityUOMs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\nutrientquantityuoms.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PreparationStates" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\preparationstates.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ServingSizes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\servingsizes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProductTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\producttypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AlternateClassificationSchemes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\alternateclassificationschemes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GS1tradeKeyCodes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gs1tradekeycodes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="DataCarrierTypeCodes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\datacarriertypecodes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TradeChannels" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\tradechannels.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BrandOwnerGLNs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\brandownerglns.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="DailyValueIntakePctMeasPrecCode" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\dailyvalueintakepctmeaspreccode.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ProjectTypesSubCategoryLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\projecttypessubcategorylookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GlutenFreeLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GlutenFreeLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GMOClaimLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GMOClaimLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GoodSourceLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GoodSourceLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MadeInUSAClaimLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MadeInUSAClaimLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NaturalColorsLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NaturalColorsLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NaturalFlavorsLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NaturalFlavorsLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PercentagesLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PercentagesLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="FilmUnWindLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\filmunwindlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Stages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stages.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateDesignDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatedesigndelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateStageStatusLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatestagestatuslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateDesignDelivLookup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatedesigndelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateDevelopDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatedevelopdelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateIndustrializDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegateindustrializdelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateLaunchDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatelaunchdelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGatePostLaunchDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatepostlaunchdelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateStageStatusLookup1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatestagestatuslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateValidateDelivLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatevalidatedelivlookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="StageGateSGMeetingLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\stagegatesgmeetinglookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="GateDetailColorsLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\gatedetailcolorslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PMTProjectTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pmtprojecttypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OverallRiskLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\overallrisklookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OverallStatusLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\overallstatuslookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ComponentPurchasedIntoLocations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ComponentPurchasedIntoLocations.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="DistributionDeploymentModes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DistributionDeploymentModes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BusinessFunctions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BusinessFunctions.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="TaskCheckboxesLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TaskCheckboxesLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BioEngineeringLabelingcceptableLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BioEngineeringLabelingcceptableLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="BioEngineeringLabelingRequiredLookup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BioEngineeringLabelingRequiredLookup.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PrintStyleTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrintStyleTypes.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

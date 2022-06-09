@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ed0853a1-c4c2-4bf4-a879-d5ade43d359b" solutionId="ed0853a1-c4c2-4bf4-a879-d5ade43d359b" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.ProjectTimelineWorkflowTask" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll">
+      <safeControls>
+        <safeControl assemblyName="Microsoft.Practices.Unity.dll" namespaceName="Microsoft.Practices.Unity.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+    <projectOutputAssembly location="Ferrara.Compass.DependencyResolution.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.DependencyResolution\Ferrara.Compass.DependencyResolution.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.DependencyResolution" namespaceName="Ferrara.Compass.DependencyResolution" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Ferrara.Compass.Abstractions.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.Abstractions\Ferrara.Compass.Abstractions.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.Abstractions" namespaceName="Ferrara.Compass.Abstractions" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="Ferrara.Compass.Services.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\Ferrara.Compass.Services\Ferrara.Compass.Services.csproj">
+      <safeControls>
+        <safeControl assemblyName="Ferrara.Compass.Services" namespaceName="Ferrara.Compass.Services" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="22afcd90-f6a6-4429-a1db-468547cefb04" />
+  </features>
+</package>

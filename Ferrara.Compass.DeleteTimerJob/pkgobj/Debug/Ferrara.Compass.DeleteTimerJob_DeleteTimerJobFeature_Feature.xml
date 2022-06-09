@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature AlwaysForceInstall="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" Id="f9adb3fa-6137-42cd-a254-8c847dd894b5" ReceiverAssembly="Ferrara.Compass.DeleteTimerJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3fe94db7031dc8ae" ReceiverClass="Ferrara.Compass.DeleteTimerJob.Features.DeleteTimerJobFeature.DeleteTimerJobFeatureEventReceiver" Scope="WebApplication" Title="Ferrara.Compass.DeleteTimerJob  DeleteTimerJobFeature"></Feature>

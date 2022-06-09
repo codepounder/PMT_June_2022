@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="FM01 - VERNELL" LookupFieldValue="1" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="2" Title="FM02 - REYNOSA" LookupFieldValue="2" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="3" Title="FP01 - FOREST PARK" LookupFieldValue="3" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="4" Title="FP03 - SHIP LAB" LookupFieldValue="4" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="5" Title="FP05 - BELLWOOD" LookupFieldValue="5" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="6" Title="FP07 - DALLAS" LookupFieldValue="6" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="7" Title="FP13 - BOLINGBROOK" LookupFieldValue="7" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="8" Title="FP14 - PACK CENTER" LookupFieldValue="8" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="9" Title="FP18 - JONESTOWN" LookupFieldValue="9" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="10" Title="FP19 - PHOENIX" LookupFieldValue="10" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="11" Title="FP20 - ITASCA" LookupFieldValue="11" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="12" Title="FP30 - ATLANTA" LookupFieldValue="12" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="13" Title="FP31 - 31ST STREET" LookupFieldValue="13" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="14" Title="FP33 - ATLANTA" LookupFieldValue="14" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="15" Title="FQ21 - AUGUSTA" LookupFieldValue="15" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="16" Title="FQ22 - FLORENCE" LookupFieldValue="16" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="17" Title="FQ23 - CHICAGO 110TH" LookupFieldValue="17" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="18" Title="FQ24 - BALTIMORE" LookupFieldValue="18" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="19" Title="FQ25 - LOUISVILLE" LookupFieldValue="19" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="20" Title="FQ26 - AIR PARK" LookupFieldValue="20" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="21" Title="FQ27 - LBB REWARDS" LookupFieldValue="21" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="22" Title="FQ28 - TRIWAYS" LookupFieldValue="22" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="23" Title="FQ29 - DIGITAL ORDERS/EVANS" LookupFieldValue="23" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="24" Title="FQ34 - PORT LOGISTICS" LookupFieldValue="24" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="25" Title="FQ35 - ADVANCE" LookupFieldValue="25" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "No" FERQDCs = "Yes" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="26" Title="NON-FCC SUB COLLECTOR PLANT (FS01)" LookupFieldValue="26" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="27" Title="NON-FCC ASSEMBLERS  (FS02)" LookupFieldValue="27" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="28" Title="NON-FCC CREATIVE WERKS LLC-Bensenville (FS03)" LookupFieldValue="28" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="29" Title="NON-FCC CREATIVE WERKS LLC-Elk Grove (FS04)" LookupFieldValue="29" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="30" Title="NON-FCC TARA INTERNATIONAL LP (FS05)" LookupFieldValue="30" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="31" Title="NON-FCC HEARTHSIDE FOOD - Bolingbrook (FS06)" LookupFieldValue="31" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="32" Title="NON-FCC HEARTHSIDE FOOD - Geneva (FS07)" LookupFieldValue="32" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="33" Title="NON-FCC HEARTHSIDE FOOD - London (FS08)" LookupFieldValue="33" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="34" Title="NON-FCC HEARTHSIDE FOOD - McComb (FS09)" LookupFieldValue="34" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="35" Title="NON-FCC BAUDERER PACKAGING LLC (FS10)" LookupFieldValue="35" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="36" Title="NON-FCC HOPE NETWORK WEST MICHIGAN (FS11)" LookupFieldValue="36" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="37" Title="NON-FCC MENASHA PACKAGING COMPANY, LLC (FS12)" LookupFieldValue="37" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="38" Title="NON-FCC BISCOMERICA CORPORATION (FS13)" LookupFieldValue="38" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="39" Title="FX13 - CROSS DOCK" LookupFieldValue="39" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="40" Title="SL07 - DALLAS" LookupFieldValue="40" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="41" Title="SL13 - BOLINGBROOK" LookupFieldValue="41" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="42" Title="SL18 - JONESTOWN" LookupFieldValue="42" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="43" Title="SL19 - PHOENIX" LookupFieldValue="43" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="44" Title="SL30 - ATLANTA" LookupFieldValue="44" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="45" Title="None" LookupFieldValue="45" FPCODCs = "Yes" FPCODCsSPKs = "Yes" SellDCs = "Yes" SellDCsSPKs = "Yes" FERQDCs = "Yes" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="46" Title="NON-FCC ECONO-PAK (FS15)" LookupFieldValue="46" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="47" Title="NON-FCC CREATIVE WERKS LLC-BARTLETT (FS14)" LookupFieldValue="47" FPCODCs = "No" FPCODCsSPKs = "Yes" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "Yes" Active="1" />
+  <GlobalLookupField Id="48" Title="SL41 - DEKALB" LookupFieldValue="48" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "Yes" SellDCsSPKs = "No" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="49" Title="SL41 - Ferrara - SL DeKalb, IL" LookupFieldValue="49" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="50" Title="FP40 - Ferrara - DeKalb, IL" LookupFieldValue="50" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="51" Title="FP42 - VAS Ferrara - DeKalb, IL" LookupFieldValue="51" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+  <GlobalLookupField Id="52" Title="NON-FCC CREDMADE (FS16)" LookupFieldValue="52" FPCODCs = "No" FPCODCsSPKs = "No" SellDCs = "No" SellDCsSPKs = "Yes" FERQDCs = "No" FERQDCsSPKs = "No" Active="1" />
+</ArrayOfGlobalLookupField>

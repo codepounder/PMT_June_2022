@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Litho" LookupFieldValue="1" PrintType="Corrugated" Active="1" />
+  <GlobalLookupField Id="2" Title="Direct" LookupFieldValue="2" PrintType="Corrugated" Active="1" />
+  <GlobalLookupField Id="3" Title="Other" LookupFieldValue="3" PrintType="Corrugated" Active="1" />
+  <GlobalLookupField Id="4" Title="Flexo-Surface" LookupFieldValue="4" PrintType="Film" Active="1" />
+  <GlobalLookupField Id="5" Title="Flexo-Reverse" LookupFieldValue="5" PrintType="Film"  Active="1" />
+  <GlobalLookupField Id="6" Title="Roto Gravure" LookupFieldValue="6"  PrintType="Film" Active="1" />
+  <GlobalLookupField Id="7" Title="No Applicable" LookupFieldValue="7"  PrintType="Film" Active="1" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Ancillary Packaging" Value="ANCIL PAC" Active="1" SAPDescription="SEE PLM" />
+  <GlobalLookupField Id="2" Title="Candy Semi" Value="" Active="1" SAPDescription="" />
+  <GlobalLookupField Id="3" Title="Corrugated - Carton" Value="CORR EFLU" Active="1" SAPDescription="CORR CTN" />
+  <GlobalLookupField Id="4" Title="Corrugated - Coman" Value="CORR CMAN" Active="1" SAPDescription="CORR CMAN" />
+  <GlobalLookupField Id="5" Title="Corrugated - Corner Posts" Value="CORR CPOS" Active="1" SAPDescription="CORR CNPST" />
+  <GlobalLookupField Id="6" Title="Corrugated - Display (Base)" Value="CORR DSPL" Active="1" SAPDescription="DSPL BASE" />
+  <GlobalLookupField Id="7" Title="Corrugated - Display (Body)" Value="CORR DSPL" Active="1" SAPDescription="DSPL BODY" />
+  <GlobalLookupField Id="8" Title="Corrugated - Display (Header)" Value="CORR DSPL" Active="1" SAPDescription="CORR HEAD" />
+  <GlobalLookupField Id="9" Title="Corrugated - Display (Shelves)" Value="CORR DSPL" Active="1" SAPDescription=" DSPL SHLF" />
+  <GlobalLookupField Id="10" Title="Corrugated - Display RSC" Value="CORR DSPL" Active="1" SAPDescription="CORR RSC" />
+  <GlobalLookupField Id="11" Title="Corrugated - Display Tray" Value="CORR TRYS" Active="1" SAPDescription="CORR TRYS" />
+  <GlobalLookupField Id="12" Title="Corrugated - Divider" Value="CORR DSPL" Active="1" SAPDescription="CORR DIVDR" />
+  <GlobalLookupField Id="13" Title="Corrugated - DRC" Value="CORR DRC" Active="1" SAPDescription="CORR DRC" />
+  <GlobalLookupField Id="14" Title="Corrugated - Generic RSC" Value="CORR RSC" Active="1" SAPDescription="SEE PLM" />
+  <GlobalLookupField Id="15" Title="Corrugated - HSC" Value="CORR HSC" Active="1" SAPDescription="CORR HSC" />
+  <GlobalLookupField Id="16" Title="Corrugated - Inserts" Value="CORR DSPL" Active="1" SAPDescription="CORR INSRT" />
+  <GlobalLookupField Id="17" Title="Corrugated - Pallet Caps/Tray" Value="CORR DSPL" Active="1" SAPDescription="CORR CPTRY" />
+  <GlobalLookupField Id="18" Title="Corrugated - RSC" Value="CORR RSC" Active="1" SAPDescription="CORR RSC" />
+  <GlobalLookupField Id="19" Title="Corrugated – Shield DRC" Value="CORR SHLD" Active="1" SAPDescription="CORR SHLD" />
+  <GlobalLookupField Id="20" Title="Corrugated – Shroud" Value="CORR DSPL" Active="1" SAPDescription="CORR SHRD" />
+  <GlobalLookupField Id="21" Title="Corrugated - Slip Sheets" Value="CORR S-SH" Active="1" SAPDescription="CORR S-SH" />
+  <GlobalLookupField Id="22" Title="Corrugated - Tote" Value="CORR DSPM" Active="1" SAPDescription="CORR TOTE" />
+  <GlobalLookupField Id="23" Title="Corrugated - Tote Cap" Value="CORR DSPM" Active="1" SAPDescription="CORR T-CAP" />
+  <GlobalLookupField Id="24" Title="Corrugated - Wraparound Display Tray" Value="CORR WRAP" Active="1" SAPDescription="CORR WRAP" />
+  <GlobalLookupField Id="25" Title="Corrugated - Wraparound RSC" Value="CORR WRAP" Active="1" SAPDescription="CORR WRAP" />
+  <GlobalLookupField Id="26" Title="Film - Clear Overwrap" Value="FLM CLROW" Active="1" SAPDescription="FLM CLROW" />
+  <GlobalLookupField Id="27" Title="Film - DOY" Value="FLM DOYBG" Active="1" SAPDescription="FLM DOYBG" />
+  <GlobalLookupField Id="28" Title="Film - Gusseted (Non Reseal)" Value="FLM GUSST" Active="1" SAPDescription="FLM GUSST" />
+  <GlobalLookupField Id="29" Title="Film - Gusseted (Reseal)" Value="FLM GUSST" Active="1" SAPDescription="FLM RSLGUSST" />
+  <GlobalLookupField Id="30" Title="Film - Lay Down" Value="FLM LYDWN" Active="1" SAPDescription="FLM LYDWN" />
+  <GlobalLookupField Id="31" Title="Film - Other" Value="FLM MISC" Active="1" SAPDescription="FLM MISC" />
+  <GlobalLookupField Id="32" Title="Film - Peg Bag" Value="FLM PEGBG" Active="1" SAPDescription="FLM PEGBG" />
+  <GlobalLookupField Id="33" Title="Film - Piece Flow Wraps" Value="FLM PCFLW" Active="1" SAPDescription="FLM PCFLW" />
+  <GlobalLookupField Id="34" Title="Film - Piece Twist Wraps" Value="FLM PCTWS" Active="1" SAPDescription="FLM PCTWS" />
+  <GlobalLookupField Id="35" Title="Film - Pouch" Value="FLM POUCH" Active="1" SAPDescription="FLM POUCH" />
+  <GlobalLookupField Id="36" Title="Film - Sleeve (over U-Board)" Value="FLM PCFLW" Active="1" SAPDescription="FLM SLEEVE" />
+  <GlobalLookupField Id="37" Title="Film - Printed Overwrap (Non Reseal)" Value="FLM PRTOW" Active="1" SAPDescription="FLM PRTOW" />
+  <GlobalLookupField Id="38" Title="Film - Printed Overwrap (Reseal)" Value="FLM PRTOW" Active="1" SAPDescription="FLM RSPRTOW" />
+  <GlobalLookupField Id="39" Title="Film - Slug" Value="FLM PCFLW" Active="1" SAPDescription="FLM SLUG" />
+  <GlobalLookupField Id="40" Title="Film - Zipper" Value="FLM DOYBG" Active="1" SAPDescription="ZIPPER" />
+  <GlobalLookupField Id="41" Title="Finished Good (Internal)" Value="" Active="1" SAPDescription="" />
+  <GlobalLookupField Id="42" Title="Finished Good (Purchased)" Value="" Active="1" SAPDescription="" />
+  <GlobalLookupField Id="43" Title="Label - Case" Value="LABELS" Active="1" SAPDescription="CS LBL" />
+  <GlobalLookupField Id="44" Title="Label - Pallet" Value="LABELS" Active="1" SAPDescription="" />
+  <GlobalLookupField Id="45" Title="Label - Pie Crust" Value="LABELS" Active="1" SAPDescription="PIE CRST LBL" />
+  <GlobalLookupField Id="46" Title="Label - PricePoint Sticker" Value="LABELS" Active="1" SAPDescription="PRPT STKR" />
+  <GlobalLookupField Id="47" Title="Label - Tamper Evident" Value="LABELS" Active="1" SAPDescription="TMPR LBL" />
+  <GlobalLookupField Id="48" Title="Label - Reinforcement Material" Value="LABELS" Active="1" SAPDescription="RNFCMT LBL" />
+  <GlobalLookupField Id="49" Title="Label - Tub (Back)" Value="LABELS" Active="1" SAPDescription="BCK TUB LBL" />
+  <GlobalLookupField Id="50" Title="Label - Tub (Bottom)" Value="LABELS" Active="1" SAPDescription="BTM TUB LBL" />
+  <GlobalLookupField Id="51" Title="Label - Tub (Front)" Value="LABELS" Active="1" SAPDescription="FNT TUB LBL" />
+  <GlobalLookupField Id="52" Title="Label - Tub (Side)" Value="LABELS" Active="1" SAPDescription="SIDE TUB LBL" />
+  <GlobalLookupField Id="53" Title="Label - Tub (Top)" Value="LABELS" Active="1" SAPDescription="TOP TUB LBL" />
+  <GlobalLookupField Id="54" Title="Metal - Cookie Tin" Value="ALNMN PTN" Active="1" SAPDescription="COOKIE TIN" />
+  <GlobalLookupField Id="55" Title="Metal - Pie Tin" Value="ALNMN PTN" Active="1" SAPDescription="PIE TIN" />
+  <GlobalLookupField Id="56" Title="Other - Ancillary Display Parts" Value="CORR DSPL" Active="1" SAPDescription="SEE PLM" />
+  <GlobalLookupField Id="57" Title="Other - Half Pallet" Value="PALLETS" Active="1" SAPDescription="HLF PALT" />
+  <GlobalLookupField Id="58" Title="Other - Pallet" Value="PALLETS" Active="1" SAPDescription="PLT" />
+  <GlobalLookupField Id="59" Title="Paperboard - 25c Box" Value="PB 25C" Active="1" SAPDescription="PB CHNGMKR" />
+  <GlobalLookupField Id="60" Title="Paperboard - Autobottom Tray" Value="PB D-TRAY" Active="1" SAPDescription="PB ATB-TRY" />
+  <GlobalLookupField Id="61" Title="Paperboard - Brightwood Tray" Value="PB D-TRAY" Active="1" SAPDescription="PB BTW-TRY" />
+  <GlobalLookupField Id="62" Title="Paperboard - Candy Cane Tray" Value="PB CC TRAY" Active="1" SAPDescription="PB CC-TRAY" />
+  <GlobalLookupField Id="63" Title="Paperboard - Carton Brand" Value="PB CRTNBR" Active="1" SAPDescription="PB CRTNBR" />
+  <GlobalLookupField Id="64" Title="Paperboard - Carton Misc." Value="PB CTN-M" Active="1" SAPDescription="PB CTN-M" />
+  <GlobalLookupField Id="65" Title="Paperboard - Carton Private" Value="PB CRTNPL" Active="1" SAPDescription="PB CRTNPL" />
+  <GlobalLookupField Id="66" Title="Paperboard - Coman" Value="PB CMAN" Active="1" SAPDescription="PB CMAN" />
+  <GlobalLookupField Id="67" Title="Paperboard - Mini Boxes" Value="PB MINI" Active="1" SAPDescription="PB MINIBX" />
+  <GlobalLookupField Id="68" Title="Paperboard - Pre-glued Tray" Value="PB D-TRAY" Active="1" SAPDescription="PB D-TRAY" />
+  <GlobalLookupField Id="69" Title="Paperboard - Theater Boxes" Value="PB TBOX" Active="1" SAPDescription="PB TBOX" />
+  <GlobalLookupField Id="70" Title="Paperboard - U-Board" Value="PB CTN-M" Active="1" SAPDescription="PB U-BRD" />
+  <GlobalLookupField Id="71" Title="Purchased Candy Semi" Value="" Active="1" SAPDescription="" />
+  <GlobalLookupField Id="72" Title="Rigid Plastic - Bottle" Value="TUBS" Active="1" SAPDescription="BOTTLE" />
+  <GlobalLookupField Id="73" Title="Rigid Plastic - Bottle Cap" Value="TUBS" Active="1" SAPDescription="BTLE CAP" />
+  <GlobalLookupField Id="74" Title="Rigid Plastic - Cups" Value="CUP" Active="1" SAPDescription="CUP" />
+  <GlobalLookupField Id="75" Title="Rigid Plastic – Foam Clamshell" Value="FOAM" Active="1" SAPDescription="FOAM" />
+  <GlobalLookupField Id="76" Title="Rigid Plastic - Jars" Value="TUBS" Active="1" SAPDescription="JARS" />
+  <GlobalLookupField Id="77" Title="Rigid Plastic - Other" Value="TUBS" Active="1" SAPDescription="RIGD PLSTC OTHER" />
+  <GlobalLookupField Id="78" Title="Rigid Plastic - Paperboard Cups" Value="CUP STOCK" Active="1" SAPDescription="PPBRD CUP" />
+  <GlobalLookupField Id="79" Title="Rigid Plastic – Pie Dome" Value="TUBS" Active="1" SAPDescription="PIE DOME" />
+  <GlobalLookupField Id="80" Title="Rigid Plastic - Tray" Value="RGD TRYS" Active="1" SAPDescription="RGD TRYS" />
+  <GlobalLookupField Id="81" Title="Rigid Plastic - Tub Sealing Film" Value="TUBS" Active="1" SAPDescription="FLM TUB SL" />
+  <GlobalLookupField Id="82" Title="Rigid Plastic - Tubs (Bottom)" Value="TUBS" Active="1" SAPDescription="TUB BTM" />
+  <GlobalLookupField Id="83" Title="Rigid Plastic - Tubs (Lids)" Value="TUBS" Active="1" SAPDescription="TUB LID" />
+  <GlobalLookupField Id="84" Title="Rigid Plastic- Shrink Band Film" Value="TUBS" Active="1" SAPDescription="FLM SHRNK BND" />
+  <GlobalLookupField Id="85" Title="Transfer Semi" Value="" Active="1" SAPDescription="" />
+</ArrayOfGlobalLookupField>
+

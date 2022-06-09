@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct Consumer Testing" LookupFieldValue="1" Active="1" Owner="Marketing Insights" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Food safety and labeling compliance" LookupFieldValue="1" Active="1" Owner="InTech Regulatory, Innovation Quality, QA Regulatory, Food Safety" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Define Storage Conditions (if an exception to standard)" LookupFieldValue="1" Active="1" Owner="Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="DSA Analysis : Conduct CTL for Novelty products (CPSC)" LookupFieldValue="1" Active="1" Owner="Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Determine Supplier and Validate Pack Component and Raw Material Supply (Feasibility and supplier capacity)" LookupFieldValue="1" Active="1" Owner="Procurement" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Confirm Manufacturing Capacity" LookupFieldValue="1" Active="1" Owner="Supply Planning" />
+  <GlobalLookupField Id="1" Subtask="N" Title="3rd Party Testing (if applicable)" LookupFieldValue="1" Active="1" Owner="International / Regulatory (claims, organic & any new pkg supplier)" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Request New SKUs via PMT if needed (if needed prior to IPF)" LookupFieldValue="1" Active="1" Owner="Project Leader via PMT" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Validate Packaging Trials" LookupFieldValue="1" Active="1" Owner="Package Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Create Materials (SAP)" LookupFieldValue="1" Active="1" Owner="Procurement via Masterdata" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Trademark Clearance" LookupFieldValue="1" Active="1" Owner="Marketing / Legal" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct Ship Trials (if applicable)" LookupFieldValue="1" Active="1" Owner="Package Engineering / Distribution Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Factory Trial Validated Recipes" LookupFieldValue="1" Active="1" Owner="InTech" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Begin Shelf Life Testing.  Starts at same time as Stability & Stress (if approved product)" LookupFieldValue="1" Active="1" Owner="InTech" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Ensure Recipe Lock " LookupFieldValue="1" Active="1" Owner="InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Finalize PLM Specifications (Semis, WIPs, Ingredients)" LookupFieldValue="1" Active="1" Owner="InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Confirm Bio-Engineering status of formula" LookupFieldValue="1" Active="1" Owner="Regulatory" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Develop Ferrara Label Specifications (FLS) - International (What needs to change from Domestic)" LookupFieldValue="1" Active="1" Owner="Regulatory" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Develop Ferrara Label Specifications (FLS) - Domestic" LookupFieldValue="1" Active="1" Owner="Regulatory" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Submit IPF" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Begin Initial Item Setup in SAP" LookupFieldValue="1" Active="1" Owner="PMT" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Communication / Verification of Forecast to Demand Planning" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Create Runout Plan / Estimate Obsolescence exposure (if applicable)" LookupFieldValue="1" Active="1" Owner="Lifecycle Management" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Preliminary P&L Review" LookupFieldValue="1" Active="1" Owner="Finance" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Updated Brief" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e51fd53b-f7b5-42ff-8855-1e2e6bdd346c" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Microsoft.Practices.Unity.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Microsoft.Practices.Unity.dll" Namespace="Microsoft.Practices.Unity.dll" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Ferrara.Compass.ProjectTimelineCalculator.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Ferrara.Compass.ProjectTimelineCalculator_PTCalculatorFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

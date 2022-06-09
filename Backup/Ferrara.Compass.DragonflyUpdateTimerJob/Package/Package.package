@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="2107e4c1-74bf-4097-b324-37b79840386e" solutionId="2107e4c1-74bf-4097-b324-37b79840386e" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.DragonflyUpdateTimerJob" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="0f1065a6-30a6-4e90-87a2-d62516957890" />
+  </features>
+</package>

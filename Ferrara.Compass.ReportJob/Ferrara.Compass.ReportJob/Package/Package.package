@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a2f97fbd-2ec8-4f19-aa6d-f2fa087ef4ac" solutionId="a2f97fbd-2ec8-4f19-aa6d-f2fa087ef4ac" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.ReportJob" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="79a5f914-d329-4164-9ca3-f90f45235007" />
+  </features>
+</package>

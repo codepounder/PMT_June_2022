@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="0800980034 NON-CHOCOLATE CANDY: ASSORTMENTS NON-CHOCOLATE CANDY" LookupFieldValue="0800980034" Active="1" />
+  <GlobalLookupField Id="2" Title="0800980102 NON-CHOCOLATE CANDY: HARD CANDY" LookupFieldValue="0800980102" Active="1" />
+  <GlobalLookupField Id="3" Title="0800980132 NON-CHOCOLATE CANDY: MINTS/BREATH SWEETENERS" LookupFieldValue="0800980132" Active="1" />
+  <GlobalLookupField Id="4" Title="0800980236 NON-CHOCOLATE CANDY: COUGH/COLD DROPS/LOZENGES" LookupFieldValue="0800980236" Active="1" />
+  <GlobalLookupField Id="5" Title="0800980385 NON-CHOCOLATE CANDY: GUMMY/PASTILLE/JELLY CANDIES" LookupFieldValue="0800980385" Active="1" />
+  <GlobalLookupField Id="6" Title="0800980386 NON-CHOCOLATE CANDY: FUDGE" LookupFieldValue="0800980386" Active="1" />
+  <GlobalLookupField Id="7" Title="0800980412 NON-CHOCOLATE CANDY: GUM CHEWING/BUBBLE" LookupFieldValue="0800980412" Active="1" />
+  <GlobalLookupField Id="8" Title="0800980521 NON-CHOCOLATE CANDY: LICORICE" LookupFieldValue="0800980521" Active="1" />
+  <GlobalLookupField Id="9" Title="0800980546 NON-CHOCOLATE CANDY: MARSHMALLOWS" LookupFieldValue="0800980546" Active="1" />
+  <GlobalLookupField Id="10" Title="0800980547 NON-CHOCOLATE CANDY: MARZIPAN" LookupFieldValue="0800980547" Active="1" />
+  <GlobalLookupField Id="11" Title="0800980602 NON-CHOCOLATE CANDY: NON-CHOCOLATE CANDY OTHER" LookupFieldValue="0800980602" Active="1" />
+  <GlobalLookupField Id="12" Title="0800980605 NON-CHOCOLATE CANDY: NOUGAT" LookupFieldValue="0800980605" Active="1" />
+  <GlobalLookupField Id="13" Title="0800980898 NON-CHOCOLATE CANDY: TOFFEES/TAFFIES/CARAMELS" LookupFieldValue="0800980898" Active="1" />
+  <GlobalLookupField Id="14" Title="0800981061 NON-CHOCOLATE CANDY: CHEWY NON-CHOCOLATE CANDY" LookupFieldValue="0800981061" Active="1" />
+  <GlobalLookupField Id="15" Title="0800981062 NON-CHOCOLATE CANDY: FRUIT/NUTS NON CHOCOLATE CANDY COATED" LookupFieldValue="0800981062" Active="1" />
+  <GlobalLookupField Id="16" Title="0800981063 NON-CHOCOLATE CANDY: HONEYCOMB" LookupFieldValue="0800981063" Active="1" />
+  <GlobalLookupField Id="17" Title="0800981064 NON-CHOCOLATE CANDY: POWDERED NON-CHOCOLATE CANDY" LookupFieldValue="0800981064" Active="1" />
+  <GlobalLookupField Id="18" Title="0800981084 NON-CHOCOLATE CANDY: COMPRESSED NON-CHOCOLATE CANDY" LookupFieldValue="0800981084" Active="1" />
+</ArrayOfGlobalLookupField>

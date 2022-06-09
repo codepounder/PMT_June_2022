@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Halloween - Other" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="Gummy Reformulation (DTV)" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Halloween - Candy Corn" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Holiday 2015 - Other" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Brampton Close (Exlcuding MiUSA)" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="BF Calcium / Protein" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="Easter - Jelly Bean" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="Easter - Other" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="FS Downsize (DTV)" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="Holiday 2015 - Canes" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="Perrigo VitaGummies" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="Sathers Restage (DTV)" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="Stonyfield / Organic FS" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="Summer 2015" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="Trolli Front End" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="Trolli Graphics Refresh" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="WMT Canada" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="WMT Made In the USA" LookupFieldValue="18" Active="1" />
+</ArrayOfGlobalLookupField>

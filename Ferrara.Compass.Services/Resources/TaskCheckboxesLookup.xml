@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="ExtPCToSalesOrg0001" LookupFieldValue="1" Filter1 = "FS02,FS03,FS04,FS05,FS06,FS07,FS08,FS09,FS10,FS11,FS12,FS13,FS14" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="2" Title="ExtTSToSalesOrg0001" LookupFieldValue="2" Filter1 = "FP03,FP33,FP01,FP05,FP12,FM02,FM01,FP20,FP14,FP31" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="3" Title="ExtTSToSalesOrg1000" LookupFieldValue="3" Filter1 = "FQ22 > SL13 > FP14,FQ22 > SL13 > FS04,FQ22 > SL13 > FS05,FQ22 > SL13 > FS06,FQ22 > SL13 > FS10,PURCHASED > SL13 > FS05,PURCHASED > SL13 > FS12,PURCHASED > SL19 > SL13 > FS11" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="4" Title="ExtPCToSalesOrg1000" LookupFieldValue="4" Filter1 = "FQ22 > SL13 > FP14,FQ22 > SL13 > FS04,FQ22 > SL13 > FS05,FQ22 > SL13 > FS06,FQ22 > SL13 > FS10,PURCHASED > SL13 > FS05,PURCHASED > SL13 > FS12,PURCHASED > SL19 > SL13 > FS11,PURCHASED > SL41 > FS11" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="5" Title="ExtTSToSalesOrg2000" LookupFieldValue="5" Filter1 = "FQ21,FQ22,FQ23,FQ24,FQ25" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="6" Title="ExtFGToSalesOrg0001" LookupFieldValue="6" Filter1 = "FP03,FP33,FS02,FS03,FS04,FS05,FS06,FS07,FS08,FS09,FS10,FS11,FS12,FS13,FS14,FP01,FP05,FP12,FM02,FM01,FP20,FP14" Filter2 = "FP13,FP07,FP19,FP30,FP18" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="7" Title="ExtFGToSalesOrg1000" LookupFieldValue="7" Filter1 = "SL07,SL13,SL18,SL19,SL30" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="8" Title="ExtFGToCompSale2000" LookupFieldValue="8" Filter1 = "FQ21,FQ22,FQ23,FQ24,FQ25" Filter2 = "" Filter3 = "" Active="1" />
+  <GlobalLookupField Id="9" Title="ExtFGToSalesOrg2000" LookupFieldValue="9" Filter1 = "FQ21,FQ22,FQ23,FQ24,FQ25" Filter2 = "FQ26,FQ28,FQ29,FQ34,FQ35,FQ29,FQ27" Filter3 = "" Active="1" />
+</ArrayOfGlobalLookupField>

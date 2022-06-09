@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct Steady State Financial Analysis" LookupFieldValue="1" Active="1" Owner="All teams" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Document Lessons Learned" LookupFieldValue="1" Active="1" Owner="All teams" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct FAAR" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Conduct 3M, 6M, 9M Consumer Feedback (Contacts and Social Media)" LookupFieldValue="1" Active="1" Owner="Innovation Quality / Consumer Affairs" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Execution of DSA ongoing test plan" LookupFieldValue="1" Active="1" Owner="Innovation Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Complete Shelf Life Testing" LookupFieldValue="1" Active="1" Owner="InTech" />
+
+</ArrayOfGlobalLookupField>

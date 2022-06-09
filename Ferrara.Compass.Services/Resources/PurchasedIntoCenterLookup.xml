@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="FCC - VARIOUS" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="FCC CANDY COMPANY LTD (CADA)" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="FM01 - VERNELL, MX" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="FM02 - REYNOSA, MX" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="FP01 - FOREST PARK, IL" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="FP03 - SHIPLAB, IL" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="FP04 - SUNRISE" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="FP05 - BELLWOOD, IL" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="FP07 - GRAND PRAIRIE, TX" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="FP09 - ITASCA, IL" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="FP12 - MAYWOOD DR, IL" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="FP13 - BOLINGBROOK, IL" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="FP14 - PACK CENTER, IL" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="FP18 - JONESTOWN" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="FP19 - PHOENIX" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="FP20 - ITASCA, IL" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="FP30 - ATLANTA" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="FP31 - 31ST STREET, IL" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="FP33 - ATLANTA" LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="20" Title="FQ21 - AUGUSTA" LookupFieldValue="20" Active="1" />
+  <GlobalLookupField Id="21" Title="FQ22 - FLORENCE" LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="22" Title="FQ23 - 110TH STREET" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="23" Title="FQ24 - BALTIMORE" LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="24" Title="FQ25 - LOUISVILLE" LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="25" Title="FQ26 - AIR PARK" LookupFieldValue="25" Active="1" />
+  <GlobalLookupField Id="26" Title="FQ27 - LBB REWARDS" LookupFieldValue="26" Active="1" />
+  <GlobalLookupField Id="27" Title="FQ28 - TRIWAYS" LookupFieldValue="27" Active="1" />
+  <GlobalLookupField Id="28" Title="FQ29 - DIGITAL ORDERS/EVANS" LookupFieldValue="28" Active="1" />
+  <GlobalLookupField Id="29" Title="FQ34 - PORT LOGISTICS" LookupFieldValue="29" Active="1" />
+  <GlobalLookupField Id="30" Title="FQ35 - ADVANCE" LookupFieldValue="30" Active="1" />
+  <GlobalLookupField Id="31" Title="SAMP - FP04 SAMPLE/WEB WHSE" LookupFieldValue="31" Active="1" />
+  <GlobalLookupField Id="32" Title="SL07 - DALLAS" LookupFieldValue="32" Active="1" />
+  <GlobalLookupField Id="33" Title="SL13 - BOLINGBROOK" LookupFieldValue="33" Active="1" />
+  <GlobalLookupField Id="34" Title="SL18 - JONESTOWN" LookupFieldValue="34" Active="1" />
+  <GlobalLookupField Id="35" Title="SL19 - PHOENIX" LookupFieldValue="35" Active="1" />
+  <GlobalLookupField Id="36" Title="SL30 - ATLANTA" LookupFieldValue="36" Active="1" />
+  <GlobalLookupField Id="37" Title="NON-FCC ASSEMBLERS (FS02)" LookupFieldValue="37" Active="1" />
+  <GlobalLookupField Id="38" Title="All FERQ LBB DCs" LookupFieldValue="38" Active="1" />
+  <GlobalLookupField Id="39" Title="SL41 – DEKALB DC" LookupFieldValue="39" Active="1" />
+</ArrayOfGlobalLookupField>
+

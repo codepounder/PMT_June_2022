@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="United States" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="Mexico" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Canada" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Argentina" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="China" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Spain" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="Other" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="Brazil" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="Poland" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="Various Locations" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="Belgium" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="Denmark" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="France" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="Indonesia" LookupFieldValue="134" Active="1" />
+</ArrayOfGlobalLookupField>

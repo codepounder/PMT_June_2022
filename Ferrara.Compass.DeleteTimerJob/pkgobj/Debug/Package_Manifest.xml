@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="f84d46a3-5458-4df5-828b-52a79af55857" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Microsoft.Practices.Unity.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Microsoft.Practices.Unity.dll" Namespace="Microsoft.Practices.Unity.dll" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="Ferrara.Compass.DeleteTimerJob.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Ferrara.Compass.DeleteTimerJob_DeleteTimerJobFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

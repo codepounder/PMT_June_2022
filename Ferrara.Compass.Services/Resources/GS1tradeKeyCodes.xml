@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="GTIN_14" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="2" Title="GTIN_12" LookupFieldValue="12" Active="1" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,541 @@
+﻿/**********************************************/
+/*
+Percentage in Textbox - Local
+Currency in Textbox - Local
+Form Text Box Size - Local / Application
+SharePoint People Picker - SharePoint Style*/
+/**********************************************/
+/*CUSTOM PMT CLASSES*/
+/**********************************************/
+/*Form Title - PMT*/
+.content{
+	/*max-width:1200px;*/
+}
+/*Comment Text Box - PMT Italic*/
+.comment-block {
+    color:#B8B9BD;
+    font-style:italic;  
+}
+.markrequired{
+	color:red;
+	padding-top:7px;
+	padding-right:2px;
+}
+/*Upload functionality - Local / Application (preference to use Packaging components example)
+Grid - PMT
+*/
+
+/*DATE PICKER OVERRIDES*/
+/**********************************************/
+/*Date      picker - Date Picker*/
+
+
+/*BOOTSTRAP OVERRIDES*/
+/**********************************************/
+/*Text in dropdown - Boot
+Form Comment - Boot
+Form Label - Boot
+Text in textbox - Boot*/
+
+/*h2*/
+.content h2{
+	font-size:24px;
+    font-weight:bold;
+	color:#000000;
+}
+p.help-block small{
+    font-style:italic;
+    font-size:9px;
+    color:#000000;
+}
+
+/*hr*/
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width:100%;
+}
+.headSummary{
+    font-weight:bold;
+    padding-top:5px;
+}
+
+/*row*/
+.row{
+margin-right: -15px;
+margin-left: -15px;
+padding-top:5px;
+padding-bottom:5px;
+}
+.RowBottomMargin{
+	/*border-bottom: 1px gray solid;
+	margin-bottom:5px;*/
+}
+/*label*/
+.label{
+	font-weight: normal;
+	font-size: 16px;
+}
+/*.CompassLabel{
+	width:100px;
+}*/
+#lblItemNote{
+	font-size:12px !important;
+	padding-bottom: 5px !important;
+}
+/*Form*/
+.form-group{
+	/*float:left;
+	clear:both;*/
+}
+.form-control{
+    height:38px;
+}
+#txtChangeNotes{
+	width:100%;
+}
+/*Form Buttons - Boot*/
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #B8B9BD;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+/*FontAwesome*/
+    .icon{
+    position : absolute;
+    right : -40px;
+  padding-top:35px;
+  
+}
+.icon a{
+padding:5px;
+}
+
+.columns-parent{
+    position:relative;
+    padding-bottom:15px;
+
+}
+*/
+/*required Form Asterisk - Boot*/
+:required  {  
+	 background: url(https://cdn0.iconfinder.com/data/icons/fugue/icon/asterisk-small.png) no-repeat;
+	 background-position:left top;
+	}
+/*SHAREPOINT OVERRIDES*/
+/**********************************************/
+
+/*--Hide Quick Launch --*/
+.ms-core-navigation { DISPLAY: none }
+#contentBox { margin-left: 5px }
+/* Hide Page Title */
+#DeltaPlaceHolderPageTitleInTitleArea {display: none;}
+/*webparts*/
+.ms-WPBorder{
+	border: 1px solid #ffffff;
+}
+/*buttons*/
+input[type="submit"], button{
+/*width:80px;*/
+border: 1px #000000 solid;
+background: #ffffff;
+color: #000000;
+display: block;
+padding: 0.5em 1em;
+text-decoration: none;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+ font-size: 14px;
+    line-height: 1.4285;
+    font-weight:bold;
+}
+input[type="submit"]:hover{
+	background: #ffffff;
+	color: #000000;
+    /*width:80px;*/
+    border: 1px #000000 solid;
+    font-size: 14px;
+    line-height: 1.4285;
+    font-weight:bold;
+
+}
+/*MISC*/
+/*save button*/
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_btnSave{
+	
+}
+/*file browse*/
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_fileUploadFormulation{
+	height:100% !important;
+}
+#ctl00_ctl40_g_06db5573_4fb3_4ef3_a997_e8d559d52f3b_fileUploadGraphics{
+	height:100% !important;
+}
+
+
+/*--OLD COMPASS CSS VALUES BELOW --*/
+
+    h1 {
+        color: #dd3b2a;
+        font-size:40px;
+        font-weight: 500;
+        line-height: 1.25em;
+        margin: 0.5em 0;
+        font-family: "Adelle W01 Bold", "Arvo", Constantia, "Lucida Bright", "Lucida Serif";
+        padding:20px;
+        height:50px;
+    }
+
+    h2 {
+        color: #dd3b2a;
+        font-size:20px;
+        font-weight: 500;
+        line-height: 1.25em;
+        margin: 0.5em 0;
+        font-family: "Adelle W01 Bold", "Arvo", Constantia, "Lucida Bright", "Lucida Serif";
+        padding:20px;
+        height:20px;
+    }
+
+    .ms-inputuserfield
+    {
+            font-size: 8pt;
+            font-family: Verdana,sans-serif;
+            border: 1px solid #a5a5a5;
+     }
+    div.ms-inputuserfield a
+    {
+            color: #000000;
+            text-decoration: none;
+            font-weight: normal;
+            font-style: normal;
+    }
+    div.ms-inputuserfield
+    {
+        padding-left: 1px;
+        padding-top: 2px;
+    }
+
+    .ProjectNotesContainer{
+        width: 500px;
+    }
+
+    .CommentField {
+        line-height: 75px;
+    }
+
+    .RowBottomMargin {
+        margin-bottom: 10px;
+        padding:15px
+    }
+
+    .RowNotesBottomMargin {
+        margin-bottom: 30px;
+    }
+
+    div.PageHeader
+    {
+        font-weight:bold;
+        font-size:20px !important;
+        padding:5px 5px !important;
+    }
+    div.PageSubHeader
+    {
+        font-weight:bold;
+        font-size:16px !important;
+        padding:5px 5px !important;
+    }
+
+    div.PageTitle
+    {
+        background: #DB0F0F !important;
+        color:White;
+        font-weight:bold;
+        font-size:18px !important;
+        padding:5px 10px !important;
+        height:30px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    div.PageSection
+    {
+        background: #DB0F0F !important;
+        color:White;
+        font-weight:bold;
+        font-size:18px !important;
+        padding:5px 10px !important;
+        height:30px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    div.CompassSeparator
+    {
+        background: #DB0F0F !important;
+        padding:5px 20px !important;
+        height:15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+     }
+
+    .tobHeading td span
+    {
+        font-size:18px;
+    }
+    
+    .subHeading
+    {
+        background: #4863A0 !important;
+        color:White;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 10px !important;
+        height:10px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .tableheader
+    {
+        font-family: Tahoma,Verdana;
+        font-size: 14px;
+        background-color: #4863A0;
+        color: #CCCCFF;
+        font-weight: bold;
+        padding: 2px,2px,2px,2px;
+    }
+    
+    .minorHeading
+    {
+        color:#4863A0;
+        font-weight:bold;
+        font-size:12px !important;
+        height:10px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+   }
+
+    .ButtonControl
+    {
+        background-color:#DB0F0F !important;
+        color:White !important;
+        width:75px;
+        font-weight:bold;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .ButtonControl.disabled
+    {
+        opacity: 0.65;
+        cursor: not-allowed;
+    }
+
+    .ButtonControlAutoSize
+    {
+        background-color:#DB0F0F !important;
+        color:White !important;
+        font-weight:bold;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+    }
+
+    .LabelControl
+    {
+        color:Black;
+        font-family:Tahoma,Verdana !important;
+        font-weight:bold;
+        font-size:12px !important;
+        padding: 2px,2px,2px,2px;
+        height:15px;
+    }
+
+    div.CompassLabel
+    {
+        color:Black;
+        font-family:Tahoma,Verdana !important;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 15px !important;
+        height:15px;
+    }
+
+    div.CompassLabelGreen
+    {
+        color:Green;
+        font-family:Tahoma,Verdana !important;
+        font-weight:bold;
+        font-size:14px !important;
+        padding:5px 15px !important;
+        height:15px;
+    }
+
+    #TableMain table
+    {
+        margin-bottom:10px;
+        padding-bottom:15px;
+    }
+
+    #TableMain2 table
+    {
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }
+
+    .RowHeader
+    {
+        background-color:#666666;
+        color:White;
+    }
+    
+    .FormName
+    {
+        font-weight:bold;
+    }
+    
+    .CompletedStep
+    {
+        background-color:rgb(153,204,51);
+    }
+
+    .DisabledStep
+    {
+        background-color: #8895A6;
+    }
+
+   .CurrentWFStep
+    {
+        background-color:Pink;
+    }
+    
+    .RowEven
+    {
+        background-color:rgb(176,216,255);
+    }
+
+    .SubHeader
+    {
+        font-weight:bold;
+        background-color:rgb(176,216,255);
+    }
+    
+    .SubHeader td
+    {
+        padding:5px;
+        font-size:18px;
+    }    
+
+    .AccessDenied td
+    {
+        color:Red;
+        font-weight:bold;
+        padding:5px;
+        font-size:18px;
+    }
+        
+    .AccessRequest td
+    {
+        color:Green;
+        font-weight:bold;
+        padding:5px;
+        font-size:18px;
+    }    
+    
+    .SubLabel td
+    {
+        font-style: italic !important;
+        font-size:8px !important;
+    }
+    
+    .CompassMessage
+    {
+        background-color: transparent;
+        color: Green;
+        font-weight: bold;
+        font-size: large;
+        text-align:center;
+    }
+    
+    .ValidationSummary
+    {
+        color: Red;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    .ValidationSummary ul
+    {
+        color: Red;
+    }
+
+    .ValidationSummary ul li
+    {
+        color: Red;
+    }
+    
+    .commemtsSeperator
+    {
+        background-color: rgba(255,255,255,0.9);
+        border-top: 8px solid #dd3b2a;
+        float: left;
+        position: relative;
+        width: 100%;
+        z-index: 3;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .ButtonArea {
+         vertical-align: middle;
+         padding: 8px;
+         float:right;
+     }
+
+    .highlightElement {
+        background-color:#FFC0CB !important;
+    }
+
+    .errorMessage {
+        padding-left:20px;
+        float:left; 
+        display: inline;
+        color:red
+    }
+
+    .ReloadAttachment {
+        opacity:0;
+    }
+
+    .showItem {
+        display:block;
+    }
+
+    .showRequired {
+        display:table-cell;
+    }
+
+    .hideItem {
+        display:none;
+    }
+    
+    .finish {
+        opacity:0;
+    }

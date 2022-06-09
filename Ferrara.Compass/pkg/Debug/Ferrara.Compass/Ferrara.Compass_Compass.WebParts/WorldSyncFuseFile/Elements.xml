@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="WorldSyncFuseFile" List="113" Url="_catalogs/wp">
+    <File Path="WorldSyncFuseFile\WorldSyncFuseFile.webpart" Url="Ferrara.Compass_WorldSyncFuseFile.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

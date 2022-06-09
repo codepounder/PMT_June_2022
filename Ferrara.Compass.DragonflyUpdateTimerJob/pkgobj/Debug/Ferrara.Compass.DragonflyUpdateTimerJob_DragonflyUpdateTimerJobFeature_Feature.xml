@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="40063993-707a-4236-83d3-747129345d5a" ReceiverAssembly="Ferrara.Compass.DragonflyUpdateTimerJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bc4a986236ff554c" ReceiverClass="Ferrara.Compass.DragonflyUpdateTimerJob.Features.DragonflyUpdateTimerJobFeature.DragonflyUpdateTimerJobFeatureEventReceiver" Scope="WebApplication" Title="Ferrara.Compass.DragonflyUpdateTimerJob Feature"></Feature>

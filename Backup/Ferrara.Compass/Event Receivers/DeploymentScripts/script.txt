@@ -1,0 +1,21 @@
+﻿stsadm -o addsolution -filename "ferrara.compass.wsp"
+stsadm -o deploysolution -name ferrara.compass.wsp -allowgacdeployment -immediate -force
+stsadm -o execadmsvcjobs
+
+stsadm -o deactivatefeature -name webparts -url http://portal/sites/cfts -force
+stsadm -o deactivatefeature -name GroupsCreation -url http://portal/sites/cfts -force
+stsadm -o deactivatefeature -name PageCreation -url http://portal/sites/cfts -force
+stsadm -o deactivatefeature -name Lists -url http://portal/sites/cfts -force
+stsadm -o uninstallfeature -name webparts -force
+stsadm -o uninstallfeature -name GroupsCreation  -force
+stsadm -o uninstallfeature -name PageCreation -force
+stsadm -o uninstallfeature -name Lists -url -force
+
+stsadm -o retractsolution -name ferrara.compass.wsp -url http://portal/sites/cfts -immediate
+stsadm -o execadmsvcjobs
+
+Add-SPSolution ferrara.compass.wsp
+
+Uninstall-SPSolution –Identity ferrara.compass.wsp –WebApplication http://portal
+
+Update-SPSolution –Identity ferrara.compass.wsp –LiteralPath "ferrara.compass.wsp" –GACDeployment

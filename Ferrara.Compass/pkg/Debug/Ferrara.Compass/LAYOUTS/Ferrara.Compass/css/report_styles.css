@@ -1,0 +1,172 @@
+﻿.lnk
+{
+    color: #333333;
+    font-family: arial;
+    font-size: 13px;
+}
+
+#example
+{
+     border-collapse: collapse;
+}
+#example th
+{
+    background:#DEDEDE;
+    color: #333333;
+    font-family: tahoma;
+    font-size: 12px;
+}
+#example th,#example td
+{
+    border:1px solid #666;
+    width:100px !important;
+}
+#example td
+{
+    color:#000;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align:center;
+}
+.s4-ca
+{
+    margin-left:0;
+}
+div.dataTables_length {
+    padding-left: 2em;
+}
+div.dataTables_length, div.dataTables_filter {
+    padding-top: 0.55em;
+}
+#report tr
+{
+        background: none repeat scroll 0 0 #DEDEDE;
+        color: #333333;
+        font-family: arial;
+        font-size: 13px;
+}
+
+#exampleMyCurrentTasks
+{
+     border-collapse: collapse;
+}
+#exampleMyCurrentTasks th
+{
+    background:#DEDEDE;
+    color: #333333;
+    font-family: tahoma;
+    font-size: 12px;
+}
+#exampleMyCurrentTasks th,#exampleMyCurrentTasks td
+{
+    border:1px solid #666;
+    width:100px !important;
+}
+#exampleMyCurrentTasks td
+{
+    color:#000;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align:center;
+}
+#reportMyCurrentTasks tr
+{
+        background: none repeat scroll 0 0 #DEDEDE;
+        color: #333333;
+        font-family: arial;
+        font-size: 13px;
+}
+
+#exampleMyOpenProjects
+{
+     border-collapse: collapse;
+}
+#exampleMyOpenProjects th
+{
+    background:#DEDEDE;
+    color: #333333;
+    font-family: tahoma;
+    font-size: 12px;
+}
+#exampleMyOpenProjects th,#exampleMyOpenProjects td
+{
+    border:1px solid #666;
+    width:100px !important;
+}
+#exampleMyOpenProjects td
+{
+    color:#000;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align:center;
+}
+#reportMyOpenProjects tr
+{
+        background: none repeat scroll 0 0 #DEDEDE;
+        color: #333333;
+        font-family: arial;
+        font-size: 13px;
+}
+
+#exampleMyOnHoldTasks
+{
+     border-collapse: collapse;
+}
+#exampleMyOnHoldTasks th
+{
+    background:#DEDEDE;
+    color: #333333;
+    font-family: tahoma;
+    font-size: 12px;
+}
+#exampleMyOnHoldTasks th,#exampleMyOnHoldTasks td
+{
+    border:1px solid #666;
+    width:100px !important;
+}
+#exampleMyOnHoldTasks td
+{
+    color:#000;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align:center;
+}
+#reportMyOnHoldTasks tr
+{
+        background: none repeat scroll 0 0 #DEDEDE;
+        color: #333333;
+        font-family: arial;
+        font-size: 13px;
+}
+
+
+#exampleMyInnovations
+{
+     border-collapse: collapse;
+}
+#exampleMyInnovations th
+{
+    background:#DEDEDE;
+    color: #333333;
+    font-family: tahoma;
+    font-size: 12px;
+}
+#exampleMyInnovations th,#exampleMyInnovations td
+{
+    border:1px solid #666;
+    width:100px !important;
+}
+#exampleMyInnovations td
+{
+    color:#000;
+    font-family: tahoma;
+    font-size: 11px;
+    text-align:center;
+}
+#reportMyInnovations tr
+{
+        background: none repeat scroll 0 0 #DEDEDE;
+        color: #333333;
+        font-family: arial;
+        font-size: 13px;
+}

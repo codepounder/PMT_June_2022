@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Confirm Production Plan" LookupFieldValue="1" Active="1" Owner="Supply Planning" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Order materials (Film, Cartons, Corrugate, Raws, etc.)" LookupFieldValue="1" Active="1" Owner="Inventory Management" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Fill out New Product FAQ sheet for Customer Relations (New Products, Reformulations)" LookupFieldValue="1" Active="1" Owner="Marketing / InTech Product Development" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Complete and Release First Production" LookupFieldValue="1" Active="1" Owner="Supply Planning" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Update Costing Based on Actual Production" LookupFieldValue="1" Active="1" Owner="Finance" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Convenience" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="Value" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="Club" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="Grocery" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="Drug" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="Mass" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="Bulk" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="Specialty" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="Closeout" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="Co-Manufacture" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="10" Title="Foodservice/Vend" LookupFieldValue="10" Active="1" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,1575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2F218B4-12A3-43D7-A71A-EF67C0B9E579}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ferrara.Compass</RootNamespace>
+    <AssemblyName>Ferrara.Compass</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Ferrara.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=5.5.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Publishing, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SharePoint.Security, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ErrorSummary.cs" />
+    <Compile Include="Classes\LoggingService.cs" />
+    <Compile Include="Classes\SetupUtilities.cs" />
+    <Compile Include="Classes\Utilities.cs" />
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBEQRC.ascx.cs">
+      <DependentUpon>ucBEQRC.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBEQRC.ascx.designer.cs">
+      <DependentUpon>ucBEQRC.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMEditable_New.ascx.cs">
+      <DependentUpon>ucBOMEditable_New.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMEditable_New.ascx.designer.cs">
+      <DependentUpon>ucBOMEditable_New.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGridPackMeas_New.ascx.cs">
+      <DependentUpon>ucBOMGridPackMeas_New.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGridPackMeas_New.ascx.designer.cs">
+      <DependentUpon>ucBOMGridPackMeas_New.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGrid_New.ascx.cs">
+      <DependentUpon>ucBOMGrid_New.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGrid_New.ascx.designer.cs">
+      <DependentUpon>ucBOMGrid_New.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas_New.ascx.cs">
+      <DependentUpon>ucBOMPackMeas_New.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas_New.ascx.designer.cs">
+      <DependentUpon>ucBOMPackMeas_New.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMSetupProjectDetails.ascx.cs">
+      <DependentUpon>ucBOMSetupProjectDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMSetupProjectDetails.ascx.designer.cs">
+      <DependentUpon>ucBOMSetupProjectDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSItemDetailInfo.ascx.cs">
+      <DependentUpon>ucSGSItemDetailInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSItemDetailInfo.ascx.designer.cs">
+      <DependentUpon>ucSGSItemDetailInfo.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMEditable.ascx.cs">
+      <DependentUpon>ucBOMEditable.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMEditable.ascx.designer.cs">
+      <DependentUpon>ucBOMEditable.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucConsolidatedFinancialSummary.ascx.cs">
+      <DependentUpon>ucConsolidatedFinancialSummary.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucConsolidatedFinancialSummary.ascx.designer.cs">
+      <DependentUpon>ucConsolidatedFinancialSummary.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSProjectGateInfo.ascx.cs">
+      <DependentUpon>ucSGSProjectGateInfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSProjectGateInfo.ascx.designer.cs">
+      <DependentUpon>ucSGSProjectGateInfo.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSProjectInformation.ascx.cs">
+      <DependentUpon>ucSGSProjectInformation.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSGSProjectInformation.ascx.designer.cs">
+      <DependentUpon>ucSGSProjectInformation.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucGateDets.ascx.cs">
+      <DependentUpon>ucGateDets.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucGateDets.ascx.designer.cs">
+      <DependentUpon>ucGateDets.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGrid.ascx.cs">
+      <DependentUpon>ucBOMGrid.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMGrid.ascx.designer.cs">
+      <DependentUpon>ucBOMGrid.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas.ascx.cs">
+      <DependentUpon>ucBOMPackMeas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas.ascx.designer.cs">
+      <DependentUpon>ucBOMPackMeas.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucTransferSemiBOMs.ascx.cs">
+      <DependentUpon>ucTransferSemiBOMs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucTransferSemiBOMs.ascx.designer.cs">
+      <DependentUpon>ucTransferSemiBOMs.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSemiDetails.ascx.cs">
+      <DependentUpon>ucSemiDetails.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucSemiDetails.ascx.designer.cs">
+      <DependentUpon>ucSemiDetails.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucTS.ascx.cs">
+      <DependentUpon>ucTS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucTS.ascx.designer.cs">
+      <DependentUpon>ucTS.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucFinancialBrief.ascx.cs">
+      <DependentUpon>ucFinancialBrief.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\Ferrara.Compass\ucFinancialBrief.ascx.designer.cs">
+      <DependentUpon>ucFinancialBrief.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Event Receivers\SAPStatusListItemEventReceiver\SAPStatusListItemEventReceiver.cs" />
+    <Compile Include="Event Receivers\WorkflowTaskItemAddedEventReceiver\WorkflowTaskItemAddedEventReceiver.cs" />
+    <Compile Include="Features\Compass.Groups\Compass.EventReceiver.cs">
+      <DependentUpon>Compass.Groups.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Compass.Lists\Compass.EventReceiver.cs">
+      <DependentUpon>Compass.Lists.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Compass.LookupLists\Compass.EventReceiver.cs">
+      <DependentUpon>Compass.LookUpLists.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Compass.Pages\Compass.EventReceiver.cs">
+      <DependentUpon>Compass.Pages.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Compass.SupportLists\Compass.EventReceiver.cs">
+      <DependentUpon>Compass.SupportLists.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CompleteChildProject.aspx.cs">
+      <DependentUpon>CompleteChildProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CompleteChildProject.aspx.designer.cs">
+      <DependentUpon>CompleteChildProject.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CancelProject.aspx.cs">
+      <DependentUpon>CancelProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CancelProject.aspx.designer.cs">
+      <DependentUpon>CancelProject.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\MoveIPF.aspx.cs">
+      <DependentUpon>MoveIPF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\MoveIPF.aspx.designer.cs">
+      <DependentUpon>MoveIPF.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\LoadBrief.aspx.cs">
+      <DependentUpon>LoadBrief.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\LoadBrief.aspx.designer.cs">
+      <DependentUpon>LoadBrief.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\DashboardEmailForm.aspx.cs">
+      <DependentUpon>DashboardEmailForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\DashboardEmailForm.aspx.designer.cs">
+      <DependentUpon>DashboardEmailForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CompassErrorPage.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CompassErrorPage.aspx.designer.cs" />
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CopyIPF.aspx.cs">
+      <DependentUpon>CopyIPF.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\CopyIPF.aspx.designer.cs">
+      <DependentUpon>CopyIPF.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\MoveBOMForm.aspx.cs">
+      <DependentUpon>MoveBOMForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\MoveBOMForm.aspx.designer.cs">
+      <DependentUpon>MoveBOMForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx.cs">
+      <DependentUpon>UploadBulkFuseFiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx.designer.cs">
+      <DependentUpon>UploadBulkFuseFiles.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadForm.aspx.cs">
+      <DependentUpon>UploadForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadForm.aspx.designer.cs">
+      <DependentUpon>UploadForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebParts\AllParentProjectDetailsDashboard\AllParentProjectDetailsDashboard.ascx.cs">
+      <DependentUpon>AllParentProjectDetailsDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\AllProjectDetailsDashboard2\AllProjectDetailsDashboard2.ascx.cs">
+      <DependentUpon>AllProjectDetailsDashboard2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\AllProjectDetailsDashboard\AllProjectDetailsDashboard.ascx.cs">
+      <DependentUpon>AllProjectDetailsDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BEQRCForm\BEQRCForm.ascx.cs">
+      <DependentUpon>BEQRCForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupMaterialWarehouseForm\BOMSetupMaterialWarehouseForm.ascx.cs">
+      <DependentUpon>BOMSetupMaterialWarehouseForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupPEForm\BOMSetupPEForm.ascx.cs">
+      <DependentUpon>BOMSetupPEForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupPE2Form\BOMSetupPE2Form.ascx.cs">
+      <DependentUpon>BOMSetupPE2Form.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupPE3Form\BOMSetupPE3Form.ascx.cs">
+      <DependentUpon>BOMSetupPE3Form.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupProcForm\BOMSetupProcForm.ascx.cs">
+      <DependentUpon>BOMSetupProcForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BOMSetupSAPForm\BOMSetupSAPForm.ascx.cs">
+      <DependentUpon>BOMSetupSAPForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\CompassWorldSyncMainForm\CompassWorldSyncMainForm.ascx.cs">
+      <DependentUpon>CompassWorldSyncMainForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\BillOfMaterialsSetUpForm\BillOfMaterialsSetUpForm.ascx.cs">
+      <DependentUpon>BillOfMaterialsSetUpForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\CommercializationSummaryForm\CommercializationSummaryForm.ascx.cs">
+      <DependentUpon>CommercializationSummaryForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\CompassAdministrationForm\CompassAdministrationForm.cs" />
+    <Compile Include="WebParts\CompassAdministrationForm\CompassAdministrationFormUserControl.ascx.cs">
+      <DependentUpon>CompassAdministrationFormUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\CompassAdministrationForm\CompassAdministrationFormUserControl.ascx.designer.cs">
+      <DependentUpon>CompassAdministrationFormUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ComponentCostingQuoteForm\ComponentCostingQuoteForm.ascx.cs">
+      <DependentUpon>ComponentCostingQuoteForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\EstBracketPricingForm\EstBracketPricingForm.ascx.cs">
+      <DependentUpon>EstBracketPricingForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\EstPricingForm\EstPricingForm.ascx.cs">
+      <DependentUpon>EstPricingForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FinishedGoodPackSpecForm\FinishedGoodPackSpecForm.ascx.cs">
+      <DependentUpon>FinishedGoodPackSpecForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\GraphicsRequestDetailForm_New\GraphicsRequestDetailForm_New.ascx.cs">
+      <DependentUpon>GraphicsRequestDetailForm_New.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\GraphicsRequestForm_New\GraphicsRequestForm_New.ascx.cs">
+      <DependentUpon>GraphicsRequestForm_New.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ItemProposalForm2\ItemProposalForm2.ascx.cs">
+      <DependentUpon>ItemProposalForm2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyOpenProjects2\MyOpenProjects2.ascx.cs">
+      <DependentUpon>MyOpenProjects2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyWorkflowTasksForm3\MyWorkflowTasksForm3.ascx.cs">
+      <DependentUpon>MyWorkflowTasksForm3.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyWorkflowTasksForm2\MyWorkflowTasksForm2.ascx.cs">
+      <DependentUpon>MyWorkflowTasksForm2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyWorkflowTasksForm_New\MyWorkflowTasksForm_New.ascx.cs">
+      <DependentUpon>MyWorkflowTasksForm_New.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMFirstReviewForm\PMFirstReviewForm.ascx.cs">
+      <DependentUpon>PMFirstReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMSecondReview\PMSecondReview.ascx.cs">
+      <DependentUpon>PMSecondReview.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMTHeaderForm\PMTHeaderForm.ascx.cs">
+      <DependentUpon>PMTHeaderForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PMTProjectHeader2\PMTProjectHeader2.ascx.cs">
+      <DependentUpon>PMTProjectHeader2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\RegulatoryComments\RegulatoryComments.ascx.cs">
+      <DependentUpon>RegulatoryComments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SAPCompleteItemSetupForm\SAPCompleteItemSetupForm.ascx.cs">
+      <DependentUpon>SAPCompleteItemSetupForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ProjectHeaderForm_New\ProjectHeaderForm_New.ascx.cs">
+      <DependentUpon>ProjectHeaderForm_New.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SAPFinalRoutingsSummaryForm\SAPFinalRoutingsSummaryForm.ascx.cs">
+      <DependentUpon>SAPFinalRoutingsSummaryForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ComponentCostingSummaryForm\ComponentCostingSummaryForm.ascx.cs">
+      <DependentUpon>ComponentCostingSummaryForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\DistributionCenterCheckForm\DistributionCenterCheckForm.ascx.cs">
+      <DependentUpon>DistributionCenterCheckForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\DistributionForm\DistributionForm.ascx.cs">
+      <DependentUpon>DistributionForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ExternalManufacturingForm\ExternalManufacturingForm.ascx.cs">
+      <DependentUpon>ExternalManufacturingForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\FirstProductionCheckForm\FirstProductionCheckForm.ascx.cs">
+      <DependentUpon>FirstProductionCheckForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\GraphicsRequestDetailForm\GraphicsRequestDetailForm.ascx.cs">
+      <DependentUpon>GraphicsRequestDetailForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\GraphicsRequestForm\GraphicsRequestForm.ascx.cs">
+      <DependentUpon>GraphicsRequestForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\InitialApprovalReviewForm\InitialApprovalReviewForm.ascx.cs">
+      <DependentUpon>InitialApprovalReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\InitialCapacityReviewForm\InitialCapacityReviewForm.ascx.cs">
+      <DependentUpon>InitialCapacityReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\InitialCostingReviewForm\InitialCostingReviewForm.ascx.cs">
+      <DependentUpon>InitialCostingReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MaterialsReceivedCheckForm\MaterialsReceivedCheckForm.ascx.cs">
+      <DependentUpon>MaterialsReceivedCheckForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\AllOpenProjectsForm\AllOpenProjectsForm.ascx.cs">
+      <DependentUpon>AllOpenProjectsForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\sharedheaderfiles\sharedheaderfiles.ascx.cs">
+      <DependentUpon>sharedheaderfiles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateFinancialSummaryForm\StageGateFinancialSummaryForm.ascx.cs">
+      <DependentUpon>StageGateFinancialSummaryForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateFinancialBriefForm\StageGateFinancialBriefForm.ascx.cs">
+      <DependentUpon>StageGateFinancialBriefForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateGenerateBriefPDF\StageGateGenerateBriefPDF.ascx.cs">
+      <DependentUpon>StageGateGenerateBriefPDF.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateNecessaryDeliverables\StageGateNecessaryDeliverables.ascx.cs">
+      <DependentUpon>StageGateNecessaryDeliverables.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateGenerateIPFsForm\StageGateGenerateIPFsForm.ascx.cs">
+      <DependentUpon>StageGateGenerateIPFsForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateProjectPanelForm\StageGateProjectPanelForm.ascx.cs">
+      <DependentUpon>StageGateProjectPanelForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\StageGateCreateProjectForm\StageGateCreateProjectForm.ascx.cs">
+      <DependentUpon>StageGateCreateProjectForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ProjectTimelineUpdateForm\ProjectTimelineUpdateForm.ascx.cs">
+      <DependentUpon>ProjectTimelineUpdateForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ItemProposalForm\ItemProposalForm.ascx.cs">
+      <DependentUpon>ItemProposalForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyOpenProjectsForm\MyOpenProjectsForm.ascx.cs">
+      <DependentUpon>MyOpenProjectsForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\MyWorkflowTasksForm\MyWorkflowTasksForm.ascx.cs">
+      <DependentUpon>MyWorkflowTasksForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\OBMFirstReviewForm\OBMFirstReviewForm.ascx.cs">
+      <DependentUpon>OBMFirstReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\OBMSecondReviewForm\OBMSecondReviewForm.ascx.cs">
+      <DependentUpon>OBMSecondReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\OBMThirdReviewForm\OBMThirdReviewForm.ascx.cs">
+      <DependentUpon>OBMThirdReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\OpsForm\OpsForm.ascx.cs">
+      <DependentUpon>OpsForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ProjectDashboard2\ProjectDashboard2.ascx.cs">
+      <DependentUpon>ProjectDashboard2.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ProjectHeaderForm\ProjectHeaderForm.ascx.cs">
+      <DependentUpon>ProjectHeaderForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\ProjectNotesForm\ProjectNotesForm.ascx.cs">
+      <DependentUpon>ProjectNotesForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\QAForm\QAForm.ascx.cs">
+      <DependentUpon>QAForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SAPBOMSetupForm\SAPBOMSetupForm.ascx.cs">
+      <DependentUpon>SAPBOMSetupForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\PrelimSAPInitialItemSetupForm\PrelimSAPInitialItemSetupForm.ascx.cs">
+      <DependentUpon>PrelimSAPInitialItemSetupForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SAPInitialItemSetupForm\SAPInitialItemSetupForm.ascx.cs">
+      <DependentUpon>SAPInitialItemSetupForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\SecondaryApprovalReviewForm\SecondaryApprovalReviewForm.ascx.cs">
+      <DependentUpon>SecondaryApprovalReviewForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\TradePromoGroupForm\TradePromoGroupForm.ascx.cs">
+      <DependentUpon>TradePromoGroupForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\UpdateProjectNotesForm\UpdateProjectNotesForm.ascx.cs">
+      <DependentUpon>UpdateProjectNotesForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncFuseFile\WorldSyncFuseFile.ascx.cs">
+      <DependentUpon>WorldSyncFuseFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncNutritionalsForm\WorldSyncNutritionalsForm.ascx.cs">
+      <DependentUpon>WorldSyncNutritionalsForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncRequestDashboard\WorldSyncRequestDashboard.ascx.cs">
+      <DependentUpon>WorldSyncRequestDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncRequestFile\WorldSyncRequestFile.ascx.cs">
+      <DependentUpon>WorldSyncRequestFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncRequestReceipt\WorldSyncRequestReceipt.ascx.cs">
+      <DependentUpon>WorldSyncRequestReceipt.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\WorldSyncRequestUpload\WorldSyncRequestUpload.ascx.cs">
+      <DependentUpon>WorldSyncRequestUpload.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c2829600-0213-48ed-b87a-3d208f78e9f5}</SharePointProjectItemId>
+    </None>
+    <None Include="Event Receivers\DeploymentScripts\UpdateApprovalfieldstoTextColumn.ps1" />
+    <None Include="Event Receivers\SAPStatusListItemEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{61f56729-39f3-4028-9b63-f20114428ffa}</SharePointProjectItemId>
+    </None>
+    <None Include="Event Receivers\WorkflowTaskItemAddedEventReceiver\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b2d9491-6aba-423d-b45b-3713adef5a74}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Compass.Groups\Compass.Groups.feature">
+      <FeatureId>{3210f4bb-8904-46da-b380-649e2d07b195}</FeatureId>
+    </None>
+    <None Include="Features\Compass.Lists\Compass.Lists.feature">
+      <FeatureId>{eb7ed9c9-1c52-49e7-9c49-a4cc4ab7ef2f}</FeatureId>
+    </None>
+    <None Include="Features\Compass.LookupLists\Compass.LookUpLists.feature">
+      <FeatureId>{44101107-1e6d-43d5-8260-b5665831cb7e}</FeatureId>
+    </None>
+    <None Include="Features\Compass.WebParts\Compass.WebParts.feature">
+      <FeatureId>{bbdad095-570b-4601-99ea-95d9f3912b79}</FeatureId>
+    </None>
+    <None Include="Features\Compass.Pages\Compass.Pages.feature">
+      <FeatureId>{21d57d77-7902-4a97-9653-3394be30093a}</FeatureId>
+    </None>
+    <None Include="Features\Compass.SupportLists\Compass.SupportLists.feature">
+      <FeatureId>{6189a1d3-d84f-430e-9cdf-63a94b71aecd}</FeatureId>
+    </None>
+    <None Include="Ferrara.snk" />
+    <None Include="key.snk" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\step-form-wizard-all.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\step-form-wizard.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\themes\circle.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\themes\sea.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\themes\simple.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\themes\sky.scss" />
+    <None Include="Layouts\Ferrara.Compass\css\sass\themes\sun.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\animated.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\bordered-pulled.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\core.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\fixed-width.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\font-awesome.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\icons.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\larger.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\list.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\mixins.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\path.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\rotated-flipped.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\screen-reader.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\stacked.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\less\variables.less" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\font-awesome.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_animated.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_core.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_fixed-width.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_icons.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_larger.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_list.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_mixins.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_path.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_screen-reader.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_stacked.scss" />
+    <None Include="Layouts\Ferrara.Compass\font-awesome\scss\_variables.scss" />
+    <None Include="Layouts\Ferrara.Compass\fonts\fontawesome-webfont.eot" />
+    <None Include="Layouts\Ferrara.Compass\fonts\fontawesome-webfont.ttf" />
+    <None Include="Layouts\Ferrara.Compass\fonts\fontawesome-webfont.woff" />
+    <None Include="Layouts\Ferrara.Compass\fonts\fontawesome-webfont.woff2" />
+    <None Include="Layouts\Ferrara.Compass\fonts\FontAwesome.otf" />
+    <None Include="Layouts\Ferrara.Compass\js\tinymce\langs\readme.md" />
+    <None Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\fonts\tinymce-mobile.woff" />
+    <None Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f616a983-ed3d-4c15-a2ce-b10a6e62d3d1}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{db27c9b0-1fd9-4c7d-803d-54000b8531e0}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\AllParentProjectDetailsDashboard\AllParentProjectDetailsDashboard.webpart" />
+    <None Include="WebParts\AllParentProjectDetailsDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f6bdd590-0479-49ce-9058-1c5cf029ee91}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\AllProjectDetailsDashboard2\AllProjectDetailsDashboard2.webpart" />
+    <None Include="WebParts\AllProjectDetailsDashboard2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cb1facc1-9cc4-462c-99f7-b7722751dd70}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\AllProjectDetailsDashboard\AllProjectDetailsDashboard.webpart" />
+    <None Include="WebParts\AllProjectDetailsDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2e5e0ef4-0d17-4c6e-877f-9501e240ee4f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BEQRCForm\BEQRCForm.webpart" />
+    <None Include="WebParts\BEQRCForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{685973db-64f6-4bc6-b23b-0276cd839f14}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupMaterialWarehouseForm\BOMSetupMaterialWarehouseForm.webpart" />
+    <None Include="WebParts\BOMSetupMaterialWarehouseForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fa27242b-6921-45fb-9a5e-5eeb33a7f53c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupPEForm\BOMSetupPEForm.webpart" />
+    <None Include="WebParts\BOMSetupPEForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e570ff2d-fc6b-4bdb-9537-cbfe77645b08}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupPE2Form\BOMSetupPE2Form.webpart" />
+    <None Include="WebParts\BOMSetupPE2Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b0501844-2f7a-4a93-ae65-725050341962}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupPE3Form\BOMSetupPE3Form.webpart" />
+    <None Include="WebParts\BOMSetupPE3Form\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{681768a2-4472-465f-8135-6b06d26c35c0}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupProcForm\BOMSetupProcForm.webpart" />
+    <None Include="WebParts\BOMSetupProcForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4e1a1d05-fc24-4908-872f-be4dd75888ba}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BOMSetupSAPForm\BOMSetupSAPForm.webpart" />
+    <None Include="WebParts\BOMSetupSAPForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{081c67ab-5f69-4a70-bcd5-0a8c71a5fa72}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\CompassWorldSyncMainForm\CompassWorldSyncMainForm.webpart" />
+    <None Include="WebParts\CompassWorldSyncMainForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85ce0c1b-5af0-4c95-97c7-0356c4f9a68e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\EstBracketPricingForm\EstBracketPricingForm.webpart" />
+    <None Include="WebParts\EstBracketPricingForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfb1cba1-3c95-49f2-bb9d-853d364b5a4b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\EstPricingForm\EstPricingForm.webpart" />
+    <None Include="WebParts\EstPricingForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2b19a9fb-0e17-4344-bbd2-8fb7b55ff77e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\FinishedGoodPackSpecForm\FinishedGoodPackSpecForm.webpart" />
+    <None Include="WebParts\FinishedGoodPackSpecForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f498f516-f77e-48b1-9868-7073dc82b603}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\GraphicsRequestDetailForm_New\GraphicsRequestDetailForm_New.webpart" />
+    <None Include="WebParts\GraphicsRequestDetailForm_New\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e47b2b06-9e08-4f1b-8456-11e7fe3a8b10}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\GraphicsRequestForm_New\GraphicsRequestForm_New.webpart" />
+    <None Include="WebParts\GraphicsRequestForm_New\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4cf1ac5e-26f4-4127-b2a6-ce0a38b22d59}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ItemProposalForm2\ItemProposalForm2.webpart" />
+    <None Include="WebParts\ItemProposalForm2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a174216-2a63-4237-8023-4f357ba2ce0d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MyOpenProjects2\MyOpenProjects2.webpart" />
+    <None Include="WebParts\MyOpenProjects2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{71ca789e-d48b-42d0-8cfc-362f556f3e96}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm3\MyWorkflowTasksForm3.webpart">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm3\SharePointProjectItem.spdata">
+      <SubType>Designer</SubType>
+      <SharePointProjectItemId>{56378b7d-3ba8-46f7-93f8-62b0ae7d5f13}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm2\MyWorkflowTasksForm2.webpart">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{27eb4750-5a94-4157-87ab-80800965415a}</SharePointProjectItemId>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm_New\MyWorkflowTasksForm_New.webpart" />
+    <None Include="WebParts\MyWorkflowTasksForm_New\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f4b69705-52d3-45cf-850e-80acde4c9fd6}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMFirstReviewForm\PMFirstReviewForm.webpart" />
+    <None Include="WebParts\PMFirstReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{eb6c81ff-bc48-433c-beb8-39419d53671d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMSecondReview\PMSecondReview.webpart" />
+    <None Include="WebParts\PMSecondReview\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8917b84c-f62f-4ada-855f-ab7f534f0e50}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMTHeaderForm\PMTHeaderForm.webpart" />
+    <None Include="WebParts\PMTHeaderForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8123ce2c-1c2d-4314-a46e-f345ffdbe52d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PMTProjectHeader2\PMTProjectHeader2.webpart" />
+    <None Include="WebParts\PMTProjectHeader2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dc96cf23-dd3c-4805-b53f-98ff4149dc42}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ProjectHeaderForm_New\ProjectHeaderForm_New.webpart" />
+    <None Include="WebParts\ProjectHeaderForm_New\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c84d40df-c1ec-4b9e-9576-346ab61a9b2b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\RegulatoryComments\RegulatoryComments.webpart" />
+    <None Include="WebParts\RegulatoryComments\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{93788d19-cee9-469a-ab60-1a79f7766871}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SAPCompleteItemSetupForm\SAPCompleteItemSetupForm.webpart" />
+    <None Include="WebParts\SAPCompleteItemSetupForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{cca137da-51eb-4fce-a8b3-908d29e52438}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SAPFinalRoutingsSummaryForm\SAPFinalRoutingsSummaryForm.webpart" />
+    <None Include="WebParts\SAPFinalRoutingsSummaryForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{120ca643-3958-4171-a7d1-479615a9c9e5}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\BillOfMaterialsSetUpForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{aa4b08c8-8e2b-45e4-8026-f764aaa2cbaa}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\CommercializationSummaryForm\CommercializationSummaryForm.webpart" />
+    <None Include="WebParts\CommercializationSummaryForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9dbfee32-7fff-48b1-90c0-bcd77af888d9}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\CompassAdministrationForm\CompassAdministrationForm.webpart">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WebParts\CompassAdministrationForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{85b74b81-2a43-4669-a818-6a3a9751ac4c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ComponentCostingQuoteForm\ComponentCostingQuoteForm.webpart" />
+    <None Include="WebParts\ComponentCostingQuoteForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2e9d038e-adc7-4f42-9d16-deffeda6e8c2}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ComponentCostingSummaryForm\ComponentCostingSummaryForm.webpart" />
+    <None Include="WebParts\ComponentCostingSummaryForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b7b07572-8d01-4d77-af67-5e4d18a7f448}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\DistributionCenterCheckForm\DistributionCenterCheckForm.webpart" />
+    <None Include="WebParts\DistributionCenterCheckForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c780f64a-e84f-42f2-bd6d-648da6b9df69}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\DistributionForm\DistributionForm.webpart" />
+    <None Include="WebParts\DistributionForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c088e3ad-458a-4f91-b53b-cfd104dca80f}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ExternalManufacturingForm\ExternalManufacturingForm.webpart" />
+    <None Include="WebParts\ExternalManufacturingForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1510d367-efd8-4e1e-92d6-3834a5faf28c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\FirstProductionCheckForm\FirstProductionCheckForm.webpart" />
+    <None Include="WebParts\FirstProductionCheckForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1c8f5124-d55d-4bc5-b0c5-e90f5acab0d2}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\GraphicsRequestDetailForm\GraphicsRequestDetailForm.webpart" />
+    <None Include="WebParts\GraphicsRequestDetailForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{662e5471-4d58-4e21-8dda-eda854ccae4b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\GraphicsRequestForm\GraphicsRequestForm.webpart" />
+    <None Include="WebParts\GraphicsRequestForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{19c8384c-8f43-4331-b5fb-e296d3168a66}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\InitialApprovalReviewForm\InitialApprovalReviewForm.webpart" />
+    <None Include="WebParts\InitialApprovalReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b8b749fb-8bd4-4c2f-9e89-df6ea76bc372}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\InitialCapacityReviewForm\InitialCapacityReviewForm.webpart" />
+    <None Include="WebParts\InitialCapacityReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ca245dd3-addf-444c-a214-ddac9d21c89c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\InitialCostingReviewForm\InitialCostingReviewForm.webpart" />
+    <None Include="WebParts\InitialCostingReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ee3800e3-c951-42f9-a14e-b596e63f97ee}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MaterialsReceivedCheckForm\MaterialsReceivedCheckForm.webpart" />
+    <None Include="WebParts\MaterialsReceivedCheckForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7aa59f62-9dda-43ef-9d3d-7858d61c4ae1}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\AllOpenProjectsForm\AllOpenProjectsForm.webpart" />
+    <None Include="WebParts\AllOpenProjectsForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f748a1ca-9b6c-4077-b329-fb4d0a887e20}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\sharedheaderfiles\sharedheaderfiles.webpart" />
+    <None Include="WebParts\sharedheaderfiles\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7d6396a1-0b94-45da-8d52-b6f5fa5989cb}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateFinancialSummaryForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9e11e0dd-53de-4249-bf73-de635f239e2a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateFinancialSummaryForm\StageGateFinancialSummaryForm.webpart" />
+    <None Include="WebParts\StageGateFinancialBriefForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{52bc1f0c-1faa-4cc3-998a-038bea5e0446}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateFinancialBriefForm\StageGateFinancialBriefList.webpart" />
+    <None Include="WebParts\StageGateGenerateBriefPDF\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e7f99cbe-5e89-4b86-a7d0-18f04d43c647}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateGenerateBriefPDF\StageGateGenerateBriefPDF.webpart" />
+    <None Include="WebParts\StageGateNecessaryDeliverables\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4350468a-011a-4ab0-b2d8-2664564a00ec}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateNecessaryDeliverables\StageGateNecessaryDeliverables.webpart" />
+    <None Include="WebParts\StageGateGenerateIPFsForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c81c1959-6c11-4db6-b3dd-387a95d1d79e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateGenerateIPFsForm\StageGateGenerateIPFsForm.webpart" />
+    <None Include="WebParts\StageGateProjectPanelForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a43ec822-a8ed-4e31-a811-a1239f5f30b3}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateProjectPanelForm\StageGateProjectPanelForm.webpart" />
+    <None Include="WebParts\StageGateCreateProjectForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e8035fa1-9500-4e4a-9e57-bfeceb35f5cc}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\StageGateCreateProjectForm\StageGateCreateProjectForm.webpart" />
+    <None Include="WebParts\ProjectDashboard2\ProjectDashboard2.webpart" />
+    <None Include="WebParts\ProjectTimelineUpdateForm\ProjectTimelineUpdateForm.webpart" />
+    <None Include="WebParts\ProjectTimelineUpdateForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{80497736-b602-4092-96e0-19127957f38c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ItemProposalForm\ItemProposalForm.webpart" />
+    <None Include="WebParts\ItemProposalForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ccd6ddbd-f2d0-49c3-8d6f-602b9e2588f2}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MyOpenProjectsForm\MyOpenProjectsForm.webpart" />
+    <None Include="WebParts\MyOpenProjectsForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c9b1ea3f-c37a-4df1-ba2a-0d1a968a4fcd}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\MyWorkflowTasksForm\MyWorkflowTasksForm.webpart" />
+    <None Include="WebParts\MyWorkflowTasksForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c4bbbdf2-e11a-420a-8c2d-a8a978fae28e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\OBMFirstReviewForm\OBMFirstReviewForm.webpart" />
+    <None Include="WebParts\OBMFirstReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{560dce3c-a9b5-4074-a642-c4e663630829}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\OBMSecondReviewForm\OBMSecondReviewForm.webpart" />
+    <None Include="WebParts\OBMSecondReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ecef4c94-3585-4cde-bddd-ad2a55893dce}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\OBMThirdReviewForm\OBMThirdReviewForm.webpart" />
+    <None Include="WebParts\OBMThirdReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b7bb7cf4-6fcd-434f-ad0e-3b2fb5234900}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\OpsForm\OpsForm.webpart" />
+    <None Include="WebParts\OpsForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{691e5157-f058-4a39-aea9-7cfa1a479d8d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ProjectDashboard2\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7de0ec5e-0a06-4197-9fdf-8fc6b1d263c3}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ProjectHeaderForm\ProjectHeaderForm.webpart" />
+    <None Include="WebParts\ProjectHeaderForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5b42a515-f19c-4396-aae0-2f90795fc49c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\ProjectNotesForm\ProjectNotesForm.webpart" />
+    <None Include="WebParts\ProjectNotesForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a487464a-b8e1-445c-bdd6-276d87d152de}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\QAForm\QAForm.webpart" />
+    <None Include="WebParts\QAForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1b6e12f9-c2dd-4243-b924-e625940a8daa}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SAPBOMSetupForm\SAPBOMSetupForm.webpart" />
+    <None Include="WebParts\SAPBOMSetupForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a8ba6e05-2c4a-4303-a2dc-88e6d780986a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\PrelimSAPInitialItemSetupForm\PrelimSAPInitialItemSetupForm.webpart" />
+    <None Include="WebParts\PrelimSAPInitialItemSetupForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{bfd9c657-b8c9-49eb-ad50-4561c14304fd}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SAPInitialItemSetupForm\SAPInitialItemSetupForm.webpart" />
+    <None Include="WebParts\SAPInitialItemSetupForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f5aafecc-27f3-4f36-a171-dcc9a2cb0638}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SecondaryApprovalReviewForm\SecondaryApprovalReviewForm.webpart" />
+    <None Include="WebParts\SecondaryApprovalReviewForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c3b213b3-1e2c-4977-9b79-cc977a64408c}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5cb51096-a6f6-44af-8883-02051f7d2078}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TradePromoGroupForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1d8d1fee-dc20-4f7e-b48d-5dd51654dd52}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\TradePromoGroupForm\TradePromoGroupForm.webpart" />
+    <None Include="WebParts\UpdateProjectNotesForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6d699ec4-55da-421b-85c0-f4d175e06857}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\UpdateProjectNotesForm\UpdateProjectNotesForm.webpart" />
+    <None Include="WebParts\WorldSyncFuseFile\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{27a27f0a-a510-4cf1-9057-468a03e7f195}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncFuseFile\WorldSyncFuseFile.webpart" />
+    <None Include="WebParts\WorldSyncNutritionalsForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4ede7cf9-3195-4db5-9add-1a594c09376b}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncNutritionalsForm\WorldSyncNutritionalsForm.webpart" />
+    <None Include="WebParts\WorldSyncRequestDashboard\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{58089889-e635-431e-97e1-7788f0fcf052}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncRequestDashboard\WorldSyncRequestDashboard.webpart" />
+    <None Include="WebParts\WorldSyncRequestFile\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c14fd073-75fa-45b6-8129-88ed95c103e8}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncRequestFile\WorldSyncRequestFile.webpart" />
+    <None Include="WebParts\WorldSyncRequestReceipt\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{74fa40c3-1472-48e3-83a3-b7f91cf3b88e}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncRequestReceipt\WorldSyncRequestReceipt.webpart" />
+    <None Include="WebParts\WorldSyncRequestUpload\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3c53ad59-f919-419c-b21d-f21b0e6c7f0a}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\WorldSyncRequestUpload\WorldSyncRequestUpload.webpart" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBEQRC.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMEditable_New.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMGridPackMeas_New.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMGrid_New.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas_New.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMSetupProjectDetails.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucSGSItemDetailInfo.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMEditable.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucConsolidatedFinancialSummary.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucSGSProjectGateInfo.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucSGSProjectInformation.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucGateDets.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMGrid.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucBOMPackMeas.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucTransferSemiBOMs.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucSemiDetails.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucTS.ascx" />
+    <Content Include="ControlTemplates\Ferrara.Compass\ucFinancialBrief.ascx" />
+    <Content Include="Event Receivers\DeploymentScripts\script.txt" />
+    <Content Include="Event Receivers\SAPStatusListItemEventReceiver\Elements.xml" />
+    <Content Include="Event Receivers\WorkflowTaskItemAddedEventReceiver\Elements.xml" />
+    <Content Include="Features\Compass.Groups\Compass.Groups.Template.xml">
+      <DependentUpon>Compass.Groups.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Compass.Lists\Compass.Lists.Template.xml">
+      <DependentUpon>Compass.Lists.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Compass.LookupLists\Compass.LookUpLists.Template.xml">
+      <DependentUpon>Compass.LookUpLists.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Compass.WebParts\Compass.WebParts.Template.xml">
+      <DependentUpon>Compass.WebParts.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Compass.Pages\Compass.Pages.Template.xml">
+      <DependentUpon>Compass.Pages.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Features\Compass.SupportLists\Compass.SupportLists.Template.xml">
+      <DependentUpon>Compass.SupportLists.feature</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Layouts\Ferrara.Compass\AppPages\CompleteChildProject.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\CancelProject.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\MoveIPF.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\LoadBrief.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\DashboardEmailForm.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\CompassErrorPage.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\CopyIPF.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\MoveBOMForm.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\UploadForm.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\css\BootStrap\bootstrap-grid.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\BootStrap\bootstrap-table.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\BootStrap\bootstrap.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\StageGateStyles.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\Compass-Blue.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\Compass-Green.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\Compass-Red.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\Compass.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\CompassGraphicsRequest.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\CompassStepper-Blue.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\CompassStepper-Green.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\CompassStepper-Red.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\CompassStepper.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\datepicker.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\datepicker3.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\jquery.dateselect.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\jquery.steps.css" />
+    <Content Include="Layouts\Ferrara.Compass\images\minus20X20.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\plus20X20.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\delete.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\generate.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\generated.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\moveArrow.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\Request4.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\Requested.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\rsz_request4.png" />
+    <Content Include="Layouts\Ferrara.Compass\js\BEQRC.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\BOMSetup_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\ExtMan.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\MaterialWarehouseSetup.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PE_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PE2_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PE3_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PMRev1.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PMRev2.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PROC_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\SAPCompleteItemSetup.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\sharedBOM_New.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\stageGateJS.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\QA.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\BOMRev2.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\BOMRev1.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\BOMSetup.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\buttons.html5.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\dataTables.buttons.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\jszip.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\css\main.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\normalize.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\step-form-wizard.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\jquery-ui-1.8.22.custom.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\jquery.dataTables.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\report_styles.css" />
+    <Content Include="Layouts\Ferrara.Compass\css\styles.css" />
+    <Content Include="Layouts\Ferrara.Compass\font-awesome\css\font-awesome.css" />
+    <Content Include="Layouts\Ferrara.Compass\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Layouts\Ferrara.Compass\images\ATTACHTB.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\cancel.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\copy_csv_xls_pdf.swf" />
+    <Content Include="Layouts\Ferrara.Compass\images\DELETE.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\EDIT.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\Email.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\Ferrara_Logo.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\Graphics_Summary1.jpg" />
+    <Content Include="Layouts\Ferrara.Compass\images\Graphics_Summary2.jpg" />
+    <Content Include="Layouts\Ferrara.Compass\images\loaderImage.gif" />
+    <Content Include="Layouts\Ferrara.Compass\images\loading.gif" />
+    <Content Include="Layouts\Ferrara.Compass\images\loading_small.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\minus.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\plus.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\REDO.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\SAVE.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\sort_asc.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\sort_both.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\sort_desc.png" />
+    <Content Include="Layouts\Ferrara.Compass\images\UPLOAD.GIF" />
+    <Content Include="Layouts\Ferrara.Compass\images\UploadDoc.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\greenCircle.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\redCircle.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t1-arr-left-hover.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t1-arr-left.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t1-arr-right.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t1-arr.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-arr-left.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-arr-right.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-nav-arr-down.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-nav-arr-rtl.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-nav-arr.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-nav-bg-down.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t2-nav-bg.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t4-arr-left.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\t4-arr-right.png" />
+    <Content Include="Layouts\Ferrara.Compass\img\yellowCircle.png" />
+    <Content Include="Layouts\Ferrara.Compass\js\Format.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery-ui.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.accordion.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Bootstrap\bootstrap-datepicker.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Bootstrap\bootstrap-table-export.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Bootstrap\bootstrap-table-filter.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Bootstrap\bootstrap-table.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Bootstrap\bootstrap.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\dataTables.editor.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\dataTables.tableTools.2.2.3.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\IPF.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.dateselect.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.dateselect.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.maskedinput.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.maskMoney.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.steps.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.updatepanel.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\modernizr-2.6.2.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PE.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PE2.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\PROC.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\regex-filter.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery-ui.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\jquery.dataTables.columnFilter.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\jquery.dataTables.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\DataTables\jquery.dataTables1.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\jquery.multifile.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\Compass.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\obsolescence.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\sharedBOM.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tableExport.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\jquery.tinymce.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\license.txt" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\codesample\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\colorpicker\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\emoticons\js\emojis.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\emoticons\js\emojis.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\help\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\imagetools\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\quickbars\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\textpattern\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\toc\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\content\default\content.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\content\document\content.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\content\writer\content.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.inline.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\content.mobile.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\skin.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide-dark\skin.mobile.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.inline.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\content.mobile.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\skin.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\skins\ui\oxide\skin.mobile.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\themes\mobile\theme.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\themes\silver\theme.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\tinymce\tinymce.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\js\WFReport.js" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\jquery-validation\additional-methods.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\jquery-validation\jquery.validate.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\mcustom-scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\mcustom-scrollbar\mCSB_buttons.png" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\parsley\parsley.css" />
+    <Content Include="Layouts\Ferrara.Compass\plugins\parsley\parsley.min.js" />
+    <Content Include="WebParts\AllParentProjectDetailsDashboard\AllParentProjectDetailsDashboard.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\AllParentProjectDetailsDashboard\Elements.xml" />
+    <Content Include="WebParts\AllProjectDetailsDashboard2\AllProjectDetailsDashboard2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\AllProjectDetailsDashboard2\Elements.xml" />
+    <Content Include="WebParts\AllProjectDetailsDashboard\AllProjectDetailsDashboard.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\AllProjectDetailsDashboard\Elements.xml" />
+    <Content Include="WebParts\BEQRCForm\BEQRCForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BEQRCForm\Elements.xml" />
+    <Content Include="WebParts\BOMSetupMaterialWarehouseForm\BOMSetupMaterialWarehouseForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupMaterialWarehouseForm\Elements.xml" />
+    <Content Include="WebParts\BOMSetupPEForm\BOMSetupPEForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupPEForm\Elements.xml" />
+    <Content Include="WebParts\BOMSetupPE2Form\BOMSetupPE2Form.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupPE2Form\Elements.xml" />
+    <Content Include="WebParts\BOMSetupPE3Form\BOMSetupPE3Form.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupPE3Form\Elements.xml" />
+    <Content Include="WebParts\BOMSetupProcForm\BOMSetupProcForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupProcForm\Elements.xml" />
+    <Content Include="WebParts\BOMSetupSAPForm\BOMSetupSAPForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BOMSetupSAPForm\Elements.xml" />
+    <Content Include="WebParts\CompassWorldSyncMainForm\CompassWorldSyncMainForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\CompassWorldSyncMainForm\Elements.xml" />
+    <Content Include="WebParts\BillOfMaterialsSetUpForm\BillOfMaterialsSetUpForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\BillOfMaterialsSetUpForm\Elements.xml" />
+    <Content Include="WebParts\CommercializationSummaryForm\CommercializationSummaryForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\CommercializationSummaryForm\Elements.xml" />
+    <Content Include="WebParts\CompassAdministrationForm\CompassAdministrationFormUserControl.ascx" />
+    <Content Include="WebParts\CompassAdministrationForm\Elements.xml" />
+    <Content Include="WebParts\ComponentCostingQuoteForm\ComponentCostingQuoteForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ComponentCostingQuoteForm\Elements.xml" />
+    <Content Include="WebParts\EstBracketPricingForm\Elements.xml" />
+    <Content Include="WebParts\EstBracketPricingForm\EstBracketPricingForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\EstPricingForm\Elements.xml" />
+    <Content Include="WebParts\EstPricingForm\EstPricingForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\FinishedGoodPackSpecForm\Elements.xml" />
+    <Content Include="WebParts\FinishedGoodPackSpecForm\FinishedGoodPackSpecForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\GraphicsRequestDetailForm_New\Elements.xml" />
+    <Content Include="WebParts\GraphicsRequestDetailForm_New\GraphicsRequestDetailForm_New.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\GraphicsRequestForm_New\Elements.xml" />
+    <Content Include="WebParts\GraphicsRequestForm_New\GraphicsRequestForm_New.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ItemProposalForm2\Elements.xml" />
+    <Content Include="WebParts\ItemProposalForm2\ItemProposalForm2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyOpenProjects2\Elements.xml" />
+    <Content Include="WebParts\MyOpenProjects2\MyOpenProjects2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyWorkflowTasksForm3\Elements.xml" />
+    <Content Include="WebParts\MyWorkflowTasksForm3\MyWorkflowTasksForm3.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyWorkflowTasksForm2\Elements.xml" />
+    <Content Include="WebParts\MyWorkflowTasksForm2\MyWorkflowTasksForm2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyWorkflowTasksForm_New\Elements.xml" />
+    <Content Include="WebParts\MyWorkflowTasksForm_New\MyWorkflowTasksForm_New.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\PMFirstReviewForm\Elements.xml" />
+    <Content Include="WebParts\PMFirstReviewForm\PMFirstReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\PMSecondReview\Elements.xml" />
+    <Content Include="WebParts\PMSecondReview\PMSecondReview.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\PMTHeaderForm\Elements.xml" />
+    <Content Include="WebParts\PMTHeaderForm\PMTHeaderForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\PMTProjectHeader2\Elements.xml" />
+    <Content Include="WebParts\PMTProjectHeader2\PMTProjectHeader2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ProjectHeaderForm_New\Elements.xml" />
+    <Content Include="WebParts\ProjectHeaderForm_New\ProjectHeaderForm_New.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\RegulatoryComments\Elements.xml" />
+    <Content Include="WebParts\RegulatoryComments\RegulatoryComments.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SAPCompleteItemSetupForm\Elements.xml" />
+    <Content Include="WebParts\SAPCompleteItemSetupForm\SAPCompleteItemSetupForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SAPFinalRoutingsSummaryForm\SAPFinalRoutingsSummaryForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SAPFinalRoutingsSummaryForm\Elements.xml" />
+    <Content Include="WebParts\ComponentCostingSummaryForm\ComponentCostingSummaryForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ComponentCostingSummaryForm\Elements.xml" />
+    <Content Include="WebParts\DistributionCenterCheckForm\DistributionCenterCheckForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\DistributionCenterCheckForm\Elements.xml" />
+    <Content Include="WebParts\DistributionForm\DistributionForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\DistributionForm\Elements.xml" />
+    <Content Include="WebParts\ExternalManufacturingForm\Elements.xml" />
+    <Content Include="WebParts\ExternalManufacturingForm\ExternalManufacturingForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\FirstProductionCheckForm\Elements.xml" />
+    <Content Include="WebParts\FirstProductionCheckForm\FirstProductionCheckForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\GraphicsRequestDetailForm\Elements.xml" />
+    <Content Include="WebParts\GraphicsRequestDetailForm\GraphicsRequestDetailForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\GraphicsRequestForm\Elements.xml" />
+    <Content Include="WebParts\GraphicsRequestForm\GraphicsRequestForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\InitialApprovalReviewForm\Elements.xml" />
+    <Content Include="WebParts\InitialApprovalReviewForm\InitialApprovalReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\InitialCapacityReviewForm\Elements.xml" />
+    <Content Include="WebParts\InitialCapacityReviewForm\InitialCapacityReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\InitialCostingReviewForm\Elements.xml" />
+    <Content Include="WebParts\InitialCostingReviewForm\InitialCostingReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MaterialsReceivedCheckForm\Elements.xml" />
+    <Content Include="WebParts\MaterialsReceivedCheckForm\MaterialsReceivedCheckForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\AllOpenProjectsForm\Elements.xml" />
+    <Content Include="WebParts\AllOpenProjectsForm\AllOpenProjectsForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\sharedheaderfiles\Elements.xml" />
+    <Content Include="WebParts\sharedheaderfiles\sharedheaderfiles.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateFinancialSummaryForm\Elements.xml" />
+    <Content Include="WebParts\StageGateFinancialSummaryForm\StageGateFinancialSummaryForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateFinancialBriefForm\Elements.xml" />
+    <Content Include="WebParts\StageGateFinancialBriefForm\StageGateFinancialBriefForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateGenerateBriefPDF\Elements.xml" />
+    <Content Include="WebParts\StageGateGenerateBriefPDF\StageGateGenerateBriefPDF.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateNecessaryDeliverables\Elements.xml" />
+    <Content Include="WebParts\StageGateNecessaryDeliverables\StageGateNecessaryDeliverables.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateGenerateIPFsForm\Elements.xml" />
+    <Content Include="WebParts\StageGateGenerateIPFsForm\StageGateGenerateIPFsForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateProjectPanelForm\Elements.xml" />
+    <Content Include="WebParts\StageGateProjectPanelForm\StageGateProjectPanelForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\StageGateCreateProjectForm\Elements.xml" />
+    <Content Include="WebParts\StageGateCreateProjectForm\StageGateCreateProjectForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ProjectTimelineUpdateForm\Elements.xml" />
+    <Content Include="WebParts\ProjectTimelineUpdateForm\ProjectTimelineUpdateForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ItemProposalForm\Elements.xml" />
+    <Content Include="WebParts\ItemProposalForm\ItemProposalForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyOpenProjectsForm\Elements.xml" />
+    <Content Include="WebParts\MyOpenProjectsForm\MyOpenProjectsForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\MyWorkflowTasksForm\Elements.xml" />
+    <Content Include="WebParts\MyWorkflowTasksForm\MyWorkflowTasksForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\OBMFirstReviewForm\Elements.xml" />
+    <Content Include="WebParts\OBMFirstReviewForm\OBMFirstReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\OBMSecondReviewForm\Elements.xml" />
+    <Content Include="WebParts\OBMSecondReviewForm\OBMSecondReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\OBMThirdReviewForm\Elements.xml" />
+    <Content Include="WebParts\OBMThirdReviewForm\OBMThirdReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\OpsForm\Elements.xml" />
+    <Content Include="WebParts\OpsForm\OpsForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ProjectDashboard2\Elements.xml" />
+    <Content Include="WebParts\ProjectDashboard2\ProjectDashboard2.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ProjectHeaderForm\Elements.xml" />
+    <Content Include="WebParts\ProjectHeaderForm\ProjectHeaderForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\ProjectNotesForm\Elements.xml" />
+    <Content Include="WebParts\ProjectNotesForm\ProjectNotesForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\QAForm\Elements.xml" />
+    <Content Include="WebParts\QAForm\QAForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SAPBOMSetupForm\Elements.xml" />
+    <Content Include="WebParts\SAPBOMSetupForm\SAPBOMSetupForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\PrelimSAPInitialItemSetupForm\Elements.xml" />
+    <Content Include="WebParts\PrelimSAPInitialItemSetupForm\PrelimSAPInitialItemSetupForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SAPInitialItemSetupForm\Elements.xml" />
+    <Content Include="WebParts\SAPInitialItemSetupForm\SAPInitialItemSetupForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\SecondaryApprovalReviewForm\Elements.xml" />
+    <Content Include="WebParts\SecondaryApprovalReviewForm\SecondaryApprovalReviewForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\TradePromoGroupForm\Elements.xml" />
+    <Content Include="WebParts\TradePromoGroupForm\TradePromoGroupForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\UpdateProjectNotesForm\Elements.xml" />
+    <Content Include="WebParts\UpdateProjectNotesForm\UpdateProjectNotesForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncFuseFile\Elements.xml" />
+    <Content Include="WebParts\WorldSyncFuseFile\WorldSyncFuseFile.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncNutritionalsForm\Elements.xml" />
+    <Content Include="WebParts\WorldSyncNutritionalsForm\WorldSyncNutritionalsForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncRequestDashboard\Elements.xml" />
+    <Content Include="WebParts\WorldSyncRequestDashboard\WorldSyncRequestDashboard.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncRequestFile\Elements.xml" />
+    <Content Include="WebParts\WorldSyncRequestFile\WorldSyncRequestFile.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncRequestReceipt\Elements.xml" />
+    <Content Include="WebParts\WorldSyncRequestReceipt\WorldSyncRequestReceipt.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+    <Content Include="WebParts\WorldSyncRequestUpload\Elements.xml" />
+    <Content Include="WebParts\WorldSyncRequestUpload\WorldSyncRequestUpload.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ferrara.Compass.Abstractions\Ferrara.Compass.Abstractions.csproj">
+      <Project>{143e513c-8454-4a14-a908-a61f6bbdda23}</Project>
+      <Name>Ferrara.Compass.Abstractions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferrara.Compass.DependencyResolution\Ferrara.Compass.DependencyResolution.csproj">
+      <Project>{9a2becb5-b281-4c5d-8c70-14b28ad23a99}</Project>
+      <Name>Ferrara.Compass.DependencyResolution</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ferrara.Compass.Services\Ferrara.Compass.Services.csproj">
+      <Project>{1ce7f572-2471-4062-897b-dcd75df563d0}</Project>
+      <Name>Ferrara.Compass.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\tinymce\langs\" />
+    <Folder Include="scripts\tinymce\plugins\advlist\" />
+    <Folder Include="scripts\tinymce\plugins\anchor\" />
+    <Folder Include="scripts\tinymce\plugins\autolink\" />
+    <Folder Include="scripts\tinymce\plugins\autoresize\" />
+    <Folder Include="scripts\tinymce\plugins\autosave\" />
+    <Folder Include="scripts\tinymce\plugins\bbcode\" />
+    <Folder Include="scripts\tinymce\plugins\charmap\" />
+    <Folder Include="scripts\tinymce\plugins\codesample\" />
+    <Folder Include="scripts\tinymce\plugins\code\" />
+    <Folder Include="scripts\tinymce\plugins\colorpicker\" />
+    <Folder Include="scripts\tinymce\plugins\contextmenu\" />
+    <Folder Include="scripts\tinymce\plugins\directionality\" />
+    <Folder Include="scripts\tinymce\plugins\emoticons\js\" />
+    <Folder Include="scripts\tinymce\plugins\fullpage\" />
+    <Folder Include="scripts\tinymce\plugins\fullscreen\" />
+    <Folder Include="scripts\tinymce\plugins\help\" />
+    <Folder Include="scripts\tinymce\plugins\hr\" />
+    <Folder Include="scripts\tinymce\plugins\imagetools\" />
+    <Folder Include="scripts\tinymce\plugins\image\" />
+    <Folder Include="scripts\tinymce\plugins\importcss\" />
+    <Folder Include="scripts\tinymce\plugins\insertdatetime\" />
+    <Folder Include="scripts\tinymce\plugins\legacyoutput\" />
+    <Folder Include="scripts\tinymce\plugins\link\" />
+    <Folder Include="scripts\tinymce\plugins\lists\" />
+    <Folder Include="scripts\tinymce\plugins\media\" />
+    <Folder Include="scripts\tinymce\plugins\nonbreaking\" />
+    <Folder Include="scripts\tinymce\plugins\noneditable\" />
+    <Folder Include="scripts\tinymce\plugins\pagebreak\" />
+    <Folder Include="scripts\tinymce\plugins\paste\" />
+    <Folder Include="scripts\tinymce\plugins\preview\" />
+    <Folder Include="scripts\tinymce\plugins\print\" />
+    <Folder Include="scripts\tinymce\plugins\quickbars\" />
+    <Folder Include="scripts\tinymce\plugins\save\" />
+    <Folder Include="scripts\tinymce\plugins\searchreplace\" />
+    <Folder Include="scripts\tinymce\plugins\spellchecker\" />
+    <Folder Include="scripts\tinymce\plugins\tabfocus\" />
+    <Folder Include="scripts\tinymce\plugins\table\" />
+    <Folder Include="scripts\tinymce\plugins\template\" />
+    <Folder Include="scripts\tinymce\plugins\textcolor\" />
+    <Folder Include="scripts\tinymce\plugins\textpattern\" />
+    <Folder Include="scripts\tinymce\plugins\toc\" />
+    <Folder Include="scripts\tinymce\plugins\visualblocks\" />
+    <Folder Include="scripts\tinymce\plugins\visualchars\" />
+    <Folder Include="scripts\tinymce\plugins\wordcount\" />
+    <Folder Include="scripts\tinymce\skins\content\dark\" />
+    <Folder Include="scripts\tinymce\skins\content\default\" />
+    <Folder Include="scripts\tinymce\skins\content\document\" />
+    <Folder Include="scripts\tinymce\skins\content\writer\" />
+    <Folder Include="scripts\tinymce\skins\ui\oxide-dark\fonts\" />
+    <Folder Include="scripts\tinymce\skins\ui\oxide\fonts\" />
+    <Folder Include="scripts\tinymce\themes\mobile\" />
+    <Folder Include="scripts\tinymce\themes\silver\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

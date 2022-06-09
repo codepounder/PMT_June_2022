@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="e51fd53b-f7b5-42ff-8855-1e2e6bdd346c" solutionId="e51fd53b-f7b5-42ff-8855-1e2e6bdd346c" resetWebServer="false" sharePointProductVersion="15.0" name="Ferrara.Compass.ProjectTimelineCalculator" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <customAssembly location="Microsoft.Practices.Unity.dll" deploymentTarget="GlobalAssemblyCache" sourcePath="..\..\..\..\..\2010 Unity Framework\Microsoft.Practices.Unity.dll">
+      <safeControls>
+        <safeControl assemblyName="Microsoft.Practices.Unity.dll" namespaceName="Microsoft.Practices.Unity.dll" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </customAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="e387fa54-f569-45ca-a4f0-c22587766c0a" />
+  </features>
+</package>

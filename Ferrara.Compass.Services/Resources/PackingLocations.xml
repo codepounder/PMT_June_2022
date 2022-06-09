@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Externally Packed" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="FM01 - VERNELL, MX" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="FM02 - REYNOSA, MX" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="FP01 - FOREST PARK, IL" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="FP03 - SHIPLAB, IL" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="FP05 - BELLWOOD, IL" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="FP12 - MAYWOOD DR, IL" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="FP14 - PACK CENTER, IL" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="FP20 - ITASCA, IL" LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="FP31 - 31ST STREET, IL" LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="FP33 - ATLANTA" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="FQ21 - AUGUSTA" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="FQ22 - FLORENCE" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="FQ23 - 110TH STREET" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="FQ24 - BALTIMORE" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="FQ25 - LOUISVILLE" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="NON-FCC ECONO-PAK (FS15)" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="FP40 - DEKALB PACK CENTER" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="FP42 - DEKALB VAS" LookupFieldValue="19" Active="1" />
+</ArrayOfGlobalLookupField>

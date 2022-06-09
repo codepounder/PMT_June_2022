@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="DRC" LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="RSC" LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="SHIPPER" LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="POWERWING" LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="PALLET" LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="HALF PALLET" LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="DISPLAY TRAY" LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="DISPLAY TRAY and HSC" LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="DISPLAY TRAY and RSC" LookupFieldValue="9" Active="1" />
+</ArrayOfGlobalLookupField>

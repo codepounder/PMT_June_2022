@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="New Product &amp; Process Development" LookupFieldValue="IN" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;New formulation and/or new process for lead concept &lt;/li&gt;&lt;li&gt;18 months to 2 years&lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="2" Title="Line Extension" LookupFieldValue="LE" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;Updated formulation on existing product form&lt;/li&gt;&lt;li&gt; 9 months to 1.5 years&lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="3" Title="Downweight/Transitions" LookupFieldValue="DT" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;No formula change, potential pack change &lt;/li&gt;&lt;li&gt; 5 months to 1 year&lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="4" Title="Graphic Changes" LookupFieldValue="RI" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;Packaging graphics update &lt;/li&gt;&lt;li&gt; 4-6 months&lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="5" Title="Simple Network Move" LookupFieldValue="NM" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;NO CHANGES are needed in packaging, graphics&lt;/li&gt;&lt;li&gt;NO CHANGES to materials or suppliers &lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="6" Title="New Pack Type" LookupFieldValue="PD" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;Updated Packaging on existing product&lt;/li&gt;&lt;li&gt; 9 months to 2 years&lt;/li&gt;&lt;/ul&gt;" />
+  <GlobalLookupField Id="7" Title="Renovation &amp; Quality Improvement" LookupFieldValue="QI" Active="1" ProjectDescription="&lt;ul&gt;&lt;li&gt;Updated formulation for minor adjustments due to supply&lt;/li&gt;&lt;li&gt; 9 months to 1.5 years&lt;/li&gt;&lt;/ul&gt;" />
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="100G OPP/1.25 mil LLDPE"   LookupFieldValue="1" Active="1" />
+  <GlobalLookupField Id="2" Title="100G OPP/1.5 mil LLDPE"    LookupFieldValue="2" Active="1" />
+  <GlobalLookupField Id="3" Title="100G OPP/1.75 mil LLDPE"   LookupFieldValue="3" Active="1" />
+  <GlobalLookupField Id="4" Title="100G OPP/100G CPP"         LookupFieldValue="4" Active="1" />
+  <GlobalLookupField Id="5" Title="100G OPP/100G OPP"         LookupFieldValue="5" Active="1" />
+  <GlobalLookupField Id="6" Title="100G OPP/120G OPP"         LookupFieldValue="6" Active="1" />
+  <GlobalLookupField Id="7" Title="100G OPP/150G COEX PE"     LookupFieldValue="7" Active="1" />
+  <GlobalLookupField Id="8" Title="100G OPP/2.0 mil LLDPE"    LookupFieldValue="8" Active="1" />
+  <GlobalLookupField Id="9" Title="100G OPP/2.15 mil LLDPE"   LookupFieldValue="9" Active="1" />
+  <GlobalLookupField Id="10" Title="100G OPP/70G MET OPP"      LookupFieldValue="10" Active="1" />
+  <GlobalLookupField Id="11" Title="120G OPP/2.0 mil LLDPE"    LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="12" Title="48G PET/2.5 mil LLDPE"     LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="48G PET/3 mil LLDPE"       LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="70G OPP/1.5 mil LLDPE"     LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="70G OPP/100G MET OPP"      LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="70G OPP/150G LLDPE"        LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="70G OPP/70G CPP"           LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="70G OPP/70G MET OPP"       LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="70G OPP/70G OPP"           LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="20" Title="70G OPP/80G CPP"           LookupFieldValue="20" Active="1" />
+  <GlobalLookupField Id="21" Title="75G OPP/1.25 mil LLDPE"    LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="22" Title="75G OPP/150G LLDPE"        LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="23" Title="75G OPP/1.5 mil LLDPE"     LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="24" Title="80G OPP/1.25 mil LLDPE"    LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="25" Title="80G OPP/150G LLDPE"        LookupFieldValue="25" Active="1" />
+  <GlobalLookupField Id="26" Title="80G OPP/100G OPP"          LookupFieldValue="26" Active="1" />
+  <GlobalLookupField Id="27" Title="80G OPP/80G OPP"           LookupFieldValue="27" Active="1" />
+  <GlobalLookupField Id="28" Title="KPET 12/CPP 30"            LookupFieldValue="28" Active="1" />
+  <GlobalLookupField Id="29" Title="1.00 MIL OPP/1.00 MIL OPP" LookupFieldValue="29" Active="1" />
+  <GlobalLookupField Id="30" Title="2.50 mil PE"  LookupFieldValue="30" Active="1" />
+  <GlobalLookupField Id="31" Title="120G Clear Matte OPP/120G White OPP"  LookupFieldValue="31" Active="1" />
+  <GlobalLookupField Id="32" Title="120G Clear Matte OPP/120G White LLDPE"  LookupFieldValue="32" Active="1" />
+  <GlobalLookupField Id="33" Title="70G Matte OPP/1.75mil White LLDPE"  LookupFieldValue="33" Active="1" />
+  <GlobalLookupField Id="34" Title="48G PETE/4.0mil White LLDPE – Matte Varnish"  LookupFieldValue="34" Active="1" />
+  <GlobalLookupField Id="35" Title="Coex 70G OPP/12# White OPE/70G OPP"  LookupFieldValue="35" Active="1" />
+  <GlobalLookupField Id="36" Title="80G OPP/2.0mil EVA PE"  LookupFieldValue="36" Active="1" />
+  <GlobalLookupField Id="37" Title="0.050mm PVC"                       LookupFieldValue="37" Active="1" />
+  <GlobalLookupField Id="38" Title="100G OPP/100G White OPP"           LookupFieldValue="38" Active="1" />
+  <GlobalLookupField Id="39" Title="48ga PET/2mil mLLDPE COEX"         LookupFieldValue="39" Active="1" />
+  <GlobalLookupField Id="40" Title="100 g Mono 90% HMW-HDPE/10% LLDPE" LookupFieldValue="40" Active="1" />
+  <GlobalLookupField Id="41" Title="60 g Mono 80% HMW-HDPE/10% LLDPE"  LookupFieldValue="41" Active="1" />
+  <GlobalLookupField Id="42" Title="100G OPP"  LookupFieldValue="42" Active="1" />
+  <GlobalLookupField Id="43" Title="8g Paraffin Wax Outer/ 38g Opaque Twisting Paper/ 8g Paraffin Wax Inner"  LookupFieldValue="43" Active="1" />
+  <GlobalLookupField Id="44" Title="30 micron Acrylic BOPP"  LookupFieldValue="44" Active="1" />
+  <GlobalLookupField Id="45" Title="100g Matte OPP/1.5mil White LLDPE" LookupFieldValue="45" Active="1" />
+  <GlobalLookupField Id="46" Title="60 g PE"  LookupFieldValue="46" Active="1" />
+  <GlobalLookupField Id="47" Title="60g release OPP/ink/adh/1.22 ga (30 hm) white cav OPP/ CS"  LookupFieldValue="47" Active="1" />
+  <GlobalLookupField Id="48" Title="120G clear OPP/120G clear LLDPE – with spot matt varnish"  LookupFieldValue="48" Active="1" />
+  <GlobalLookupField Id="49" Title="80g OPP/ 1.5 mil mPE Coex"      LookupFieldValue="49" Active="1" />
+  <GlobalLookupField Id="50" Title="45 Micras BOPP Blanco Opaco"    LookupFieldValue="50" Active="1" />
+  <GlobalLookupField Id="51" Title="50 Micras BOPP Blanco Opaco"    LookupFieldValue="51" Active="1" />
+  <GlobalLookupField Id="52" Title="48G PETE/3.0mil White LLDPE"    LookupFieldValue="52" Active="1" />
+  <GlobalLookupField Id="53" Title="120G clear OPP/150G clear LLDPE- with spot matte varnish"  LookupFieldValue="53" Active="1" />
+  <GlobalLookupField Id="54" Title="PP"  LookupFieldValue="54" Active="1" />
+  <GlobalLookupField Id="55" Title="PET"  LookupFieldValue="55" Active="1" />
+  <GlobalLookupField Id="56" Title="48 g PETE/ 100g Clear OPP"  LookupFieldValue="56" Active="1" />
+  <GlobalLookupField Id="57" Title="48 g PETE/ 100g White OPP"  LookupFieldValue="57" Active="1" />
+  <GlobalLookupField Id="58" Title="25 mic BOPP / LDPE 150"     LookupFieldValue="58" Active="1" />
+  <GlobalLookupField Id="59" Title="70 OPP/.002 mLLDPE"         LookupFieldValue="59" Active="1" />
+  <GlobalLookupField Id="60" Title="100g OPP/2mil PE"           LookupFieldValue="60" Active="1" />
+  <GlobalLookupField Id="61" Title="2mil LDPE"                  LookupFieldValue="61" Active="1" />
+  <GlobalLookupField Id="62" Title="60ga. BCC film"             LookupFieldValue="62" Active="1" />
+  <GlobalLookupField Id="63" Title="80G OPP/80G White OPP"      LookupFieldValue="63" Active="1" />
+  <GlobalLookupField Id="64" Title="BOPP20/ PEBD NAT 150"       LookupFieldValue="64" Active="1" />
+  <GlobalLookupField Id="65" Title="70g OPP/ 1.75 mil LLDPE"    LookupFieldValue="65" Active="1" />
+  <GlobalLookupField Id="66" Title="100G OPP/90G White OPP"     LookupFieldValue="66" Active="1" />
+  <GlobalLookupField Id="67" Title="48G CL PET/ 48G MET PET/2.00 mil CL Peelable EVOH LLDPE COEX" LookupFieldValue="67" Active="1" />
+  <GlobalLookupField Id="68" Title="Klockner 24G APET/EVOH/PE"  LookupFieldValue="68" Active="1" />
+</ArrayOfGlobalLookupField>

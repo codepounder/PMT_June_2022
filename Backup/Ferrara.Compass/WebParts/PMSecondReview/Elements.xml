@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="PMSecondReview" List="113" Url="_catalogs/wp">
+    <File Path="PMSecondReview\PMSecondReview.webpart" Url="Ferrara.Compass_PMSecondReview.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="Custom" />
+    </File>
+  </Module>
+</Elements>

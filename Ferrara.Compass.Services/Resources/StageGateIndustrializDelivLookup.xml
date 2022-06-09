@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Subtask="N" Title="Updated Timeline" LookupFieldValue="1" Active="1" Owner="Project Manager" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Produce and Approve Sales Samples" LookupFieldValue="1" Active="1" Owner="InTech" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Sales Samples to the Field" LookupFieldValue="1" Active="1" Owner="Sales" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Develop Channel and Customer Plan; conduct sell in" LookupFieldValue="1" Active="1" Owner="Marketing" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Route & Gain Approval on FLS (Ferrara Label Spec) - Domestic" LookupFieldValue="1" Active="1" Owner="Regulatory" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Route & Gain Approval on FLS (Ferrara Label Spec) - International (if applicable)" LookupFieldValue="1" Active="1" Owner="Regulatory" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Finalize PACK and Pack FG Specs" LookupFieldValue="1" Active="1" Owner="Package Engineering" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Complete Full SAP Item Setup, including final costing" LookupFieldValue="1" Active="1" Owner="Masterdata / Finance" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Bracket Pricing in SAP" LookupFieldValue="1" Active="1" Owner="Finance (via Revenue Management)" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Graphics Process (Production Art, Routing, and Print Plates)" LookupFieldValue="1" Active="1" Owner="Marketing" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Complete Quality Documents" LookupFieldValue="1" Active="1" Owner="Food Safety Quality / Innovation Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Complete International Documents (if applicable)" LookupFieldValue="1" Active="1" Owner="Regulatory / International Compliance / Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Install and Commission CapEx Equipment (if necessary and if not done during )" LookupFieldValue="1" Active="1" Owner="Engineering / Manufacturing / Safety / Quality" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Verify forecast matches revenue assumptions and it is in the system" LookupFieldValue="1" Active="1" Owner="Marketing" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Final P&L Review" LookupFieldValue="1" Active="1" Owner="Finance" />
+  <GlobalLookupField Id="1" Subtask="N" Title="Updated Brief" LookupFieldValue="1" Active="1" Owner="Project Leader" />
+</ArrayOfGlobalLookupField>

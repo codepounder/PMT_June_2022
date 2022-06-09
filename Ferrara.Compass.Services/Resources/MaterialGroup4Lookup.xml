@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="37" Title="Assembled (ASS)" LookupFieldValue="ASS" Active="1" />
+  <GlobalLookupField Id="38" Title="Batter wirecut (BWC)" LookupFieldValue="BWC" Active="1" />
+  <GlobalLookupField Id="39" Title="CANE (CAN)" LookupFieldValue="CAN" Active="1" />
+  <GlobalLookupField Id="40" Title="Cake Cone (CCN)" LookupFieldValue="CCN" Active="1" />
+  <GlobalLookupField Id="41" Title="CHOCOLATE (CHC)" LookupFieldValue="CHC" Active="1" />
+  <GlobalLookupField Id="42" Title="CENTER IN SHELL (CIS)" LookupFieldValue="CIS" Active="1" />
+  <GlobalLookupField Id="43" Title="CARAMEL/NOUGAT (CNG)" LookupFieldValue="CNG" Active="1" />
+  <GlobalLookupField Id="44" Title="Crushed Cookies (CRC)" LookupFieldValue="CRC" Active="1" />
+  <GlobalLookupField Id="1" Title="CHEWY TABLETED (CTB)" LookupFieldValue="CTB" Active="1" />
+  <GlobalLookupField Id="2" Title="Dipped Cones (DCN)" LookupFieldValue="DCN" Active="1" />
+  <GlobalLookupField Id="3" Title="Dual Enrobbed (DEN)" LookupFieldValue="DEN" Active="1" />
+  <GlobalLookupField Id="4" Title="Double Extruded (DEX)" LookupFieldValue="DEX" Active="1" />
+  <GlobalLookupField Id="5" Title="DRY TABLETED (DTB)" LookupFieldValue="DTB" Active="1" />
+  <GlobalLookupField Id="6" Title="FRUIT SNACKS (FRT)" LookupFieldValue="FRT" Active="1" />
+  <GlobalLookupField Id="7" Title="Frozen Dough (FZD)" LookupFieldValue="FZD" Active="1" />
+  <GlobalLookupField Id="8" Title="GUMMY (GMY)" LookupFieldValue="GMY" Active="1" />
+  <GlobalLookupField Id="9" Title="GUMS (GUM)" LookupFieldValue="GUM" Active="1" />
+  <GlobalLookupField Id="10" Title="HARD (HRD)" LookupFieldValue="HRD" Active="1" />
+  <GlobalLookupField Id="11" Title="JELLY (JLY)" LookupFieldValue="JLY" Active="1" />
+  <GlobalLookupField Id="12" Title="JUJU (JUJ)" LookupFieldValue="JUJ" Active="1" />
+  <GlobalLookupField Id="13" Title="JELLY BEANS (JYB)" LookupFieldValue="JYB" Active="1" />
+  <GlobalLookupField Id="14" Title="MARSHMALLOW (MAR)" LookupFieldValue="MAR" Active="1" />
+  <GlobalLookupField Id="15" Title="MELLOWCREME (MCM)" LookupFieldValue="MCM" Active="1" />
+  <GlobalLookupField Id="16" Title="MOGUL PANNED (MGP)" LookupFieldValue="MGP" Active="1" />
+  <GlobalLookupField Id="17" Title="MIXES (MIX)" LookupFieldValue="MIX" Active="1" />
+  <GlobalLookupField Id="18" Title="MULTIPLE (MUL)" LookupFieldValue="MUL" Active="1" />
+  <GlobalLookupField Id="19" Title="NUT NON-CHOC (NNC)" LookupFieldValue="NNC" Active="1" />
+  <GlobalLookupField Id="20" Title="ORGANIC (ORG)" LookupFieldValue="ORG" Active="1" />
+  <GlobalLookupField Id="21" Title="PANNED (PAN)" LookupFieldValue="PAN" Active="1" />
+  <GlobalLookupField Id="22" Title="POWDER (PWD)" LookupFieldValue="PWD" Active="1" />
+  <GlobalLookupField Id="23" Title="Rotary Molded (RMD)" LookupFieldValue="RMD" Active="1" />
+  <GlobalLookupField Id="24" Title="ROPE (ROP)" LookupFieldValue="ROP" Active="1" />
+  <GlobalLookupField Id="25" Title="Sandwich Crème (SCM)" LookupFieldValue="SCM" Active="1" />
+  <GlobalLookupField Id="26" Title="Sugar Cone (SCN)" LookupFieldValue="SCN" Active="1" />
+  <GlobalLookupField Id="27" Title="Single Enrobbed (SEN)" LookupFieldValue="SEN" Active="1" />
+  <GlobalLookupField Id="28" Title="SOFT MINT (SFM)" LookupFieldValue="SFM" Active="1" />
+  <GlobalLookupField Id="29" Title="Snack mix (SMX)" LookupFieldValue="SMX" Active="1" />
+  <GlobalLookupField Id="30" Title="Sugar Wafers (SWF)" LookupFieldValue="SWF" Active="1" />
+  <GlobalLookupField Id="31" Title="TAFFY (TAF)" LookupFieldValue="TAF" Active="1" />
+  <GlobalLookupField Id="32" Title="Triple Enrobbed (TEN)" LookupFieldValue="TEN" Active="1" />
+  <GlobalLookupField Id="33" Title="VITAMIN (VIT)" LookupFieldValue="VIT" Active="1" />
+  <GlobalLookupField Id="34" Title="Waffle Cone (WCN)" LookupFieldValue="WCN" Active="1" />
+  <GlobalLookupField Id="35" Title="Waffle Bowls (WFB)" LookupFieldValue="WFB" Active="1" />
+  <GlobalLookupField Id="36" Title="Wirecut (WRC)" LookupFieldValue="WRC" Active="1" />
+  <GlobalLookupField Id="37" Title="Crusts (CST)" LookupFieldValue="CST" Active="1" />
+
+
+</ArrayOfGlobalLookupField>
+

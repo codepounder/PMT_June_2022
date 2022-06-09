@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="7-ELEVEN" LookupFieldValue="7E" Active="1" />
+  <GlobalLookupField Id="2" Title="ALBERTSON'S" LookupFieldValue="AB" Active="1" />
+  <GlobalLookupField Id="3" Title="ALDI" LookupFieldValue="AD" Active="1" />
+  <GlobalLookupField Id="4" Title="AHOLD" LookupFieldValue="AH" Active="1" />
+  <GlobalLookupField Id="5" Title="AM/PM" LookupFieldValue="AP" Active="1" />
+  <GlobalLookupField Id="6" Title="BJS" LookupFieldValue="BJ" Active="1" />
+  <GlobalLookupField Id="7" Title="BOXED.COM" LookupFieldValue="BX" Active="1" />
+  <GlobalLookupField Id="8" Title="CONAGRA" LookupFieldValue="CA" Active="1" />
+  <GlobalLookupField Id="9" Title="CANDY,COM" LookupFieldValue="CC" Active="1" />
+  <GlobalLookupField Id="10" Title="CIRCLE K" LookupFieldValue="CK" Active="1" />
+  <GlobalLookupField Id="11" Title="COREMARK" LookupFieldValue="CM" Active="1" />
+  <GlobalLookupField Id="12" Title="COSTCO" LookupFieldValue="CO" Active="1" />
+  <GlobalLookupField Id="13" Title="COSTCO INTERNATIONAL" LookupFieldValue="CO" Active="1" />
+  <GlobalLookupField Id="14" Title="CVS" LookupFieldValue="CV" Active="1" />
+  <GlobalLookupField Id="15" Title="DOLLAR CHANNEL" LookupFieldValue="DC" Active="1" />
+  <GlobalLookupField Id="16" Title="Dollar General" LookupFieldValue="DG" Active="1" />
+  <GlobalLookupField Id="17" Title="Dollar Tree" LookupFieldValue="DT" Active="1" />
+  <GlobalLookupField Id="18" Title="E-COMMERCE" LookupFieldValue="EC" Active="1" />
+  <GlobalLookupField Id="19" Title="EXPORT CUSTOMER" LookupFieldValue="EX" Active="1" />
+  <GlobalLookupField Id="20" Title="Family Dollar" LookupFieldValue="FD" Active="1" />
+  <GlobalLookupField Id="21" Title="FERRERO" LookupFieldValue="FR" Active="1" />
+  <GlobalLookupField Id="22" Title="GEORGE HOWE" LookupFieldValue="GH" Active="1" />
+  <GlobalLookupField Id="23" Title="GENERAL MILLS" LookupFieldValue="GM" Active="1" />
+  <GlobalLookupField Id="24" Title="WALMART / GREAT VALUE" LookupFieldValue="GV" Active="1" />
+  <GlobalLookupField Id="25" Title="HEB" LookupFieldValue="HB" Active="1" />
+  <GlobalLookupField Id="26" Title="HEALTH RIGHTS PRODUCTS" LookupFieldValue="HR" Active="1" />
+  <GlobalLookupField Id="27" Title="HARRIS TEETER" LookupFieldValue="HT" Active="1" />
+  <GlobalLookupField Id="28" Title="HV VEEMEIJER" LookupFieldValue="HV" Active="1" />
+  <GlobalLookupField Id="29" Title="HERSHEY" LookupFieldValue="HY" Active="1" />
+  <GlobalLookupField Id="30" Title="IVC" LookupFieldValue="IV" Active="1" />
+  <GlobalLookupField Id="31" Title="KEEFE" LookupFieldValue="KF" Active="1" />
+  <GlobalLookupField Id="32" Title="Kroger" LookupFieldValue="KR" Active="1" />
+  <GlobalLookupField Id="33" Title="LOWES" LookupFieldValue="LW" Active="1" />
+  <GlobalLookupField Id="34" Title="MENARDS" LookupFieldValue="MN" Active="1" />
+  <GlobalLookupField Id="35" Title="MONDELEZ" LookupFieldValue="MZ" Active="1" />
+  <GlobalLookupField Id="36" Title="NATURE'S BOUNTY" LookupFieldValue="NB" Active="1" />
+  <GlobalLookupField Id="37" Title="NESTLE" LookupFieldValue="NE" Active="1" />
+  <GlobalLookupField Id="38" Title="NATROL" LookupFieldValue="NT" Active="1" />
+  <GlobalLookupField Id="39" Title="NATURE'S WAY" LookupFieldValue="NW" Active="1" />
+  <GlobalLookupField Id="40" Title="PERRIGO" LookupFieldValue="PG" Active="1" />
+  <GlobalLookupField Id="41" Title="PRICELIST" LookupFieldValue="PL" Active="1" />
+  <GlobalLookupField Id="42" Title="PROMOTIOM IN MOTION" LookupFieldValue="PM" Active="1" />
+  <GlobalLookupField Id="43" Title="PEARSON'S" LookupFieldValue="PN" Active="1" />
+  <GlobalLookupField Id="44" Title="PEPSI" LookupFieldValue="GT" Active="1" />
+  <GlobalLookupField Id="45" Title="PROMOTIONAL" LookupFieldValue="PR" Active="1" />
+  <GlobalLookupField Id="46" Title="PUBLIX" LookupFieldValue="PX" Active="1" />
+  <GlobalLookupField Id="47" Title="RITE AID" LookupFieldValue="RA" Active="1" />
+  <GlobalLookupField Id="48" Title="SAMS CLUB (ALL)" LookupFieldValue="SC" Active="1" />
+  <GlobalLookupField Id="49" Title="SAMS CLUB CANADA" LookupFieldValue="SC" Active="1" />
+  <GlobalLookupField Id="50" Title="SAMS CLUB PUERTO RICO" LookupFieldValue="SC" Active="1" />
+  <GlobalLookupField Id="51" Title="SAMS CLUB UNITED STATES" LookupFieldValue="SC" Active="1" />
+  <GlobalLookupField Id="52" Title="SAMS CLUB CHINA" LookupFieldValue="SC" Active="1" />
+  <GlobalLookupField Id="53" Title="SEMI-FINISHED GOOD" LookupFieldValue="SF" Active="1" />
+  <GlobalLookupField Id="54" Title="SAVE-A-LOT" LookupFieldValue="SL" Active="1" />
+  <GlobalLookupField Id="55" Title="SULTANA" LookupFieldValue="SU" Active="1" />
+  <GlobalLookupField Id="56" Title="SAFEWAY" LookupFieldValue="SW" Active="1" />
+  <GlobalLookupField Id="57" Title="Target" LookupFieldValue="TG" Active="1" />
+  <GlobalLookupField Id="58" Title="UNILEVER" LookupFieldValue="UL" Active="1" />
+  <GlobalLookupField Id="59" Title="Walgreens" LookupFieldValue="WG" Active="1" />
+  <GlobalLookupField Id="60" Title="WAKEFERN" LookupFieldValue="WK" Active="1" />
+  <GlobalLookupField Id="61" Title="WalMart" LookupFieldValue="WM" Active="1" />
+  <GlobalLookupField Id="62" Title="WRIGLEY / MARS" LookupFieldValue="WR" Active="1" />
+  <GlobalLookupField Id="63" Title="ZARBEES" LookupFieldValue="ZB" Active="1" />
+  <GlobalLookupField Id="64" Title="Target Market Pantry" LookupFieldValue="MP" Active="1" />
+  <GlobalLookupField Id="65" Title="Target Simply Balanced" LookupFieldValue="SB" Active="1" />
+  <GlobalLookupField Id="66" Title="Kroger Simple Truth Organic" LookupFieldValue="ST" Active="1" />
+  <GlobalLookupField Id="67" Title="Costco Kirkland Signature" LookupFieldValue="KS" Active="1" />
+  <GlobalLookupField Id="68" Title="Safeway/Albertsons Signature Select" LookupFieldValue="SS" Active="1" />
+  <GlobalLookupField Id="69" Title="Aldi Lunch Buddies" LookupFieldValue="LB" Active="1" />
+  <GlobalLookupField Id="70" Title="Dollar General Sweet Smiles" LookupFieldValue="DG" Active="1" />
+  <GlobalLookupField Id="71" Title="Walmart Great Value" LookupFieldValue="GV" Active="1" />
+  <GlobalLookupField Id="72" Title="Walmart Great Value Dessert Topping" LookupFieldValue="GV" Active="1" />
+  <GlobalLookupField Id="73" Title="7-Eleven 7-Select" LookupFieldValue="7S" Active="1" />
+  <GlobalLookupField Id="74" Title="Walgreens NICE" LookupFieldValue="WN" Active="1" />
+  <GlobalLookupField Id="75" Title="CHURCH &amp; DWIGHT" LookupFieldValue="WN" Active="1" />Girl Scouts (GSUSA)
+  <GlobalLookupField Id="76" Title="Girl Scouts (GSUSA)" LookupFieldValue="GS" Active="1" />
+  <GlobalLookupField Id="77" Title="KELLOGG'S" LookupFieldValue="KL" Active="1" />
+</ArrayOfGlobalLookupField>
+
+
+
+
+

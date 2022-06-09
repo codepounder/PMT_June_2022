@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="COOKIES (000000027)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="2" Title="CONES (000000028)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="3" Title="CRUSTS (000000029)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="4" Title="FRUIT SNACKS (000000003)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="5" Title="CONFECTIONS (000000004)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="5" Title="PREMIUM COOKIES (000000030)" LookupFieldValue="000000025" Active="1" />
+  <GlobalLookupField Id="6" Title="HOLIDAY (000000001)" LookupFieldValue="000000023" Active="1" />
+  <GlobalLookupField Id="7" Title="CONFECTIONS (000000005)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="8" Title="FRUIT SNACKS (000000008)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="9" Title="COOKIES (000000009)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="10" Title="CRUSTS (000000011)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="11" Title="CONES (000000010)" LookupFieldValue="000000024" Active="1" />
+  <GlobalLookupField Id="13" Title="FRUIT SNACKS (000000024)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="47" Title="CONFECTIONS (000000021)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="14" Title="COOKIES (000000030)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="15" Title="CONES (000000031)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="16" Title="CRUSTS (000000032)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="17" Title="PREMIUM COOKIES (000000033)" LookupFieldValue="000000026" Active="1" />
+  <GlobalLookupField Id="18" Title="CONAGRA (000000001)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="19" Title="GENERAL MILLS (000000002)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="20" Title="HERSHEY (000000003)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="21" Title="MARS (000000004)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="22" Title="MONDALEZ / CADBURY / KRAFT (000000005)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="23" Title="NESTLE (000000006)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="24" Title="PEPSI (000000007)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="25" Title="PROMOTION IN MOTION (000000008)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="26" Title="WRIGLEY'S / MARS (000000009)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="27" Title="OTHER (000000010)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="28" Title="MULTIPLE (000000013)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="29" Title="GUMMI (000000014)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="30" Title="RE-BAGGER (000000015)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="31" Title="WALMART (000000016)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="32" Title="ALL OTHER NON-CHOCOLATE (000000017)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="33" Title="CHRISTMAS (000000018)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="34" Title="EASTER (000000019)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="35" Title="FRUIT SNACKS (000000020)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="36" Title="KELLOGG'S - COOKIES (000000021)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="37" Title="FERRERO (000000113)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="38" Title="NATURES WAY (000000114)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="39" Title="NATURES BOUNTY (000000115)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="40" Title="NATROL (000000116)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="41" Title="GIRL SCOUTS (0000000001)" LookupFieldValue="000000030" Active="1" />
+  <GlobalLookupField Id="42" Title="REWARDS (0000000002)" LookupFieldValue="000000030" Active="1" />
+  <GlobalLookupField Id="43" Title="LICENSING (0000000003)" LookupFieldValue="000000030" Active="1" />
+  <GlobalLookupField Id="44" Title="EASTER (000000003)" LookupFieldValue="000000023" Active="1" />
+  <GlobalLookupField Id="45" Title="HALLOWEEN (000000005)" LookupFieldValue="000000023" Active="1" />
+  <GlobalLookupField Id="46" Title="VALENTINE'S DAY (000000008)" LookupFieldValue="000000023" Active="1" />
+  <GlobalLookupField Id="47" Title="Coman VMS (000000001)" LookupFieldValue="000000027" Active="1" />
+  <GlobalLookupField Id="48" Title="Coman All Other (000000002)" LookupFieldValue="000000027" Active="1" />
+</ArrayOfGlobalLookupField>
+
+
+
+
+
+
+
+
+
+

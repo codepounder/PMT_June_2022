@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="1" Title="Ferrara" LookupFieldValue="41420000010" Active="1" />
+  <GlobalLookupField Id="2" Title="Ahold" LookupFieldValue="688267000003" Active="1" />
+  <GlobalLookupField Id="3" Title="Albertsons Companies (Supervalu)" LookupFieldValue="321130000013" Active="1" />
+  <GlobalLookupField Id="4" Title="Core-Mark International Inc" LookupFieldValue="869398000302" Active="1" />
+  <GlobalLookupField Id="5" Title="C&amp;S Wholesale Grocers" LookupFieldValue="868504000403" Active="1" />
+  <GlobalLookupField Id="6" Title="Costco" LookupFieldValue="96619000005" Active="1" />
+  <GlobalLookupField Id="7" Title="DeCa" LookupFieldValue="1100001008841" Active="1" />
+  <GlobalLookupField Id="8" Title="Dot Foods Inc." LookupFieldValue="684476000001" Active="1" />
+  <GlobalLookupField Id="9" Title="Halfon Candy" LookupFieldValue="842347100001" Active="1" />
+  <GlobalLookupField Id="10" Title="Jewel" LookupFieldValue="41130051784" Active="1" />
+  <GlobalLookupField Id="11" Title="The Kroger Company" LookupFieldValue="11110000019" Active="1" />
+  <GlobalLookupField Id="12" Title="Maines Paper &amp; Food" LookupFieldValue="817057010001" Active="1" />
+  <GlobalLookupField Id="13" Title="McLane Company Inc" LookupFieldValue="83967000016" Active="1" />
+  <GlobalLookupField Id="14" Title="Sears Holding Co" LookupFieldValue="633815000004" Active="1" />
+  <GlobalLookupField Id="15" Title="Target" LookupFieldValue="85239000007" Active="1" />
+  <GlobalLookupField Id="16" Title="US Foods" LookupFieldValue="758108000001" Active="1" />
+  <GlobalLookupField Id="17" Title="Wakefern Food Corp" LookupFieldValue="341190000006" Active="1" />
+  <GlobalLookupField Id="18" Title="Wal-Mart United States" LookupFieldValue="78742000008" Active="1" />
+  <GlobalLookupField Id="19" Title="Wegmans Food Markets" LookupFieldValue="77890000007" Active="1" />
+  <GlobalLookupField Id="20" Title="Associated Wholesale Grocers" LookupFieldValue="70038000006" Active="1" />
+  <GlobalLookupField Id="21" Title="Meijer Inc" LookupFieldValue="41250000006" Active="1" />
+  <GlobalLookupField Id="22" Title="Safeway" LookupFieldValue="321130000013" Active="1" />
+  <GlobalLookupField Id="23" Title="VF Grace" LookupFieldValue="719777000006" Active="1" />
+</ArrayOfGlobalLookupField>

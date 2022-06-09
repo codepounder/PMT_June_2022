@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="InitialCapacityReviewForm" List="113" Url="_catalogs/wp">
+    <File Path="InitialCapacityReviewForm\InitialCapacityReviewForm.webpart" Url="Ferrara.Compass_InitialCapacityReviewForm.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="PMT" />
+    </File>
+  </Module>
+</Elements>

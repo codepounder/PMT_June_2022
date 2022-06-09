@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GlobalLookupField Id="11" Title="None" LookupFieldValue="11" Active="1" />
+<GlobalLookupField Id="12" Title="Vitamin A" LookupFieldValue="12" Active="1" />
+  <GlobalLookupField Id="13" Title="Vitamin B" LookupFieldValue="13" Active="1" />
+  <GlobalLookupField Id="14" Title="Vitamin B1" LookupFieldValue="14" Active="1" />
+  <GlobalLookupField Id="15" Title="Vitamin B2" LookupFieldValue="15" Active="1" />
+  <GlobalLookupField Id="16" Title="Vitamin B3" LookupFieldValue="16" Active="1" />
+  <GlobalLookupField Id="17" Title="Vitamin B5" LookupFieldValue="17" Active="1" />
+  <GlobalLookupField Id="18" Title="Vitamin B12" LookupFieldValue="18" Active="1" />
+  <GlobalLookupField Id="19" Title="Vitamin C" LookupFieldValue="19" Active="1" />
+  <GlobalLookupField Id="20" Title="Vitamin D" LookupFieldValue="20" Active="1" />
+  <GlobalLookupField Id="21" Title="Vitamin E" LookupFieldValue="21" Active="1" />
+  <GlobalLookupField Id="22" Title="Calcium" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="23" Title="Iron" LookupFieldValue="23" Active="1" />
+  <GlobalLookupField Id="24" Title="Potassium" LookupFieldValue="24" Active="1" />
+  <GlobalLookupField Id="25" Title="Protein" LookupFieldValue="25" Active="1" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</ArrayOfGlobalLookupField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<GlobalLookupField Id="1" Title="None" LookupFieldValue="1" Active="1" />
+  
+<GlobalLookupField Id="11" Title="Natural Flavors" LookupFieldValue="11" Active="1" />
+  <GlobalLookupField Id="22" Title="No Artificial Flavors" LookupFieldValue="22" Active="1" />
+  <GlobalLookupField Id="33" Title="Flavors from Real Sources" LookupFieldValue="33" Active="1" />
+  <GlobalLookupField Id="44" Title="Real Peppermint" LookupFieldValue="44" Active="1" />
+  <GlobalLookupField Id="55" Title="Real Honey" LookupFieldValue="55" Active="1" />
+</ArrayOfGlobalLookupField>

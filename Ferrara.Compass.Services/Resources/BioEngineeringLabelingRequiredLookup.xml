@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArrayOfGlobalLookupField xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <GlobalLookupField Id="2" Title="Yes – Apply QR Code" LookupFieldValue="YesApplyQRCode" Active="1" />
+  <GlobalLookupField Id="2" Title="Yes – Apply BE Labeling (QR code will not fit)" LookupFieldValue="YesApplyBELabeling" Active="1" />
+  <GlobalLookupField Id="3" Title="Yes – Use existing QRC (only show if existing FG)" LookupFieldValue="YesUseExistingQRC" Active="1" />
+  <GlobalLookupField Id="4" Title="No" LookupFieldValue="No" Active="1" />
+</ArrayOfGlobalLookupField>
