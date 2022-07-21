@@ -277,7 +277,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     }
                     catch (Exception e)
                     {
-                        InsertLog("insertOriginalTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart);
+                        InsertLog("insertOriginalTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart + " - Project Number : " + compassItem.ProjectNumber);
                     }
                     try
                     {
@@ -289,7 +289,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     }
                     catch (Exception ex)
                     {
-                        InsertLog("insertOriginalTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 1: " + ex.Message + " : Column " + columnStart);
+                        InsertLog("insertOriginalTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 1: " + ex.Message + " : Column " + columnStart + " - Project Number : " + compassItem.ProjectNumber);
                     }
                    
 
@@ -384,7 +384,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     }
                     catch (Exception e)
                     {
-                        InsertLog("insertActualTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart);
+                        InsertLog("insertActualTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart + " - Project Number : " + dbItem.ProjectNumber);
                     }
                 }
                 try
@@ -397,7 +397,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                 }
                 catch ( Exception ex)
                 {
-                    InsertLog("insertActualTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 2: " + ex.Message);
+                    InsertLog("insertActualTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 2: " + ex.Message +" - Project Number : " + dbItem.ProjectNumber);
                 }
                
 
