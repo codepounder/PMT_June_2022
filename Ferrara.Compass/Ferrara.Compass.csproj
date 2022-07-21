@@ -27,7 +27,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>14.0</OldToolsVersion>
-    <ActiveDeploymentConfiguration>Default</ActiveDeploymentConfiguration>
+    <ActiveDeploymentConfiguration>No Activation</ActiveDeploymentConfiguration>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -282,6 +282,13 @@
     <Compile Include="Layouts\Ferrara.Compass\AppPages\MoveBOMForm.aspx.designer.cs">
       <DependentUpon>MoveBOMForm.aspx.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\AppPages\test.aspx.designer.cs">
+      <DependentUpon>test.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx.cs">
       <DependentUpon>UploadBulkFuseFiles.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -295,6 +302,13 @@
     </Compile>
     <Compile Include="Layouts\Ferrara.Compass\AppPages\UploadForm.aspx.designer.cs">
       <DependentUpon>UploadForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\FGBOMModal.aspx.cs">
+      <DependentUpon>FGBOMModal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\Ferrara.Compass\FGBOMModal.aspx.designer.cs">
+      <DependentUpon>FGBOMModal.aspx.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebParts\AllOpenProjectsForm\AllOpenProjectsForm.ascx.g.cs">
@@ -1378,6 +1392,7 @@
     <Content Include="Layouts\Ferrara.Compass\AppPages\CompassErrorPage.aspx" />
     <Content Include="Layouts\Ferrara.Compass\AppPages\CopyIPF.aspx" />
     <Content Include="Layouts\Ferrara.Compass\AppPages\MoveBOMForm.aspx" />
+    <Content Include="Layouts\Ferrara.Compass\AppPages\test.aspx" />
     <Content Include="Layouts\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx" />
     <Content Include="Layouts\Ferrara.Compass\AppPages\UploadForm.aspx" />
     <Content Include="Layouts\Ferrara.Compass\css\BootStrap\bootstrap-grid.min.css" />
@@ -1397,6 +1412,7 @@
     <Content Include="Layouts\Ferrara.Compass\css\datepicker3.min.css" />
     <Content Include="Layouts\Ferrara.Compass\css\jquery.dateselect.css" />
     <Content Include="Layouts\Ferrara.Compass\css\jquery.steps.css" />
+    <Content Include="Layouts\Ferrara.Compass\FGBOMModal.aspx" />
     <Content Include="Layouts\Ferrara.Compass\images\minus20X20.png" />
     <Content Include="Layouts\Ferrara.Compass\images\plus20X20.png" />
     <Content Include="Layouts\Ferrara.Compass\img\delete.png" />

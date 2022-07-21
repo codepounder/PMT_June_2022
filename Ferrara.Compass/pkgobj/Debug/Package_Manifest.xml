@@ -167,6 +167,7 @@
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CompassErrorPage.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\CopyIPF.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\MoveBOMForm.aspx" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\test.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\UploadBulkFuseFiles.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\AppPages\UploadForm.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\BootStrap\bootstrap-grid.min.css" />
@@ -186,6 +187,7 @@
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\datepicker3.min.css" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.dateselect.css" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\css\jquery.steps.css" />
+    <TemplateFile Location="LAYOUTS\Ferrara.Compass\FGBOMModal.aspx" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\minus20X20.png" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\images\plus20X20.png" />
     <TemplateFile Location="LAYOUTS\Ferrara.Compass\img\delete.png" />

@@ -86,8 +86,9 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
 
 
                 spWeb.AllowUnsafeUpdates = true;
+                InsertLog("Project Timeline Job", "UpdateTimelineReportFields", "Project Timeline Job has Started - Ver 2.0");
                 UpdateTimelineReportFields();
-                InsertLog("Project Timeline Job", "UpdateTimelineReportFields", "Project TImeline Job has Completed.");
+                InsertLog("Project Timeline Job", "UpdateTimelineReportFields", "Project Timeline Job has Completed - Ver 2.0");
                 spWeb.AllowUnsafeUpdates = false;
             }
 
@@ -110,13 +111,24 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
             SPListItemCollection activeProjects = projects.GetItems();
             //InsertLog(spWeb, "4", "UpdateTimelineReportFields", string.Concat("4: "));
             // Loop thru all In Progress Workflow Tasks
-
+          
+            
             foreach (SPListItem item in activeProjects)
             {
                 try
                 {
                     if (item != null)
                     {
+                        //filter to test -- 2022-28-9  2018-133 2021-279-6
+                        //string projectNubmer = Convert.ToString(item[CompassListFields.ProjectNumber]).ToString();
+                        //if (projectNubmer.Trim() != "2021-99-1")
+                        //{
+                        //    continue;
+                        //}
+                        // if(item.ID != 6789)
+                        //{
+                        //    continue;
+                        //}
                         DashboardDetailsItem detailsItem = new DashboardDetailsItem();
                         detailsItem.FirstProductionDate = Convert.ToString(item[CompassListFields.FirstProductionDate]);
                         detailsItem.FirstShipDate = Convert.ToString(item[CompassListFields.FirstShipDate]);
@@ -153,7 +165,10 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                 }
                 catch (Exception ex)
                 {
-                    InsertLog("Project Timeline Job-Error", "UpdateTimelineReportFields", string.Concat("Test0): ", ex.Message));
+                    // added on 20-Jul-2022 by Mahipal Reddy
+                    InsertLog("Project Timeline Job-Error Ver 2.0", "UpdateTimelineReportFields", string.Concat("Test0: ", Convert.ToString(item[CompassListFields.ProjectNumber]).ToString() + " - " + ex.Message));
+
+                   // InsertLog("Project Timeline Job-Error", "UpdateTimelineReportFields", string.Concat("Test0): ", ex.Message));
                     LoggingService.LogError(LoggingService.WebPartLoggingDiagnosticArea, string.Concat("Project Timeline Job-Error-UpdateTimelineReportFields1: ", ex.Message));
                 }
                 //}
@@ -208,7 +223,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                 }
                 catch (Exception ex)
                 {
-                    InsertLog("Project Timeline Job-Error", "UpdateTimelineReportFields", string.Concat("Test2", item.CompassListItemId, ex.Message));
+                    InsertLog("Project Timeline Job-Error V 2.0", "UpdateTimelineReportFields", string.Concat("Test2 :  ", item.CompassListItemId, " - " , ex.Message));
                     LoggingService.LogError(LoggingService.WebPartLoggingDiagnosticArea, string.Concat("Project Timeline Job-Error-UpdateTimelineReportFields Test2: ", ex.Message));
                     break;
                 }
@@ -653,8 +668,8 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                         projectWorkflow.Add(new List<string>() { "PrelimSAPInitialSetup", Convert.ToString(workflowItems[ApprovalListFields.PrelimSAPInitialSetup_SubmittedDate]) });
                         projectWorkflow.Add(new List<string>() { "SrOBMApproval", Convert.ToString(workflowItems[ApprovalListFields.SrOBMApproval_SubmittedDate]) });
                         projectWorkflow.Add(new List<string>() { "TradePromo", Convert.ToString(workflowItems[ApprovalListFields.TradePromo_SubmittedDate]) });
-                        projectWorkflow.Add(new List<string>() { "EstPricing", Convert.ToString(workflowItems[ApprovalListFields.EstPricing_SubmittedDate]) });
-                        projectWorkflow.Add(new List<string>() { "EstBracketPricing", Convert.ToString(workflowItems[ApprovalListFields.EstBracketPricing_SubmittedDate]) });
+                       // projectWorkflow.Add(new List<string>() { "EstPricing", Convert.ToString(workflowItems[ApprovalListFields.EstPricing_SubmittedDate]) });
+                      //  projectWorkflow.Add(new List<string>() { "EstBracketPricing", Convert.ToString(workflowItems[ApprovalListFields.EstBracketPricing_SubmittedDate]) });
                         projectWorkflow.Add(new List<string>() { "CostFinishedGood", Convert.ToString(workflowItems[ApprovalListFields.CostFinishedGood_SubmittedDate]) });
                         projectWorkflow.Add(new List<string>() { "FinalCostingReview", Convert.ToString(workflowItems[ApprovalListFields.FinalCostingReview_SubmittedDate]) });
                         projectWorkflow.Add(new List<string>() { "PurchasedPO", Convert.ToString(workflowItems[ApprovalListFields.PurchasedPO_SubmittedDate]) });
@@ -1643,13 +1658,13 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     appItem.EstPricing_StartDate = Convert.ToString(item2[ApprovalListFields.EstPricing_StartDate]);
                     appItem.EstPricing_ModifiedDate = Convert.ToString(item2[ApprovalListFields.EstPricing_ModifiedDate]);
                     appItem.EstPricing_ModifiedBy = Convert.ToString(item2[ApprovalListFields.EstPricing_ModifiedBy]);
-                    appItem.EstPricing_SubmittedDate = Convert.ToString(item2[ApprovalListFields.EstPricing_SubmittedDate]);
+                   // appItem.EstPricing_SubmittedDate = Convert.ToString(item2[ApprovalListFields.EstPricing_SubmittedDate]);
                     appItem.EstPricing_SubmittedBy = Convert.ToString(item2[ApprovalListFields.EstPricing_SubmittedBy]);
                     //Estimated Bracket Pricing
                     appItem.EstBracketPricing_StartDate = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_StartDate]);
                     appItem.EstBracketPricing_ModifiedDate = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_ModifiedDate]);
                     appItem.EstBracketPricing_ModifiedBy = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_ModifiedBy]);
-                    appItem.EstBracketPricing_SubmittedDate = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_SubmittedDate]);
+                  //  appItem.EstBracketPricing_SubmittedDate = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_SubmittedDate]);
                     appItem.EstBracketPricing_SubmittedBy = Convert.ToString(item2[ApprovalListFields.EstBracketPricing_SubmittedBy]);
                 }
             }
@@ -3445,8 +3460,8 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     if (appItem2 != null)
                     {
                         updatedItems.Add(new KeyValuePair<string, string>("BEQRC", Convert.ToString(appItem2[ApprovalListFields.BEQRC_SubmittedDate])));
-                        updatedItems.Add(new KeyValuePair<string, string>("EstPricing", Convert.ToString(appItem2[ApprovalListFields.EstPricing_SubmittedDate])));
-                        updatedItems.Add(new KeyValuePair<string, string>("EstBracketPricing", Convert.ToString(appItem2[ApprovalListFields.EstBracketPricing_SubmittedDate])));
+                      //  updatedItems.Add(new KeyValuePair<string, string>("EstPricing", Convert.ToString(appItem2[ApprovalListFields.EstPricing_SubmittedDate])));
+                      //  updatedItems.Add(new KeyValuePair<string, string>("EstBracketPricing", Convert.ToString(appItem2[ApprovalListFields.EstBracketPricing_SubmittedDate])));
                     }
 
                 }
