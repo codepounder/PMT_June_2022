@@ -263,6 +263,7 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     {
                         continue;
                     }
+                   
                     string columnStart = item.WorflowQuickStep + "_Start";
                     string columnEnd = item.WorflowQuickStep + "_End";
                     string columnDuration = item.WorflowQuickStep + "_Duration";
@@ -278,11 +279,20 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                     {
                         InsertLog("insertOriginalTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart);
                     }
-                    appItem[ProjectStatusDatesFields.FirstProductionDate] = compassItem.FirstProductionDate;
-                    appItem[ProjectStatusDatesFields.IPFSubmitted] = compassItem.IPFSubmitted;
-                    appItem[ProjectStatusDatesFields.FirstShipDate] = compassItem.FirstShipDate;
-                    appItem[ProjectStatusDatesFields.RevisedFirstShipDate] = compassItem.RevisedFirstShipDate;
-                    appItem.Update();
+                    try
+                    {
+                        appItem[ProjectStatusDatesFields.FirstProductionDate] = compassItem.FirstProductionDate;
+                        appItem[ProjectStatusDatesFields.IPFSubmitted] = compassItem.IPFSubmitted;
+                        appItem[ProjectStatusDatesFields.FirstShipDate] = compassItem.FirstShipDate;
+                        appItem[ProjectStatusDatesFields.RevisedFirstShipDate] = compassItem.RevisedFirstShipDate;
+                        appItem.Update();
+                    }
+                    catch (Exception ex)
+                    {
+                        InsertLog("insertOriginalTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 1: " + ex.Message + " : Column " + columnStart);
+                    }
+                   
+
                 }
 
             }
@@ -377,11 +387,19 @@ namespace Ferrara.Compass.ProjectTimelineCalculator
                         InsertLog("insertActualTimeline", "UpdateTimelineReportFields", "columnStart: " + columnStart);
                     }
                 }
-                appItem[ProjectStatusDatesFields.FirstProductionDate] = dbItem.FirstProductionDate;
-                appItem[ProjectStatusDatesFields.IPFSubmitted] = dbItem.IPFSubmitted;
-                appItem[ProjectStatusDatesFields.FirstShipDate] = dbItem.FirstShipDate;
-                appItem[ProjectStatusDatesFields.RevisedFirstShipDate] = dbItem.RevisedFirstShipDate;
-                appItem.Update();
+                try
+                {
+                    appItem[ProjectStatusDatesFields.FirstProductionDate] = dbItem.FirstProductionDate;
+                    appItem[ProjectStatusDatesFields.IPFSubmitted] = dbItem.IPFSubmitted;
+                    appItem[ProjectStatusDatesFields.FirstShipDate] = dbItem.FirstShipDate;
+                    appItem[ProjectStatusDatesFields.RevisedFirstShipDate] = dbItem.RevisedFirstShipDate;
+                    appItem.Update();
+                }
+                catch ( Exception ex)
+                {
+                    InsertLog("insertActualTimeline Ver 2.0", "UpdateTimelineReportFields", "Test Child 2: " + ex.Message);
+                }
+               
 
             }
             /*web.AllowUnsafeUpdates = false;
