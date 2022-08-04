@@ -15946,29 +15946,29 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                         "some.min.css\" rel=\"stylesheet\" />\r\n\r\n<style type=\"text/css\">\r\n    .showTab {\r\n  " +
                         "      left: 0px;\r\n        display: block !important;\r\n    }\r\n\r\n    .justifyRight" +
                         " {\r\n        float: right;\r\n    }\r\n\r\n    .LoadAttachments {\r\n        opacity: 0;\r" +
-                        "\n    }\r\n\r\n    .showItempc {\r\n        display: inline-block;\r\n    }\r\n</style>\r\n<s" +
-                        "tyle id=\"printDiv\" media=\"print\" type=\"text/css\">\r\n    #divFormLinks, #IPFLinkHe" +
-                        "aders, .ProjectNotesContainer, .actions, .hidebutton {\r\n        display: none !i" +
-                        "mportant;\r\n    }\r\n\r\n    #divPrint {\r\n        visibility: visible;\r\n    }\r\n\r\n    " +
-                        "#divPrint {\r\n        display: table;\r\n        width: 100%;\r\n    }\r\n\r\n    div.row" +
-                        " {\r\n        display: table-row;\r\n        width: 100%;\r\n    }\r\n\r\n    div.col-md-1" +
-                        " {\r\n        display: table-cell;\r\n        width: 8.33333333%;\r\n    }\r\n\r\n    div." +
-                        "col-md-2 {\r\n        display: table-cell;\r\n        width: 16.66666667%;\r\n    }\r\n\r" +
-                        "\n    div.col-md-3 {\r\n        display: table-cell;\r\n        width: 25%;\r\n    }\r\n\r" +
-                        "\n    div.col-md-4 {\r\n        display: table-cell;\r\n        width: 33.33333333%;\r" +
-                        "\n    }\r\n\r\n    div.col-md-5 {\r\n        display: table-cell;\r\n        width: 41.66" +
-                        "666667%;\r\n    }\r\n\r\n    div.col-md-6 {\r\n        display: table-cell;\r\n        wid" +
-                        "th: 50%;\r\n    }\r\n\r\n    div.col-md-7 {\r\n        display: table-cell;\r\n        wid" +
-                        "th: 58.33333333%;\r\n    }\r\n\r\n    div.col-md-8 {\r\n        display: table-cell;\r\n  " +
-                        "      width: 66.66666667%;\r\n    }\r\n\r\n    div.col-md-9 {\r\n        display: table-" +
-                        "cell;\r\n        width: 75%;\r\n    }\r\n\r\n    div.col-md-10 {\r\n        display: table" +
-                        "-cell;\r\n        width: 83.33333333%;\r\n    }\r\n\r\n    div.col-md-11 {\r\n        disp" +
-                        "lay: table-cell;\r\n        width: 91.66666667%;\r\n    }\r\n\r\n    div.col-md-12 {\r\n  " +
-                        "      display: table-cell;\r\n        width: 100%;\r\n    }\r\n</style>\r\n<div class=\"c" +
-                        "ontainer\">\r\n    <div class=\"content\">\r\n        <div class=\"col-lg-11 col-centere" +
-                        "d\">\r\n            <h1>Item Proposal Form</h1>\r\n            <div class=\"row hidebu" +
-                        "tton\">\r\n                <div class=\"col-xs-12 col-sm-12 col-md-12 ValidationSumm" +
-                        "ary\">\r\n                    "));
+                        "\n    }\r\n\r\n    .showItempc {\r\n        display: inline-block;\r\n    }\r\n</style>\r\n\r\n" +
+                        "<style id=\"printDiv\" media=\"print\" type=\"text/css\">\r\n    #divFormLinks, #IPFLink" +
+                        "Headers, .ProjectNotesContainer, .actions, .hidebutton {\r\n        display: none " +
+                        "!important;\r\n    }\r\n\r\n    #divPrint {\r\n        visibility: visible;\r\n    }\r\n\r\n  " +
+                        "  #divPrint {\r\n        display: table;\r\n        width: 100%;\r\n    }\r\n\r\n    div.r" +
+                        "ow {\r\n        display: table-row;\r\n        width: 100%;\r\n    }\r\n\r\n    div.col-md" +
+                        "-1 {\r\n        display: table-cell;\r\n        width: 8.33333333%;\r\n    }\r\n\r\n    di" +
+                        "v.col-md-2 {\r\n        display: table-cell;\r\n        width: 16.66666667%;\r\n    }\r" +
+                        "\n\r\n    div.col-md-3 {\r\n        display: table-cell;\r\n        width: 25%;\r\n    }\r" +
+                        "\n\r\n    div.col-md-4 {\r\n        display: table-cell;\r\n        width: 33.33333333%" +
+                        ";\r\n    }\r\n\r\n    div.col-md-5 {\r\n        display: table-cell;\r\n        width: 41." +
+                        "66666667%;\r\n    }\r\n\r\n    div.col-md-6 {\r\n        display: table-cell;\r\n        w" +
+                        "idth: 50%;\r\n    }\r\n\r\n    div.col-md-7 {\r\n        display: table-cell;\r\n        w" +
+                        "idth: 58.33333333%;\r\n    }\r\n\r\n    div.col-md-8 {\r\n        display: table-cell;\r\n" +
+                        "        width: 66.66666667%;\r\n    }\r\n\r\n    div.col-md-9 {\r\n        display: tabl" +
+                        "e-cell;\r\n        width: 75%;\r\n    }\r\n\r\n    div.col-md-10 {\r\n        display: tab" +
+                        "le-cell;\r\n        width: 83.33333333%;\r\n    }\r\n\r\n    div.col-md-11 {\r\n        di" +
+                        "splay: table-cell;\r\n        width: 91.66666667%;\r\n    }\r\n\r\n    div.col-md-12 {\r\n" +
+                        "        display: table-cell;\r\n        width: 100%;\r\n    }\r\n</style>\r\n<div class=" +
+                        "\"container\">\r\n    <div class=\"content\">\r\n        <div class=\"col-lg-11 col-cente" +
+                        "red\">\r\n            <h1>Item Proposal Form</h1>\r\n            <div class=\"row hide" +
+                        "button\">\r\n                <div class=\"col-xs-12 col-sm-12 col-md-12 ValidationSu" +
+                        "mmary\">\r\n                    "));
             global::System.Web.UI.WebControls.ValidationSummary @__ctrl1;
             @__ctrl1 = this.@__BuildControlItemValidationSummary();
             @__parser.AddParsedSubObject(@__ctrl1);

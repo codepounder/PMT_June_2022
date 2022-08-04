@@ -28,6 +28,7 @@
         display: inline-block;
     }
 </style>
+
 <style id="printDiv" media="print" type="text/css">
     #divFormLinks, #IPFLinkHeaders, .ProjectNotesContainer, .actions, .hidebutton {
         display: none !important;
