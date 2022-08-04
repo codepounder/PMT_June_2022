@@ -680,6 +680,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>RegulatoryComments.ascx</DependentUpon>
     </Compile>
+    <Compile Include="WebParts\RequestRecipeSpecForm\RequestRecipeSpecForm.ascx.cs">
+      <DependentUpon>RequestRecipeSpecForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebParts\RequestRecipeSpecForm\RequestRecipeSpecForm.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RequestRecipeSpecForm.ascx</DependentUpon>
+    </Compile>
     <Compile Include="WebParts\SAPBOMSetupForm\SAPBOMSetupForm.ascx.g.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1129,6 +1137,10 @@
     <None Include="WebParts\RegulatoryComments\RegulatoryComments.webpart" />
     <None Include="WebParts\RegulatoryComments\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{93788d19-cee9-469a-ab60-1a79f7766871}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\RequestRecipeSpecForm\RequestRecipeSpecForm.webpart" />
+    <None Include="WebParts\RequestRecipeSpecForm\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{3a9b8880-1353-467e-9a6c-2655d6f9b850}</SharePointProjectItemId>
     </None>
     <None Include="WebParts\SAPCompleteItemSetupForm\SAPCompleteItemSetupForm.webpart" />
     <None Include="WebParts\SAPCompleteItemSetupForm\SharePointProjectItem.spdata">
@@ -1747,6 +1759,11 @@
     <Content Include="WebParts\RegulatoryComments\RegulatoryComments.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>RegulatoryComments.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="WebParts\RequestRecipeSpecForm\Elements.xml" />
+    <Content Include="WebParts\RequestRecipeSpecForm\RequestRecipeSpecForm.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>RequestRecipeSpecForm.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="WebParts\SAPCompleteItemSetupForm\Elements.xml" />
     <Content Include="WebParts\SAPCompleteItemSetupForm\SAPCompleteItemSetupForm.ascx">

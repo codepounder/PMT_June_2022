@@ -287,6 +287,7 @@ namespace Ferrara.Compass.Abstractions.Constants
         public const string PAGE_InitialCapacityReview = "InitialCapacityReview.aspx";
         public const string PAGE_InitialApprovalReview = "InitialApprovalReview.aspx";
         public const string PAGE_TradePromoGroup = "TradePromoGroup.aspx";
+        public const string PAGE_RequestRecipeSpec = "RequestRecipeSpec.aspx"; 
         public const string PAGE_EstPricing = "EstPricing.aspx";
         public const string PAGE_EstBracketPricing = "EstBracketPricing.aspx";
         public const string PAGE_Distribution = "Distribution.aspx";

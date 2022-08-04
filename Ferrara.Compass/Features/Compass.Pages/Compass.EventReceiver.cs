@@ -352,6 +352,24 @@ namespace Ferrara.Compass.Features.Compass.Pages
                 ApprovePages((SPWeb)properties.Feature.Parent, GlobalConstants.PAGE_TradePromoGroup);
             }
 
+            if (CreateWebPartPage((SPWeb)properties.Feature.Parent, GlobalConstants.PAGE_RequestRecipeSpec, "Request Recipe Spec Form"))
+            {
+                using (WebPart webPart = new Ferrara.Compass.WebParts.RequestRecipeSpecForm.RequestRecipeSpecForm())
+                {
+                    CreateFormWebPart((SPWeb)properties.Feature.Parent, webPart, "Request Recipe Spec Form", pagesDocumentLibrary + "/" + GlobalConstants.PAGE_RequestRecipeSpec, "Header", 0);
+                }
+
+                using (WebPart webPart = new Ferrara.Compass.WebParts.PMTHeaderForm.PMTHeaderForm())
+                {
+                    CreateFormWebPart((SPWeb)properties.Feature.Parent, webPart, "Compass Header", pagesDocumentLibrary + "/" + GlobalConstants.PAGE_RequestRecipeSpec, "Header", 0);
+                }
+                using (WebPart webPart = new Ferrara.Compass.WebParts.ProjectNotesForm.ProjectNotesForm())
+                {
+                    CreateFormWebPart((SPWeb)properties.Feature.Parent, webPart, "Project Notes", pagesDocumentLibrary + "/" + GlobalConstants.PAGE_RequestRecipeSpec, "Right", 0);
+                }
+
+                ApprovePages((SPWeb)properties.Feature.Parent, GlobalConstants.PAGE_RequestRecipeSpec);
+            }
             if (CreateWebPartPage((SPWeb)properties.Feature.Parent, GlobalConstants.PAGE_EstPricing, "Initial Pricing Form"))
             {
                 using (WebPart webPart = new Ferrara.Compass.WebParts.EstPricingForm.EstPricingForm())
@@ -1270,6 +1288,7 @@ namespace Ferrara.Compass.Features.Compass.Pages
         private void DeletePages(SPFeatureReceiverProperties properties)
         {
             DeleteWebPartPage((SPWeb)properties.Feature.Parent, pagesDocumentLibrary, GlobalConstants.PAGE_TradePromoGroup);
+            DeleteWebPartPage((SPWeb)properties.Feature.Parent, pagesDocumentLibrary, GlobalConstants.PAGE_RequestRecipeSpec);
             DeleteWebPartPage((SPWeb)properties.Feature.Parent, pagesDocumentLibrary, GlobalConstants.PAGE_ItemProposal);
             DeleteWebPartPage((SPWeb)properties.Feature.Parent, pagesDocumentLibrary, GlobalConstants.PAGE_OPS);
             DeleteWebPartPage((SPWeb)properties.Feature.Parent, pagesDocumentLibrary, GlobalConstants.PAGE_QA);
