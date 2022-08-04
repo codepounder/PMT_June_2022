@@ -8,6 +8,7 @@ namespace Ferrara.Compass.ExpSyncFuseTimerJob.Constants
 {
     public class CompassListFields
     {
+
         public const string Title = "Title" ;
         public const string CompassListItemId = "CompassListItemId";
         public const string ChangeLink = "ChangeLink";
