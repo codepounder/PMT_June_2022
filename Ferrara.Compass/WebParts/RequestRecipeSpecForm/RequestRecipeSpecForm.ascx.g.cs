@@ -778,9 +778,9 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.Text = "Add Make Pack";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none; height: 5px;");
             @__ctrl.CssClass = "ButtonControl";
-            @__ctrl.Click -= new System.EventHandler(this.btnAddAddMakePackPlangFG_Click);
-            @__ctrl.Click += new System.EventHandler(this.btnAddAddMakePackPlangFG_Click);
+            
             return @__ctrl;
+
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]

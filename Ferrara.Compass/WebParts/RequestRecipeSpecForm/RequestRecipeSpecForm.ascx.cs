@@ -38,7 +38,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
                     this.divSemiSection.Visible = true;
                     this.divFGSection.Visible = false;
                 }
-
+                // comment by mahipal
             }
         }
     }

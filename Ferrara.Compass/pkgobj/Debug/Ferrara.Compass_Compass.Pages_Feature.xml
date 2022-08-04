@@ -1,2 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature AlwaysForceInstall="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" Id="0d9414e3-c021-421e-8723-556884dc7945" ReceiverAssembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" ReceiverClass="Ferrara.Compass.Features.Compass.Pages.CompassEventReceiver" Scope="Web" Title="Compass Pages PMT"></Feature>
+<Feature AlwaysForceInstall="TRUE" xmlns="http://schemas.microsoft.com/sharepoint/" Title="Compass Pages PMT" Id="0d9414e3-c021-421e-8723-556884dc7945" ReceiverAssembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" ReceiverClass="Ferrara.Compass.Features.Compass.Pages.CompassEventReceiver" Scope="Web"></Feature>

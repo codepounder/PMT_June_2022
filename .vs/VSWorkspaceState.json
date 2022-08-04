@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Ferrara.Compass",
+    "\\Ferrara.Compass.Abstractions",
+    "\\Ferrara.Compass.Abstractions\\Constants",
+    "\\Ferrara.Compass\\WebParts"
   ],
-  "SelectedNode": "\\D:\\PMT_CODE_JUNE2022\\PMT_AUGUST_2022",
+  "SelectedNode": "\\Ferrara.Compass.Abstractions\\Constants\\GlobalConstants.cs",
   "PreviewInSolutionExplorer": false
 }

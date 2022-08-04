@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="WebParts that were used for Compass forms" Id="37eb9a69-2507-4bb5-bb41-a3a27bdf27f9" Scope="Site" Title="Compass - WebParts PMT">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Compass - WebParts PMT" Description="WebParts that were used for Compass forms" Id="37eb9a69-2507-4bb5-bb41-a3a27bdf27f9" Scope="Site">
   <ElementManifests>
     <ElementManifest Location="CompassAdministrationForm\Elements.xml" />
     <ElementFile Location="CompassAdministrationForm\CompassAdministrationForm.webpart" />
@@ -154,5 +154,7 @@
     <ElementFile Location="EstPricingForm\EstPricingForm.webpart" />
     <ElementManifest Location="EstBracketPricingForm\Elements.xml" />
     <ElementFile Location="EstBracketPricingForm\EstBracketPricingForm.webpart" />
+    <ElementManifest Location="RequestRecipeSpecForm\Elements.xml" />
+    <ElementFile Location="RequestRecipeSpecForm\RequestRecipeSpecForm.webpart" />
   </ElementManifests>
 </Feature>

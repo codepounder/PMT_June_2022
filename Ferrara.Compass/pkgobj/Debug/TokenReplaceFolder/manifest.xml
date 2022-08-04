@@ -106,6 +106,7 @@
         <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.AllProjectDetailsDashboard2" TypeName="*" />
         <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.EstPricingForm" TypeName="*" />
         <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.EstBracketPricingForm" TypeName="*" />
+        <SafeControl Assembly="Ferrara.Compass, Version=1.0.0.0, Culture=neutral, PublicKeyToken=04ae2c9e0ea4efe6" Namespace="Ferrara.Compass.WebParts.RequestRecipeSpecForm" TypeName="*" />
       </SafeControls>
     </Assembly>
   </Assemblies>
