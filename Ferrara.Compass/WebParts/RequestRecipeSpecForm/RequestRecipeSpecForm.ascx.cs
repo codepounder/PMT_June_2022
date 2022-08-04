@@ -41,5 +41,10 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
                 // comment by mahipal
             }
         }
+
+        protected void btnClick()
+        {
+            //test
+        }
     }
 }
