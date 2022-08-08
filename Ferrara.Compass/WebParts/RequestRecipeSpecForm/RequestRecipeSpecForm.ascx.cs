@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Ferrara.Compass.Abstractions.Constants;
+using Ferrara.Compass.Classes;
+using Microsoft.SharePoint;
+using System;
 using System.ComponentModel;
 using System.Web.UI.WebControls.WebParts;
 
@@ -15,7 +18,9 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
         public RequestRecipeSpecForm()
         {
         }
-
+        #region member variables
+        private string webUrl;
+        #endregion 
         protected override void OnInit(EventArgs e)
         {
             base.OnInit(e);
@@ -24,10 +29,13 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            webUrl = SPContext.Current.Web.Url;
             string requestType = Page.Request.QueryString["RequestType"];
             if (!Page.IsPostBack)
             {
-                if (requestType == null || requestType == "FG")
+                Utilities.BindDropDownItems(drpMakeLocation, GlobalConstants.LIST_ManufacturingLocationsLookup, webUrl);
+
+                if (requestType == null || requestType.ToLower() == "fg")
                 {
                     this.divSemiSection.Visible = false;
                     this.divFGSection.Visible = true;

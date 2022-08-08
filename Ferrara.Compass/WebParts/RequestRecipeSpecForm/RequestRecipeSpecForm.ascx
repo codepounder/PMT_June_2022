@@ -55,13 +55,13 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="form-group">
                 <label class="control-label">Line of Business:</label>
-                <asp:TextBox ID="lblLineofBusiness" runat="server" BorderStyle="None" ReadOnly="True" Text="Line of Business" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="lblLineofBusiness" runat="server" BorderStyle="None" ReadOnly="True" Text="Everyday (000000025)" CssClass="form-control"></asp:TextBox>
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="form-group">
                 <label class="control-label">Brand::</label>
-                <asp:TextBox ID="lblBrand" runat="server" BorderStyle="None" ReadOnly="True" Text="Brand Name" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="lblBrand" runat="server" BorderStyle="None" ReadOnly="True" Text="Multiple" CssClass="form-control"></asp:TextBox>
             </div>
         </div>
     </div>
@@ -75,13 +75,13 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="form-group">
                 <label class="control-label">Project Leader:</label>
-                <asp:TextBox ID="lblProjectLeader" runat="server" BorderStyle="None" Text="Tim" ReadOnly="True" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="lblProjectLeader" runat="server" BorderStyle="None" Text="Leah" ReadOnly="True" CssClass="form-control"></asp:TextBox>
             </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
             <div class="form-group">
                 <label class="control-label">Project Manager:</label>
-                <asp:TextBox ID="lblProjectManager" runat="server" BorderStyle="None" Text="Project Manager" ReadOnly="True" CssClass="form-control"></asp:TextBox>
+                <asp:TextBox ID="lblProjectManager" runat="server" BorderStyle="None" Text="Tim" ReadOnly="True" CssClass="form-control"></asp:TextBox>
             </div>
         </div>
     </div>
@@ -148,10 +148,13 @@
                 <div class="form-group">
                     <label class="control-label ProjectManager"> Make/Pack Plant:</label>
                 </div>
-                <div>
+                 <div class="col-xs-12 col-sm-6 col-md-4 MemberDiv" runat="server" id="divMakePackFG">
                     <div runat="server" id="div3">
                         <div class="form-group">
-                            <asp:DropDownList ID="ddlMakePackPlantFG" ClientIDMode="Static" runat="server" CssClass="ddlMember form-control" AppendDataBoundItems="true" Style="margin-top: -12px; width: 90%">
+                            <asp:DropDownList ID="drpMakeLocation"   ClientIDMode="Static" CssClass="form-control required ddlMember" runat="server">
+                    <asp:ListItem Value="-1">Select...</asp:ListItem>
+                </asp:DropDownList>
+                            <%--<asp:DropDownList ID="ddlMakePackPlantFG" ClientIDMode="Static" runat="server" CssClass="ddlMember form-control" AppendDataBoundItems="true" Style="margin-top: -12px; width: 90%">
                                <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
 
                     <asp:ListItem Value="1" Text="FM01 &gt; SL07"></asp:ListItem>
@@ -160,12 +163,13 @@
                     <asp:ListItem Value="36" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP03"></asp:ListItem>
                     <asp:ListItem Value="2" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP14"></asp:ListItem>
                     <asp:ListItem Value="59" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP20"></asp:ListItem>
-                            </asp:DropDownList>
+                            </asp:DropDownList>--%>
                         </div>
                     </div>
                     <div runat="server" id="div4">
                         <div class="form-group">
-                            <asp:Image ID="ImgAddMakePackPlantFG" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantFG')" Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+                            <asp:Image ID="ImgAddMakePackPlantFG"   class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantFG')" Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+                            <%--<asp:Image ID="Image1"   class="AddMember"  Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />--%>
                         </div>
                     </div>
                     <div>
@@ -175,7 +179,7 @@
                                     <tr>
                                         <td runat="server" id="tdDeliverable">
                                             <div class="form-group">
-                                                <asp:TextBox ID="txtMakePackName" Value='<%# DataBinder.Eval(Container.DataItem, "MemberLoginName") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
+                                                <asp:TextBox ID="txtMakePackName" Value='<%# DataBinder.Eval(Container.DataItem, "MakePackName") %>' runat="server" CssClass="required form-control ReadOnlyMembers" Style="width: 95%"></asp:TextBox>
 
                                             </div>
                                         </td>
@@ -189,7 +193,7 @@
                                 </ItemTemplate>
                             </asp:Repeater>
                         </table>
-                        <asp:Button ID="btnAddMakePackPlantFG" OnClick="btnAddAddMakePackPlangFG_Click" ClientIDMode="Static" runat="server" Text="Add Make Pack" Style="visibility: hidden; display: none; height: 5px;" CssClass="ButtonControl" />
+                        <asp:Button ID="btnAddMakePackPlantFG"  ClientIDMode="Static" runat="server" Text="Add Make Pack" Style="visibility: hidden; display: none; height: 5px;" CssClass="ButtonControl" />
                     </div>
                 </div>
 
@@ -244,9 +248,15 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
             <div class="form-group">
-                <label class="control-label">Make/Pack Plant</label>
-                <asp:DropDownList ID="DropDownList3" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
-                    <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
+
+            <%--    <div class="form-group">
+                    <label class="control-label ProjectManager"> Make/Pack Plant:</label>
+                </div>
+                <div>
+                    <div runat="server" id="div2">
+                        <div class="form-group">
+                            <asp:DropDownList ID="DropDownList1" ClientIDMode="Static" runat="server" CssClass="ddlMember form-control" AppendDataBoundItems="true" Style="margin-top: -12px; width: 90%">
+                               <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
 
                     <asp:ListItem Value="1" Text="FM01 &gt; SL07"></asp:ListItem>
                     <asp:ListItem Value="13" Text="FM01 &gt; SL07 &gt; SL13"></asp:ListItem>
@@ -254,12 +264,51 @@
                     <asp:ListItem Value="36" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP03"></asp:ListItem>
                     <asp:ListItem Value="2" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP14"></asp:ListItem>
                     <asp:ListItem Value="59" Text="FM01 &gt; SL07 &gt; SL13 &gt; FP20"></asp:ListItem>
-                </asp:DropDownList>
+                            </asp:DropDownList>
+                        </div>
+                    </div>
+                    <div runat="server" id="div5">
+                        <div class="form-group">
+                            <%--<asp:Image ID="ImgAddMakePackPlantFG" onClientClick="AddMakeItem()" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantFG')" Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />--%>
+                            <asp:Image ID="Image2" OnClientClick="AddMakeItem()" class="AddMember"  Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+                        </div>
+                    </div>
+                    <div>
+                        <table class="MakePackFGTableNew" style="width: 100%">
+                            <asp:Repeater ID="Repeater1" runat="server" ClientIDMode="Static">
+                                <ItemTemplate>
+                                    <tr>
+                                        <td runat="server" id="tdDeliverable">
+                                            <div class="form-group">
+                                                <asp:TextBox ID="txtMakePackName" Value='<%# DataBinder.Eval(Container.DataItem, "MemberLoginName") %>' runat="server" CssClass="required form-control" ></asp:TextBox>
+
+                                            </div>
+                                        </td>
+                                        <td class="DeleteRow">
+                                            <div class="form-group">
+                                                <asp:Image ID="btnDeleteRow" class="DeleteRow" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForMakePackFG');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
+                                                <asp:HiddenField ID="hdnDeletedStatusForMakePackFG" Value="false" runat="server" ClientIDMode="Static" />
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                        </table>
+                        <asp:Button ID="Button1"   ClientIDMode="Static" runat="server" Text="Add Make Pack" Style="visibility: hidden; display: none; height: 5px;" CssClass="ButtonControl" />
+                    </div>
+                </div>--%>
+
+
 
 
             </div>
         </div>
     </div>
+        <div class="row">
+             <div class="col-xs-12 col-sm-col-6 col-md-6">
+                <input type="button" value="Add New Component #" id="btnDebugMode" class="ButtonControlAutoSize">
+            </div>
+        </div>
     </asp:Panel>
    
    <div class="row">
@@ -317,6 +366,10 @@
 </script>
 
 <script type="text/javascript">
+
+    function AddMakeItem() {
+        alert('hi');
+    }
     $(document).ready(function () {
         $("#<%=ddlRequestNewExistingFG.ClientID %>").change(function (e) {
 
@@ -338,23 +391,21 @@
 <script>
 
 
-   
-
-    function dropNewChanged() {
-        //var t = $("#ddlRequestNewExisting option:selected").text();
-        //var s = $("#ddlRequestNewExisting option:selected").text();
-        //if (s == "New") {
-        //    $('#divSpecDescription').removeClass('hide');
-        //    $('#divLikeFg').removeClass('hide');
-        //    $('#divExistingFg').addClass('hide');
-        //    //$('#txtProductFormDescription').addClass('required')
-        //}
-        //else {
-        //    $('#divSpecDescription').addClass('hide');
-        //    $('#divLikeFg').addClass('hide');
-        //    $('#divExistingFg').removeClass('hide');
-        //}
+    function deleteRow(clicked, hdnDeletedStatus) {
+        $('#error_message').empty();
+        var button = $(clicked);
+        button.closest("tr").addClass("hideItem");
+        button.closest("td").find("#" + hdnDeletedStatus).val("true");
     }
 
+   
+    function AddMakePackPlantFGRow_New(clicked, btnId) {
+        var button = $(clicked);
+        var MemberDiv = button.closest(".MemberDiv");
+        var ddlMember = MemberDiv.find('.ddlMember');
+        if (ddlMember != "-1") {
+            $('#' + btnId).click();
+        }
+    }
     
 </script>

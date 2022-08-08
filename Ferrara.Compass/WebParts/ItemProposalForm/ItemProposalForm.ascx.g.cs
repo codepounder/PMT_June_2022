@@ -1213,58 +1213,6 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField1;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField2;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField3;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField4;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder1;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.Panel Panel1;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.UpdatePanel UpdatePanel2;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField5;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.HiddenField HiddenField6;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.PlaceHolder PlaceHolder2;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.Panel Panel2;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.UpdatePanel UpdatePanel3;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
         protected global::System.Web.UI.WebControls.Button btnLoadSummary;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
@@ -13038,217 +12986,6 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField1() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField1 = @__ctrl;
-            @__ctrl.ID = "HiddenField1";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField2() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField2 = @__ctrl;
-            @__ctrl.ID = "HiddenField2";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField3() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField3 = @__ctrl;
-            @__ctrl.ID = "HiddenField3";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            @__ctrl.Value = "0";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField4() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField4 = @__ctrl;
-            @__ctrl.ID = "HiddenField4";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            @__ctrl.Value = "";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.PlaceHolder @__BuildControlPlaceHolder1() {
-            global::System.Web.UI.WebControls.PlaceHolder @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.PlaceHolder();
-            this.PlaceHolder1 = @__ctrl;
-            @__ctrl.ID = "PlaceHolder1";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Panel @__BuildControlPanel1() {
-            global::System.Web.UI.WebControls.Panel @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Panel();
-            this.Panel1 = @__ctrl;
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "Panel1";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "");
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
-            global::System.Web.UI.WebControls.PlaceHolder @__ctrl1;
-            @__ctrl1 = this.@__BuildControlPlaceHolder1();
-            @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                "));
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control378(System.Web.UI.Control @__ctrl) {
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                "));
-            global::System.Web.UI.WebControls.Panel @__ctrl1;
-            @__ctrl1 = this.@__BuildControlPanel1();
-            @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            "));
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.UpdatePanel @__BuildControlUpdatePanel2() {
-            global::System.Web.UI.UpdatePanel @__ctrl;
-            @__ctrl = new global::System.Web.UI.UpdatePanel();
-            this.UpdatePanel2 = @__ctrl;
-            @__ctrl.ContentTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control378));
-            @__ctrl.ID = "UpdatePanel2";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField5() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField5 = @__ctrl;
-            @__ctrl.ID = "HiddenField5";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            @__ctrl.Value = "0";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControlHiddenField6() {
-            global::System.Web.UI.WebControls.HiddenField @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
-            this.HiddenField6 = @__ctrl;
-            @__ctrl.ID = "HiddenField6";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            @__ctrl.Value = "false";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.PlaceHolder @__BuildControlPlaceHolder2() {
-            global::System.Web.UI.WebControls.PlaceHolder @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.PlaceHolder();
-            this.PlaceHolder2 = @__ctrl;
-            @__ctrl.ID = "PlaceHolder2";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Panel @__BuildControlPanel2() {
-            global::System.Web.UI.WebControls.Panel @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Panel();
-            this.Panel2 = @__ctrl;
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "Panel2";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl1;
-            @__ctrl1 = this.@__BuildControlHiddenField5();
-            @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl2;
-            @__ctrl2 = this.@__BuildControlHiddenField6();
-            @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
-            global::System.Web.UI.WebControls.PlaceHolder @__ctrl3;
-            @__ctrl3 = this.@__BuildControlPlaceHolder2();
-            @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                "));
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control379(System.Web.UI.Control @__ctrl) {
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                "));
-            global::System.Web.UI.WebControls.Panel @__ctrl1;
-            @__ctrl1 = this.@__BuildControlPanel2();
-            @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            "));
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.UpdatePanel @__BuildControlUpdatePanel3() {
-            global::System.Web.UI.UpdatePanel @__ctrl;
-            @__ctrl = new global::System.Web.UI.UpdatePanel();
-            this.UpdatePanel3 = @__ctrl;
-            @__ctrl.ContentTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control379));
-            @__ctrl.ID = "UpdatePanel3";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.TextBox @__BuildControlTextBox1() {
-            global::System.Web.UI.WebControls.TextBox @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
-            this.TextBox1 = @__ctrl;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "TextBox1";
-            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
-            @__ctrl.TextMode = global::System.Web.UI.WebControls.TextBoxMode.MultiLine;
-            @__ctrl.Rows = 3;
-            @__ctrl.CssClass = "form-control";
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
         private global::System.Web.UI.WebControls.Button @__BuildControlbtnLoadSummary() {
             global::System.Web.UI.WebControls.Button @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Button();
@@ -14373,7 +14110,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control380(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control378(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                                     <tr>
@@ -14392,13 +14129,63 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control382() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control380() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
             @__ctrl.ID = "lblMixItemNumber";
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control380);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control380(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ItemNumber") , global::System.Globalization.CultureInfo.CurrentCulture);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control381() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.CssClass = "summary";
+            @__ctrl.ID = "lblMixItemDescription";
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control381);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control381(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ItemDescription") , global::System.Globalization.CultureInfo.CurrentCulture);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control382() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.CssClass = "summary";
+            @__ctrl.ID = "lblNumberPieces";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control382);
             return @__ctrl;
         }
@@ -14411,7 +14198,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ItemNumber") , global::System.Globalization.CultureInfo.CurrentCulture);
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "NumberOfPieces") , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -14423,7 +14210,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblMixItemDescription";
+            @__ctrl.ID = "lblOzPerPiece";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control383);
             return @__ctrl;
         }
@@ -14436,63 +14223,13 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ItemDescription") , global::System.Globalization.CultureInfo.CurrentCulture);
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control384() {
-            global::System.Web.UI.WebControls.Label @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Label();
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblNumberPieces";
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control384);
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBinding__control384(object sender, System.EventArgs e) {
-            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
-            System.Web.UI.WebControls.RepeaterItem Container;
-            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
-            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "NumberOfPieces") , global::System.Globalization.CultureInfo.CurrentCulture);
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control385() {
-            global::System.Web.UI.WebControls.Label @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Label();
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblOzPerPiece";
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control385);
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBinding__control385(object sender, System.EventArgs e) {
-            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
-            System.Web.UI.WebControls.RepeaterItem Container;
-            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
-            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
             dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "OuncesPerPiece") , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control386() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control384() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
@@ -14505,7 +14242,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control387() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control385() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
@@ -14518,7 +14255,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control388() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control386() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
@@ -14531,7 +14268,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control389() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control387() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
@@ -14544,48 +14281,48 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control381(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control379(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                    <tr>\r\n                     " +
                         "                                   <td>\r\n                                       " +
                         "                     "));
             global::System.Web.UI.WebControls.Label @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control382();
+            @__ctrl1 = this.@__BuildControl__control380();
             @__parser.AddParsedSubObject(@__ctrl1);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control383();
+            @__ctrl2 = this.@__BuildControl__control381();
             @__parser.AddParsedSubObject(@__ctrl2);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control384();
+            @__ctrl3 = this.@__BuildControl__control382();
             @__parser.AddParsedSubObject(@__ctrl3);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl4;
-            @__ctrl4 = this.@__BuildControl__control385();
+            @__ctrl4 = this.@__BuildControl__control383();
             @__parser.AddParsedSubObject(@__ctrl4);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl5;
-            @__ctrl5 = this.@__BuildControl__control386();
+            @__ctrl5 = this.@__BuildControl__control384();
             @__parser.AddParsedSubObject(@__ctrl5);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl6;
-            @__ctrl6 = this.@__BuildControl__control387();
+            @__ctrl6 = this.@__BuildControl__control385();
             @__parser.AddParsedSubObject(@__ctrl6);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl7;
-            @__ctrl7 = this.@__BuildControl__control388();
+            @__ctrl7 = this.@__BuildControl__control386();
             @__parser.AddParsedSubObject(@__ctrl7);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                        <td>\r\n            " +
                         "                                                "));
             global::System.Web.UI.WebControls.Label @__ctrl8;
-            @__ctrl8 = this.@__BuildControl__control389();
+            @__ctrl8 = this.@__BuildControl__control387();
             @__parser.AddParsedSubObject(@__ctrl8);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("</td>\r\n                                                    </tr>\r\n               " +
                         "                                 "));
@@ -14598,8 +14335,8 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.WebControls.Repeater @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Repeater();
             this.rpMixesSummary = @__ctrl;
-            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control380));
-            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control381));
+            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control378));
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control379));
             @__ctrl.ID = "rpMixesSummary";
             @__ctrl.ItemDataBound -= new System.Web.UI.WebControls.RepeaterItemEventHandler(this.rpMixesSummary_ItemDataBound);
             @__ctrl.ItemDataBound += new System.Web.UI.WebControls.RepeaterItemEventHandler(this.rpMixesSummary_ItemDataBound);
@@ -14639,7 +14376,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control390(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control388(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                                     <tr>
@@ -14656,13 +14393,63 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control392() {
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control390() {
             global::System.Web.UI.WebControls.Label @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Label();
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
             @__ctrl.ID = "lblFGItemDisplay";
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control390);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control390(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemNumber") , global::System.Globalization.CultureInfo.CurrentCulture);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control391() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.CssClass = "summary";
+            @__ctrl.ID = "lblFGItemDescription";
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control391);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control391(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemDescription") , global::System.Globalization.CultureInfo.CurrentCulture);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Label @__BuildControl__control392() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.CssClass = "summary";
+            @__ctrl.ID = "lblFGItemQuantity";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control392);
             return @__ctrl;
         }
@@ -14675,7 +14462,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemNumber") , global::System.Globalization.CultureInfo.CurrentCulture);
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemNumberUnits") , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -14687,7 +14474,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblFGItemDescription";
+            @__ctrl.ID = "lblFGouncesPerUnit";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control393);
             return @__ctrl;
         }
@@ -14700,7 +14487,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemDescription") , global::System.Globalization.CultureInfo.CurrentCulture);
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemOuncesPerUnit") , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -14712,7 +14499,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblFGItemQuantity";
+            @__ctrl.ID = "lblFGouncesPerFGunit";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control394);
             return @__ctrl;
         }
@@ -14725,7 +14512,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemNumberUnits") , global::System.Globalization.CultureInfo.CurrentCulture);
+            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( Convert.ToInt32(DataBinder.Eval(Container.DataItem, "FGItemNumberUnits")) * Convert.ToDouble(DataBinder.Eval(Container.DataItem, "FGItemOuncesPerUnit")) , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -14737,7 +14524,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
             @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblFGouncesPerUnit";
+            @__ctrl.ID = "lblFGpackUnit";
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control395);
             return @__ctrl;
         }
@@ -14750,99 +14537,49 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGItemOuncesPerUnit") , global::System.Globalization.CultureInfo.CurrentCulture);
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control396() {
-            global::System.Web.UI.WebControls.Label @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Label();
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblFGouncesPerFGunit";
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control396);
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBinding__control396(object sender, System.EventArgs e) {
-            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
-            System.Web.UI.WebControls.RepeaterItem Container;
-            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
-            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( Convert.ToInt32(DataBinder.Eval(Container.DataItem, "FGItemNumberUnits")) * Convert.ToDouble(DataBinder.Eval(Container.DataItem, "FGItemOuncesPerUnit")) , global::System.Globalization.CultureInfo.CurrentCulture);
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Label @__BuildControl__control397() {
-            global::System.Web.UI.WebControls.Label @__ctrl;
-            @__ctrl = new global::System.Web.UI.WebControls.Label();
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.CssClass = "summary";
-            @__ctrl.ID = "lblFGpackUnit";
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control397);
-            return @__ctrl;
-        }
-        
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
-        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
-            "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBinding__control397(object sender, System.EventArgs e) {
-            System.Web.UI.WebControls.Label dataBindingExpressionBuilderTarget;
-            System.Web.UI.WebControls.RepeaterItem Container;
-            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.Label)(sender));
-            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
             dataBindingExpressionBuilderTarget.Text = global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "FGPackUnit") , global::System.Globalization.CultureInfo.CurrentCulture);
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control391(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control389(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                    <tr>\r\n                     " +
                         "                                   <td>\r\n                                       " +
                         "                     "));
             global::System.Web.UI.WebControls.Label @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control392();
+            @__ctrl1 = this.@__BuildControl__control390();
             @__parser.AddParsedSubObject(@__ctrl1);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                        <td>\r\n                                  " +
                         "                          "));
             global::System.Web.UI.WebControls.Label @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control393();
+            @__ctrl2 = this.@__BuildControl__control391();
             @__parser.AddParsedSubObject(@__ctrl2);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                        <td>\r\n                                  " +
                         "                          "));
             global::System.Web.UI.WebControls.Label @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control394();
+            @__ctrl3 = this.@__BuildControl__control392();
             @__parser.AddParsedSubObject(@__ctrl3);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                        <td>\r\n                                  " +
                         "                          "));
             global::System.Web.UI.WebControls.Label @__ctrl4;
-            @__ctrl4 = this.@__BuildControl__control395();
+            @__ctrl4 = this.@__BuildControl__control393();
             @__parser.AddParsedSubObject(@__ctrl4);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                        <td>\r\n                                  " +
                         "                          "));
             global::System.Web.UI.WebControls.Label @__ctrl5;
-            @__ctrl5 = this.@__BuildControl__control396();
+            @__ctrl5 = this.@__BuildControl__control394();
             @__parser.AddParsedSubObject(@__ctrl5);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                        <td>\r\n                                  " +
                         "                          "));
             global::System.Web.UI.WebControls.Label @__ctrl6;
-            @__ctrl6 = this.@__BuildControl__control397();
+            @__ctrl6 = this.@__BuildControl__control395();
             @__parser.AddParsedSubObject(@__ctrl6);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                        </td>\r\n                " +
                         "                                    </tr>\r\n                                     " +
@@ -14856,8 +14593,8 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.WebControls.Repeater @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Repeater();
             this.rpShipperSummary = @__ctrl;
-            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control390));
-            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control391));
+            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control388));
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control389));
             @__ctrl.ID = "rpShipperSummary";
             return @__ctrl;
         }
@@ -15646,7 +15383,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control398(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control396(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                             <tr>
@@ -15658,7 +15395,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.DataBoundLiteralControl @__BuildControl__control400() {
+        private global::System.Web.UI.DataBoundLiteralControl @__BuildControl__control398() {
             global::System.Web.UI.DataBoundLiteralControl @__ctrl;
             @__ctrl = new global::System.Web.UI.DataBoundLiteralControl(3, 2);
             @__ctrl.TemplateControl = this;
@@ -15667,14 +15404,14 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.SetStaticString(1, "\'>");
             @__ctrl.SetStaticString(2, "</a></td>\r\n                                            </tr>\r\n                   " +
                     "                     ");
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBind__control400);
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBind__control398);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBind__control400(object sender, System.EventArgs e) {
+        public void @__DataBind__control398(object sender, System.EventArgs e) {
             System.Web.UI.WebControls.RepeaterItem Container;
             System.Web.UI.DataBoundLiteralControl target;
             target = ((System.Web.UI.DataBoundLiteralControl)(sender));
@@ -15686,9 +15423,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control399(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control397(System.Web.UI.Control @__ctrl) {
             global::System.Web.UI.DataBoundLiteralControl @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control400();
+            @__ctrl1 = this.@__BuildControl__control398();
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(@__ctrl1);
         }
@@ -15700,8 +15437,8 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.WebControls.Repeater @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Repeater();
             this.rpSummaryFormulationAttachments = @__ctrl;
-            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control398));
-            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control399));
+            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control396));
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control397));
             @__ctrl.ID = "rpSummaryFormulationAttachments";
             return @__ctrl;
         }
@@ -15709,7 +15446,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control401(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control399(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                             <tr>
@@ -15721,7 +15458,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.DataBoundLiteralControl @__BuildControl__control403() {
+        private global::System.Web.UI.DataBoundLiteralControl @__BuildControl__control401() {
             global::System.Web.UI.DataBoundLiteralControl @__ctrl;
             @__ctrl = new global::System.Web.UI.DataBoundLiteralControl(3, 2);
             @__ctrl.TemplateControl = this;
@@ -15730,14 +15467,14 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             @__ctrl.SetStaticString(1, "\'>");
             @__ctrl.SetStaticString(2, "</a></td>\r\n                                            </tr>\r\n                   " +
                     "                     ");
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBind__control403);
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBind__control401);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBind__control403(object sender, System.EventArgs e) {
+        public void @__DataBind__control401(object sender, System.EventArgs e) {
             System.Web.UI.WebControls.RepeaterItem Container;
             System.Web.UI.DataBoundLiteralControl target;
             target = ((System.Web.UI.DataBoundLiteralControl)(sender));
@@ -15749,9 +15486,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control402(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control400(System.Web.UI.Control @__ctrl) {
             global::System.Web.UI.DataBoundLiteralControl @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control403();
+            @__ctrl1 = this.@__BuildControl__control401();
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(@__ctrl1);
         }
@@ -15763,8 +15500,8 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.WebControls.Repeater @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Repeater();
             this.rpSummaryGraphicsAttachments = @__ctrl;
-            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control401));
-            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control402));
+            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control399));
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control400));
             @__ctrl.ID = "rpSummaryGraphicsAttachments";
             return @__ctrl;
         }
@@ -15879,7 +15616,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control404(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control402(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            <div class=\"col-xs-12 col-sm-6 col-md-10\">\r\n       " +
                         "                         "));
@@ -15901,7 +15638,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.UpdatePanel @__ctrl;
             @__ctrl = new global::System.Web.UI.UpdatePanel();
             this.UpdatePanel4 = @__ctrl;
-            @__ctrl.ContentTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control404));
+            @__ctrl.ContentTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control402));
             @__ctrl.ID = "UpdatePanel4";
             return @__ctrl;
         }
@@ -15946,29 +15683,29 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                         "some.min.css\" rel=\"stylesheet\" />\r\n\r\n<style type=\"text/css\">\r\n    .showTab {\r\n  " +
                         "      left: 0px;\r\n        display: block !important;\r\n    }\r\n\r\n    .justifyRight" +
                         " {\r\n        float: right;\r\n    }\r\n\r\n    .LoadAttachments {\r\n        opacity: 0;\r" +
-                        "\n    }\r\n\r\n    .showItempc {\r\n        display: inline-block;\r\n    }\r\n</style>\r\n\r\n" +
-                        "<style id=\"printDiv\" media=\"print\" type=\"text/css\">\r\n    #divFormLinks, #IPFLink" +
-                        "Headers, .ProjectNotesContainer, .actions, .hidebutton {\r\n        display: none " +
-                        "!important;\r\n    }\r\n\r\n    #divPrint {\r\n        visibility: visible;\r\n    }\r\n\r\n  " +
-                        "  #divPrint {\r\n        display: table;\r\n        width: 100%;\r\n    }\r\n\r\n    div.r" +
-                        "ow {\r\n        display: table-row;\r\n        width: 100%;\r\n    }\r\n\r\n    div.col-md" +
-                        "-1 {\r\n        display: table-cell;\r\n        width: 8.33333333%;\r\n    }\r\n\r\n    di" +
-                        "v.col-md-2 {\r\n        display: table-cell;\r\n        width: 16.66666667%;\r\n    }\r" +
-                        "\n\r\n    div.col-md-3 {\r\n        display: table-cell;\r\n        width: 25%;\r\n    }\r" +
-                        "\n\r\n    div.col-md-4 {\r\n        display: table-cell;\r\n        width: 33.33333333%" +
-                        ";\r\n    }\r\n\r\n    div.col-md-5 {\r\n        display: table-cell;\r\n        width: 41." +
-                        "66666667%;\r\n    }\r\n\r\n    div.col-md-6 {\r\n        display: table-cell;\r\n        w" +
-                        "idth: 50%;\r\n    }\r\n\r\n    div.col-md-7 {\r\n        display: table-cell;\r\n        w" +
-                        "idth: 58.33333333%;\r\n    }\r\n\r\n    div.col-md-8 {\r\n        display: table-cell;\r\n" +
-                        "        width: 66.66666667%;\r\n    }\r\n\r\n    div.col-md-9 {\r\n        display: tabl" +
-                        "e-cell;\r\n        width: 75%;\r\n    }\r\n\r\n    div.col-md-10 {\r\n        display: tab" +
-                        "le-cell;\r\n        width: 83.33333333%;\r\n    }\r\n\r\n    div.col-md-11 {\r\n        di" +
-                        "splay: table-cell;\r\n        width: 91.66666667%;\r\n    }\r\n\r\n    div.col-md-12 {\r\n" +
-                        "        display: table-cell;\r\n        width: 100%;\r\n    }\r\n</style>\r\n<div class=" +
-                        "\"container\">\r\n    <div class=\"content\">\r\n        <div class=\"col-lg-11 col-cente" +
-                        "red\">\r\n            <h1>Item Proposal Form</h1>\r\n            <div class=\"row hide" +
-                        "button\">\r\n                <div class=\"col-xs-12 col-sm-12 col-md-12 ValidationSu" +
-                        "mmary\">\r\n                    "));
+                        "\n    }\r\n\r\n    .showItempc {\r\n        display: inline-block;\r\n    }\r\n</style>\r\n<s" +
+                        "tyle id=\"printDiv\" media=\"print\" type=\"text/css\">\r\n    #divFormLinks, #IPFLinkHe" +
+                        "aders, .ProjectNotesContainer, .actions, .hidebutton {\r\n        display: none !i" +
+                        "mportant;\r\n    }\r\n\r\n    #divPrint {\r\n        visibility: visible;\r\n    }\r\n\r\n    " +
+                        "#divPrint {\r\n        display: table;\r\n        width: 100%;\r\n    }\r\n\r\n    div.row" +
+                        " {\r\n        display: table-row;\r\n        width: 100%;\r\n    }\r\n\r\n    div.col-md-1" +
+                        " {\r\n        display: table-cell;\r\n        width: 8.33333333%;\r\n    }\r\n\r\n    div." +
+                        "col-md-2 {\r\n        display: table-cell;\r\n        width: 16.66666667%;\r\n    }\r\n\r" +
+                        "\n    div.col-md-3 {\r\n        display: table-cell;\r\n        width: 25%;\r\n    }\r\n\r" +
+                        "\n    div.col-md-4 {\r\n        display: table-cell;\r\n        width: 33.33333333%;\r" +
+                        "\n    }\r\n\r\n    div.col-md-5 {\r\n        display: table-cell;\r\n        width: 41.66" +
+                        "666667%;\r\n    }\r\n\r\n    div.col-md-6 {\r\n        display: table-cell;\r\n        wid" +
+                        "th: 50%;\r\n    }\r\n\r\n    div.col-md-7 {\r\n        display: table-cell;\r\n        wid" +
+                        "th: 58.33333333%;\r\n    }\r\n\r\n    div.col-md-8 {\r\n        display: table-cell;\r\n  " +
+                        "      width: 66.66666667%;\r\n    }\r\n\r\n    div.col-md-9 {\r\n        display: table-" +
+                        "cell;\r\n        width: 75%;\r\n    }\r\n\r\n    div.col-md-10 {\r\n        display: table" +
+                        "-cell;\r\n        width: 83.33333333%;\r\n    }\r\n\r\n    div.col-md-11 {\r\n        disp" +
+                        "lay: table-cell;\r\n        width: 91.66666667%;\r\n    }\r\n\r\n    div.col-md-12 {\r\n  " +
+                        "      display: table-cell;\r\n        width: 100%;\r\n    }\r\n</style>\r\n<div class=\"c" +
+                        "ontainer\">\r\n    <div class=\"content\">\r\n        <div class=\"col-lg-11 col-centere" +
+                        "d\">\r\n            <h1>Item Proposal Form</h1>\r\n            <div class=\"row hidebu" +
+                        "tton\">\r\n                <div class=\"col-xs-12 col-sm-12 col-md-12 ValidationSumm" +
+                        "ary\">\r\n                    "));
             global::System.Web.UI.WebControls.ValidationSummary @__ctrl1;
             @__ctrl1 = this.@__BuildControlItemValidationSummary();
             @__parser.AddParsedSubObject(@__ctrl1);
@@ -16019,24 +15756,23 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                         "     <li class=\"\"><a href=\"#wizard-h-9\">10. Marketing Claims</a></li>\r\n         " +
                         "               <li class=\"\"><a href=\"#wizard-h-10\">11. Attachments</a></li>\r\n   " +
                         "                     <li class=\"\"><a href=\"#wizard-h-11\">12. FG BOM Details</a><" +
-                        "/li>\r\n                         <li class=\"\"><a href=\"#wizard-h-12\">12.A FG BOM D" +
-                        "etails Ver 2</a></li>\r\n                        <li class=\"\"><a href=\"#wizard-h-1" +
-                        "3\">13. Summary</a></li>\r\n                    </ul>\r\n                </div>\r\n    " +
-                        "            <div class=\"content clearfix\">\r\n                    <div id=\"dverror" +
-                        "_Proposed\"></div>\r\n                    <h2>1. Proposed Project</h2>\r\n           " +
-                        "         <section id=\"wizard-h-0\">\r\n                        <div class=\"row\">\r\n " +
-                        "                           <div class=\"col-xs-12 col-sm-12 col-md-12 comment-hig" +
-                        "hlighted\">\r\n                                <label class=\"control-label\">Project" +
-                        " Description: </label>\r\n                                <label id=\"labProjectDes" +
-                        "cription\"></label>\r\n                                <div id=\"divProjectDescripti" +
-                        "on\"></div>\r\n                                Please reference <a href=\'/Shared%20" +
-                        "Documents/Project%20Types%20and%20Definitions.xlsx\'>Project Types and Definition" +
-                        "s</a> for more details.\r\n                            </div>\r\n                   " +
-                        "     </div>\r\n                        <div class=\"row hide\">\r\n                   " +
-                        "         <div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n                          " +
-                        "      <div class=\"form-group\">\r\n                                    <label class" +
-                        "=\"control-label\"><span class=\"markrequired\">*</span>Item Description:</label>\r\n " +
-                        "                                   \r\n                                    "));
+                        "/li>\r\n                        <li class=\"\"><a href=\"#wizard-h-12\">13. Summary</a" +
+                        "></li>\r\n                    </ul>\r\n                </div>\r\n                <div " +
+                        "class=\"content clearfix\">\r\n                    <div id=\"dverror_Proposed\"></div>" +
+                        "\r\n                    <h2>1. Proposed Project</h2>\r\n                    <section" +
+                        " id=\"wizard-h-0\">\r\n                        <div class=\"row\">\r\n                  " +
+                        "          <div class=\"col-xs-12 col-sm-12 col-md-12 comment-highlighted\">\r\n     " +
+                        "                           <label class=\"control-label\">Project Description: </l" +
+                        "abel>\r\n                                <label id=\"labProjectDescription\"></label" +
+                        ">\r\n                                <div id=\"divProjectDescription\"></div>\r\n     " +
+                        "                           Please reference <a href=\'/Shared%20Documents/Project" +
+                        "%20Types%20and%20Definitions.xlsx\'>Project Types and Definitions</a> for more de" +
+                        "tails.\r\n                            </div>\r\n                        </div>\r\n    " +
+                        "                    <div class=\"row hide\">\r\n                            <div cla" +
+                        "ss=\"col-xs-12 col-sm-12 col-md-12\">\r\n                                <div class=" +
+                        "\"form-group\">\r\n                                    <label class=\"control-label\">" +
+                        "<span class=\"markrequired\">*</span>Item Description:</label>\r\n                  " +
+                        "                  \r\n                                    "));
             global::System.Web.UI.WebControls.HiddenField @__ctrl9;
             @__ctrl9 = this.@__BuildControlhdnSteps();
             @__parser.AddParsedSubObject(@__ctrl9);
@@ -17466,81 +17202,6 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl141;
             @__ctrl141 = this.@__BuildControltxtFlowthroughDets();
             @__parser.AddParsedSubObject(@__ctrl141);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </div>\r\n                            </div>\r\n   " +
-                        "                     </div>\r\n                    </section>\r\n\r\n                 " +
-                        "    <h2>12.A. FG BOM Details - Ver 2</h2>\r\n                     <section id=\"wiz" +
-                        "ard-h-12\">\r\n                         \r\n                                <div clas" +
-                        "s=\"row\">\r\n                                    \r\n                                " +
-                        "    <div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n                               " +
-                        "         <table class=\"MembersTableNew\" style=\"width: 100%\">\r\n                  " +
-                        "                          <thead>\r\n                                             " +
-                        "   <tr>\r\n                                                    <th><h4>Finished Go" +
-                        "od</h4></th>\r\n                                                    <th>\r\n        " +
-                        "                                                <a href=\"javascript:void(0)\" onc" +
-                        "lick=\"ShowFGModel(\'/_layouts/15/Ferrara.Compass/FGBOMModal.aspx\',\'Add BOM Detail" +
-                        "s\');\" class=\"btn btn-success small\" title=\"Add New\">\r\n                          " +
-                        "                                  <span style=\"font-size:large\">+</span>\r\n      " +
-                        "                                                  </a>\r\n                        " +
-                        "                            </th>\r\n                                             " +
-                        "   </tr>\r\n\r\n                                            </thead>\r\n              " +
-                        "                          </table>\r\n                                        <tab" +
-                        "le class=\"table table-table-bordered table-table-hover\" style=\"width: 100%\">\r\n  " +
-                        "                                          <thead>\r\n                             " +
-                        "               <tr>\r\n                                                <th>\r\n     " +
-                        "                                               Component Type\r\n                 " +
-                        "                               </th>\r\n                                          " +
-                        "      <th>\r\n                                                    New / Existing\r\n" +
-                        "                                                </th>\r\n                         " +
-                        "                        <th>\r\n                                                  " +
-                        " Base UOM Qty\r\n                                                </th>\r\n          " +
-                        "                                      <th>UOM</th>\r\n                            " +
-                        "                    <th>Flowthrough</th>\r\n                                      " +
-                        "          <th>Actions</th>\r\n                                            </tr>\r\n " +
-                        "                                               </thead>\r\n                       " +
-                        "                     <tbody>\r\n                                                <t" +
-                        "r>\r\n                                                    <td>Corrugated - DRC</td" +
-                        ">\r\n                                                    <td>New</td>\r\n           " +
-                        "                                         <td>12345.00</td>\r\n                    " +
-                        "                                <td>EA</td>\r\n                                   " +
-                        "                 <td>Not Applicable</td>\r\n                                      " +
-                        "              <td>Edit</td>\r\n                                                </t" +
-                        "r>\r\n                                                  \r\n                        " +
-                        "                    </tbody>\r\n                                        </table>\r\n" +
-                        "                                        </div>\r\n                                " +
-                        "    </div>\r\n\r\n                        "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl142;
-            @__ctrl142 = this.@__BuildControlHiddenField1();
-            @__parser.AddParsedSubObject(@__ctrl142);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl143;
-            @__ctrl143 = this.@__BuildControlHiddenField2();
-            @__parser.AddParsedSubObject(@__ctrl143);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                        "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl144;
-            @__ctrl144 = this.@__BuildControlHiddenField3();
-            @__parser.AddParsedSubObject(@__ctrl144);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl145;
-            @__ctrl145 = this.@__BuildControlHiddenField4();
-            @__parser.AddParsedSubObject(@__ctrl145);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        "));
-            global::System.Web.UI.UpdatePanel @__ctrl146;
-            @__ctrl146 = this.@__BuildControlUpdatePanel2();
-            @__parser.AddParsedSubObject(@__ctrl146);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        "));
-            global::System.Web.UI.UpdatePanel @__ctrl147;
-            @__ctrl147 = this.@__BuildControlUpdatePanel3();
-            @__parser.AddParsedSubObject(@__ctrl147);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                        <div class=""row"">
-                            <div class=""col-xs-12 col-sm-12 col-md-12"">
-                                <div class=""form-group"">
-                                    <label class=""control-label"">Please specify what materials, if any, need to flowthrough at the same time:</label>
-                                    <label id=""lblFlowthroughNote"" class=""comment-block"">Note: If a material number is not yet assigned, please still reference the item by describing it</label>
-                                    "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl148;
-            @__ctrl148 = this.@__BuildControlTextBox1();
-            @__parser.AddParsedSubObject(@__ctrl148);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                             </div>
@@ -17548,18 +17209,18 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                     </section>
 
                     <h2>13. Summary</h2>
-                    <section id=""wizard-h-13"">
+                    <section id=""wizard-h-12"">
                         <div class=""row hidebutton"">
                             <div class=""col-xs-12 col-sm-6 col-md-2 hideItem hidebutton"">
                                 "));
-            global::System.Web.UI.WebControls.Button @__ctrl149;
-            @__ctrl149 = this.@__BuildControlbtnLoadSummary();
-            @__parser.AddParsedSubObject(@__ctrl149);
+            global::System.Web.UI.WebControls.Button @__ctrl142;
+            @__ctrl142 = this.@__BuildControlbtnLoadSummary();
+            @__parser.AddParsedSubObject(@__ctrl142);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-10 hidebutton\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl150;
-            @__ctrl150 = this.@__BuildControllblLoadSummaryCompleted();
-            @__parser.AddParsedSubObject(@__ctrl150);
+            global::System.Web.UI.WebControls.Label @__ctrl143;
+            @__ctrl143 = this.@__BuildControllblLoadSummaryCompleted();
+            @__parser.AddParsedSubObject(@__ctrl143);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17576,9 +17237,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                 </div>
                                 <div class=""col-xs-12 col-sm-6 col-md-3"">
                                     "));
-            global::System.Web.UI.WebControls.Label @__ctrl151;
-            @__ctrl151 = this.@__BuildControllblSummaryProjectType();
-            @__parser.AddParsedSubObject(@__ctrl151);
+            global::System.Web.UI.WebControls.Label @__ctrl144;
+            @__ctrl144 = this.@__BuildControllblSummaryProjectType();
+            @__parser.AddParsedSubObject(@__ctrl144);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                                 <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17586,9 +17247,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                 </div>
                                 <div class=""col-xs-12 col-sm-6 col-md-3"">
                                     "));
-            global::System.Web.UI.WebControls.Label @__ctrl152;
-            @__ctrl152 = this.@__BuildControllblSummaryProjectTypeSubCategory();
-            @__parser.AddParsedSubObject(@__ctrl152);
+            global::System.Web.UI.WebControls.Label @__ctrl145;
+            @__ctrl145 = this.@__BuildControllblSummaryProjectTypeSubCategory();
+            @__parser.AddParsedSubObject(@__ctrl145);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                             </div>
@@ -17598,9 +17259,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                 </div>
                                 <div class=""col-xs-12 col-sm-6 col-md-3"">
                                     "));
-            global::System.Web.UI.WebControls.Label @__ctrl153;
-            @__ctrl153 = this.@__BuildControllblSummaryFirstShipDate();
-            @__parser.AddParsedSubObject(@__ctrl153);
+            global::System.Web.UI.WebControls.Label @__ctrl146;
+            @__ctrl146 = this.@__BuildControllblSummaryFirstShipDate();
+            @__parser.AddParsedSubObject(@__ctrl146);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                                 <div class=""divCopyFormsForGraphicsProjectText"">
@@ -17609,9 +17270,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                     </div>
                                     <div class=""col-xs-12 col-sm-6 col-md-3"">
                                         "));
-            global::System.Web.UI.WebControls.Label @__ctrl154;
-            @__ctrl154 = this.@__BuildControllblCopyFormsForGraphicsProject();
-            @__parser.AddParsedSubObject(@__ctrl154);
+            global::System.Web.UI.WebControls.Label @__ctrl147;
+            @__ctrl147 = this.@__BuildControllblCopyFormsForGraphicsProject();
+            @__parser.AddParsedSubObject(@__ctrl147);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                     </div>
                                 </div>
@@ -17623,20 +17284,20 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl155;
-            @__ctrl155 = this.@__BuildControllblExternalSemisItem();
-            @__parser.AddParsedSubObject(@__ctrl155);
+            global::System.Web.UI.WebControls.Label @__ctrl148;
+            @__ctrl148 = this.@__BuildControllblExternalSemisItem();
+            @__parser.AddParsedSubObject(@__ctrl148);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row\">\r\n                            <div class=\"col-xs-1" +
                         "2 col-sm-3 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl156;
-            @__ctrl156 = this.@__BuildControllblSummaryChangeNotesLabel();
-            @__parser.AddParsedSubObject(@__ctrl156);
+            global::System.Web.UI.WebControls.Label @__ctrl149;
+            @__ctrl149 = this.@__BuildControllblSummaryChangeNotesLabel();
+            @__parser.AddParsedSubObject(@__ctrl149);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-9 col-md-9\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl157;
-            @__ctrl157 = this.@__BuildControllblSummaryChangeNotes();
-            @__parser.AddParsedSubObject(@__ctrl157);
+            global::System.Web.UI.WebControls.Label @__ctrl150;
+            @__ctrl150 = this.@__BuildControllblSummaryChangeNotes();
+            @__parser.AddParsedSubObject(@__ctrl150);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17650,9 +17311,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl158;
-            @__ctrl158 = this.@__BuildControllblSummaryInitiator();
-            @__parser.AddParsedSubObject(@__ctrl158);
+            global::System.Web.UI.WebControls.Label @__ctrl151;
+            @__ctrl151 = this.@__BuildControllblSummaryInitiator();
+            @__parser.AddParsedSubObject(@__ctrl151);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17660,9 +17321,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl159;
-            @__ctrl159 = this.@__BuildControllblSummaryProjectLeader();
-            @__parser.AddParsedSubObject(@__ctrl159);
+            global::System.Web.UI.WebControls.Label @__ctrl152;
+            @__ctrl152 = this.@__BuildControllblSummaryProjectLeader();
+            @__parser.AddParsedSubObject(@__ctrl152);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17672,9 +17333,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl160;
-            @__ctrl160 = this.@__BuildControllblSummaryProjectManager();
-            @__parser.AddParsedSubObject(@__ctrl160);
+            global::System.Web.UI.WebControls.Label @__ctrl153;
+            @__ctrl153 = this.@__BuildControllblSummaryProjectManager();
+            @__parser.AddParsedSubObject(@__ctrl153);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17682,9 +17343,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl161;
-            @__ctrl161 = this.@__BuildControllblSummarySrProjectManager();
-            @__parser.AddParsedSubObject(@__ctrl161);
+            global::System.Web.UI.WebControls.Label @__ctrl154;
+            @__ctrl154 = this.@__BuildControllblSummarySrProjectManager();
+            @__parser.AddParsedSubObject(@__ctrl154);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17694,9 +17355,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl162;
-            @__ctrl162 = this.@__BuildControllblSummaryMarketing();
-            @__parser.AddParsedSubObject(@__ctrl162);
+            global::System.Web.UI.WebControls.Label @__ctrl155;
+            @__ctrl155 = this.@__BuildControllblSummaryMarketing();
+            @__parser.AddParsedSubObject(@__ctrl155);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17704,9 +17365,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl163;
-            @__ctrl163 = this.@__BuildControllblSummaryInTech();
-            @__parser.AddParsedSubObject(@__ctrl163);
+            global::System.Web.UI.WebControls.Label @__ctrl156;
+            @__ctrl156 = this.@__BuildControllblSummaryInTech();
+            @__parser.AddParsedSubObject(@__ctrl156);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17716,9 +17377,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl164;
-            @__ctrl164 = this.@__BuildControllblSummaryQualityInnovation();
-            @__parser.AddParsedSubObject(@__ctrl164);
+            global::System.Web.UI.WebControls.Label @__ctrl157;
+            @__ctrl157 = this.@__BuildControllblSummaryQualityInnovation();
+            @__parser.AddParsedSubObject(@__ctrl157);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17726,9 +17387,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl165;
-            @__ctrl165 = this.@__BuildControllblSummaryInTechRegulatory();
-            @__parser.AddParsedSubObject(@__ctrl165);
+            global::System.Web.UI.WebControls.Label @__ctrl158;
+            @__ctrl158 = this.@__BuildControllblSummaryInTechRegulatory();
+            @__parser.AddParsedSubObject(@__ctrl158);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17738,9 +17399,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl166;
-            @__ctrl166 = this.@__BuildControllblSummaryRegulatoryQA();
-            @__parser.AddParsedSubObject(@__ctrl166);
+            global::System.Web.UI.WebControls.Label @__ctrl159;
+            @__ctrl159 = this.@__BuildControllblSummaryRegulatoryQA();
+            @__parser.AddParsedSubObject(@__ctrl159);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17748,9 +17409,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl167;
-            @__ctrl167 = this.@__BuildControllblSummaryPackagingEngineering();
-            @__parser.AddParsedSubObject(@__ctrl167);
+            global::System.Web.UI.WebControls.Label @__ctrl160;
+            @__ctrl160 = this.@__BuildControllblSummaryPackagingEngineering();
+            @__parser.AddParsedSubObject(@__ctrl160);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17760,9 +17421,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl168;
-            @__ctrl168 = this.@__BuildControllblSummarySupplyChain();
-            @__parser.AddParsedSubObject(@__ctrl168);
+            global::System.Web.UI.WebControls.Label @__ctrl161;
+            @__ctrl161 = this.@__BuildControllblSummarySupplyChain();
+            @__parser.AddParsedSubObject(@__ctrl161);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17770,9 +17431,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl169;
-            @__ctrl169 = this.@__BuildControllblSummaryFinance();
-            @__parser.AddParsedSubObject(@__ctrl169);
+            global::System.Web.UI.WebControls.Label @__ctrl162;
+            @__ctrl162 = this.@__BuildControllblSummaryFinance();
+            @__parser.AddParsedSubObject(@__ctrl162);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17782,9 +17443,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl170;
-            @__ctrl170 = this.@__BuildControllblSummarySales();
-            @__parser.AddParsedSubObject(@__ctrl170);
+            global::System.Web.UI.WebControls.Label @__ctrl163;
+            @__ctrl163 = this.@__BuildControllblSummarySales();
+            @__parser.AddParsedSubObject(@__ctrl163);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17792,9 +17453,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl171;
-            @__ctrl171 = this.@__BuildControllblSummaryManufacturing();
-            @__parser.AddParsedSubObject(@__ctrl171);
+            global::System.Web.UI.WebControls.Label @__ctrl164;
+            @__ctrl164 = this.@__BuildControllblSummaryManufacturing();
+            @__parser.AddParsedSubObject(@__ctrl164);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17804,9 +17465,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl172;
-            @__ctrl172 = this.@__BuildControllblSummaryExternalMfgProcurement();
-            @__parser.AddParsedSubObject(@__ctrl172);
+            global::System.Web.UI.WebControls.Label @__ctrl165;
+            @__ctrl165 = this.@__BuildControllblSummaryExternalMfgProcurement();
+            @__parser.AddParsedSubObject(@__ctrl165);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17814,9 +17475,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl173;
-            @__ctrl173 = this.@__BuildControllblSummaryPackagingProcurement();
-            @__parser.AddParsedSubObject(@__ctrl173);
+            global::System.Web.UI.WebControls.Label @__ctrl166;
+            @__ctrl166 = this.@__BuildControllblSummaryPackagingProcurement();
+            @__parser.AddParsedSubObject(@__ctrl166);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17826,9 +17487,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl174;
-            @__ctrl174 = this.@__BuildControllblSummaryLifeCycleManagement();
-            @__parser.AddParsedSubObject(@__ctrl174);
+            global::System.Web.UI.WebControls.Label @__ctrl167;
+            @__ctrl167 = this.@__BuildControllblSummaryLifeCycleManagement();
+            @__parser.AddParsedSubObject(@__ctrl167);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -17836,9 +17497,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl175;
-            @__ctrl175 = this.@__BuildControllblSummaryOtherTeamMembers();
-            @__parser.AddParsedSubObject(@__ctrl175);
+            global::System.Web.UI.WebControls.Label @__ctrl168;
+            @__ctrl168 = this.@__BuildControllblSummaryOtherTeamMembers();
+            @__parser.AddParsedSubObject(@__ctrl168);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17852,9 +17513,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl176;
-            @__ctrl176 = this.@__BuildControllblSummaryIndicator();
-            @__parser.AddParsedSubObject(@__ctrl176);
+            global::System.Web.UI.WebControls.Label @__ctrl169;
+            @__ctrl169 = this.@__BuildControllblSummaryIndicator();
+            @__parser.AddParsedSubObject(@__ctrl169);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17864,9 +17525,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl177;
-            @__ctrl177 = this.@__BuildControllblSummaryFGItemNumber();
-            @__parser.AddParsedSubObject(@__ctrl177);
+            global::System.Web.UI.WebControls.Label @__ctrl170;
+            @__ctrl170 = this.@__BuildControllblSummaryFGItemNumber();
+            @__parser.AddParsedSubObject(@__ctrl170);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17876,9 +17537,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl178;
-            @__ctrl178 = this.@__BuildControllblSummaryFGItemDesc();
-            @__parser.AddParsedSubObject(@__ctrl178);
+            global::System.Web.UI.WebControls.Label @__ctrl171;
+            @__ctrl171 = this.@__BuildControllblSummaryFGItemDesc();
+            @__parser.AddParsedSubObject(@__ctrl171);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17888,9 +17549,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl179;
-            @__ctrl179 = this.@__BuildControllblSummaryLikeFGItemNumber();
-            @__parser.AddParsedSubObject(@__ctrl179);
+            global::System.Web.UI.WebControls.Label @__ctrl172;
+            @__ctrl172 = this.@__BuildControllblSummaryLikeFGItemNumber();
+            @__parser.AddParsedSubObject(@__ctrl172);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17900,9 +17561,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl180;
-            @__ctrl180 = this.@__BuildControllblSummaryLikeFGItemDesc();
-            @__parser.AddParsedSubObject(@__ctrl180);
+            global::System.Web.UI.WebControls.Label @__ctrl173;
+            @__ctrl173 = this.@__BuildControllblSummaryLikeFGItemDesc();
+            @__parser.AddParsedSubObject(@__ctrl173);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17912,9 +17573,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl181;
-            @__ctrl181 = this.@__BuildControllblSummaryOldFGItemNumber();
-            @__parser.AddParsedSubObject(@__ctrl181);
+            global::System.Web.UI.WebControls.Label @__ctrl174;
+            @__ctrl174 = this.@__BuildControllblSummaryOldFGItemNumber();
+            @__parser.AddParsedSubObject(@__ctrl174);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17924,9 +17585,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl182;
-            @__ctrl182 = this.@__BuildControllblSummaryOldFGItemDesc();
-            @__parser.AddParsedSubObject(@__ctrl182);
+            global::System.Web.UI.WebControls.Label @__ctrl175;
+            @__ctrl175 = this.@__BuildControllblSummaryOldFGItemDesc();
+            @__parser.AddParsedSubObject(@__ctrl175);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -17940,64 +17601,64 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
+            global::System.Web.UI.WebControls.Label @__ctrl176;
+            @__ctrl176 = this.@__BuildControllblSummaryOrganic();
+            @__parser.AddParsedSubObject(@__ctrl176);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
+                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl177;
+            @__ctrl177 = this.@__BuildControllblSummaryNewFormulaLabel();
+            @__parser.AddParsedSubObject(@__ctrl177);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl178;
+            @__ctrl178 = this.@__BuildControllblSummaryNewFormula();
+            @__parser.AddParsedSubObject(@__ctrl178);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
+                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl179;
+            @__ctrl179 = this.@__BuildControllblSummaryNewShapeLabel();
+            @__parser.AddParsedSubObject(@__ctrl179);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl180;
+            @__ctrl180 = this.@__BuildControllblSummaryNewShape();
+            @__parser.AddParsedSubObject(@__ctrl180);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
+                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl181;
+            @__ctrl181 = this.@__BuildControllblSummaryNewFlavorColorLabel();
+            @__parser.AddParsedSubObject(@__ctrl181);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl182;
+            @__ctrl182 = this.@__BuildControllblSummaryNewFlavorColor();
+            @__parser.AddParsedSubObject(@__ctrl182);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
+                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl183;
-            @__ctrl183 = this.@__BuildControllblSummaryOrganic();
+            @__ctrl183 = this.@__BuildControllblSummaryNewNetWeightLabel();
             @__parser.AddParsedSubObject(@__ctrl183);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
-                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl184;
-            @__ctrl184 = this.@__BuildControllblSummaryNewFormulaLabel();
+            @__ctrl184 = this.@__BuildControllblSummaryNewNetWeight();
             @__parser.AddParsedSubObject(@__ctrl184);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl185;
-            @__ctrl185 = this.@__BuildControllblSummaryNewFormula();
-            @__parser.AddParsedSubObject(@__ctrl185);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
-                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl186;
-            @__ctrl186 = this.@__BuildControllblSummaryNewShapeLabel();
-            @__parser.AddParsedSubObject(@__ctrl186);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl187;
-            @__ctrl187 = this.@__BuildControllblSummaryNewShape();
-            @__parser.AddParsedSubObject(@__ctrl187);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
-                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl188;
-            @__ctrl188 = this.@__BuildControllblSummaryNewFlavorColorLabel();
-            @__parser.AddParsedSubObject(@__ctrl188);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl189;
-            @__ctrl189 = this.@__BuildControllblSummaryNewFlavorColor();
-            @__parser.AddParsedSubObject(@__ctrl189);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
-                        "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl190;
-            @__ctrl190 = this.@__BuildControllblSummaryNewNetWeightLabel();
-            @__parser.AddParsedSubObject(@__ctrl190);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl191;
-            @__ctrl191 = this.@__BuildControllblSummaryNewNetWeight();
-            @__parser.AddParsedSubObject(@__ctrl191);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row\">\r\n                            <div class=\"col-xs-1" +
                         "2 col-sm-6 col-md-6\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl192;
-            @__ctrl192 = this.@__BuildControllblSummaryServingSizeLabel();
-            @__parser.AddParsedSubObject(@__ctrl192);
+            global::System.Web.UI.WebControls.Label @__ctrl185;
+            @__ctrl185 = this.@__BuildControllblSummaryServingSizeLabel();
+            @__parser.AddParsedSubObject(@__ctrl185);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-6\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl193;
-            @__ctrl193 = this.@__BuildControllblSummaryServingSize();
-            @__parser.AddParsedSubObject(@__ctrl193);
+            global::System.Web.UI.WebControls.Label @__ctrl186;
+            @__ctrl186 = this.@__BuildControllblSummaryServingSize();
+            @__parser.AddParsedSubObject(@__ctrl186);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18008,14 +17669,14 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                         <div class=""row HideForSNM HideGraphics"">
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl194;
-            @__ctrl194 = this.@__BuildControllblSummaryLast12MonthSalesLabel();
-            @__parser.AddParsedSubObject(@__ctrl194);
+            global::System.Web.UI.WebControls.Label @__ctrl187;
+            @__ctrl187 = this.@__BuildControllblSummaryLast12MonthSalesLabel();
+            @__parser.AddParsedSubObject(@__ctrl187);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl195;
-            @__ctrl195 = this.@__BuildControllblSummaryLast12MonthSales();
-            @__parser.AddParsedSubObject(@__ctrl195);
+            global::System.Web.UI.WebControls.Label @__ctrl188;
+            @__ctrl188 = this.@__BuildControllblSummaryLast12MonthSales();
+            @__parser.AddParsedSubObject(@__ctrl188);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18025,19 +17686,19 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl196;
-            @__ctrl196 = this.@__BuildControllblSummaryTruckLoadSellingPrice();
-            @__parser.AddParsedSubObject(@__ctrl196);
+            global::System.Web.UI.WebControls.Label @__ctrl189;
+            @__ctrl189 = this.@__BuildControllblSummaryTruckLoadSellingPrice();
+            @__parser.AddParsedSubObject(@__ctrl189);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-4\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl197;
-            @__ctrl197 = this.@__BuildControllblSummaryExpectedGrossMarginPercentLabel();
-            @__parser.AddParsedSubObject(@__ctrl197);
+            global::System.Web.UI.WebControls.Label @__ctrl190;
+            @__ctrl190 = this.@__BuildControllblSummaryExpectedGrossMarginPercentLabel();
+            @__parser.AddParsedSubObject(@__ctrl190);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl198;
-            @__ctrl198 = this.@__BuildControllblSummaryExpectedGrossMarginPercent();
-            @__parser.AddParsedSubObject(@__ctrl198);
+            global::System.Web.UI.WebControls.Label @__ctrl191;
+            @__ctrl191 = this.@__BuildControllblSummaryExpectedGrossMarginPercent();
+            @__parser.AddParsedSubObject(@__ctrl191);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18047,9 +17708,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl199;
-            @__ctrl199 = this.@__BuildControllblSummaryAnnualProjectedDollars();
-            @__parser.AddParsedSubObject(@__ctrl199);
+            global::System.Web.UI.WebControls.Label @__ctrl192;
+            @__ctrl192 = this.@__BuildControllblSummaryAnnualProjectedDollars();
+            @__parser.AddParsedSubObject(@__ctrl192);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
@@ -18057,9 +17718,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl200;
-            @__ctrl200 = this.@__BuildControllblSummaryAnnualProjectedUnits();
-            @__parser.AddParsedSubObject(@__ctrl200);
+            global::System.Web.UI.WebControls.Label @__ctrl193;
+            @__ctrl193 = this.@__BuildControllblSummaryAnnualProjectedUnits();
+            @__parser.AddParsedSubObject(@__ctrl193);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18069,9 +17730,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl201;
-            @__ctrl201 = this.@__BuildControllblSummary1stAnnualProjectedDollars();
-            @__parser.AddParsedSubObject(@__ctrl201);
+            global::System.Web.UI.WebControls.Label @__ctrl194;
+            @__ctrl194 = this.@__BuildControllblSummary1stAnnualProjectedDollars();
+            @__parser.AddParsedSubObject(@__ctrl194);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
@@ -18079,9 +17740,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl202;
-            @__ctrl202 = this.@__BuildControllblSummary1stAnnualProjectedUnits();
-            @__parser.AddParsedSubObject(@__ctrl202);
+            global::System.Web.UI.WebControls.Label @__ctrl195;
+            @__ctrl195 = this.@__BuildControllblSummary1stAnnualProjectedUnits();
+            @__parser.AddParsedSubObject(@__ctrl195);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18091,9 +17752,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl203;
-            @__ctrl203 = this.@__BuildControllblSummary2ndAnnualProjectedDollars();
-            @__parser.AddParsedSubObject(@__ctrl203);
+            global::System.Web.UI.WebControls.Label @__ctrl196;
+            @__ctrl196 = this.@__BuildControllblSummary2ndAnnualProjectedDollars();
+            @__parser.AddParsedSubObject(@__ctrl196);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
@@ -18101,9 +17762,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl204;
-            @__ctrl204 = this.@__BuildControllblSummary2ndAnnualProjectedUnits();
-            @__parser.AddParsedSubObject(@__ctrl204);
+            global::System.Web.UI.WebControls.Label @__ctrl197;
+            @__ctrl197 = this.@__BuildControllblSummary2ndAnnualProjectedUnits();
+            @__parser.AddParsedSubObject(@__ctrl197);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18113,9 +17774,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl205;
-            @__ctrl205 = this.@__BuildControllblSummary3rdAnnualProjectedDollars();
-            @__parser.AddParsedSubObject(@__ctrl205);
+            global::System.Web.UI.WebControls.Label @__ctrl198;
+            @__ctrl198 = this.@__BuildControllblSummary3rdAnnualProjectedDollars();
+            @__parser.AddParsedSubObject(@__ctrl198);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
@@ -18123,9 +17784,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl206;
-            @__ctrl206 = this.@__BuildControllblSummary3rdAnnualProjectedUnits();
-            @__parser.AddParsedSubObject(@__ctrl206);
+            global::System.Web.UI.WebControls.Label @__ctrl199;
+            @__ctrl199 = this.@__BuildControllblSummary3rdAnnualProjectedUnits();
+            @__parser.AddParsedSubObject(@__ctrl199);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18139,41 +17800,41 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl207;
-            @__ctrl207 = this.@__BuildControllblSummaryCustomerChannelSpecific();
-            @__parser.AddParsedSubObject(@__ctrl207);
+            global::System.Web.UI.WebControls.Label @__ctrl200;
+            @__ctrl200 = this.@__BuildControllblSummaryCustomerChannelSpecific();
+            @__parser.AddParsedSubObject(@__ctrl200);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
                         "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl208;
-            @__ctrl208 = this.@__BuildControllblSummaryCustomerLabel();
-            @__parser.AddParsedSubObject(@__ctrl208);
+            global::System.Web.UI.WebControls.Label @__ctrl201;
+            @__ctrl201 = this.@__BuildControllblSummaryCustomerLabel();
+            @__parser.AddParsedSubObject(@__ctrl201);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl209;
-            @__ctrl209 = this.@__BuildControllblSummaryCustomer();
-            @__parser.AddParsedSubObject(@__ctrl209);
+            global::System.Web.UI.WebControls.Label @__ctrl202;
+            @__ctrl202 = this.@__BuildControllblSummaryCustomer();
+            @__parser.AddParsedSubObject(@__ctrl202);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl210;
-            @__ctrl210 = this.@__BuildControllblSummaryCustomerSpecificLotCodeLabel();
-            @__parser.AddParsedSubObject(@__ctrl210);
+            global::System.Web.UI.WebControls.Label @__ctrl203;
+            @__ctrl203 = this.@__BuildControllblSummaryCustomerSpecificLotCodeLabel();
+            @__parser.AddParsedSubObject(@__ctrl203);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl211;
-            @__ctrl211 = this.@__BuildControllblSummaryCustomerSpecificLotCode();
-            @__parser.AddParsedSubObject(@__ctrl211);
+            global::System.Web.UI.WebControls.Label @__ctrl204;
+            @__ctrl204 = this.@__BuildControllblSummaryCustomerSpecificLotCode();
+            @__parser.AddParsedSubObject(@__ctrl204);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row HideForSNM\">\r\n                            <div clas" +
                         "s=\"col-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl212;
-            @__ctrl212 = this.@__BuildControllblSummaryChannelLabel();
-            @__parser.AddParsedSubObject(@__ctrl212);
+            global::System.Web.UI.WebControls.Label @__ctrl205;
+            @__ctrl205 = this.@__BuildControllblSummaryChannelLabel();
+            @__parser.AddParsedSubObject(@__ctrl205);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl213;
-            @__ctrl213 = this.@__BuildControllblSummaryChannel();
-            @__parser.AddParsedSubObject(@__ctrl213);
+            global::System.Web.UI.WebControls.Label @__ctrl206;
+            @__ctrl206 = this.@__BuildControllblSummaryChannel();
+            @__parser.AddParsedSubObject(@__ctrl206);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18183,19 +17844,19 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl214;
-            @__ctrl214 = this.@__BuildControllblSummaryOutsideUSA();
-            @__parser.AddParsedSubObject(@__ctrl214);
+            global::System.Web.UI.WebControls.Label @__ctrl207;
+            @__ctrl207 = this.@__BuildControllblSummaryOutsideUSA();
+            @__parser.AddParsedSubObject(@__ctrl207);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl215;
-            @__ctrl215 = this.@__BuildControllblSummaryCountryOfSaleLabel();
-            @__parser.AddParsedSubObject(@__ctrl215);
+            global::System.Web.UI.WebControls.Label @__ctrl208;
+            @__ctrl208 = this.@__BuildControllblSummaryCountryOfSaleLabel();
+            @__parser.AddParsedSubObject(@__ctrl208);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl216;
-            @__ctrl216 = this.@__BuildControllblSummaryCountryOfSale();
-            @__parser.AddParsedSubObject(@__ctrl216);
+            global::System.Web.UI.WebControls.Label @__ctrl209;
+            @__ctrl209 = this.@__BuildControllblSummaryCountryOfSale();
+            @__parser.AddParsedSubObject(@__ctrl209);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18209,9 +17870,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl217;
-            @__ctrl217 = this.@__BuildControllblSummaryProductHierarchyLevel1();
-            @__parser.AddParsedSubObject(@__ctrl217);
+            global::System.Web.UI.WebControls.Label @__ctrl210;
+            @__ctrl210 = this.@__BuildControllblSummaryProductHierarchyLevel1();
+            @__parser.AddParsedSubObject(@__ctrl210);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18221,9 +17882,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl218;
-            @__ctrl218 = this.@__BuildControllblSummaryManuallyCreateSAPDescription();
-            @__parser.AddParsedSubObject(@__ctrl218);
+            global::System.Web.UI.WebControls.Label @__ctrl211;
+            @__ctrl211 = this.@__BuildControllblSummaryManuallyCreateSAPDescription();
+            @__parser.AddParsedSubObject(@__ctrl211);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18233,9 +17894,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl219;
-            @__ctrl219 = this.@__BuildControllblSummaryProductHierarchyLevel2();
-            @__parser.AddParsedSubObject(@__ctrl219);
+            global::System.Web.UI.WebControls.Label @__ctrl212;
+            @__ctrl212 = this.@__BuildControllblSummaryProductHierarchyLevel2();
+            @__parser.AddParsedSubObject(@__ctrl212);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18245,9 +17906,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl220;
-            @__ctrl220 = this.@__BuildControllblSummaryMaterialGroup1Brand();
-            @__parser.AddParsedSubObject(@__ctrl220);
+            global::System.Web.UI.WebControls.Label @__ctrl213;
+            @__ctrl213 = this.@__BuildControllblSummaryMaterialGroup1Brand();
+            @__parser.AddParsedSubObject(@__ctrl213);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18257,9 +17918,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl221;
-            @__ctrl221 = this.@__BuildControllblSummaryProfitCenter();
-            @__parser.AddParsedSubObject(@__ctrl221);
+            global::System.Web.UI.WebControls.Label @__ctrl214;
+            @__ctrl214 = this.@__BuildControllblSummaryProfitCenter();
+            @__parser.AddParsedSubObject(@__ctrl214);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18269,9 +17930,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl222;
-            @__ctrl222 = this.@__BuildControllblSummaryMaterialGroup4ProductForm();
-            @__parser.AddParsedSubObject(@__ctrl222);
+            global::System.Web.UI.WebControls.Label @__ctrl215;
+            @__ctrl215 = this.@__BuildControllblSummaryMaterialGroup4ProductForm();
+            @__parser.AddParsedSubObject(@__ctrl215);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18281,9 +17942,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl223;
-            @__ctrl223 = this.@__BuildControllblSummaryProductFormDescription();
-            @__parser.AddParsedSubObject(@__ctrl223);
+            global::System.Web.UI.WebControls.Label @__ctrl216;
+            @__ctrl216 = this.@__BuildControllblSummaryProductFormDescription();
+            @__parser.AddParsedSubObject(@__ctrl216);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18294,9 +17955,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                     <div class=""col-xs-12 col-sm-12 col-md-12"">
                                         <table>
                                             "));
-            global::System.Web.UI.WebControls.Repeater @__ctrl224;
-            @__ctrl224 = this.@__BuildControlrpMixesSummary();
-            @__parser.AddParsedSubObject(@__ctrl224);
+            global::System.Web.UI.WebControls.Repeater @__ctrl217;
+            @__ctrl217 = this.@__BuildControlrpMixesSummary();
+            @__parser.AddParsedSubObject(@__ctrl217);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                         </table>
                                     </div>
@@ -18310,9 +17971,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl225;
-            @__ctrl225 = this.@__BuildControllblSummaryMaterialGroup5PackType();
-            @__parser.AddParsedSubObject(@__ctrl225);
+            global::System.Web.UI.WebControls.Label @__ctrl218;
+            @__ctrl218 = this.@__BuildControllblSummaryMaterialGroup5PackType();
+            @__parser.AddParsedSubObject(@__ctrl218);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18325,9 +17986,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                     </div>
                                     <div class=""col-xs-12 col-sm-6 col-md-2"">
                                         "));
-            global::System.Web.UI.WebControls.Label @__ctrl226;
-            @__ctrl226 = this.@__BuildControllblSummaryTotalQuantityofUnitsInDisplay();
-            @__parser.AddParsedSubObject(@__ctrl226);
+            global::System.Web.UI.WebControls.Label @__ctrl219;
+            @__ctrl219 = this.@__BuildControllblSummaryTotalQuantityofUnitsInDisplay();
+            @__parser.AddParsedSubObject(@__ctrl219);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                     </div>
                                 </div>
@@ -18335,9 +17996,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                     <div class=""col-xs-12 col-sm-12 col-md-12"">
                                         <table>
                                             "));
-            global::System.Web.UI.WebControls.Repeater @__ctrl227;
-            @__ctrl227 = this.@__BuildControlrpShipperSummary();
-            @__parser.AddParsedSubObject(@__ctrl227);
+            global::System.Web.UI.WebControls.Repeater @__ctrl220;
+            @__ctrl220 = this.@__BuildControlrpShipperSummary();
+            @__parser.AddParsedSubObject(@__ctrl220);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                         </table>
                                     </div>
@@ -18351,9 +18012,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl228;
-            @__ctrl228 = this.@__BuildControllblSummaryNoveltyProject();
-            @__parser.AddParsedSubObject(@__ctrl228);
+            global::System.Web.UI.WebControls.Label @__ctrl221;
+            @__ctrl221 = this.@__BuildControllblSummaryNoveltyProject();
+            @__parser.AddParsedSubObject(@__ctrl221);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18367,104 +18028,104 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl229;
-            @__ctrl229 = this.@__BuildControllblSummaryNeedNewUPCUCC();
-            @__parser.AddParsedSubObject(@__ctrl229);
+            global::System.Web.UI.WebControls.Label @__ctrl222;
+            @__ctrl222 = this.@__BuildControllblSummaryNeedNewUPCUCC();
+            @__parser.AddParsedSubObject(@__ctrl222);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
                         " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl230;
-            @__ctrl230 = this.@__BuildControllblSummaryNeedNewUnitUPCLabel();
-            @__parser.AddParsedSubObject(@__ctrl230);
+            global::System.Web.UI.WebControls.Label @__ctrl223;
+            @__ctrl223 = this.@__BuildControllblSummaryNeedNewUnitUPCLabel();
+            @__parser.AddParsedSubObject(@__ctrl223);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl231;
-            @__ctrl231 = this.@__BuildControllblSummaryNeedNewUnitUPC();
-            @__parser.AddParsedSubObject(@__ctrl231);
+            global::System.Web.UI.WebControls.Label @__ctrl224;
+            @__ctrl224 = this.@__BuildControllblSummaryNeedNewUnitUPC();
+            @__parser.AddParsedSubObject(@__ctrl224);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl232;
-            @__ctrl232 = this.@__BuildControllblSummaryUnitUPCLabel();
-            @__parser.AddParsedSubObject(@__ctrl232);
+            global::System.Web.UI.WebControls.Label @__ctrl225;
+            @__ctrl225 = this.@__BuildControllblSummaryUnitUPCLabel();
+            @__parser.AddParsedSubObject(@__ctrl225);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl233;
-            @__ctrl233 = this.@__BuildControllblSummaryUnitUPC();
-            @__parser.AddParsedSubObject(@__ctrl233);
+            global::System.Web.UI.WebControls.Label @__ctrl226;
+            @__ctrl226 = this.@__BuildControllblSummaryUnitUPC();
+            @__parser.AddParsedSubObject(@__ctrl226);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row\" style=\"height: 80px\">\r\n                           " +
                         " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl234;
-            @__ctrl234 = this.@__BuildControllblSummaryNeedNewDisplayBoxUPCLabel();
-            @__parser.AddParsedSubObject(@__ctrl234);
+            global::System.Web.UI.WebControls.Label @__ctrl227;
+            @__ctrl227 = this.@__BuildControllblSummaryNeedNewDisplayBoxUPCLabel();
+            @__parser.AddParsedSubObject(@__ctrl227);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl228;
+            @__ctrl228 = this.@__BuildControllblSummaryNeedNewDisplayBoxUPC();
+            @__parser.AddParsedSubObject(@__ctrl228);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl229;
+            @__ctrl229 = this.@__BuildControllblSummaryDisplayUPCBoxLabel();
+            @__parser.AddParsedSubObject(@__ctrl229);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl230;
+            @__ctrl230 = this.@__BuildControllblSummaryDisplayUPCBox();
+            @__parser.AddParsedSubObject(@__ctrl230);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
+                        " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl231;
+            @__ctrl231 = this.@__BuildControllblSummarySAPBaseUOMLabel();
+            @__parser.AddParsedSubObject(@__ctrl231);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl232;
+            @__ctrl232 = this.@__BuildControllblSummarySAPBaseUOM();
+            @__parser.AddParsedSubObject(@__ctrl232);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
+                        "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
+                        " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl233;
+            @__ctrl233 = this.@__BuildControllblSummaryNeedNewCaseUCCLabel();
+            @__parser.AddParsedSubObject(@__ctrl233);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl234;
+            @__ctrl234 = this.@__BuildControllblSummaryNeedNewCaseUCC();
+            @__parser.AddParsedSubObject(@__ctrl234);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl235;
-            @__ctrl235 = this.@__BuildControllblSummaryNeedNewDisplayBoxUPC();
+            @__ctrl235 = this.@__BuildControllblSummaryCaseUCCLabel();
             @__parser.AddParsedSubObject(@__ctrl235);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl236;
-            @__ctrl236 = this.@__BuildControllblSummaryDisplayUPCBoxLabel();
+            @__ctrl236 = this.@__BuildControllblSummaryCaseUCC();
             @__parser.AddParsedSubObject(@__ctrl236);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl237;
-            @__ctrl237 = this.@__BuildControllblSummaryDisplayUPCBox();
-            @__parser.AddParsedSubObject(@__ctrl237);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
                         "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
                         " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
+            global::System.Web.UI.WebControls.Label @__ctrl237;
+            @__ctrl237 = this.@__BuildControllblSummaryNeedNewPalletUCCLabel();
+            @__parser.AddParsedSubObject(@__ctrl237);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl238;
-            @__ctrl238 = this.@__BuildControllblSummarySAPBaseUOMLabel();
+            @__ctrl238 = this.@__BuildControllblSummaryNeedNewPalletUCC();
             @__parser.AddParsedSubObject(@__ctrl238);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl239;
-            @__ctrl239 = this.@__BuildControllblSummarySAPBaseUOM();
+            @__ctrl239 = this.@__BuildControllblSummaryPalletUCCLabel();
             @__parser.AddParsedSubObject(@__ctrl239);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
-                        " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
+                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
             global::System.Web.UI.WebControls.Label @__ctrl240;
-            @__ctrl240 = this.@__BuildControllblSummaryNeedNewCaseUCCLabel();
+            @__ctrl240 = this.@__BuildControllblSummaryPalletUCC();
             @__parser.AddParsedSubObject(@__ctrl240);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl241;
-            @__ctrl241 = this.@__BuildControllblSummaryNeedNewCaseUCC();
-            @__parser.AddParsedSubObject(@__ctrl241);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl242;
-            @__ctrl242 = this.@__BuildControllblSummaryCaseUCCLabel();
-            @__parser.AddParsedSubObject(@__ctrl242);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl243;
-            @__ctrl243 = this.@__BuildControllblSummaryCaseUCC();
-            @__parser.AddParsedSubObject(@__ctrl243);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                        </div>\r\n           " +
-                        "             <div class=\"row\" style=\"height: 60px\">\r\n                           " +
-                        " <div class=\"col-xs-12 col-sm-6 col-md-4\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl244;
-            @__ctrl244 = this.@__BuildControllblSummaryNeedNewPalletUCCLabel();
-            @__parser.AddParsedSubObject(@__ctrl244);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-2\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl245;
-            @__ctrl245 = this.@__BuildControllblSummaryNeedNewPalletUCC();
-            @__parser.AddParsedSubObject(@__ctrl245);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl246;
-            @__ctrl246 = this.@__BuildControllblSummaryPalletUCCLabel();
-            @__parser.AddParsedSubObject(@__ctrl246);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
-                        "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl247;
-            @__ctrl247 = this.@__BuildControllblSummaryPalletUCC();
-            @__parser.AddParsedSubObject(@__ctrl247);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18478,9 +18139,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl248;
-            @__ctrl248 = this.@__BuildControllblSummaryCaseType();
-            @__parser.AddParsedSubObject(@__ctrl248);
+            global::System.Web.UI.WebControls.Label @__ctrl241;
+            @__ctrl241 = this.@__BuildControllblSummaryCaseType();
+            @__parser.AddParsedSubObject(@__ctrl241);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -18488,9 +18149,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl249;
-            @__ctrl249 = this.@__BuildControllblSummaryPegHoleNeeded();
-            @__parser.AddParsedSubObject(@__ctrl249);
+            global::System.Web.UI.WebControls.Label @__ctrl242;
+            @__ctrl242 = this.@__BuildControllblSummaryPegHoleNeeded();
+            @__parser.AddParsedSubObject(@__ctrl242);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18500,9 +18161,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl250;
-            @__ctrl250 = this.@__BuildControllblSummaryFilmSubstrate();
-            @__parser.AddParsedSubObject(@__ctrl250);
+            global::System.Web.UI.WebControls.Label @__ctrl243;
+            @__ctrl243 = this.@__BuildControllblSummaryFilmSubstrate();
+            @__parser.AddParsedSubObject(@__ctrl243);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"" id=""divlblforSummaryInvolvesCarton"">
@@ -18510,9 +18171,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"" id=""divlblSummaryInvolvesCarton"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl251;
-            @__ctrl251 = this.@__BuildControllblSummaryInvolvesCarton();
-            @__parser.AddParsedSubObject(@__ctrl251);
+            global::System.Web.UI.WebControls.Label @__ctrl244;
+            @__ctrl244 = this.@__BuildControllblSummaryInvolvesCarton();
+            @__parser.AddParsedSubObject(@__ctrl244);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18522,9 +18183,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl252;
-            @__ctrl252 = this.@__BuildControllblSummaryUnitsInsideCarton();
-            @__parser.AddParsedSubObject(@__ctrl252);
+            global::System.Web.UI.WebControls.Label @__ctrl245;
+            @__ctrl245 = this.@__BuildControllblSummaryUnitsInsideCarton();
+            @__parser.AddParsedSubObject(@__ctrl245);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -18532,9 +18193,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl253;
-            @__ctrl253 = this.@__BuildControllblSummaryIndividualPouchWeight();
-            @__parser.AddParsedSubObject(@__ctrl253);
+            global::System.Web.UI.WebControls.Label @__ctrl246;
+            @__ctrl246 = this.@__BuildControllblSummaryIndividualPouchWeight();
+            @__parser.AddParsedSubObject(@__ctrl246);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18545,9 +18206,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"" id=""divSummaryNumberofTraysPerBaseUOM2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl254;
-            @__ctrl254 = this.@__BuildControllblSummaryNumberofTraysPerBaseUOM();
-            @__parser.AddParsedSubObject(@__ctrl254);
+            global::System.Web.UI.WebControls.Label @__ctrl247;
+            @__ctrl247 = this.@__BuildControllblSummaryNumberofTraysPerBaseUOM();
+            @__parser.AddParsedSubObject(@__ctrl247);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-4"">
@@ -18555,9 +18216,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl255;
-            @__ctrl255 = this.@__BuildControllblSummaryRetailSellingUnitsPerBaseUOM();
-            @__parser.AddParsedSubObject(@__ctrl255);
+            global::System.Web.UI.WebControls.Label @__ctrl248;
+            @__ctrl248 = this.@__BuildControllblSummaryRetailSellingUnitsPerBaseUOM();
+            @__parser.AddParsedSubObject(@__ctrl248);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18567,9 +18228,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl256;
-            @__ctrl256 = this.@__BuildControllblSummaryRetailUnitWeight();
-            @__parser.AddParsedSubObject(@__ctrl256);
+            global::System.Web.UI.WebControls.Label @__ctrl249;
+            @__ctrl249 = this.@__BuildControllblSummaryRetailUnitWeight();
+            @__parser.AddParsedSubObject(@__ctrl249);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -18577,9 +18238,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl257;
-            @__ctrl257 = this.@__BuildControllblSummaryBaseUOMNetWeight();
-            @__parser.AddParsedSubObject(@__ctrl257);
+            global::System.Web.UI.WebControls.Label @__ctrl250;
+            @__ctrl250 = this.@__BuildControllblSummaryBaseUOMNetWeight();
+            @__parser.AddParsedSubObject(@__ctrl250);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18593,9 +18254,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl258;
-            @__ctrl258 = this.@__BuildControllblSummaryClaimsLabelingRequirements();
-            @__parser.AddParsedSubObject(@__ctrl258);
+            global::System.Web.UI.WebControls.Label @__ctrl251;
+            @__ctrl251 = this.@__BuildControllblSummaryClaimsLabelingRequirements();
+            @__parser.AddParsedSubObject(@__ctrl251);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18605,9 +18266,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-8"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl259;
-            @__ctrl259 = this.@__BuildControllblSummaryClaimsDesired();
-            @__parser.AddParsedSubObject(@__ctrl259);
+            global::System.Web.UI.WebControls.Label @__ctrl252;
+            @__ctrl252 = this.@__BuildControllblSummaryClaimsDesired();
+            @__parser.AddParsedSubObject(@__ctrl252);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18615,15 +18276,15 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-3 marketingClaims"">
                                 <span class=""LabelControl"">Sellable Unit:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl260;
-            @__ctrl260 = this.@__BuildControllblSummarySellableUnit();
-            @__parser.AddParsedSubObject(@__ctrl260);
+            global::System.Web.UI.WebControls.Label @__ctrl253;
+            @__ctrl253 = this.@__BuildControllblSummarySellableUnit();
+            @__parser.AddParsedSubObject(@__ctrl253);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">New NLEA Format:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl261;
-            @__ctrl261 = this.@__BuildControllblSummaryNewNLEAFormat();
-            @__parser.AddParsedSubObject(@__ctrl261);
+            global::System.Web.UI.WebControls.Label @__ctrl254;
+            @__ctrl254 = this.@__BuildControllblSummaryNewNLEAFormat();
+            @__parser.AddParsedSubObject(@__ctrl254);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
 
@@ -18632,9 +18293,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-12"">
                                 <span class=""LabelControl"">Is Bio-Engineering Labeling Acceptable for this item?:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl262;
-            @__ctrl262 = this.@__BuildControllblSummaryBioEngineeringLabelingAcceptable();
-            @__parser.AddParsedSubObject(@__ctrl262);
+            global::System.Web.UI.WebControls.Label @__ctrl255;
+            @__ctrl255 = this.@__BuildControllblSummaryBioEngineeringLabelingAcceptable();
+            @__parser.AddParsedSubObject(@__ctrl255);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18644,9 +18305,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-2 "">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl263;
-            @__ctrl263 = this.@__BuildControllblSummaryFinishedGoodComponent();
-            @__parser.AddParsedSubObject(@__ctrl263);
+            global::System.Web.UI.WebControls.Label @__ctrl256;
+            @__ctrl256 = this.@__BuildControllblSummaryFinishedGoodComponent();
+            @__parser.AddParsedSubObject(@__ctrl256);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
@@ -18654,9 +18315,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             </div>
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl264;
-            @__ctrl264 = this.@__BuildControllblSummaryFinishedGoodComponentDescription();
-            @__parser.AddParsedSubObject(@__ctrl264);
+            global::System.Web.UI.WebControls.Label @__ctrl257;
+            @__ctrl257 = this.@__BuildControllblSummaryFinishedGoodComponentDescription();
+            @__parser.AddParsedSubObject(@__ctrl257);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18664,24 +18325,24 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 <span class=""LabelControl"">Made In USA Claim:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl265;
-            @__ctrl265 = this.@__BuildControllblSummaryMadeInUSA();
-            @__parser.AddParsedSubObject(@__ctrl265);
+            global::System.Web.UI.WebControls.Label @__ctrl258;
+            @__ctrl258 = this.@__BuildControllblSummaryMadeInUSA();
+            @__parser.AddParsedSubObject(@__ctrl258);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl266;
-            @__ctrl266 = this.@__BuildControllblSummaryMadeInUSAPctLabel();
-            @__parser.AddParsedSubObject(@__ctrl266);
+            global::System.Web.UI.WebControls.Label @__ctrl259;
+            @__ctrl259 = this.@__BuildControllblSummaryMadeInUSAPctLabel();
+            @__parser.AddParsedSubObject(@__ctrl259);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl267;
-            @__ctrl267 = this.@__BuildControllblSummaryMadeInUSAPct();
-            @__parser.AddParsedSubObject(@__ctrl267);
+            global::System.Web.UI.WebControls.Label @__ctrl260;
+            @__ctrl260 = this.@__BuildControllblSummaryMadeInUSAPct();
+            @__parser.AddParsedSubObject(@__ctrl260);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">GMO Claim:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl268;
-            @__ctrl268 = this.@__BuildControllblSummaryGMOClaim();
-            @__parser.AddParsedSubObject(@__ctrl268);
+            global::System.Web.UI.WebControls.Label @__ctrl261;
+            @__ctrl261 = this.@__BuildControllblSummaryGMOClaim();
+            @__parser.AddParsedSubObject(@__ctrl261);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18689,21 +18350,21 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 <span class=""LabelControl"">Gluten Free:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl269;
-            @__ctrl269 = this.@__BuildControllblSummaryGlutenFree();
-            @__parser.AddParsedSubObject(@__ctrl269);
+            global::System.Web.UI.WebControls.Label @__ctrl262;
+            @__ctrl262 = this.@__BuildControllblSummaryGlutenFree();
+            @__parser.AddParsedSubObject(@__ctrl262);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Fat Free:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl270;
-            @__ctrl270 = this.@__BuildControllblSummaryFatFree();
-            @__parser.AddParsedSubObject(@__ctrl270);
+            global::System.Web.UI.WebControls.Label @__ctrl263;
+            @__ctrl263 = this.@__BuildControllblSummaryFatFree();
+            @__parser.AddParsedSubObject(@__ctrl263);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Kosher:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl271;
-            @__ctrl271 = this.@__BuildControllblSummaryKosher();
-            @__parser.AddParsedSubObject(@__ctrl271);
+            global::System.Web.UI.WebControls.Label @__ctrl264;
+            @__ctrl264 = this.@__BuildControllblSummaryKosher();
+            @__parser.AddParsedSubObject(@__ctrl264);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18711,21 +18372,21 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 <span class=""LabelControl"">Organic:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl272;
-            @__ctrl272 = this.@__BuildControllblSummaryMarketingOrganic();
-            @__parser.AddParsedSubObject(@__ctrl272);
+            global::System.Web.UI.WebControls.Label @__ctrl265;
+            @__ctrl265 = this.@__BuildControllblSummaryMarketingOrganic();
+            @__parser.AddParsedSubObject(@__ctrl265);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Natural Colors:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl273;
-            @__ctrl273 = this.@__BuildControllblSummaryNaturalColors();
-            @__parser.AddParsedSubObject(@__ctrl273);
+            global::System.Web.UI.WebControls.Label @__ctrl266;
+            @__ctrl266 = this.@__BuildControllblSummaryNaturalColors();
+            @__parser.AddParsedSubObject(@__ctrl266);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Natural / Real Flavors Claims:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl274;
-            @__ctrl274 = this.@__BuildControllblSummaryNaturalFlavors();
-            @__parser.AddParsedSubObject(@__ctrl274);
+            global::System.Web.UI.WebControls.Label @__ctrl267;
+            @__ctrl267 = this.@__BuildControllblSummaryNaturalFlavors();
+            @__parser.AddParsedSubObject(@__ctrl267);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18733,21 +18394,21 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-3"">
                                 <span class=""LabelControl"">Preservative Free:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl275;
-            @__ctrl275 = this.@__BuildControllblSummaryPreservativeFree();
-            @__parser.AddParsedSubObject(@__ctrl275);
+            global::System.Web.UI.WebControls.Label @__ctrl268;
+            @__ctrl268 = this.@__BuildControllblSummaryPreservativeFree();
+            @__parser.AddParsedSubObject(@__ctrl268);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Lactose Free:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl276;
-            @__ctrl276 = this.@__BuildControllblSummaryLactoseFree();
-            @__parser.AddParsedSubObject(@__ctrl276);
+            global::System.Web.UI.WebControls.Label @__ctrl269;
+            @__ctrl269 = this.@__BuildControllblSummaryLactoseFree();
+            @__parser.AddParsedSubObject(@__ctrl269);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            </div>\r\n                            <div class=\"col" +
                         "-xs-12 col-sm-6 col-md-3\">\r\n                                <span class=\"LabelCo" +
                         "ntrol\">Low Sodium:</span>\r\n                                "));
-            global::System.Web.UI.WebControls.Label @__ctrl277;
-            @__ctrl277 = this.@__BuildControllblSummaryLowSodium();
-            @__parser.AddParsedSubObject(@__ctrl277);
+            global::System.Web.UI.WebControls.Label @__ctrl270;
+            @__ctrl270 = this.@__BuildControllblSummaryLowSodium();
+            @__parser.AddParsedSubObject(@__ctrl270);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18755,9 +18416,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-12 col-md-12"">
                                 <span class=""LabelControl"">Juice Concentrate:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl278;
-            @__ctrl278 = this.@__BuildControllblSummaryJuiceConcentrate();
-            @__parser.AddParsedSubObject(@__ctrl278);
+            global::System.Web.UI.WebControls.Label @__ctrl271;
+            @__ctrl271 = this.@__BuildControllblSummaryJuiceConcentrate();
+            @__parser.AddParsedSubObject(@__ctrl271);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18765,9 +18426,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-6 col-md-12"">
                                 <span class=""LabelControl"">Good / Excellent Source:</span>
                                 "));
-            global::System.Web.UI.WebControls.Label @__ctrl279;
-            @__ctrl279 = this.@__BuildControllblSummaryGoodSource();
-            @__parser.AddParsedSubObject(@__ctrl279);
+            global::System.Web.UI.WebControls.Label @__ctrl272;
+            @__ctrl272 = this.@__BuildControllblSummaryGoodSource();
+            @__parser.AddParsedSubObject(@__ctrl272);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             </div>
                         </div>
@@ -18779,24 +18440,24 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-12 col-md-6"">
                                 <table>
                                     "));
-            global::System.Web.UI.WebControls.Repeater @__ctrl280;
-            @__ctrl280 = this.@__BuildControlrpSummaryFormulationAttachments();
-            @__parser.AddParsedSubObject(@__ctrl280);
+            global::System.Web.UI.WebControls.Repeater @__ctrl273;
+            @__ctrl273 = this.@__BuildControlrpSummaryFormulationAttachments();
+            @__parser.AddParsedSubObject(@__ctrl273);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </table>\r\n                            </div>\r\n " +
                         "                           <div class=\"col-xs-12 col-sm-12 col-md-6\">\r\n         " +
                         "                       <table>\r\n                                    "));
-            global::System.Web.UI.WebControls.Repeater @__ctrl281;
-            @__ctrl281 = this.@__BuildControlrpSummaryGraphicsAttachments();
-            @__parser.AddParsedSubObject(@__ctrl281);
+            global::System.Web.UI.WebControls.Repeater @__ctrl274;
+            @__ctrl274 = this.@__BuildControlrpSummaryGraphicsAttachments();
+            @__parser.AddParsedSubObject(@__ctrl274);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </table>\r\n                            </div>\r\n " +
                         "                       </div>\r\n                        "));
-            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl282;
-            @__ctrl282 = this.@__BuildControldvPackagingComponents();
-            @__parser.AddParsedSubObject(@__ctrl282);
+            global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl275;
+            @__ctrl275 = this.@__BuildControldvPackagingComponents();
+            @__parser.AddParsedSubObject(@__ctrl275);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        <div class=\"row \">\r\n                            "));
-            global::System.Web.UI.WebControls.Panel @__ctrl283;
-            @__ctrl283 = this.@__BuildControlcommercializationPanel();
-            @__parser.AddParsedSubObject(@__ctrl283);
+            global::System.Web.UI.WebControls.Panel @__ctrl276;
+            @__ctrl276 = this.@__BuildControlcommercializationPanel();
+            @__parser.AddParsedSubObject(@__ctrl276);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                         </div>
                         <div class=""row"" id=""rowChangeReason"">
@@ -18804,13 +18465,13 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                                 <div class=""form-group"">
                                     <label class=""control-label""><span class=""markrequired"" id=""reqChangeReason"">*</span>Reason for change?:</label>
                                     "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl284;
-            @__ctrl284 = this.@__BuildControltxtChangeReason();
-            @__parser.AddParsedSubObject(@__ctrl284);
+            global::System.Web.UI.WebControls.TextBox @__ctrl277;
+            @__ctrl277 = this.@__BuildControltxtChangeReason();
+            @__parser.AddParsedSubObject(@__ctrl277);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl285;
-            @__ctrl285 = this.@__BuildControlhdnIsChangeRequest();
-            @__parser.AddParsedSubObject(@__ctrl285);
+            global::System.Web.UI.WebControls.HiddenField @__ctrl278;
+            @__ctrl278 = this.@__BuildControlhdnIsChangeRequest();
+            @__parser.AddParsedSubObject(@__ctrl278);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                             </div>
@@ -18819,9 +18480,9 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                             <div class=""col-xs-12 col-sm-12 col-md-12"">
                                 <div>
                                     "));
-            global::System.Web.UI.WebControls.Button @__ctrl286;
-            @__ctrl286 = this.@__BuildControlbtnSubmit();
-            @__parser.AddParsedSubObject(@__ctrl286);
+            global::System.Web.UI.WebControls.Button @__ctrl279;
+            @__ctrl279 = this.@__BuildControlbtnSubmit();
+            @__parser.AddParsedSubObject(@__ctrl279);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                                 </div>
                             </div>
@@ -18831,21 +18492,21 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                 <div class=""actions clearfix""></div>
                 <div class=""row hidebutton"">
                     "));
-            global::System.Web.UI.UpdatePanel @__ctrl287;
-            @__ctrl287 = this.@__BuildControlUpdatePanel4();
-            @__parser.AddParsedSubObject(@__ctrl287);
+            global::System.Web.UI.UpdatePanel @__ctrl280;
+            @__ctrl280 = this.@__BuildControlUpdatePanel4();
+            @__parser.AddParsedSubObject(@__ctrl280);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </div>\r\n                <div class=\"row hidebutton\">\r\n         " +
                         "           <div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n                        " +
                         ""));
-            global::System.Web.UI.WebControls.Button @__ctrl288;
-            @__ctrl288 = this.@__BuildControlbtnNext();
-            @__parser.AddParsedSubObject(@__ctrl288);
+            global::System.Web.UI.WebControls.Button @__ctrl281;
+            @__ctrl281 = this.@__BuildControlbtnNext();
+            @__parser.AddParsedSubObject(@__ctrl281);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n                <div class=" +
                         "\"row hidebutton\">\r\n                    <div class=\"col-xs-12 col-sm-12 col-md-12" +
                         "\">\r\n                        "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl289;
-            @__ctrl289 = this.@__BuildControlhiddenItemId();
-            @__parser.AddParsedSubObject(@__ctrl289);
+            global::System.Web.UI.WebControls.HiddenField @__ctrl282;
+            @__ctrl282 = this.@__BuildControlhiddenItemId();
+            @__parser.AddParsedSubObject(@__ctrl282);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n       " +
                         " </div>\r\n    </div>\r\n    \r\n</div>\r\n<script type=\"text/javascript\">\r\n    $(docume" +
                         "nt).ready(function () {\r\n        function RemoveRougeChar(convertString) {\r\n    " +
@@ -19203,10 +18864,7 @@ namespace Ferrara.Compass.WebParts.ItemProposalForm {
                         "teJavascriptStyles();\r\n    function callSAPNomenclature() {\r\n        SAPNomencla" +
                         "ture();\r\n        BindHierarchiesOnLoad();\r\n    }\r\n    Sys.WebForms.PageRequestMa" +
                         "nager.getInstance().add_endRequest(callSAPNomenclature);\r\n    callSAPNomenclatur" +
-                        "e();\r\n\r\n\r\n    // for new  version FG BOM Details\r\n    function ShowFGModel(tUrl," +
-                        "tTitle) {\r\n        var options = {\r\n            url: tUrl,\r\n            title: t" +
-                        "Title\r\n        };\r\n        SP.UI.ModalDialog.showModalDialog(options);\r\n    }\r\n<" +
-                        "/script>\r\n"));
+                        "e();\r\n</script>\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

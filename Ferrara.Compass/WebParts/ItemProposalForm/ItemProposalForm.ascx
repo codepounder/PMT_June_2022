@@ -28,7 +28,6 @@
         display: inline-block;
     }
 </style>
-
 <style id="printDiv" media="print" type="text/css">
     #divFormLinks, #IPFLinkHeaders, .ProjectNotesContainer, .actions, .hidebutton {
         display: none !important;
@@ -145,8 +144,7 @@
                         <li class=""><a href="#wizard-h-9">10. Marketing Claims</a></li>
                         <li class=""><a href="#wizard-h-10">11. Attachments</a></li>
                         <li class=""><a href="#wizard-h-11">12. FG BOM Details</a></li>
-                         <li class=""><a href="#wizard-h-12">12.A FG BOM Details Ver 2</a></li>
-                        <li class=""><a href="#wizard-h-13">13. Summary</a></li>
+                        <li class=""><a href="#wizard-h-12">13. Summary</a></li>
                     </ul>
                 </div>
                 <div class="content clearfix">
@@ -2424,91 +2422,8 @@
                         </div>
                     </section>
 
-                     <h2>12.A. FG BOM Details - Ver 2</h2>
-                     <section id="wizard-h-12">
-                         
-                                <div class="row">
-                                    
-                                    <div class="col-xs-12 col-sm-12 col-md-12">
-                                        <table class="MembersTableNew" style="width: 100%">
-                                            <thead>
-                                                <tr>
-                                                    <th><h4>Finished Good</h4></th>
-                                                    <th>
-                                                        <a href="javascript:void(0)" onclick="ShowFGModel('/_layouts/15/Ferrara.Compass/FGBOMModal.aspx','Add BOM Details');" class="btn btn-success small" title="Add New">
-                                                            <span style="font-size:large">+</span>
-                                                        </a>
-                                                    </th>
-                                                </tr>
-
-                                            </thead>
-                                        </table>
-                                        <table class="table table-table-bordered table-table-hover" style="width: 100%">
-                                            <thead>
-                                            <tr>
-                                                <th>
-                                                    Component Type
-                                                </th>
-                                                <th>
-                                                    New / Existing
-                                                </th>
-                                                 <th>
-                                                   Base UOM Qty
-                                                </th>
-                                                <th>UOM</th>
-                                                <th>Flowthrough</th>
-                                                <th>Actions</th>
-                                            </tr>
-                                                </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>Corrugated - DRC</td>
-                                                    <td>New</td>
-                                                    <td>12345.00</td>
-                                                    <td>EA</td>
-                                                    <td>Not Applicable</td>
-                                                    <td>Edit</td>
-                                                </tr>
-                                                  
-                                            </tbody>
-                                        </table>
-                                        </div>
-                                    </div>
-
-                        <asp:HiddenField ID="HiddenField1" runat="server" ClientIDMode="Static" />
-                        <asp:HiddenField ID="HiddenField2" runat="server" ClientIDMode="Static" />
-
-                        <asp:HiddenField ID="HiddenField3" runat="server" ClientIDMode="Static" Value="0" />
-                        <asp:HiddenField ID="HiddenField4" runat="server" ClientIDMode="Static" Value="" />
-                        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
-                            <ContentTemplate>
-                                <asp:Panel ID="Panel1" ClientIDMode="Static" runat="server" class="">
-                                    <asp:PlaceHolder ID="PlaceHolder1" runat="server" />
-                                </asp:Panel>
-                            </ContentTemplate>
-                        </asp:UpdatePanel>
-                        <asp:UpdatePanel ID="UpdatePanel3" runat="server">
-                            <ContentTemplate>
-                                <asp:Panel ID="Panel2" ClientIDMode="Static" runat="server">
-                                    <asp:HiddenField ID="HiddenField5" runat="server" ClientIDMode="Static" Value="0" />
-                                    <asp:HiddenField ID="HiddenField6" runat="server" ClientIDMode="Static" Value="false" />
-                                    <asp:PlaceHolder ID="PlaceHolder2" runat="server" />
-                                </asp:Panel>
-                            </ContentTemplate>
-                        </asp:UpdatePanel>
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12">
-                                <div class="form-group">
-                                    <label class="control-label">Please specify what materials, if any, need to flowthrough at the same time:</label>
-                                    <label id="lblFlowthroughNote" class="comment-block">Note: If a material number is not yet assigned, please still reference the item by describing it</label>
-                                    <asp:TextBox ID="TextBox1" ClientIDMode="Static" TextMode="MultiLine" Rows="3" runat="server" CssClass="form-control"></asp:TextBox>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                     <h2>13. Summary</h2>
-                    <section id="wizard-h-13">
+                    <section id="wizard-h-12">
                         <div class="row hidebutton">
                             <div class="col-xs-12 col-sm-6 col-md-2 hideItem hidebutton">
                                 <asp:Button ID="btnLoadSummary" CssClass="Summary" ClientIDMode="Static" runat="server" Text="Load Summary" OnClick="btnLoadSummary_Click" />
@@ -4053,14 +3968,4 @@
     }
     Sys.WebForms.PageRequestManager.getInstance().add_endRequest(callSAPNomenclature);
     callSAPNomenclature();
-
-
-    // for new  version FG BOM Details
-    function ShowFGModel(tUrl,tTitle) {
-        var options = {
-            url: tUrl,
-            title: tTitle
-        };
-        SP.UI.ModalDialog.showModalDialog(options);
-    }
 </script>
