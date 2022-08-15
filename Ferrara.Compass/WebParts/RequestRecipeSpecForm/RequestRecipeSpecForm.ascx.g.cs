@@ -129,6 +129,10 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
         protected global::System.Web.UI.WebControls.Panel divFGSection;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
@@ -137,27 +141,43 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txtSemiDescription;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox txtLikeSemiNo;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox txtLikeSemiExistingNo;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.Image Image2;
+        protected global::System.Web.UI.WebControls.DropDownList ddlMakePackSemi;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.Repeater Repeater1;
+        protected global::System.Web.UI.WebControls.Image Image1;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Repeater rptMakePackSemi;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        protected global::System.Web.UI.WebControls.Button btnAddMakePackPlantSemi;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        protected global::System.Web.UI.WebControls.Button btnAddSemi;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        protected global::System.Web.UI.WebControls.Repeater rptNewSemiComponent;
+        
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
@@ -240,7 +260,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.LinkButton @__ctrl1;
             @__ctrl1 = this.@__BuildControllbHelpDeskEmail();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(".<br />\r\n             \r\n        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(".<br />\r\n            \r\n        "));
             return @__ctrl;
         }
         
@@ -535,12 +555,13 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             this.div3 = @__ctrl;
             @__ctrl.ID = "div3";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        <div class=\"form-group\">\r\n                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    <div class=\"form-group\">\r\n                         <label c" +
+                        "lass=\"control-label ProjectManager\">FG Pack Location:</label>\r\n                 " +
+                        "       "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl1;
             @__ctrl1 = this.@__BuildControldrpMakeLocation();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            \r\n                        </div>\r\n                 " +
-                        "   "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                    </div>\r\n                "));
             return @__ctrl;
         }
         
@@ -571,12 +592,11 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             this.div4 = @__ctrl;
             @__ctrl.ID = "div4";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        <div class=\"form-group\">\r\n                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    <div class=\"form-group\">\r\n                        "));
             global::System.Web.UI.WebControls.Image @__ctrl1;
             @__ctrl1 = this.@__BuildControlImgAddMakePackPlantFG();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            \r\n                        </div>\r\n                 " +
-                        "   "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                    </div>\r\n                "));
             return @__ctrl;
         }
         
@@ -587,9 +607,9 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.TextBox();
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "txtMakePackName";
-            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.ID = "txtMakePackNameValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
             @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control10);
             return @__ctrl;
         }
@@ -598,6 +618,31 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
         public void @__DataBinding__control10(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "MakepackNameValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control11() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtMakePackName";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control11);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control11(object sender, System.EventArgs e) {
             System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
@@ -614,20 +659,24 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.TemplateControl = this;
             @__ctrl.ID = "tdDeliverable";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <div class=\"form-group\">\r\n         " +
-                        "                                       "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        <div class=\"form-group\">\r\n             " +
+                        "                               "));
             global::System.Web.UI.WebControls.TextBox @__ctrl1;
             @__ctrl1 = this.@__BuildControl__control10();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                                            </div>\r\n                         " +
-                        "               "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl2;
+            @__ctrl2 = this.@__BuildControl__control11();
+            @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                                        </div>\r\n                             " +
+                        "       "));
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Image @__BuildControl__control11() {
+        private global::System.Web.UI.WebControls.Image @__BuildControl__control12() {
             global::System.Web.UI.WebControls.Image @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Image();
             @__ctrl.TemplateControl = this;
@@ -635,7 +684,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "btnDeleteRow";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "DeleteRow");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "cursor: pointer; margin-top: -10px; margin-right: -4px;");
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "deleteRow(this,\'hdnDeletedStatusForMakePackFG\');return false;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "deleteRow(this,\'hdnDeletedStatusForMakePackName\');return false;");
             @__ctrl.AlternateText = "Delete Row";
             @__ctrl.ImageUrl = "/_layouts/15/Ferrara.Compass/images/cancel.png";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
@@ -645,11 +694,11 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControl__control12() {
+        private global::System.Web.UI.WebControls.HiddenField @__BuildControl__control13() {
             global::System.Web.UI.WebControls.HiddenField @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
             @__ctrl.TemplateControl = this;
-            @__ctrl.ID = "hdnDeletedStatusForMakePackFG";
+            @__ctrl.ID = "hdnDeletedStatusForMakePackName";
             @__ctrl.Value = "false";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
             return @__ctrl;
@@ -660,24 +709,22 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             "artCodeGenerator", "17.0.0.0")]
         private void @__BuildControl__control8(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    <tr>\r\n                                     " +
-                        "   "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                <tr>\r\n                                    "));
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl1;
             @__ctrl1 = this.@__BuildControl__control9();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        <td class=\"DeleteRow\">\r\n               " +
-                        "                             <div class=\"form-group\">\r\n                         " +
-                        "                       "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    <td class=\"DeleteRow\">\r\n                   " +
+                        "                     <div class=\"form-group\">\r\n                                 " +
+                        "           "));
             global::System.Web.UI.WebControls.Image @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control11();
+            @__ctrl2 = this.@__BuildControl__control12();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            "));
             global::System.Web.UI.WebControls.HiddenField @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control12();
+            @__ctrl3 = this.@__BuildControl__control13();
             @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
-                        "             </td>\r\n                                    </tr>\r\n                 " +
-                        "               "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        </div>\r\n                               " +
+                        "     </td>\r\n                                </tr>\r\n                            "));
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -706,6 +753,8 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.Text = "Add Make Pack";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none; height: 5px;");
             @__ctrl.CssClass = "ButtonControl";
+            @__ctrl.Click -= new System.EventHandler(this.btnAddMakePackPlantFG_Click);
+            @__ctrl.Click += new System.EventHandler(this.btnAddMakePackPlantFG_Click);
             return @__ctrl;
         }
         
@@ -719,24 +768,87 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "col-xs-12 col-sm-6 col-md-4 MemberDiv");
             @__ctrl.ID = "divMakePackFG";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
             @__ctrl1 = this.@__BuildControldiv3();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl2;
             @__ctrl2 = this.@__BuildControldiv4();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    <div>\r\n                        <table class=\"MakePackFGTabl" +
-                        "eNew\" style=\"width: 100%\">\r\n                            "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                <div>\r\n                    <table class=\"MakePackFGTableNew\" st" +
+                        "yle=\"width: 100%\">\r\n                        "));
             global::System.Web.UI.WebControls.Repeater @__ctrl3;
             @__ctrl3 = this.@__BuildControlrptMakePackFGRepeater();
             @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        </table>\r\n                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </table>\r\n                    "));
             global::System.Web.UI.WebControls.Button @__ctrl4;
             @__ctrl4 = this.@__BuildControlbtnAddMakePackPlantFG();
             @__parser.AddParsedSubObject(@__ctrl4);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </div>\r\n            "));
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control15() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "Select...";
+            @__ctrl.Value = "-1";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control16() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "Yes";
+            @__ctrl.Value = "1";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control17() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "No";
+            @__ctrl.Value = "2";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__BuildControl__control14(System.Web.UI.WebControls.ListItemCollection @__ctrl) {
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control15();
+            @__ctrl.Add(@__ctrl1);
+            global::System.Web.UI.WebControls.ListItem @__ctrl2;
+            @__ctrl2 = this.@__BuildControl__control16();
+            @__ctrl.Add(@__ctrl2);
+            global::System.Web.UI.WebControls.ListItem @__ctrl3;
+            @__ctrl3 = this.@__BuildControl__control17();
+            @__ctrl.Add(@__ctrl3);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.DropDownList @__BuildControlDropDownList2() {
+            global::System.Web.UI.WebControls.DropDownList @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.DropDownList();
+            this.DropDownList2 = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "DropDownList2";
+            @__ctrl.AppendDataBoundItems = true;
+            @__ctrl.CssClass = "form-control required";
+            this.@__BuildControl__control14(@__ctrl.Items);
             return @__ctrl;
         }
         
@@ -751,74 +863,77 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "divFGSection";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-         <div class=""row"">
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"">
-                <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for FG Recipe & Spec for a New or Existing FG number?:</label>
-                "));
+        <div class=""row"">
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"">
+                    <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for FG Recipe & Spec for a New or Existing FG number?:</label>
+                    "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl1;
             @__ctrl1 = this.@__BuildControlddlRequestNewExistingFG();
             @__parser.AddParsedSubObject(@__ctrl1);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                </div>
             </div>
-        </div>
-         <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divSpecDescription"">
-                <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
-                "));
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divSpecDescription"">
+                    <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl2;
             @__ctrl2 = this.@__BuildControltxtDescription();
             @__parser.AddParsedSubObject(@__ctrl2);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
+                    <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
+                </div>
             </div>
-        </div>
-    </div>
-   
-    <div class=""row"">
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divLikeFg"">
-                <label class=""control-label"">Like FG # (Please enter a ""Like"" FG Number from which to copy)</label>
-                "));
+        
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divLikeFg"">
+                    <label class=""control-label"">Like FG # (Please enter a ""Like"" FG Number from which to copy)</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl3;
             @__ctrl3 = this.@__BuildControlTextBox3();
             @__parser.AddParsedSubObject(@__ctrl3);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                  <label class=""comment-block"">Like FG # should represent the same pack structure as the new FG being requested.</label>
-                
+                    <label class=""comment-block"">Like FG # should represent the same pack structure as the new FG being requested.</label>
+
+                </div>
             </div>
-        </div>
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divExistingFg"">
-                <label class=""control-label""><span class=""markrequired"">*</span>Existing FG #</label>
-                "));
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divExistingFg"">
+                    <label class=""control-label""><span class=""markrequired"">*</span>Existing FG #</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl4;
             @__ctrl4 = this.@__BuildControlTextBox4();
             @__parser.AddParsedSubObject(@__ctrl4);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-              
-            </div>
-        </div>
-    </div>
-    <div class=""row"">
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"">
-
-                <div class=""form-group"">
-                    <label class=""control-label ProjectManager""> Make/Pack Plant:</label>
-                </div>
-                 "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div clas" +
+                        "s=\"row\"> \r\n \r\n            "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl5;
             @__ctrl5 = this.@__BuildControldivMakePackFG();
             @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n\r\n\r\n\r\n            </div>\r\n        </div>\r\n    </div>\r\n    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+
+
+
+
+
+
+        </div>
+        <div class=""row"">
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"">
+                        <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of FG Pack Location(s)?:</label>
+                        "));
+            global::System.Web.UI.WebControls.DropDownList @__ctrl6;
+            @__ctrl6 = this.@__BuildControlDropDownList2();
+            @__parser.AddParsedSubObject(@__ctrl6);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n     "));
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control14() {
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control19() {
             global::System.Web.UI.WebControls.ListItem @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.ListItem();
             @__ctrl.Text = "Select...";
@@ -829,7 +944,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control15() {
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control20() {
             global::System.Web.UI.WebControls.ListItem @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.ListItem();
             @__ctrl.Text = "New";
@@ -840,7 +955,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control16() {
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control21() {
             global::System.Web.UI.WebControls.ListItem @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.ListItem();
             @__ctrl.Text = "Existing";
@@ -851,15 +966,15 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control13(System.Web.UI.WebControls.ListItemCollection @__ctrl) {
+        private void @__BuildControl__control18(System.Web.UI.WebControls.ListItemCollection @__ctrl) {
             global::System.Web.UI.WebControls.ListItem @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control14();
+            @__ctrl1 = this.@__BuildControl__control19();
             @__ctrl.Add(@__ctrl1);
             global::System.Web.UI.WebControls.ListItem @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control15();
+            @__ctrl2 = this.@__BuildControl__control20();
             @__ctrl.Add(@__ctrl2);
             global::System.Web.UI.WebControls.ListItem @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control16();
+            @__ctrl3 = this.@__BuildControl__control21();
             @__ctrl.Add(@__ctrl3);
         }
         
@@ -874,19 +989,19 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "ddlRequestNewExistingSemi";
             @__ctrl.AppendDataBoundItems = true;
             @__ctrl.CssClass = "form-control required";
-            this.@__BuildControl__control13(@__ctrl.Items);
+            this.@__BuildControl__control18(@__ctrl.Items);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.TextBox @__BuildControlTextBox2() {
+        private global::System.Web.UI.WebControls.TextBox @__BuildControltxtSemiDescription() {
             global::System.Web.UI.WebControls.TextBox @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.TextBox();
-            this.TextBox2 = @__ctrl;
+            this.txtSemiDescription = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "TextBox2";
+            @__ctrl.ID = "txtSemiDescription";
             @__ctrl.Text = "";
             @__ctrl.CssClass = "form-control";
             return @__ctrl;
@@ -895,12 +1010,12 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.TextBox @__BuildControlTextBox5() {
+        private global::System.Web.UI.WebControls.TextBox @__BuildControltxtLikeSemiNo() {
             global::System.Web.UI.WebControls.TextBox @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.TextBox();
-            this.TextBox5 = @__ctrl;
+            this.txtLikeSemiNo = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "TextBox5";
+            @__ctrl.ID = "txtLikeSemiNo";
             @__ctrl.Text = "0";
             @__ctrl.CssClass = "form-control";
             return @__ctrl;
@@ -909,12 +1024,12 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.TextBox @__BuildControlTextBox6() {
+        private global::System.Web.UI.WebControls.TextBox @__BuildControltxtLikeSemiExistingNo() {
             global::System.Web.UI.WebControls.TextBox @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.TextBox();
-            this.TextBox6 = @__ctrl;
+            this.txtLikeSemiExistingNo = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "TextBox6";
+            @__ctrl.ID = "txtLikeSemiExistingNo";
             @__ctrl.Text = "0";
             @__ctrl.CssClass = "form-control";
             return @__ctrl;
@@ -923,14 +1038,49 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Image @__BuildControlImage2() {
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control23() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Value = "-1";
+            @__ctrl.Text = "Select...";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__BuildControl__control22(System.Web.UI.WebControls.ListItemCollection @__ctrl) {
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control23();
+            @__ctrl.Add(@__ctrl1);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.DropDownList @__BuildControlddlMakePackSemi() {
+            global::System.Web.UI.WebControls.DropDownList @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.DropDownList();
+            this.ddlMakePackSemi = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "ddlMakePackSemi";
+            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
+            @__ctrl.CssClass = "form-control required ddlMember";
+            this.@__BuildControl__control22(@__ctrl.Items);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Image @__BuildControlImage1() {
             global::System.Web.UI.WebControls.Image @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Image();
-            this.Image2 = @__ctrl;
+            this.Image1 = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "Image2";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("OnClientClick", "AddMakeItem()");
+            @__ctrl.ID = "Image1";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "AddMember");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "AddMakePackPlantFGRow_New(this, \'btnAddMakePackPlantSemi\')");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "cursor: pointer; height: 16px; float: right; margin-top: -43px");
             @__ctrl.AlternateText = "Add Row";
             @__ctrl.ImageUrl = "../../_layouts/15/Ferrara.Compass/images/plus.png";
@@ -941,58 +1091,87 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control19() {
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control26() {
             global::System.Web.UI.WebControls.TextBox @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.TextBox();
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "txtMakePackName";
+            @__ctrl.ID = "txtMakePackNameSemiValue";
             @__ctrl.CssClass = "required form-control";
-            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control19);
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control26);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        public void @__DataBinding__control19(object sender, System.EventArgs e) {
+        public void @__DataBinding__control26(object sender, System.EventArgs e) {
             System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
             System.Web.UI.WebControls.RepeaterItem Container;
             dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
             Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
-            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "MemberLoginName") , global::System.Globalization.CultureInfo.CurrentCulture));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "MakepackNameValue") , global::System.Globalization.CultureInfo.CurrentCulture));
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control18() {
-            global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
-            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("td");
-            @__ctrl.TemplateControl = this;
-            @__ctrl.ID = "tdDeliverable";
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            <div class=\"form-group\">\r\n         " +
-                        "                                       "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control19();
-            @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                                            </div>\r\n                         " +
-                        "               "));
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control27() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtMakePackNameSemi";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control27);
             return @__ctrl;
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Image @__BuildControl__control20() {
+        public void @__DataBinding__control27(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "MakePackName") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.HtmlControls.HtmlTableCell @__BuildControl__control25() {
+            global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl;
+            @__ctrl = new global::System.Web.UI.HtmlControls.HtmlTableCell("td");
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ID = "tdDeliverableSemi";
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    <div class=\"form-group\">\r\n                 " +
+                        "                       "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control26();
+            @__parser.AddParsedSubObject(@__ctrl1);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl2;
+            @__ctrl2 = this.@__BuildControl__control27();
+            @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                                    </div>\r\n                                "));
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Image @__BuildControl__control28() {
             global::System.Web.UI.WebControls.Image @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Image();
             @__ctrl.TemplateControl = this;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "btnDeleteRow";
+            @__ctrl.ID = "btnDeleteRowSemi";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "DeleteRow");
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "cursor: pointer; margin-top: -10px; margin-right: -4px;");
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "deleteRow(this,\'hdnDeletedStatusForMakePackFG\');return false;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "deleteRow(this,\'hdnDeletedStatusForMakePackNameSemi\');return false;");
             @__ctrl.AlternateText = "Delete Row";
             @__ctrl.ImageUrl = "/_layouts/15/Ferrara.Compass/images/cancel.png";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
@@ -1002,11 +1181,11 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.HiddenField @__BuildControl__control21() {
+        private global::System.Web.UI.WebControls.HiddenField @__BuildControl__control29() {
             global::System.Web.UI.WebControls.HiddenField @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
             @__ctrl.TemplateControl = this;
-            @__ctrl.ID = "hdnDeletedStatusForMakePackFG";
+            @__ctrl.ID = "hdnDeletedStatusForMakePackNameSemi";
             @__ctrl.Value = "false";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
             return @__ctrl;
@@ -1015,37 +1194,34 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private void @__BuildControl__control17(System.Web.UI.Control @__ctrl) {
+        private void @__BuildControl__control24(System.Web.UI.Control @__ctrl) {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    <tr>\r\n                                     " +
-                        "   "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            <tr>\r\n                                "));
             global::System.Web.UI.HtmlControls.HtmlTableCell @__ctrl1;
-            @__ctrl1 = this.@__BuildControl__control18();
+            @__ctrl1 = this.@__BuildControl__control25();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        <td class=\"DeleteRow\">\r\n               " +
-                        "                             <div class=\"form-group\">\r\n                         " +
-                        "                       "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                <td class=\"DeleteRow\">\r\n                       " +
+                        "             <div class=\"form-group\">\r\n                                        "));
             global::System.Web.UI.WebControls.Image @__ctrl2;
-            @__ctrl2 = this.@__BuildControl__control20();
+            @__ctrl2 = this.@__BuildControl__control28();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                                "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
             global::System.Web.UI.WebControls.HiddenField @__ctrl3;
-            @__ctrl3 = this.@__BuildControl__control21();
+            @__ctrl3 = this.@__BuildControl__control29();
             @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                            </div>\r\n                           " +
-                        "             </td>\r\n                                    </tr>\r\n                 " +
-                        "               "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    </div>\r\n                                </t" +
+                        "d>\r\n                            </tr>\r\n                        "));
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Repeater @__BuildControlRepeater1() {
+        private global::System.Web.UI.WebControls.Repeater @__BuildControlrptMakePackSemi() {
             global::System.Web.UI.WebControls.Repeater @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Repeater();
-            this.Repeater1 = @__ctrl;
-            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control17));
-            @__ctrl.ID = "Repeater1";
+            this.rptMakePackSemi = @__ctrl;
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control24));
+            @__ctrl.ID = "rptMakePackSemi";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
             return @__ctrl;
         }
@@ -1053,16 +1229,484 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "17.0.0.0")]
-        private global::System.Web.UI.WebControls.Button @__BuildControlButton1() {
+        private global::System.Web.UI.WebControls.Button @__BuildControlbtnAddMakePackPlantSemi() {
             global::System.Web.UI.WebControls.Button @__ctrl;
             @__ctrl = new global::System.Web.UI.WebControls.Button();
-            this.Button1 = @__ctrl;
+            this.btnAddMakePackPlantSemi = @__ctrl;
             @__ctrl.ApplyStyleSheetSkin(this.Page);
-            @__ctrl.ID = "Button1";
+            @__ctrl.ID = "btnAddMakePackPlantSemi";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
             @__ctrl.Text = "Add Make Pack";
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none; height: 5px;");
             @__ctrl.CssClass = "ButtonControl";
+            @__ctrl.Click -= new System.EventHandler(this.btnAddMakePackPlantSemi_Click);
+            @__ctrl.Click += new System.EventHandler(this.btnAddMakePackPlantSemi_Click);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Button @__BuildControlbtnAddSemi() {
+            global::System.Web.UI.WebControls.Button @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Button();
+            this.btnAddSemi = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "btnAddSemi";
+            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
+            @__ctrl.Text = "Add new Transfer Semi";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width:200px; background-color:darkcyan;color:white;");
+            @__ctrl.Click -= new System.EventHandler(this.btnAddSemi_Click);
+            @__ctrl.Click += new System.EventHandler(this.btnAddSemi_Click);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__BuildControl__control30(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                            <tr>
+                               <td>Request For</td> 
+                                <td>Description</td> 
+                                <td>Like Semi #</td>  
+                                <td>Existing Semi #</td> 
+                                <td>Location</td> 
+                                <td></td>
+                            </tr>
+                        "));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control32() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtRequestForSemiValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control32);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control32(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "RequestForValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control33() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtRequestForSemi";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control33);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control33(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "RequestFor") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control34() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtDescriptionForSemiValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control34);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control34(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "DescriptionValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control35() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtDescriptionForSemi";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control35);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control35(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "Description") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control36() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtLikeSemiNoValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control36);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control36(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "LikeSemiNoValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control37() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtLikeSemiNo";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control37);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control37(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "LikeSemiNo") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control38() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtExistingNoValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control38);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control38(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ExistingNoValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control39() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtExistingNo";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control39);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control39(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "ExistingNo") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control40() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtLocationValue";
+            @__ctrl.CssClass = "required form-control";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "visibility: hidden; display: none;");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control40);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control40(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "LocationValue") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.TextBox @__BuildControl__control41() {
+            global::System.Web.UI.WebControls.TextBox @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.TextBox();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "txtLocation";
+            @__ctrl.CssClass = "required form-control ReadOnlyMembers";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 95%");
+            @__ctrl.DataBinding += new System.EventHandler(this.@__DataBinding__control41);
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        public void @__DataBinding__control41(object sender, System.EventArgs e) {
+            System.Web.UI.WebControls.TextBox dataBindingExpressionBuilderTarget;
+            System.Web.UI.WebControls.RepeaterItem Container;
+            dataBindingExpressionBuilderTarget = ((System.Web.UI.WebControls.TextBox)(sender));
+            Container = ((System.Web.UI.WebControls.RepeaterItem)(dataBindingExpressionBuilderTarget.BindingContainer));
+            ((System.Web.UI.IAttributeAccessor)(dataBindingExpressionBuilderTarget)).SetAttribute("Value", global::System.Convert.ToString( DataBinder.Eval(Container.DataItem, "Location") , global::System.Globalization.CultureInfo.CurrentCulture));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Image @__BuildControl__control42() {
+            global::System.Web.UI.WebControls.Image @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Image();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "btnDeleteRowSemiAdd";
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "DeleteRow");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "cursor: pointer; margin-top: -10px; margin-right: -4px;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("onClick", "deleteRow(this,\'hdnDeletedStatusForAddNewSemi\');return false;");
+            @__ctrl.AlternateText = "Delete Row";
+            @__ctrl.ImageUrl = "/_layouts/15/Ferrara.Compass/images/cancel.png";
+            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.HiddenField @__BuildControl__control43() {
+            global::System.Web.UI.WebControls.HiddenField @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.HiddenField();
+            @__ctrl.TemplateControl = this;
+            @__ctrl.ID = "hdnDeletedStatusForAddNewSemi";
+            @__ctrl.Value = "false";
+            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__BuildControl__control31(System.Web.UI.Control @__ctrl) {
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                            <tr>\r\n                                <td>\r\n       " +
+                        "                             "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control32();
+            @__parser.AddParsedSubObject(@__ctrl1);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl2;
+            @__ctrl2 = this.@__BuildControl__control33();
+            @__parser.AddParsedSubObject(@__ctrl2);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                <td>\r\n  " +
+                        "                                  "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl3;
+            @__ctrl3 = this.@__BuildControl__control34();
+            @__parser.AddParsedSubObject(@__ctrl3);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl4;
+            @__ctrl4 = this.@__BuildControl__control35();
+            @__parser.AddParsedSubObject(@__ctrl4);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                <td>\r\n  " +
+                        "                                  "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl5;
+            @__ctrl5 = this.@__BuildControl__control36();
+            @__parser.AddParsedSubObject(@__ctrl5);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl6;
+            @__ctrl6 = this.@__BuildControl__control37();
+            @__parser.AddParsedSubObject(@__ctrl6);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                <td>\r\n  " +
+                        "                                  "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl7;
+            @__ctrl7 = this.@__BuildControl__control38();
+            @__parser.AddParsedSubObject(@__ctrl7);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl8;
+            @__ctrl8 = this.@__BuildControl__control39();
+            @__parser.AddParsedSubObject(@__ctrl8);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                  <td>\r\n" +
+                        "                                    "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl9;
+            @__ctrl9 = this.@__BuildControl__control40();
+            @__parser.AddParsedSubObject(@__ctrl9);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl10;
+            @__ctrl10 = this.@__BuildControl__control41();
+            @__parser.AddParsedSubObject(@__ctrl10);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                <td clas" +
+                        "s=\"DeleteRow\">\r\n                                    <div class=\"form-group\">\r\n  " +
+                        "                                      "));
+            global::System.Web.UI.WebControls.Image @__ctrl11;
+            @__ctrl11 = this.@__BuildControl__control42();
+            @__parser.AddParsedSubObject(@__ctrl11);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            global::System.Web.UI.WebControls.HiddenField @__ctrl12;
+            @__ctrl12 = this.@__BuildControl__control43();
+            @__parser.AddParsedSubObject(@__ctrl12);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    </div>\r\n                                </t" +
+                        "d>\r\n                            </tr>\r\n                        "));
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.Repeater @__BuildControlrptNewSemiComponent() {
+            global::System.Web.UI.WebControls.Repeater @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Repeater();
+            this.rptNewSemiComponent = @__ctrl;
+            @__ctrl.HeaderTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control30));
+            @__ctrl.ItemTemplate = new System.Web.UI.CompiledTemplateBuilder(new System.Web.UI.BuildTemplateMethod(this.@__BuildControl__control31));
+            @__ctrl.ID = "rptNewSemiComponent";
+            @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control45() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "Select...";
+            @__ctrl.Value = "-1";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control46() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "Yes";
+            @__ctrl.Value = "1";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.ListItem @__BuildControl__control47() {
+            global::System.Web.UI.WebControls.ListItem @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.ListItem();
+            @__ctrl.Text = "No";
+            @__ctrl.Value = "2";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__BuildControl__control44(System.Web.UI.WebControls.ListItemCollection @__ctrl) {
+            global::System.Web.UI.WebControls.ListItem @__ctrl1;
+            @__ctrl1 = this.@__BuildControl__control45();
+            @__ctrl.Add(@__ctrl1);
+            global::System.Web.UI.WebControls.ListItem @__ctrl2;
+            @__ctrl2 = this.@__BuildControl__control46();
+            @__ctrl.Add(@__ctrl2);
+            global::System.Web.UI.WebControls.ListItem @__ctrl3;
+            @__ctrl3 = this.@__BuildControl__control47();
+            @__ctrl.Add(@__ctrl3);
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private global::System.Web.UI.WebControls.DropDownList @__BuildControlDropDownList1() {
+            global::System.Web.UI.WebControls.DropDownList @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.DropDownList();
+            this.DropDownList1 = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "DropDownList1";
+            @__ctrl.AppendDataBoundItems = true;
+            @__ctrl.CssClass = "form-control required";
+            this.@__BuildControl__control44(@__ctrl.Items);
             return @__ctrl;
         }
         
@@ -1077,82 +1721,105 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "divSemiSection";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-         <div class=""row"">
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"">
-                <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for Semi Recipe & Spec for a New or Existing Semi number?:</label>
-                "));
+            <div class=""row"">
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"">
+                        <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for Transfer Semi Recipe & Spec for a New or Existing number?:</label>
+                        "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl1;
             @__ctrl1 = this.@__BuildControlddlRequestNewExistingSemi();
             @__parser.AddParsedSubObject(@__ctrl1);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-            </div>
-        </div>
-         <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divSpecDescriptionSemi"">
-                <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
-                "));
+                    </div>
+                </div>
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"" id=""divSpecDescriptionSemi"">
+                        <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
+                        "));
             global::System.Web.UI.WebControls.TextBox @__ctrl2;
-            @__ctrl2 = this.@__BuildControlTextBox2();
+            @__ctrl2 = this.@__BuildControltxtSemiDescription();
             @__parser.AddParsedSubObject(@__ctrl2);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
-            </div>
-        </div>
-    </div>
-   
-    <div class=""row"">
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divLikeSemi"">
-                <label class=""control-label"">Like Semi # (Please enter a ""Like"" Semi Number from which to copy)</label>
-                "));
+                        <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
+                    </div>
+                </div>
+           
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"" id=""divLikeSemi"">
+                        <label class=""control-label"">Like Transfer Semi  # (Please enter a ""Like"" Transfer Semi  Number from which to copy)</label>
+                        "));
             global::System.Web.UI.WebControls.TextBox @__ctrl3;
-            @__ctrl3 = this.@__BuildControlTextBox5();
+            @__ctrl3 = this.@__BuildControltxtLikeSemiNo();
             @__parser.AddParsedSubObject(@__ctrl3);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                  <label class=""comment-block"">Like Semi # should represent the same pack structure as the new Semi being requested.</label>
+                        <label class=""comment-block"">Like Transfer Semi  # should represent the same pack structure as the new Transfer Semi  being requested.</label>
+
+                    </div>
+                </div>
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"" id=""divExistingSemi"">
+                        <label class=""control-label""><span class=""markrequired"">*</span>Existing Transfer Semi  #</label>
+                        "));
+            global::System.Web.UI.WebControls.TextBox @__ctrl4;
+            @__ctrl4 = this.@__BuildControltxtLikeSemiExistingNo();
+            @__parser.AddParsedSubObject(@__ctrl4);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+
+                    </div>
+                </div>
+            </div>
+
+            <div class=""row"">
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"">
+                        <label class=""control-label ProjectManager"">Transfer Semi Pack Location</label>
+                        "));
+            global::System.Web.UI.WebControls.DropDownList @__ctrl5;
+            @__ctrl5 = this.@__BuildControlddlMakePackSemi();
+            @__parser.AddParsedSubObject(@__ctrl5);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                    <div class=\"form-group\">\r\n     " +
+                        "                   "));
+            global::System.Web.UI.WebControls.Image @__ctrl6;
+            @__ctrl6 = this.@__BuildControlImage1();
+            @__parser.AddParsedSubObject(@__ctrl6);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                    </div>\r\n                    <table class=\"MakePackSEMITab" +
+                        "leNew\" style=\"width: 100%\">\r\n                    "));
+            global::System.Web.UI.WebControls.Repeater @__ctrl7;
+            @__ctrl7 = this.@__BuildControlrptMakePackSemi();
+            @__parser.AddParsedSubObject(@__ctrl7);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </table>\r\n                </div>\r\n                <div class=\"c" +
+                        "ol-xs-12 col-sm-6 col-md-4\">\r\n                    \r\n                </div> \r\n   " +
+                        "             "));
+            global::System.Web.UI.WebControls.Button @__ctrl8;
+            @__ctrl8 = this.@__BuildControlbtnAddMakePackPlantSemi();
+            @__parser.AddParsedSubObject(@__ctrl8);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n\r\n\r\n            \r\n            <div class=\"row\">\r\n          " +
+                        "      <div class=\"col-xs-12 col-sm-col-6 col-md-6\">\r\n                    "));
+            global::System.Web.UI.WebControls.Button @__ctrl9;
+            @__ctrl9 = this.@__BuildControlbtnAddSemi();
+            @__parser.AddParsedSubObject(@__ctrl9);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    \r\n                    \r\n                </div>\r\n\r\n         " +
+                        "   </div>\r\n            <div class=\"col-xs-12 col-sm-col-12 col-md-12\">\r\n        " +
+                        "        <table class=\"MakePackSEMITableNew\" style=\"width: 100%\">\r\n              " +
+                        "         "));
+            global::System.Web.UI.WebControls.Repeater @__ctrl10;
+            @__ctrl10 = this.@__BuildControlrptNewSemiComponent();
+            @__parser.AddParsedSubObject(@__ctrl10);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                    </table>
+              
                 
             </div>
-        </div>
-        <div class=""col-xs-12 col-sm-6 col-md-6"">
-            <div class=""form-group"" id=""divExistingSemi"">
-                <label class=""control-label""><span class=""markrequired"">*</span>Existing Semi #</label>
-                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl4;
-            @__ctrl4 = this.@__BuildControlTextBox6();
-            @__parser.AddParsedSubObject(@__ctrl4);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n              \r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=" +
-                        "\"row\">\r\n        <div class=\"col-xs-12 col-sm-6 col-md-6\">\r\n            <div clas" +
-                        "s=\"form-group\">\r\n\r\n            \r\n                            "));
-            global::System.Web.UI.WebControls.Image @__ctrl5;
-            @__ctrl5 = this.@__BuildControlImage2();
-            @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        </div>\r\n                    </div>\r\n                   " +
-                        " <div>\r\n                        <table class=\"MakePackFGTableNew\" style=\"width: " +
-                        "100%\">\r\n                            "));
-            global::System.Web.UI.WebControls.Repeater @__ctrl6;
-            @__ctrl6 = this.@__BuildControlRepeater1();
-            @__parser.AddParsedSubObject(@__ctrl6);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                        </table>\r\n                        "));
-            global::System.Web.UI.WebControls.Button @__ctrl7;
-            @__ctrl7 = this.@__BuildControlButton1();
-            @__parser.AddParsedSubObject(@__ctrl7);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                    </div>
-                </div>--%>
-
-
-
-
-            </div>
-        </div>
-    </div>
-        <div class=""row"">
-             <div class=""col-xs-12 col-sm-col-6 col-md-6"">
-                <input type=""button"" value=""Add New Component #"" id=""btnDebugMode"" class=""ButtonControlAutoSize"">
-            </div>
-        </div>
-    "));
+            <div class=""row"">
+                <div class=""col-xs-12 col-sm-6 col-md-6"">
+                    <div class=""form-group"">
+                        <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of Transfer Semi  Pack Location(s)?:</label>
+                        "));
+            global::System.Web.UI.WebControls.DropDownList @__ctrl11;
+            @__ctrl11 = this.@__BuildControlDropDownList1();
+            @__parser.AddParsedSubObject(@__ctrl11);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n       " +
+                        " "));
             return @__ctrl;
         }
         
@@ -1167,7 +1834,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "Label2";
             @__ctrl.CssClass = "control-label";
             @__ctrl.Text = "Comments:";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "display: inline-block; max-width: 100%; margin-bottom: 5px; font-weight: 700;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "display: inline-block; max-width: 100%; margin-bottoOnClientCont-weight: 700;");
             return @__ctrl;
         }
         
@@ -1260,20 +1927,81 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             this.dvMain = @__ctrl;
             ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("class", "container");
             @__ctrl.ID = "dvMain";
-            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n    <div class=\"row\">\r\n        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl1;
             @__ctrl1 = this.@__BuildControldivAccessDenied();
+            System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n    </div>\r\n    <div class=\"row\">\r\n        "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl2;
             @__ctrl2 = this.@__BuildControldivAccessRequest();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-    </div>
-    <div class=""row"">
-        <div class=""col-xs-12 col-sm-12 col-md-12"">
-            <h1>Request Recipe & Spec Form</h1>
+            global::System.Web.UI.WebControls.TextBox @__ctrl3;
+            @__ctrl3 = this.@__BuildControllblGate0ApprovedDate();
+            @__parser.AddParsedSubObject(@__ctrl3);
+            global::System.Web.UI.WebControls.TextBox @__ctrl4;
+            @__ctrl4 = this.@__BuildControllblLineofBusiness();
+            @__parser.AddParsedSubObject(@__ctrl4);
+            global::System.Web.UI.WebControls.TextBox @__ctrl5;
+            @__ctrl5 = this.@__BuildControllblBrand();
+            @__parser.AddParsedSubObject(@__ctrl5);
+            global::System.Web.UI.WebControls.TextBox @__ctrl6;
+            @__ctrl6 = this.@__BuildControllblDesiredShipDate();
+            @__parser.AddParsedSubObject(@__ctrl6);
+            global::System.Web.UI.WebControls.TextBox @__ctrl7;
+            @__ctrl7 = this.@__BuildControllblProjectLeader();
+            @__parser.AddParsedSubObject(@__ctrl7);
+            global::System.Web.UI.WebControls.TextBox @__ctrl8;
+            @__ctrl8 = this.@__BuildControllblProjectManager();
+            @__parser.AddParsedSubObject(@__ctrl8);
+            global::System.Web.UI.WebControls.Label @__ctrl9;
+            @__ctrl9 = this.@__BuildControlLabel1();
+            @__parser.AddParsedSubObject(@__ctrl9);
+            global::System.Web.UI.WebControls.TextBox @__ctrl10;
+            @__ctrl10 = this.@__BuildControlTextBox1();
+            @__parser.AddParsedSubObject(@__ctrl10);
+            global::System.Web.UI.WebControls.Panel @__ctrl11;
+            @__ctrl11 = this.@__BuildControldivFGSection();
+            @__parser.AddParsedSubObject(@__ctrl11);
+            global::System.Web.UI.WebControls.Panel @__ctrl12;
+            @__ctrl12 = this.@__BuildControldivSemiSection();
+            @__parser.AddParsedSubObject(@__ctrl12);
+            global::System.Web.UI.WebControls.Label @__ctrl13;
+            @__ctrl13 = this.@__BuildControlLabel2();
+            @__parser.AddParsedSubObject(@__ctrl13);
+            global::System.Web.UI.WebControls.TextBox @__ctrl14;
+            @__ctrl14 = this.@__BuildControltxtRemarks();
+            @__parser.AddParsedSubObject(@__ctrl14);
+            global::System.Web.UI.WebControls.Label @__ctrl15;
+            @__ctrl15 = this.@__BuildControllblSavedMessage();
+            @__parser.AddParsedSubObject(@__ctrl15);
+            global::System.Web.UI.WebControls.Button @__ctrl16;
+            @__ctrl16 = this.@__BuildControlbtnSave();
+            @__parser.AddParsedSubObject(@__ctrl16);
+            global::System.Web.UI.WebControls.Button @__ctrl17;
+            @__ctrl17 = this.@__BuildControlbtnSubmit();
+            @__parser.AddParsedSubObject(@__ctrl17);
+            global::System.Web.UI.WebControls.HiddenField @__ctrl18;
+            @__ctrl18 = this.@__BuildControlhiddenItemId();
+            @__parser.AddParsedSubObject(@__ctrl18);
+            global::System.Web.UI.WebControls.HiddenField @__ctrl19;
+            @__ctrl19 = this.@__BuildControlhdnProjectType();
+            @__parser.AddParsedSubObject(@__ctrl19);
+            @__ctrl.SetRenderMethodDelegate(new System.Web.UI.RenderMethod(this.@__RenderdvMain));
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "17.0.0.0")]
+        private void @__RenderdvMain(System.Web.UI.HtmlTextWriter @__w, System.Web.UI.Control parameterContainer) {
+            @__w.Write("\r\n    <div class=\"row\">\r\n        ");
+            parameterContainer.Controls[0].RenderControl(@__w);
+            @__w.Write("\r\n    </div>\r\n    <div class=\"row\">\r\n        ");
+            parameterContainer.Controls[1].RenderControl(@__w);
+            @__w.Write("\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-12 col-sm-12 col-" +
+                    "md-12\">\r\n            <h1>Request ");
+                @__w.Write(requestTypeForForm);
+
+            @__w.Write(@" Recipe & Spec Form</h1>
         </div>
     </div>
     <div class=""row"">
@@ -1298,23 +2026,17 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         <div class=""col-xs-12 col-sm-6 col-md-4"">
             <div class=""form-group"">
                 <label class=""control-label"">Gate 0 Approved Date:</label>
-                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl3;
-            @__ctrl3 = this.@__BuildControllblGate0ApprovedDate();
-            @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
-                        "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
-                        "rol-label\">Line of Business:</label>\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl4;
-            @__ctrl4 = this.@__BuildControllblLineofBusiness();
-            @__parser.AddParsedSubObject(@__ctrl4);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
-                        "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
-                        "rol-label\">Brand::</label>\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl5;
-            @__ctrl5 = this.@__BuildControllblBrand();
-            @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                ");
+            parameterContainer.Controls[2].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
+                    "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
+                    "rol-label\">Line of Business:</label>\r\n                ");
+            parameterContainer.Controls[3].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
+                    "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
+                    "rol-label\">Brand::</label>\r\n                ");
+            parameterContainer.Controls[4].RenderControl(@__w);
+            @__w.Write(@"
             </div>
         </div>
     </div>
@@ -1322,37 +2044,27 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         <div class=""col-xs-12 col-sm-6 col-md-4"">
             <div class=""form-group"">
                 <label class=""control-label"">Desired 1st Ship Date::</label>
-                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl6;
-            @__ctrl6 = this.@__BuildControllblDesiredShipDate();
-            @__parser.AddParsedSubObject(@__ctrl6);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
-                        "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
-                        "rol-label\">Project Leader:</label>\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl7;
-            @__ctrl7 = this.@__BuildControllblProjectLeader();
-            @__parser.AddParsedSubObject(@__ctrl7);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
-                        "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
-                        "rol-label\">Project Manager:</label>\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl8;
-            @__ctrl8 = this.@__BuildControllblProjectManager();
-            @__parser.AddParsedSubObject(@__ctrl8);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        " +
-                        "<div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n            <div class=\"form-group\"" +
-                        ">\r\n                "));
-            global::System.Web.UI.WebControls.Label @__ctrl9;
-            @__ctrl9 = this.@__BuildControlLabel1();
-            @__parser.AddParsedSubObject(@__ctrl9);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl10;
-            @__ctrl10 = this.@__BuildControlTextBox1();
-            @__parser.AddParsedSubObject(@__ctrl10);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                ");
+            parameterContainer.Controls[5].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
+                    "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
+                    "rol-label\">Project Leader:</label>\r\n                ");
+            parameterContainer.Controls[6].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-6 col-" +
+                    "md-4\">\r\n            <div class=\"form-group\">\r\n                <label class=\"cont" +
+                    "rol-label\">Project Manager:</label>\r\n                ");
+            parameterContainer.Controls[7].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        " +
+                    "<div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n            <div class=\"form-group\"" +
+                    ">\r\n                ");
+            parameterContainer.Controls[8].RenderControl(@__w);
+            @__w.Write("\r\n                ");
+            parameterContainer.Controls[9].RenderControl(@__w);
+            @__w.Write(@"
             </div>
         </div>
-    </div> 
-     
+    </div>
+
     <div class=""row"">
         <div class=""col-xs-12 col-sm-12 col-md-12"">
             <h2>Request</h2>
@@ -1362,49 +2074,29 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         <div class=""col-xs-12 col-sm-12 col-md-12 CompassSeparator"">&nbsp;</div>
     </div>
     <!-- FG Section -->
-    "));
-            global::System.Web.UI.WebControls.Panel @__ctrl11;
-            @__ctrl11 = this.@__BuildControldivFGSection();
-            @__parser.AddParsedSubObject(@__ctrl11);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n   \r\n\r\n     <!-- Semi Section -->\r\n    "));
-            global::System.Web.UI.WebControls.Panel @__ctrl12;
-            @__ctrl12 = this.@__BuildControldivSemiSection();
-            @__parser.AddParsedSubObject(@__ctrl12);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n   \r\n   <div class=\"row\">\r\n        <div class=\"col-xs-12 col-sm-12 col-md-12\">\r" +
-                        "\n            <div class=\"form-group\">\r\n                "));
-            global::System.Web.UI.WebControls.Label @__ctrl13;
-            @__ctrl13 = this.@__BuildControlLabel2();
-            @__parser.AddParsedSubObject(@__ctrl13);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                "));
-            global::System.Web.UI.WebControls.TextBox @__ctrl14;
-            @__ctrl14 = this.@__BuildControltxtRemarks();
-            @__parser.AddParsedSubObject(@__ctrl14);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n        </div>\r\n    </div> \r\n\r\n    <div class=\"row RowBotto" +
-                        "mMargin\">\r\n        <div class=\"col-xs-12 col-sm-9 col-md-10\">\r\n            "));
-            global::System.Web.UI.WebControls.Label @__ctrl15;
-            @__ctrl15 = this.@__BuildControllblSavedMessage();
-            @__parser.AddParsedSubObject(@__ctrl15);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n            " +
-                        ""));
-            global::System.Web.UI.WebControls.Button @__ctrl16;
-            @__ctrl16 = this.@__BuildControlbtnSave();
-            @__parser.AddParsedSubObject(@__ctrl16);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("&nbsp;&nbsp;&nbsp;\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-3 col-md" +
-                        "-1\">\r\n            "));
-            global::System.Web.UI.WebControls.Button @__ctrl17;
-            @__ctrl17 = this.@__BuildControlbtnSubmit();
-            @__parser.AddParsedSubObject(@__ctrl17);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-1" +
-                        "2 col-sm-12 col-md-12\">\r\n            "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl18;
-            @__ctrl18 = this.@__BuildControlhiddenItemId();
-            @__parser.AddParsedSubObject(@__ctrl18);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            "));
-            global::System.Web.UI.WebControls.HiddenField @__ctrl19;
-            @__ctrl19 = this.@__BuildControlhdnProjectType();
-            @__parser.AddParsedSubObject(@__ctrl19);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n    </div>\r\n"));
-            return @__ctrl;
+    ");
+            parameterContainer.Controls[10].RenderControl(@__w);
+            @__w.Write("    \r\n    <!-- Transfer Semi  Section -->\r\n        ");
+            parameterContainer.Controls[11].RenderControl(@__w);
+            @__w.Write("\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n " +
+                    "           <div class=\"form-group\">\r\n                ");
+            parameterContainer.Controls[12].RenderControl(@__w);
+            @__w.Write("\r\n                ");
+            parameterContainer.Controls[13].RenderControl(@__w);
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n<div class=\"row RowBottomMarg" +
+                    "in\">\r\n    <div class=\"col-xs-12 col-sm-9 col-md-10\">\r\n        ");
+            parameterContainer.Controls[14].RenderControl(@__w);
+            @__w.Write("\r\n    </div>\r\n    <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n        ");
+            parameterContainer.Controls[15].RenderControl(@__w);
+            @__w.Write("&nbsp;&nbsp;&nbsp;\r\n    </div>\r\n    <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n  " +
+                    "      ");
+            parameterContainer.Controls[16].RenderControl(@__w);
+            @__w.Write("\r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    <div class=\"col-xs-12 col-sm-12 col-" +
+                    "md-12\">\r\n        ");
+            parameterContainer.Controls[17].RenderControl(@__w);
+            @__w.Write("\r\n        ");
+            parameterContainer.Controls[18].RenderControl(@__w);
+            @__w.Write("\r\n    </div>\r\n</div>\r\n");
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -1462,55 +2154,53 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             parameterContainer.Controls[0].RenderControl(@__w);
             @__w.Write("\r\n");
             parameterContainer.Controls[1].RenderControl(@__w);
-            @__w.Write("\r\n<script type=\"text/javascript\">\r\n          $(document).ready(function () {\r\n   " +
-                    "           $(\"#");
-          @__w.Write(ddlRequestNewExistingSemi.ClientID );
+            @__w.Write("\r\n<script type=\"text/javascript\">\r\n    var selctedItems =\'\';\r\n    $(document).rea" +
+                    "dy(function () {\r\n        $(\'#NewSemiComponent\').addClass(\'hide\');\r\n        $(\"#" +
+                    "");
+    @__w.Write(ddlRequestNewExistingSemi.ClientID );
 
-            @__w.Write("\").change(function (e) {\r\n                \r\n         var s = $(\"#");
-             @__w.Write(ddlRequestNewExistingSemi.ClientID );
+            @__w.Write("\").change(function (e) {\r\n\r\n            var s = $(\"#");
+                @__w.Write(ddlRequestNewExistingSemi.ClientID );
 
-            @__w.Write(@" option:selected"").text();
-        if (s == ""New"") {
-            $('#divSpecDescriptionSemi').removeClass('hide');
-            $('#divLikeSemi').removeClass('hide');
-            $('#divExistingSemi').addClass('hide');
-            //$('#txtProductFormDescription').addClass('required')
-        }
-        else {
-            $('#divSpecDescriptionSemi').addClass('hide');
-            $('#divLikeSemi').addClass('hide');
-            $('#divExistingSemi').removeClass('hide');
-        }
-        });
-    });
-</script>
-
-<script type=""text/javascript"">
-
-    function AddMakeItem() {
-        alert('hi');
-    }
-    $(document).ready(function () {
-        $(""#");
+            @__w.Write(" option:selected\").text();\r\n            if (s == \"New\") {\r\n                $(\'#di" +
+                    "vSpecDescriptionSemi\').removeClass(\'hide\');\r\n                $(\'#divLikeSemi\').r" +
+                    "emoveClass(\'hide\');\r\n                $(\'#divExistingSemi\').addClass(\'hide\');\r\n  " +
+                    "              //$(\'#txtProductFormDescription\').addClass(\'required\')\r\n          " +
+                    "  }\r\n            else {\r\n                $(\'#divSpecDescriptionSemi\').addClass(\'" +
+                    "hide\');\r\n                $(\'#divLikeSemi\').addClass(\'hide\');\r\n                $(" +
+                    "\'#divExistingSemi\').removeClass(\'hide\');\r\n            }\r\n        });\r\n    });\r\n<" +
+                    "/script>\r\n\r\n<script type=\"text/javascript\">\r\n    \r\n    function AddMakeItem() {\r" +
+                    "\n       \r\n    }\r\n    function AddSemi() {\r\n        \r\n    }\r\n    function removeR" +
+                    "ow(btnName) {\r\n        try {\r\n          \r\n            var table = document.getEl" +
+                    "ementById(\'NewSemiComponent\');\r\n            var rowCount = table.rows.length;\r\n " +
+                    "           for (var i = 0; i < rowCount; i++) {\r\n                var row = table" +
+                    ".rows[i];\r\n                var rowObj = row.cells[5].childNodes[0];\r\n           " +
+                    "     if (rowObj.name == btnName) {\r\n                    table.deleteRow(i);\r\n   " +
+                    "                 rowCount--;\r\n                }\r\n            }\r\n        }\r\n     " +
+                    "   catch (e) {\r\n            alert(e);\r\n        }\r\n    }\r\n    $(document).ready(f" +
+                    "unction () {\r\n        \r\n        //var table = document.getElementById(\'NewSemiCo" +
+                    "mponent\');\r\n        //var rowCount = table.rows.length;\r\n        //if (rowCount " +
+                    "== 0) {\r\n        //    $(\'#NewSemiComponent\').addClass(\'hide\');\r\n        //}\r\n  " +
+                    "    \r\n\r\n        $(\"#");
     @__w.Write(ddlRequestNewExistingFG.ClientID );
 
-            @__w.Write("\").change(function (e) {\r\n\r\n                  var s = $(\"#");
-                      @__w.Write(ddlRequestNewExistingFG.ClientID );
+            @__w.Write("\").change(function (e) {\r\n\r\n            var s = $(\"#");
+                @__w.Write(ddlRequestNewExistingFG.ClientID );
 
             @__w.Write(@" option:selected"").text();
-                  if (s == ""New"") {
-                      $('#divSpecDescription').removeClass('hide');
-                      $('#divLikeFg').removeClass('hide');
-                      $('#divExistingFg').addClass('hide');
-                      //$('#txtProductFormDescription').addClass('required')
-                  }
-                  else {
-                      $('#divSpecDescription').addClass('hide');
-                      $('#divLikeFg').addClass('hide');
-                      $('#divExistingFg').removeClass('hide');
-                  }
-              });
-          });
+            if (s == ""New"") {
+                $('#divSpecDescription').removeClass('hide');
+                $('#divLikeFg').removeClass('hide');
+                $('#divExistingFg').addClass('hide');
+                //$('#txtProductFormDescription').addClass('required')
+            }
+            else {
+                $('#divSpecDescription').addClass('hide');
+                $('#divLikeFg').addClass('hide');
+                $('#divExistingFg').removeClass('hide');
+            }
+        });
+    });
 </script>
 <script>
 
@@ -1522,8 +2212,13 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
         button.closest(""td"").find(""#"" + hdnDeletedStatus).val(""true"");
     }
 
-   
+
     function AddMakePackPlantFGRow_New(clicked, btnId) {
+
+        var s = $(""#");
+            @__w.Write(ddlRequestNewExistingFG.ClientID );
+
+            @__w.Write(@" option:selected"").text();
         var button = $(clicked);
         var MemberDiv = button.closest("".MemberDiv"");
         var ddlMember = MemberDiv.find('.ddlMember');
@@ -1531,8 +2226,9 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             $('#' + btnId).click();
         }
     }
-    
-</script>");
+
+</script>
+");
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

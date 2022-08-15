@@ -366,6 +366,8 @@ D:\PMT_CODE_JUNE2022\PMT_June_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csp
 D:\PMT_CODE_JUNE2022\PMT_June_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.CopyComplete
 D:\PMT_CODE_JUNE2022\PMT_June_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.dll
 D:\PMT_CODE_JUNE2022\PMT_June_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.pdb
+D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.AssemblyReference.cache
+D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.CoreCompileInputs.cache
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\Ferrara.Compass.dll
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\Ferrara.Compass.pdb
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\Ferrara.Compass.Abstractions.dll
@@ -453,8 +455,6 @@ D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\ko\System.Spatial
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\ru\System.Spatial.resources.dll
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\zh-Hans\System.Spatial.resources.dll
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\bin\Debug\zh-Hant\System.Spatial.resources.dll
-D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.AssemblyReference.cache
-D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.CoreCompileInputs.cache
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.csproj.CopyComplete
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.dll
 D:\PMT_CODE_JUNE2022\PMT_AUGUST_2022\Ferrara.Compass\obj\Debug\Ferrara.Compass.pdb
