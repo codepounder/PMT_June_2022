@@ -6,7 +6,11 @@
 <%@ Import Namespace="Microsoft.SharePoint" %>
 <%@ Register TagPrefix="WebPartPages" Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="RequestRecipeSpecForm.ascx.cs" Inherits="Ferrara.Compass.WebParts.RequestRecipeSpecForm.RequestRecipeSpecForm" %>
-
+<style>
+ .package-table tbody tr:nth-child(odd){background:#FAFAFA;}
+.package-table td{border-top:0px !important; border-right:1px solid #fff !important;}
+.package-table tbody tr:nth-child(even){background:#DFDFDF; }
+</style>
 <div class="container" id="dvMain" runat="server">
     <div class="row">
         <div id="divAccessDenied" runat="server" class="col-xs-12 col-sm-12 col-md-12 AccessDenied">
@@ -32,7 +36,9 @@
     </div>
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 ValidationSummary">
-            <div id="dverror_message" style="display: none;">
+             <asp:ValidationSummary ID="ItemValidationSummary" ClientIDMode="Static" runat="server" Enabled="True" HeaderText="Submission Failed!<br/>Please correct the errors below:" />
+                  
+           <div id="dverror_message" style="display: none;">
                 <ul id="error_message"></ul>
             </div>
         </div>
@@ -41,6 +47,9 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <h2>Project Information</h2>
         </div>
+    </div>
+    <div>
+         <asp:HiddenField ID="hdnStageGateProjectListItemId" runat="server" ClientIDMode="Static" />
     </div>
     <div class="row RowBottomMargin">
         <div class="col-xs-12 col-sm-12 col-md-12 CompassSeparator">&nbsp;</div>
@@ -122,7 +131,7 @@
                     <label class="comment-block">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
                 </div>
             </div>
-        
+
             <div class="col-xs-12 col-sm-6 col-md-6">
                 <div class="form-group" id="divLikeFg">
                     <label class="control-label">Like FG # (Please enter a "Like" FG Number from which to copy)</label>
@@ -139,23 +148,33 @@
                 </div>
             </div>
         </div>
-        <div class="row"> 
- 
-            <div class="col-xs-12 col-sm-6 col-md-4 MemberDiv" runat="server" id="divMakePackFG">
-                <div runat="server" id="div3">
-                    <div class="form-group">
-                         <label class="control-label ProjectManager">FG Pack Location:</label>
-                        <asp:DropDownList ID="drpMakeLocation" ClientIDMode="Static" CssClass="form-control required ddlMember" runat="server">
+        <div class="row">
+
+            <div class="col-xs-8 col-sm-6 col-md-4 MemberDiv" runat="server" id="divMakePackFG">
+                <table widh="100%">
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                        <label class="control-label ProjectManager">FG Pack Location:</label>
+                        <asp:DropDownList Style="width:400px;" ID="drpMakeLocation" ClientIDMode="Static" CssClass="form-control required ddlMember" runat="server">
                             <asp:ListItem Value="-1">Select...</asp:ListItem>
                         </asp:DropDownList>
 
                     </div>
-                </div>
-                <div runat="server" id="div4">
-                    <div class="form-group">
-                        <asp:Image ID="ImgAddMakePackPlantFG" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantFG')" Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+                        </td>
+                        <td>
+<div class="form-group">
+                        <asp:Image ID="ImgAddMakePackPlantFG" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantFG')" Style="cursor: pointer; height: 16px; float: left; margin-left: 10px;" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
 
                     </div>
+                        </td>
+                    </tr>
+                </table>
+                <div runat="server" id="div3">
+                    
+                </div>
+                <div runat="server" id="div4">
+                    
                 </div>
                 <div>
                     <table class="MakePackFGTableNew" style="width: 100%">
@@ -171,7 +190,7 @@
                                     </td>
                                     <td class="DeleteRow">
                                         <div class="form-group">
-                                            <asp:Image ID="btnDeleteRow" class="DeleteRow" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForMakePackName');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
+                                            <asp:Image ID="btnDeleteRow"  class="DeleteRow" ToolTip="Delete" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForMakePackName');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
                                             <asp:HiddenField ID="hdnDeletedStatusForMakePackName" Value="false" runat="server" ClientIDMode="Static" />
                                         </div>
                                     </td>
@@ -189,70 +208,89 @@
 
 
         </div>
-        <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <span class="markrequired">*</span><label class="control-label">Send form to Ops Team for review of FG Pack Location(s)?:</label>
-                        <asp:DropDownList ID="DropDownList2" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
-                            <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
-                            <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
-                            <asp:ListItem Text="No" Value="2"></asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
+        <div class="row" style="margin-top:10px;">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <span class="markrequired">*</span><label class="control-label">Send form to Ops Team for review of FG Pack Location(s)?:</label>
+                    <asp:DropDownList ID="DropDownList2" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
+                        <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
+                        <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="No" Value="2"></asp:ListItem>
+                    </asp:DropDownList>
                 </div>
             </div>
-     </asp:Panel>    
+        </div>
+    </asp:Panel>
     <!-- Transfer Semi  Section -->
-        <asp:Panel ID="divSemiSection" runat="server">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <span class="markrequired">*</span><label class="control-label">Is this Request for Transfer Semi Recipe & Spec for a New or Existing number?:</label>
-                        <asp:DropDownList ID="ddlRequestNewExistingSemi" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
-                            <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
-                            <asp:ListItem Text="New" Value="1"></asp:ListItem>
-                            <asp:ListItem Text="Existing" Value="2"></asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
+    <asp:Panel ID="divSemiSection" runat="server">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <span class="markrequired">*</span><label class="control-label">Is this Request for Transfer Semi Recipe & Spec for a New or Existing number?:</label>
+                    <asp:DropDownList ID="ddlRequestNewExistingSemi" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
+                        <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
+                        <asp:ListItem Text="New" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="Existing" Value="2"></asp:ListItem>
+                    </asp:DropDownList>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group" id="divSpecDescriptionSemi">
-                        <label class="control-label"><span class="markrequired">*</span> Description :</label>
-                        <asp:TextBox ID="txtSemiDescription" runat="server" Text="" CssClass="form-control"></asp:TextBox>
-                        <label class="comment-block">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
-                    </div>
-                </div>
-           
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group" id="divLikeSemi">
-                        <label class="control-label">Like Transfer Semi  # (Please enter a "Like" Transfer Semi  Number from which to copy)</label>
-                        <asp:TextBox ID="txtLikeSemiNo" runat="server" Text="0" CssClass="form-control"></asp:TextBox>
-                        <label class="comment-block">Like Transfer Semi  # should represent the same pack structure as the new Transfer Semi  being requested.</label>
-
-                    </div>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group" id="divExistingSemi">
-                        <label class="control-label"><span class="markrequired">*</span>Existing Transfer Semi  #</label>
-                        <asp:TextBox ID="txtLikeSemiExistingNo" runat="server" Text="0" CssClass="form-control"></asp:TextBox>
-
-                    </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group" id="divSpecDescriptionSemi">
+                    <label class="control-label"><span class="markrequired">*</span> Description :</label>
+                    <asp:TextBox ID="txtSemiDescription" runat="server" Text="" CssClass="form-control"></asp:TextBox>
+                    <label class="comment-block">Example: TBD TS [Brand Abbrv] [Product] [General Pack Size]</label>
+                    <asp:Label class="text-danger" ID="lblSemiDescriptionError" runat="server"></asp:Label>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <label class="control-label ProjectManager">Transfer Semi Pack Location</label>
-                        <asp:DropDownList ID="ddlMakePackSemi" ClientIDMode="Static" CssClass="form-control required ddlMember" runat="server">
-                            <asp:ListItem Value="-1">Select...</asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
-                    <div class="form-group">
-                        <asp:Image ID="Image1" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantSemi')" Style="cursor: pointer; height: 16px; float: right; margin-top: -43px" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group" id="divLikeSemi">
+                    <label class="control-label">Like Transfer Semi  # (Please enter a "Like" Transfer Semi  Number from which to copy)</label>
+                    <asp:TextBox ID="txtLikeSemiNo" runat="server" Text="0" CssClass="form-control"></asp:TextBox>
+                    <label class="comment-block">Like Transfer Semi  # should represent the same pack structure as the new Transfer Semi  being requested.</label>
 
-                    </div>
-                    <table class="MakePackSEMITableNew" style="width: 100%">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group" id="divExistingSemi">
+                    <label class="control-label"><span class="markrequired">*</span>Existing Transfer Semi  #</label>
+                    <asp:TextBox ID="txtLikeSemiExistingNo" runat="server" Text="0" CssClass="form-control"></asp:TextBox>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-8 col-sm-6 col-md-6">
+                <table widh="100%">
+                    <tr>
+                        <td>
+                            <div class="form-group">
+                                <label class="control-label ProjectManager">Transfer Semi Pack Location</label>
+                                <asp:DropDownList Style="width:400px;" ID="ddlMakePackSemi" ClientIDMode="Static" CssClass="form-control required ddlMember" runat="server">
+                                    <asp:ListItem Value="-1">Select...</asp:ListItem>
+                                </asp:DropDownList>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
+                                <asp:Image ID="Image1" class="AddMember" onClick="AddMakePackPlantFGRow_New(this, 'btnAddMakePackPlantSemi')" Style="cursor: pointer; height: 16px; float: left;margin-left:10px;" runat="server" AlternateText="Add Row" ImageUrl="../../_layouts/15/Ferrara.Compass/images/plus.png" ToolTip="Add " />
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+
+
+            </div>
+            <div class="col-xs-4 col-sm-6 col-md-6">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <table class="MakePackSEMITableNew" style="width: 100%">
                     <asp:Repeater ID="rptMakePackSemi" runat="server" ClientIDMode="Static">
 
                         <ItemTemplate>
@@ -266,7 +304,7 @@
                                 </td>
                                 <td class="DeleteRow">
                                     <div class="form-group">
-                                        <asp:Image ID="btnDeleteRowSemi" class="DeleteRow" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForMakePackNameSemi');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
+                                        <asp:Image ID="btnDeleteRowSemi" ToolTip="Delete" class="DeleteRow" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForMakePackNameSemi');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
                                         <asp:HiddenField ID="hdnDeletedStatusForMakePackNameSemi" Value="false" runat="server" ClientIDMode="Static" />
                                     </div>
                                 </td>
@@ -274,127 +312,116 @@
                         </ItemTemplate>
                     </asp:Repeater>
                 </table>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    
-                </div> 
-                <asp:Button ID="btnAddMakePackPlantSemi" OnClick="btnAddMakePackPlantSemi_Click" ClientIDMode="Static" runat="server" Text="Add Make Pack" Style="visibility: hidden; display: none; height: 5px;" CssClass="ButtonControl" />
+            </div>
+            <asp:Button ID="btnAddMakePackPlantSemi" OnClick="btnAddMakePackPlantSemi_Click" ClientIDMode="Static" runat="server" Text="Add Make Pack" Style="visibility: hidden; display: none; height: 5px;" CssClass="ButtonControl" />
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-xs-12 col-sm-col-6 col-md-6">
+                <asp:Button ID="btnAddSemi" OnClick="btnAddSemi_Click" ClientIDMode="Static" runat="server" Text="Save Transfer Semi" Style="width: 200px; background-color: darkcyan; color: white;" />
+                <%--<a href="javascript:void(0);" onclick="AddSemi()" style="width:220px !important;" class="btn btn-success">Add new Transfer Semi</a>--%>
+                <%--<asp:button  value="Add new Transfer Semi" id="btnaddSemi" onClick="AddSemi()" name="Add new Transfer Semi"  class="ButtonControlAutoSize">Add new Transfer Semi</asp:button>--%>
+             <asp:Button ID="btnSemiRow" OnClick="btnSemiRow_Click" ClientIDMode="Static" runat="server" Text="DeleteSemiRow" Style="visibility:hidden; display:none" />
             </div>
 
-
-            
-            <div class="row">
-                <div class="col-xs-12 col-sm-col-6 col-md-6">
-                    <asp:Button ID="btnAddSemi" OnClick="btnAddSemi_Click" ClientIDMode ="Static" runat="server" Text="Add new Transfer Semi" Style="width:200px; background-color:darkcyan;color:white;"/>
-                    <%--<a href="javascript:void(0);" onclick="AddSemi()" style="width:220px !important;" class="btn btn-success">Add new Transfer Semi</a>--%>
-                    <%--<asp:button  value="Add new Transfer Semi" id="btnaddSemi" onClick="AddSemi()" name="Add new Transfer Semi"  class="ButtonControlAutoSize">Add new Transfer Semi</asp:button>--%>
-                </div>
-
-            </div>
+        </div>
+        <div class="row">
             <div class="col-xs-12 col-sm-col-12 col-md-12">
-                <table class="MakePackSEMITableNew" style="width: 100%">
-                       <asp:Repeater ID="rptNewSemiComponent" runat="server" ClientIDMode="Static">
+                <table class="table table-bordered table-responsive package-table" style="width: 100%" id="myTable">
+                    <asp:Repeater ID="rptNewSemiComponent" runat="server" ClientIDMode="Static">
                         <HeaderTemplate>
-                            <tr>
-                               <td>Request For</td> 
-                                <td>Description</td> 
-                                <td>Like Semi #</td>  
-                                <td>Existing Semi #</td> 
-                                <td>Location</td> 
+                            <tr style="font-weight:bold;">
+                                <td>#</td>
+                                <td>Request For Transfer Semi</td>
+                                <td>Transfer Semi Description</td>
+                                <td>Like Transfer Semi #</td>
+                                <td>Existing Transfer Semi #</td>
+                                <td>Transfer Semi Pack Location</td>
                                 <td></td>
                             </tr>
                         </HeaderTemplate>
                         <ItemTemplate>
-                            <tr>
-                                <td>
-                                    <asp:TextBox ID="txtRequestForSemiValue" Value='<%# DataBinder.Eval(Container.DataItem, "RequestForValue") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
-                                        <asp:TextBox ID="txtRequestForSemi" Value='<%# DataBinder.Eval(Container.DataItem, "RequestFor") %>' runat="server" CssClass="required form-control ReadOnlyMembers"  Style="width: 95%"></asp:TextBox>
-                                </td>
-                                <td>
-                                    <asp:TextBox ID="txtDescriptionForSemiValue" Value='<%# DataBinder.Eval(Container.DataItem, "DescriptionValue") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
-                                        <asp:TextBox ID="txtDescriptionForSemi" Value='<%# DataBinder.Eval(Container.DataItem, "Description") %>' runat="server" CssClass="required form-control ReadOnlyMembers" Style="width: 95%"></asp:TextBox>
-                                </td>
-                                <td>
-                                    <asp:TextBox ID="txtLikeSemiNoValue" Value='<%# DataBinder.Eval(Container.DataItem, "LikeSemiNoValue") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
-                                        <asp:TextBox ID="txtLikeSemiNo" Value='<%# DataBinder.Eval(Container.DataItem, "LikeSemiNo") %>' runat="server" CssClass="required form-control ReadOnlyMembers" Style="width: 95%"></asp:TextBox>
-                                </td>
-                                <td>
-                                    <asp:TextBox ID="txtExistingNoValue" Value='<%# DataBinder.Eval(Container.DataItem, "ExistingNoValue") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
-                                        <asp:TextBox ID="txtExistingNo" Value='<%# DataBinder.Eval(Container.DataItem, "ExistingNo") %>' runat="server" CssClass="required form-control ReadOnlyMembers" Style="width: 95%"></asp:TextBox>
-                                </td>
+                            <tr style="padding-bottom:10px;">
                                   <td>
-                                    <asp:TextBox ID="txtLocationValue" Value='<%# DataBinder.Eval(Container.DataItem, "LocationValue") %>' runat="server" CssClass="required form-control" Style="visibility: hidden; display: none;"></asp:TextBox>
-                                        <asp:TextBox ID="txtLocation" Value='<%# DataBinder.Eval(Container.DataItem, "Location") %>' runat="server" CssClass="required form-control ReadOnlyMembers" Style="width: 95%"></asp:TextBox>
+                                      <asp:Label ID="lblSNo" class="valueSno" Text='<%# DataBinder.Eval(Container.DataItem, "SNo") %>' runat="server"  Style="width: 95%"></asp:Label>
+                                </td>
+                                <td>
+                                    <asp:Label ID="txtRequestForSemiValue" class="valueRequestSelected" Text='<%# DataBinder.Eval(Container.DataItem, "RequestForValue") %>' runat="server"   Style="visibility: hidden; display: none;"></asp:Label>
+                                    <asp:Label ID="txtRequestForSemi" class="valueRequest" Text='<%# DataBinder.Eval(Container.DataItem, "RequestFor") %>' runat="server"   Style="width: 95%"></asp:Label>
+                                </td>
+                                <td>
+                                    <asp:Label ID="txtDescriptionForSemiValue" Text='<%# DataBinder.Eval(Container.DataItem, "DescriptionValue") %>' runat="server"   Style="visibility: hidden; display: none;"></asp:Label>
+                                    <asp:Label ID="txtDescriptionForSemi" class="valueDescription" Text='<%# DataBinder.Eval(Container.DataItem, "Description") %>' runat="server"  Style="width: 95%"></asp:Label>
+                                </td>
+                                <td>
+                                    <asp:Label ID="txtLikeSemiNoValue" Text='<%# DataBinder.Eval(Container.DataItem, "LikeSemiNoValue") %>' runat="server"  Style="visibility: hidden; display: none;"></asp:Label>
+                                    <asp:Label ID="txtLikeSemiNo"  class="valueLikeSemi" Text='<%# DataBinder.Eval(Container.DataItem, "LikeSemiNo") %>' runat="server"   Style="width: 95%"></asp:Label>
+                                </td>
+                                <td>
+                                    <asp:Label ID="txtExistingNoValue" Text='<%# DataBinder.Eval(Container.DataItem, "ExistingNoValue") %>' runat="server"   Style="visibility: hidden; display: none;"></asp:Label>
+                                    <asp:Label ID="txtExistingNo"  class="valueExistingSemi" Text='<%# DataBinder.Eval(Container.DataItem, "ExistingNo") %>' runat="server"   Style="width: 95%"></asp:Label>
+                                </td>
+                                <td>
+                                    <asp:Label ID="txtLocationValue" class="valueLocationSelected" Text='<%# DataBinder.Eval(Container.DataItem, "LocationValue") %>' runat="server"  Style="visibility: hidden; display: none;"></asp:Label>
+                                    <asp:Label ID="txtLocation"  class="valueLocation" Text='<%# DataBinder.Eval(Container.DataItem, "Location") %>' runat="server"  Style="width: 95%"></asp:Label>
                                 </td>
                                 <td class="DeleteRow">
                                     <div class="form-group">
-                                        <asp:Image ID="btnDeleteRowSemiAdd" class="DeleteRow" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRow(this,'hdnDeletedStatusForAddNewSemi');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
+                                        <asp:Image ID="btnDeleteRowSemiAdd" class="DeleteRow" ToolTip="Delete" Style="cursor: pointer; margin-top: -10px; margin-right: -4px;" onClick="deleteRowSemi(this,'hdnDeletedStatusForAddNewSemi');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/cancel.png" runat="server" ClientIDMode="Static" />
+                                         <asp:Image ID="btnEditImageSemi" class="DeleteRow" ToolTip="Edit" CssClass="btnSelect" Style="cursor: pointer; margin-top: -10px; margin-left:10px; " onClick="editSemi(this,'hdnDeletedStatusForAddNewSemi');return false;" AlternateText="Delete Row" ImageUrl="/_layouts/15/Ferrara.Compass/images/EDIT.GIF" runat="server" ClientIDMode="Static" />
                                         <asp:HiddenField ID="hdnDeletedStatusForAddNewSemi" Value="false" runat="server" ClientIDMode="Static" />
                                     </div>
                                 </td>
                             </tr>
                         </ItemTemplate>
                     </asp:Repeater>
-                    </table>
-              
-                <%--<table class="table" id="NewSemiComponent" style="width: 100%;">
-                    <thead>
-                        <tr>
-                            <th>Request For</th>
-                            <th>Description</th>
-                            <th>Like Semi #</th>
-                            <th>Existing #</th>
-                            <th>Location</th>
-                            <th>Action</th>
-                        </tr>
-                    </thead>
-                    <tbody id="addedSemiComponents">
-                        
-                    </tbody>
-                   
-                     
-                </table>--%>
+                </table>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-6">
-                    <div class="form-group">
-                        <span class="markrequired">*</span><label class="control-label">Send form to Ops Team for review of Transfer Semi  Pack Location(s)?:</label>
-                        <asp:DropDownList ID="DropDownList1" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
-                            <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
-                            <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
-                            <asp:ListItem Text="No" Value="2"></asp:ListItem>
-                        </asp:DropDownList>
-                    </div>
+
+        </div>
+         
+        <div class="row" style="margin-top:10px;">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <div class="form-group">
+                    <span class="markrequired">*</span><label class="control-label">Send form to Ops Team for review of Transfer Semi  Pack Location(s)?:</label>
+                    <asp:DropDownList ID="DropDownList1" runat="server" AppendDataBoundItems="true" CssClass="form-control required">
+                        <asp:ListItem Text="Select..." Value="-1"></asp:ListItem>
+                        <asp:ListItem Text="Yes" Value="1"></asp:ListItem>
+                        <asp:ListItem Text="No" Value="2"></asp:ListItem>
+                    </asp:DropDownList>
                 </div>
             </div>
-        </asp:Panel>
+        </div>
+    </asp:Panel>
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <asp:Label ID="Label2" CssClass="control-label" Text="Comments:" runat="server" Style="display: inline-block; max-width: 100%; margin-bottoOnClientCont-weight: 700;"></asp:Label>
+                <asp:Label ID="Label2" CssClass="control-label" Text="Comments:" runat="server" Style="display: inline-block; max-width: 100%; margin-bottoonclientcont-weight: 700;"></asp:Label>
                 <asp:TextBox ID="txtRemarks" runat="server" CssClass="form-control" TextMode="MultiLine" Rows="6"></asp:TextBox>
             </div>
         </div>
     </div>
 
-<div class="row RowBottomMargin">
-    <div class="col-xs-12 col-sm-9 col-md-10">
-        <asp:Label ID="lblSavedMessage" CssClass="SuccessMessage justifyRight" runat="server"></asp:Label>
+    <div class="row RowBottomMargin">
+        <div class="col-xs-12 col-sm-9 col-md-10">
+            <asp:Label ID="lblSavedMessage" CssClass="SuccessMessage justifyRight" runat="server"></asp:Label>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-1">
+            <asp:Button ID="btnSave" runat="server" Text="Save" CausesValidation="false" CssClass="ButtonControl" />&nbsp;&nbsp;&nbsp;
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-1">
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="ButtonControl" />
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-3 col-md-1">
-        <asp:Button ID="btnSave" runat="server" Text="Save" CausesValidation="false" CssClass="ButtonControl" />&nbsp;&nbsp;&nbsp;
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <asp:HiddenField ID="hiddenItemId" ClientIDMode="Static" runat="server" />
+            <asp:HiddenField ID="hdnProjectType" runat="server" />
+        </div>
     </div>
-    <div class="col-xs-12 col-sm-3 col-md-1">
-        <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="ButtonControl" />
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12">
-        <asp:HiddenField ID="hiddenItemId" ClientIDMode="Static" runat="server" />
-        <asp:HiddenField ID="hdnProjectType" runat="server" />
-    </div>
-</div>
 </div>
 <div class="container" id="dvMsg" visible="false" runat="server">
     <div class="row">
@@ -404,75 +431,41 @@
     </div>
 </div>
 <script type="text/javascript">
-    var selctedItems ='';
+    var selctedItems = '';
+    function ChangeSEMIColumns() {
+        var s = $("#<%=ddlRequestNewExistingSemi.ClientID %> option:selected").text();
+        if (s == "New") {
+            $('#divSpecDescriptionSemi').removeClass('hide');
+            $('#divLikeSemi').removeClass('hide');
+            $('#divExistingSemi').addClass('hide');
+            //$('#txtProductFormDescription').addClass('required')
+        }
+        else if (s == "Existing") {
+            $('#divSpecDescriptionSemi').addClass('hide');
+            $('#divLikeSemi').addClass('hide');
+            $('#divExistingSemi').removeClass('hide');
+        }
+        else {
+            $('#divSpecDescriptionSemi').addClass('hide');
+            $('#divLikeSemi').addClass('hide');
+            $('#divExistingSemi').addClass('hide');
+        }
+    }
     $(document).ready(function () {
         $('#NewSemiComponent').addClass('hide');
         $("#<%=ddlRequestNewExistingSemi.ClientID %>").change(function (e) {
-
-            var s = $("#<%=ddlRequestNewExistingSemi.ClientID %> option:selected").text();
-            if (s == "New") {
-                $('#divSpecDescriptionSemi').removeClass('hide');
-                $('#divLikeSemi').removeClass('hide');
-                $('#divExistingSemi').addClass('hide');
-                //$('#txtProductFormDescription').addClass('required')
-            }
-            else {
-                $('#divSpecDescriptionSemi').addClass('hide');
-                $('#divLikeSemi').addClass('hide');
-                $('#divExistingSemi').removeClass('hide');
-            }
+            ChangeSEMIColumns();
         });
+        ChangeSEMIColumns();
+        ChangeFGColumns();
     });
 </script>
 
 <script type="text/javascript">
-    
-    function AddMakeItem() {
-       
-    }
-    function AddSemi() {
-        <%--$('#NewSemiComponent').removeClass('hide');
-        var table = document.getElementById('NewSemiComponent');
-        var rowCount = table.rows.length;
-        var row = table.insertRow(rowCount);
 
-        //Column 1  
-        var cell1 = row.insertCell(0);
-        var s = $("#<%=ddlRequestNewExistingSemi.ClientID %> option:selected").text();
-        cell1.innerHTML = s;
-
-        //Column 2 
-        var cell2 = row.insertCell(1);
-        var value = document.getElementById('<%=TextBox2.ClientID%>').value;
-        cell2.innerHTML = value;
-      //  cell2.innerHTML = $('#TextBox2').val();
-
-        //Column 3
-        var cell3 = row.insertCell(2);
-        var value3 = document.getElementById('<%=TextBox5.ClientID%>').value;
-        cell3.innerHTML = value3;
-        //Column 4
-        var cell4 = row.insertCell(3);
-        var value4 = document.getElementById('<%=TextBox6.ClientID%>').value;
-        cell4.innerHTML = value4;
-
-
-        // locaiton
-        var cell6 = row.insertCell(4);
-        cell6.innerHTML = selctedItems;
-        //Column 1  
-        var cell5 = row.insertCell(5);
-        var element1 = document.createElement("input");
-        element1.type = "button";
-        var btnName = "button" + (rowCount + 1);
-        element1.name = btnName;
-        element1.setAttribute('value', 'Remove'); // or element1.value = "button";  
-        element1.onclick = function () { removeRow(btnName); }
-        cell5.appendChild(element1); --%>
-    }
     function removeRow(btnName) {
         try {
-          
+
             var table = document.getElementById('NewSemiComponent');
             var rowCount = table.rows.length;
             for (var i = 0; i < rowCount; i++) {
@@ -489,41 +482,91 @@
         }
     }
     $(document).ready(function () {
-        
-        //var table = document.getElementById('NewSemiComponent');
-        //var rowCount = table.rows.length;
-        //if (rowCount == 0) {
-        //    $('#NewSemiComponent').addClass('hide');
-        //}
-      
+
+
 
         $("#<%=ddlRequestNewExistingFG.ClientID %>").change(function (e) {
 
-            var s = $("#<%=ddlRequestNewExistingFG.ClientID %> option:selected").text();
-            if (s == "New") {
-                $('#divSpecDescription').removeClass('hide');
-                $('#divLikeFg').removeClass('hide');
-                $('#divExistingFg').addClass('hide');
-                //$('#txtProductFormDescription').addClass('required')
-            }
-            else {
-                $('#divSpecDescription').addClass('hide');
-                $('#divLikeFg').addClass('hide');
-                $('#divExistingFg').removeClass('hide');
-            }
+            ChangeFGColumns();
         });
     });
 </script>
 <script>
 
-
+    function ChangeFGColumns() {
+        var s = $("#<%=ddlRequestNewExistingFG.ClientID %> option:selected").text();
+        if (s == "New") {
+            $('#divSpecDescription').removeClass('hide');
+            $('#divLikeFg').removeClass('hide');
+            $('#divExistingFg').addClass('hide');
+            //$('#txtProductFormDescription').addClass('required')
+        }
+        else if (s == "Existing") {
+            $('#divSpecDescription').addClass('hide');
+            $('#divLikeFg').addClass('hide');
+            $('#divExistingFg').removeClass('hide');
+        }
+        else {
+            $('#divSpecDescription').addClass('hide');
+            $('#divLikeFg').addClass('hide');
+            $('#divExistingFg').addClass('hide');
+        }
+    }
     function deleteRow(clicked, hdnDeletedStatus) {
         $('#error_message').empty();
         var button = $(clicked);
         button.closest("tr").addClass("hideItem");
         button.closest("td").find("#" + hdnDeletedStatus).val("true");
     }
+    function deleteRowSemi(clicked, hdnDeletedStatus) {
+        $('#error_message').empty();
+        var button = $(clicked);
+        button.closest("tr").addClass("hideItem");
+        button.closest("td").find("#" + hdnDeletedStatus).val("true");
+        $('#btnSemiRow').click();
+    }
+    function editSemi(clicked, hdnDeletedStatus) {
+        //$('#error_message').empty();
+         var button = $(clicked);
+        //button.closest("tr").addClass("hideItem");
+        //button.closest("td").find("#" + hdnDeletedStatus).val("true");
+        //$('#btnSemiRow').click();
+        var currentRow = button.closest("tr");
 
+        var valueRequest = currentRow.find(".valueRequest").html();
+        var valueRequestSelected = currentRow.find(".valueRequestSelected").html();
+        var valueDescription = currentRow.find(".valueDescription").html();
+        var valueLikeSemi = currentRow.find(".valueLikeSemi").html();
+        var valueExistingSemi = currentRow.find(".valueExistingSemi").html();
+        var valueLocation = currentRow.find(".valueLocation").html();
+        var valueLocationSelected = currentRow.find(".valueLocationSelected").html();
+        var sno = currentRow.find(".valueSno").html();
+        $("#<%=txtSemiDescription.ClientID%>").val(valueDescription);
+        $("#<%=txtLikeSemiNo.ClientID%>").val(valueLikeSemi);
+        $("#<%=txtLikeSemiExistingNo.ClientID%>").val(valueExistingSemi);
+        $('#<%=ddlRequestNewExistingSemi.ClientID%> option:selected').text(valueRequest);
+        $('#<%=ddlRequestNewExistingSemi.ClientID%> option:selected').val(valueRequestSelected);
+        $('#<%=ddlMakePackSemi.ClientID%> option:selected').text(valueLocation);
+        $('#<%=ddlMakePackSemi.ClientID%> option:selected').val(valueLocationSelected);
+
+
+        if (valueRequest == "New") {
+            $('#divSpecDescriptionSemi').removeClass('hide');
+            $('#divLikeSemi').removeClass('hide');
+            $('#divExistingSemi').addClass('hide');
+            //$('#txtProductFormDescription').addClass('required')
+        }
+        else if (valueRequest == "Existing") {
+            $('#divSpecDescriptionSemi').addClass('hide');
+            $('#divLikeSemi').addClass('hide');
+            $('#divExistingSemi').removeClass('hide');
+        }
+
+       
+        button.closest("tr").addClass("hideItem");
+        button.closest("td").find("#" + hdnDeletedStatus).val("true");
+
+    }
 
     function AddMakePackPlantFGRow_New(clicked, btnId) {
 
@@ -536,4 +579,5 @@
         }
     }
 
+     
 </script>

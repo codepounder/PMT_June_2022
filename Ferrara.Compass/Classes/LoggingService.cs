@@ -31,7 +31,6 @@ namespace Ferrara.Compass.Classes
                     new SPDiagnosticsCategory(WebPartLoggingDiagnosticArea, TraceSeverity.Unexpected, EventSeverity.Error) 
                 }) 
             }; 
-            
             return areas; 
         } 
         

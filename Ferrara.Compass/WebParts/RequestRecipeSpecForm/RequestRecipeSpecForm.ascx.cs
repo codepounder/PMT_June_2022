@@ -2,6 +2,7 @@
 using Ferrara.Compass.Abstractions.Enum;
 using Ferrara.Compass.Abstractions.Interfaces;
 using Ferrara.Compass.Classes;
+using Microsoft.Practices.Unity;
 using Microsoft.SharePoint;
 using System;
 using System.Collections.Generic;
@@ -27,23 +28,95 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
         public string requestTypeForForm;
         public string selectedSemiItems;
         private IExceptionService exceptionService;
-        #endregion 
+            
+        private IUtilityService utilityService;
+        private IWorkflowService workflowService;
+        private INotificationService notificationService;
+        private IUserManagementService userMgmtService;
+      
+        private int StageGateListItemId = 0;
+        #endregion
+        #region Properties
+
+        private string ProjectNumber
+        {
+            get
+            {
+                if (Page.Request.QueryString[GlobalConstants.QUERYSTRING_ProjectNo] != null)
+                    return Page.Request.QueryString[GlobalConstants.QUERYSTRING_ProjectNo];
+                return string.Empty;
+            }
+        }
+
+        #endregion
         protected override void OnInit(EventArgs e)
         {
             base.OnInit(e);
             InitializeControl();
+            userMgmtService = DependencyResolution.DependencyMapper.Container.Resolve<IUserManagementService>();
         }
+        #region Private Methods
+        
+        private void InitializeScreen()
+        {
+            // If user does not belong to a valid group for the page, inform them that they do not hvae access rights
+            if (!userMgmtService.HasReadAccess(CompassForm.RequestRecipe))
+            {
+                this.divAccessDenied.Visible = true;
+            }
 
+            // If user does not have rights to save/submit the page, disable the Save and Submit buttons
+            if (!userMgmtService.HasWriteAccess(CompassForm.RequestRecipe))
+            {
+                this.btnSave.Enabled = false;
+                this.btnSubmit.Enabled = false;
+            }
+
+            //string workflowPhase = utilityService.GetWorkflowPhase(StageGateListItemId);
+            //if ((string.Equals(workflowPhase, WorkflowStep.OnHold.ToString())) || (string.Equals(workflowPhase, WorkflowStep.Cancelled.ToString())) ||
+            //    (string.Equals(workflowPhase, WorkflowStep.Completed.ToString())))
+            //{
+            //    this.btnSave.Enabled = false;
+            //    this.btnSubmit.Enabled = false;
+            //}
+        }
+        #endregion
         protected void Page_Load(object sender, EventArgs e)
         {
-            webUrl = SPContext.Current.Web.Url;
-            string requestType = Page.Request.QueryString["RequestType"];
            
-            if (!Page.IsPostBack)
+            webUrl = SPContext.Current.Web.Url;
+          
+            string requestType = Page.Request.QueryString["RequestType"];
+            if (requestType == null || requestType.ToLower() == "fg")
             {
+               
+                requestTypeForForm = "FG";
+
+            }
+            else
+            {
+                
+                requestTypeForForm = "Transfer Semi";
+            }
+            try
+            {
+                this.divAccessDenied.Visible = false;
+                this.divAccessRequest.Visible = false;
+
+                // Check for a valid project number
+                if (!CheckProjectNumber())
+                    return;
+
                 Utilities.BindDropDownItems(drpMakeLocation, GlobalConstants.LIST_ManufacturingLocationsLookup, webUrl);
                 Utilities.BindDropDownItems(ddlMakePackSemi, GlobalConstants.LIST_ManufacturingLocationsLookup, webUrl);
-                
+
+              //  LoadFormData();
+                InitializeScreen();
+                if (hdnProjectType.Value.Contains("Renovations"))
+                {
+                    dvMain.Visible = false;
+                    dvMsg.Visible = true;
+                }
 
                 if (requestType == null || requestType.ToLower() == "fg")
                 {
@@ -58,15 +131,30 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
                     this.divFGSection.Visible = false;
                     requestTypeForForm = "Transfer Semi";
                 }
-                // comment by mahipal
             }
+            catch (Exception exception)
+            {
+                ErrorSummary.AddError(exception.Message, this.Page);
+                LoggingService.LogError(LoggingService.WebPartLoggingDiagnosticArea, CompassForm.TradePromo.ToString() + ": " + exception.Message);
+                exceptionService.Handle(LogCategory.CriticalError, exception, CompassForm.TradePromo.ToString(), "Page_Load");
+            } 
         }
 
         protected void btnClick()
         {
             //test
         }
+        private bool CheckProjectNumber()
+        {
+            if (!string.IsNullOrWhiteSpace(ProjectNumber))
+            {
+                StageGateListItemId = Utilities.GetItemIdByProjectNumberFromStageGateProjectList(ProjectNumber);
+            }
 
+            // Store Id in Hidden field
+            this.hdnStageGateProjectListItemId.Value = StageGateListItemId.ToString();
+            return true;
+        }
         protected void btnAddMakePackPlantFG_Click(object sender, EventArgs e)
         {
             AddTeamMemberButtonClick(rptMakePackFGRepeater, "MakePackName", drpMakeLocation);
@@ -89,7 +177,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
             SPFieldUserValueCollection Members = new SPFieldUserValueCollection();
             List<int> NAList = new List<int>();
             Dictionary<int, string> BadNamesList = new Dictionary<int, string>();
-            int Counter = 0;
+            int Counter = 1;
             List<ListMembers> listMembers = new List<ListMembers>();
             listMembers.Add(new ListMembers() { MakePackName = NewMember, MakePackNameValue= NewMemberLoginName });
 
@@ -132,59 +220,60 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
         // add new semi items to table : Mahipal 
         protected void btnAddSemi_Click(object sender, EventArgs e)
         {
-            int Counter = 0;
+            int Counter = 1;
             List<ListMembersForSemiAdd> listMembers = new List<ListMembersForSemiAdd>();
-            string selectedPlants = string.Empty;
-            foreach (RepeaterItem item in rptMakePackSemi.Items)
+            List<SelectedMakePlants> selectedPlants = new List<SelectedMakePlants>();
+            bool IsFormValid = true;
+
+            if (ddlRequestNewExistingSemi.SelectedIndex == -1 || ddlRequestNewExistingSemi.SelectedIndex ==0)
             {
-                if (item.ItemType == ListItemType.Item || item.ItemType == ListItemType.AlternatingItem)
+                ErrorSummary.AddError("Select Request for Transfer Semi Type ", this.Page);
+                IsFormValid = false;
+                return;
+            } else 
+            if(ddlRequestNewExistingSemi.SelectedItem.Text == "New")
+            {
+                if(string.IsNullOrEmpty(txtSemiDescription.Text))
+                    {
+                    ErrorSummary.AddError("Description for New Transfer Semi is Mandatory ", this.Page);
+                   
+                    //lblSemiDescriptionError.Text = "Description for New Transfer Semi is Mandtory";
+                    IsFormValid = false;
+                    return;
+                }
+            } else if(ddlRequestNewExistingSemi.SelectedItem.Text == "Existing")
+            {
+                if (string.IsNullOrEmpty(txtLikeSemiExistingNo.Text))
                 {
-                    TextBox checkValue =(TextBox)item.FindControl("txtMakePackNameSemi");
-                    selectedPlants += "," + checkValue.Text;
+                    ErrorSummary.AddError("Existing  Transfer Semi number is mandatory", this.Page);
+                    IsFormValid = false;
+                    return;
                 }
             }
-            listMembers.Add(new ListMembersForSemiAdd()
-            {
-                Description  = txtSemiDescription.Text,
-                DescriptionValue = txtSemiDescription.Text,
-                ExistingNo = txtLikeSemiExistingNo.Text,
-                ExistingNoValue = txtLikeSemiExistingNo.Text,
-                RequestFor = ddlRequestNewExistingSemi.SelectedItem.Text,
-                RequestForValue = ddlRequestNewExistingSemi.SelectedItem.Text,
-                LikeSemiNo = txtLikeSemiNo.Text,
-                LikeSemiNoValue = txtLikeSemiNo.Text,
-                Location = selectedPlants,
-                 LocationValue = selectedPlants, 
-            }) ;
-            txtSemiDescription.Text = "";
-            txtLikeSemiExistingNo.Text = "";
-            txtLikeSemiNo.Text = "";
-            rptMakePackSemi.DataSource = null;
-            rptMakePackSemi.DataBind();
-            ddlRequestNewExistingSemi.SelectedIndex = -1;
             foreach (RepeaterItem item in rptNewSemiComponent.Items)
             {
                 if (item.ItemType == ListItemType.Item || item.ItemType == ListItemType.AlternatingItem)
-                {                    
-                    HiddenField hiddenStatusField = (HiddenField)item.FindControl("hdnDeletedStatusForAddNewSemi"); 
+                {
+                    HiddenField hiddenStatusField = (HiddenField)item.FindControl("hdnDeletedStatusForAddNewSemi");
                     if (hiddenStatusField.Value != "true")
                     {
                         try
                         {
                             listMembers.Add(new ListMembersForSemiAdd()
                             {
-                                Description = ((TextBox)item.FindControl("txtDescriptionForSemi")).Text,
-                                DescriptionValue = ((TextBox)item.FindControl("txtDescriptionForSemiValue")).Text,
-                                ExistingNo = ((TextBox)item.FindControl("txtExistingNoValue")).Text,
-                                ExistingNoValue = ((TextBox)item.FindControl("txtExistingNo")).Text,
-                                RequestFor = ((TextBox)item.FindControl("txtRequestForSemi")) .Text,
-                                RequestForValue = ((TextBox)item.FindControl("txtRequestForSemiValue")) .Text,
-                                LikeSemiNo = ((TextBox)item.FindControl("txtLikeSemiNoValue")).Text,
-                                LikeSemiNoValue = ((TextBox)item.FindControl("txtLikeSemiNo")).Text,
-                                Location = ((TextBox)item.FindControl("txtLocation")).Text,
-                                LocationValue = ((TextBox)item.FindControl("txtLocationValue")).Text ,
-                            });                         
-                             
+                                SNo = Counter,
+                                Description = ((Label)item.FindControl("txtDescriptionForSemi")).Text,
+                                DescriptionValue = ((Label)item.FindControl("txtDescriptionForSemiValue")).Text,
+                                ExistingNo = ((Label)item.FindControl("txtExistingNoValue")).Text,
+                                ExistingNoValue = ((Label)item.FindControl("txtExistingNo")).Text,
+                                RequestFor = ((Label)item.FindControl("txtRequestForSemi")).Text,
+                                RequestForValue = ((Label)item.FindControl("txtRequestForSemiValue")).Text,
+                                LikeSemiNo = ((Label)item.FindControl("txtLikeSemiNoValue")).Text,
+                                LikeSemiNoValue = ((Label)item.FindControl("txtLikeSemiNo")).Text,
+                                Location = ((Label)item.FindControl("txtLocation")).Text,
+                                LocationValue = ((Label)item.FindControl("txtLocationValue")).Text,
+                            });
+
                         }
                         catch (Exception exception)
                         {
@@ -193,12 +282,141 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
                             LoggingService.LogError(LoggingService.WebPartLoggingDiagnosticArea, CompassForm.IPF.ToString() + ": AddMembers_New: " + exception.Message);
                             exceptionService.Handle(LogCategory.CriticalError, exception, CompassForm.IPF.ToString(), "AddMembers_New");
                         }
+                        Counter++;
                     }
                 }
-                Counter++;
+
+            }
+            if (IsFormValid)
+            {                
+                if (ddlMakePackSemi.SelectedItem.Value != "-1")
+                {
+                    selectedPlants.Add(new SelectedMakePlants
+                    {
+                        SelectedPlantId = ddlMakePackSemi.SelectedItem.Value,
+                         SelectedPlantName= ddlMakePackSemi.SelectedItem.Text
+                    }) ;
+                }
+                foreach (RepeaterItem item in rptMakePackSemi.Items)
+                {
+                    if (item.ItemType == ListItemType.Item || item.ItemType == ListItemType.AlternatingItem)
+                    {
+                        TextBox checkName = (TextBox)item.FindControl("txtMakePackNameSemi");
+                        TextBox checkValue = (TextBox)item.FindControl("txtMakePackNameSemiValue");
+                        selectedPlants.Add(new SelectedMakePlants
+                        {
+                             SelectedPlantName= checkName.Text,
+                              SelectedPlantId= checkValue.Text
+                        });
+                    }
+                }
+                if (selectedPlants.Count > 0)
+                {
+                    foreach (var sp in selectedPlants)
+                    {
+                        listMembers.Add(new ListMembersForSemiAdd()
+                        {
+                            SNo = Counter,
+                            Description = txtSemiDescription.Text,
+                            DescriptionValue = txtSemiDescription.Text,
+                            ExistingNo = txtLikeSemiExistingNo.Text,
+                            ExistingNoValue = txtLikeSemiExistingNo.Text,
+                            RequestFor = ddlRequestNewExistingSemi.SelectedItem.Text,
+                            RequestForValue = ddlRequestNewExistingSemi.SelectedItem.Value,
+                            LikeSemiNo = txtLikeSemiNo.Text,
+                            LikeSemiNoValue = txtLikeSemiNo.Text,
+                            Location = sp.SelectedPlantName,
+                            LocationValue = sp.SelectedPlantId,
+                        });
+                        Counter++;
+                    }
+                }
+                else
+                {
+                    listMembers.Add(new ListMembersForSemiAdd()
+                    {
+                        SNo = Counter,
+                        Description = txtSemiDescription.Text,
+                        DescriptionValue = txtSemiDescription.Text,
+                        ExistingNo = txtLikeSemiExistingNo.Text,
+                        ExistingNoValue = txtLikeSemiExistingNo.Text,
+                        RequestFor = ddlRequestNewExistingSemi.SelectedItem.Text,
+                        RequestForValue = ddlRequestNewExistingSemi.SelectedItem.Text,
+                        LikeSemiNo = txtLikeSemiNo.Text,
+                        LikeSemiNoValue = txtLikeSemiNo.Text
+                    });
+
+                }  
             }
             rptNewSemiComponent.DataSource = listMembers;
             rptNewSemiComponent.DataBind();
+            txtSemiDescription.Text = "";
+            txtLikeSemiExistingNo.Text = "";
+            txtLikeSemiNo.Text = "";
+            rptMakePackSemi.DataSource = null;
+            rptMakePackSemi.DataBind();
+            ddlRequestNewExistingSemi.SelectedIndex = -1;
+            ddlMakePackSemi.SelectedIndex = -1;
+
+        }
+        protected void btnSemiRow_Click(object sender, EventArgs e)
+        {
+            int Counter = 1;
+            List<ListMembersForSemiAdd> listMembers = new List<ListMembersForSemiAdd>();
+            List<string> selectedPlants = new List<string>();
+            bool IsFormValid = true;
+
+             
+                foreach (RepeaterItem item in rptNewSemiComponent.Items)
+                {
+                    if (item.ItemType == ListItemType.Item || item.ItemType == ListItemType.AlternatingItem)
+                    {
+                        HiddenField hiddenStatusField = (HiddenField)item.FindControl("hdnDeletedStatusForAddNewSemi");
+                        if (hiddenStatusField.Value != "true")
+                        {
+                            try
+                            {
+                                listMembers.Add(new ListMembersForSemiAdd()
+                                {
+                                    SNo = Counter,
+                                    Description = ((Label)item.FindControl("txtDescriptionForSemi")).Text,
+                                    DescriptionValue = ((Label)item.FindControl("txtDescriptionForSemiValue")).Text,
+                                    ExistingNo = ((Label)item.FindControl("txtExistingNoValue")).Text,
+                                    ExistingNoValue = ((Label)item.FindControl("txtExistingNo")).Text,
+                                    RequestFor = ((Label)item.FindControl("txtRequestForSemi")).Text,
+                                    RequestForValue = ((Label)item.FindControl("txtRequestForSemiValue")).Text,
+                                    LikeSemiNo = ((Label)item.FindControl("txtLikeSemiNoValue")).Text,
+                                    LikeSemiNoValue = ((Label)item.FindControl("txtLikeSemiNo")).Text,
+                                    Location = ((Label)item.FindControl("txtLocation")).Text,
+                                    LocationValue = ((Label)item.FindControl("txtLocationValue")).Text,
+                                });
+
+                            }
+                            catch (Exception exception)
+                            {
+
+                                ErrorSummary.AddError("Error occurred while adding new member: " + exception.Message, this.Page);
+                                LoggingService.LogError(LoggingService.WebPartLoggingDiagnosticArea, CompassForm.IPF.ToString() + ": AddMembers_New: " + exception.Message);
+                                exceptionService.Handle(LogCategory.CriticalError, exception, CompassForm.IPF.ToString(), "AddMembers_New");
+                            }
+                            Counter++;
+                        }
+                    }
+
+                }
+                
+
+                rptNewSemiComponent.DataSource = listMembers;
+                rptNewSemiComponent.DataBind();
+                txtSemiDescription.Text = "";
+                txtLikeSemiExistingNo.Text = "";
+                txtLikeSemiNo.Text = "";
+                rptMakePackSemi.DataSource = null;
+                rptMakePackSemi.DataBind();
+                ddlRequestNewExistingSemi.SelectedIndex = -1;
+                ddlMakePackSemi.SelectedIndex = -1;
+            
+
         }
         public class ListMembers
         {
@@ -220,6 +438,8 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
             private string mLikeSemiNoValue;
             private string mExistingNoValue;
             private string mLocationValue;
+            private int mSNo;
+            public int SNo { get { return mSNo; } set { mSNo = value; } }
             public string RequestFor { get { return mRequestFor; } set { mRequestFor = value; } }
             public string Description { get { return mDescription; } set { mDescription = value; } }
             public string LikeSemiNo { get { return mLikeSemiNo; } set { mLikeSemiNo = value; } }
@@ -230,6 +450,13 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm
             public string LikeSemiNoValue { get { return mLikeSemiNoValue; } set { mLikeSemiNoValue = value; } }
             public string ExistingNoValue { get { return mExistingNoValue; } set { mExistingNoValue = value; } }
             public string LocationValue { get { return mLocationValue; } set { mLocationValue = value; } }
+        }
+        public class SelectedMakePlants{
+            private string mSelectedPlantName;
+            private string mSelectedPlantId;
+            public  string SelectedPlantName { get { return mSelectedPlantName; } set { mSelectedPlantName = value; } }
+            public string SelectedPlantId { get { return mSelectedPlantId; } set { mSelectedPlantId = value; } }
+       
         }
         private static bool CheckForNA(string stateGateItemName)
         {

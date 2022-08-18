@@ -555,9 +555,9 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             this.div3 = @__ctrl;
             @__ctrl.ID = "div3";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    <div class=\"form-group\">\r\n                         <label c" +
-                        "lass=\"control-label ProjectManager\">FG Pack Location:</label>\r\n                 " +
-                        "       "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    <div class=\"form-group\">\r\n                        <label cl" +
+                        "ass=\"control-label ProjectManager\">FG Pack Location:</label>\r\n                  " +
+                        "      "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl1;
             @__ctrl1 = this.@__BuildControldrpMakeLocation();
             @__parser.AddParsedSubObject(@__ctrl1);
@@ -885,7 +885,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
                     <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
                 </div>
             </div>
-        
+
             <div class=""col-xs-12 col-sm-6 col-md-6"">
                 <div class=""form-group"" id=""divLikeFg"">
                     <label class=""control-label"">Like FG # (Please enter a ""Like"" FG Number from which to copy)</label>
@@ -906,7 +906,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl4 = this.@__BuildControlTextBox4();
             @__parser.AddParsedSubObject(@__ctrl4);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                </div>\r\n            </div>\r\n        </div>\r\n        <div clas" +
-                        "s=\"row\"> \r\n \r\n            "));
+                        "s=\"row\">\r\n\r\n            "));
             global::System.Web.UI.HtmlControls.HtmlGenericControl @__ctrl5;
             @__ctrl5 = this.@__BuildControldivMakePackFG();
             @__parser.AddParsedSubObject(@__ctrl5);
@@ -919,14 +919,14 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
 
         </div>
         <div class=""row"">
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"">
-                        <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of FG Pack Location(s)?:</label>
-                        "));
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"">
+                    <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of FG Pack Location(s)?:</label>
+                    "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl6;
             @__ctrl6 = this.@__BuildControlDropDownList2();
             @__parser.AddParsedSubObject(@__ctrl6);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n     "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </div>\r\n            </div>\r\n        </div>\r\n    "));
             return @__ctrl;
         }
         
@@ -1255,7 +1255,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "btnAddSemi";
             @__ctrl.ClientIDMode = global::System.Web.UI.ClientIDMode.Static;
             @__ctrl.Text = "Add new Transfer Semi";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width:200px; background-color:darkcyan;color:white;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "width: 200px; background-color: darkcyan; color: white;");
             @__ctrl.Click -= new System.EventHandler(this.btnAddSemi_Click);
             @__ctrl.Click += new System.EventHandler(this.btnAddSemi_Click);
             return @__ctrl;
@@ -1268,11 +1268,11 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
                             <tr>
-                               <td>Request For</td> 
-                                <td>Description</td> 
-                                <td>Like Semi #</td>  
-                                <td>Existing Semi #</td> 
-                                <td>Location</td> 
+                                <td>Request For</td>
+                                <td>Description</td>
+                                <td>Like Semi #</td>
+                                <td>Existing Semi #</td>
+                                <td>Location</td>
                                 <td></td>
                             </tr>
                         "));
@@ -1579,7 +1579,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl1;
             @__ctrl1 = this.@__BuildControl__control32();
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl2;
             @__ctrl2 = this.@__BuildControl__control33();
             @__parser.AddParsedSubObject(@__ctrl2);
@@ -1588,7 +1588,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl3;
             @__ctrl3 = this.@__BuildControl__control34();
             @__parser.AddParsedSubObject(@__ctrl3);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl4;
             @__ctrl4 = this.@__BuildControl__control35();
             @__parser.AddParsedSubObject(@__ctrl4);
@@ -1597,7 +1597,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl5;
             @__ctrl5 = this.@__BuildControl__control36();
             @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl6;
             @__ctrl6 = this.@__BuildControl__control37();
             @__parser.AddParsedSubObject(@__ctrl6);
@@ -1606,16 +1606,16 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             global::System.Web.UI.WebControls.TextBox @__ctrl7;
             @__ctrl7 = this.@__BuildControl__control38();
             @__parser.AddParsedSubObject(@__ctrl7);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl8;
             @__ctrl8 = this.@__BuildControl__control39();
             @__parser.AddParsedSubObject(@__ctrl8);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                  <td>\r\n" +
-                        "                                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                </td>\r\n                                <td>\r\n  " +
+                        "                                  "));
             global::System.Web.UI.WebControls.TextBox @__ctrl9;
             @__ctrl9 = this.@__BuildControl__control40();
             @__parser.AddParsedSubObject(@__ctrl9);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                        "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl10;
             @__ctrl10 = this.@__BuildControl__control41();
             @__parser.AddParsedSubObject(@__ctrl10);
@@ -1721,105 +1721,110 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "divSemiSection";
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-            <div class=""row"">
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"">
-                        <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for Transfer Semi Recipe & Spec for a New or Existing number?:</label>
-                        "));
+        <div class=""row"">
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"">
+                    <span class=""markrequired"">*</span><label class=""control-label"">Is this Request for Transfer Semi Recipe & Spec for a New or Existing number?:</label>
+                    "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl1;
             @__ctrl1 = this.@__BuildControlddlRequestNewExistingSemi();
             @__parser.AddParsedSubObject(@__ctrl1);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                    </div>
                 </div>
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"" id=""divSpecDescriptionSemi"">
-                        <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
-                        "));
+            </div>
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divSpecDescriptionSemi"">
+                    <label class=""control-label""><span class=""markrequired"">*</span> Description :</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl2;
             @__ctrl2 = this.@__BuildControltxtSemiDescription();
             @__parser.AddParsedSubObject(@__ctrl2);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                        <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
-                    </div>
+                    <label class=""comment-block"">Example: TBD [Brand Abbrv] [Product] [General Pack Size]</label>
                 </div>
-           
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"" id=""divLikeSemi"">
-                        <label class=""control-label"">Like Transfer Semi  # (Please enter a ""Like"" Transfer Semi  Number from which to copy)</label>
-                        "));
+            </div>
+
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divLikeSemi"">
+                    <label class=""control-label"">Like Transfer Semi  # (Please enter a ""Like"" Transfer Semi  Number from which to copy)</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl3;
             @__ctrl3 = this.@__BuildControltxtLikeSemiNo();
             @__parser.AddParsedSubObject(@__ctrl3);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                        <label class=""comment-block"">Like Transfer Semi  # should represent the same pack structure as the new Transfer Semi  being requested.</label>
+                    <label class=""comment-block"">Like Transfer Semi  # should represent the same pack structure as the new Transfer Semi  being requested.</label>
 
-                    </div>
                 </div>
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"" id=""divExistingSemi"">
-                        <label class=""control-label""><span class=""markrequired"">*</span>Existing Transfer Semi  #</label>
-                        "));
+            </div>
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"" id=""divExistingSemi"">
+                    <label class=""control-label""><span class=""markrequired"">*</span>Existing Transfer Semi  #</label>
+                    "));
             global::System.Web.UI.WebControls.TextBox @__ctrl4;
             @__ctrl4 = this.@__BuildControltxtLikeSemiExistingNo();
             @__parser.AddParsedSubObject(@__ctrl4);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
 
-                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class=""row"">
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"">
-                        <label class=""control-label ProjectManager"">Transfer Semi Pack Location</label>
-                        "));
+        <div class=""row"">
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"">
+                    <label class=""control-label ProjectManager"">Transfer Semi Pack Location</label>
+                    "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl5;
             @__ctrl5 = this.@__BuildControlddlMakePackSemi();
             @__parser.AddParsedSubObject(@__ctrl5);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                    <div class=\"form-group\">\r\n     " +
-                        "                   "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </div>\r\n                <div class=\"form-group\">\r\n             " +
+                        "       "));
             global::System.Web.UI.WebControls.Image @__ctrl6;
             @__ctrl6 = this.@__BuildControlImage1();
             @__parser.AddParsedSubObject(@__ctrl6);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                    </div>\r\n                    <table class=\"MakePackSEMITab" +
-                        "leNew\" style=\"width: 100%\">\r\n                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n                </div>\r\n                <table class=\"MakePackSEMITableNew\" s" +
+                        "tyle=\"width: 100%\">\r\n                    "));
             global::System.Web.UI.WebControls.Repeater @__ctrl7;
             @__ctrl7 = this.@__BuildControlrptMakePackSemi();
             @__parser.AddParsedSubObject(@__ctrl7);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </table>\r\n                </div>\r\n                <div class=\"c" +
-                        "ol-xs-12 col-sm-6 col-md-4\">\r\n                    \r\n                </div> \r\n   " +
-                        "             "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </table>\r\n            </div>\r\n            <div class=\"col-xs-12" +
+                        " col-sm-6 col-md-4\">\r\n            </div>\r\n            "));
             global::System.Web.UI.WebControls.Button @__ctrl8;
             @__ctrl8 = this.@__BuildControlbtnAddMakePackPlantSemi();
             @__parser.AddParsedSubObject(@__ctrl8);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n            </div>\r\n\r\n\r\n            \r\n            <div class=\"row\">\r\n          " +
-                        "      <div class=\"col-xs-12 col-sm-col-6 col-md-6\">\r\n                    "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n        </div>\r\n\r\n\r\n\r\n        <div class=\"row\">\r\n            <div class=\"col-xs" +
+                        "-12 col-sm-col-6 col-md-6\">\r\n                "));
             global::System.Web.UI.WebControls.Button @__ctrl9;
             @__ctrl9 = this.@__BuildControlbtnAddSemi();
             @__parser.AddParsedSubObject(@__ctrl9);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    \r\n                    \r\n                </div>\r\n\r\n         " +
-                        "   </div>\r\n            <div class=\"col-xs-12 col-sm-col-12 col-md-12\">\r\n        " +
-                        "        <table class=\"MakePackSEMITableNew\" style=\"width: 100%\">\r\n              " +
-                        "         "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
+                
+                
+            </div>
+
+        </div>
+        <div class=""row"">
+            <div class=""col-xs-12 col-sm-col-12 col-md-12"">
+                <table class=""MakePackSEMITableNew"" style=""width: 100%"">
+                    "));
             global::System.Web.UI.WebControls.Repeater @__ctrl10;
             @__ctrl10 = this.@__BuildControlrptNewSemiComponent();
             @__parser.AddParsedSubObject(@__ctrl10);
             @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl(@"
-                    </table>
-              
-                
+                </table>
             </div>
-            <div class=""row"">
-                <div class=""col-xs-12 col-sm-6 col-md-6"">
-                    <div class=""form-group"">
-                        <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of Transfer Semi  Pack Location(s)?:</label>
-                        "));
+
+        </div>
+
+        <div class=""row"">
+            <div class=""col-xs-12 col-sm-6 col-md-6"">
+                <div class=""form-group"">
+                    <span class=""markrequired"">*</span><label class=""control-label"">Send form to Ops Team for review of Transfer Semi  Pack Location(s)?:</label>
+                    "));
             global::System.Web.UI.WebControls.DropDownList @__ctrl11;
             @__ctrl11 = this.@__BuildControlDropDownList1();
             @__parser.AddParsedSubObject(@__ctrl11);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                    </div>\r\n                </div>\r\n            </div>\r\n       " +
-                        " "));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n                </div>\r\n            </div>\r\n        </div>\r\n    "));
             return @__ctrl;
         }
         
@@ -1834,7 +1839,7 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             @__ctrl.ID = "Label2";
             @__ctrl.CssClass = "control-label";
             @__ctrl.Text = "Comments:";
-            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "display: inline-block; max-width: 100%; margin-bottoOnClientCont-weight: 700;");
+            ((System.Web.UI.IAttributeAccessor)(@__ctrl)).SetAttribute("Style", "display: inline-block; max-width: 100%; margin-bottoonclientcont-weight: 700;");
             return @__ctrl;
         }
         
@@ -2076,27 +2081,28 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
     <!-- FG Section -->
     ");
             parameterContainer.Controls[10].RenderControl(@__w);
-            @__w.Write("    \r\n    <!-- Transfer Semi  Section -->\r\n        ");
+            @__w.Write("\r\n    <!-- Transfer Semi  Section -->\r\n    ");
             parameterContainer.Controls[11].RenderControl(@__w);
             @__w.Write("\r\n\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-12 col-sm-12 col-md-12\">\r\n " +
                     "           <div class=\"form-group\">\r\n                ");
             parameterContainer.Controls[12].RenderControl(@__w);
             @__w.Write("\r\n                ");
             parameterContainer.Controls[13].RenderControl(@__w);
-            @__w.Write("\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n<div class=\"row RowBottomMarg" +
-                    "in\">\r\n    <div class=\"col-xs-12 col-sm-9 col-md-10\">\r\n        ");
+            @__w.Write("\r\n            </div>\r\n        </div>\r\n    </div>\r\n\r\n    <div class=\"row RowBottom" +
+                    "Margin\">\r\n        <div class=\"col-xs-12 col-sm-9 col-md-10\">\r\n            ");
             parameterContainer.Controls[14].RenderControl(@__w);
-            @__w.Write("\r\n    </div>\r\n    <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n        ");
+            @__w.Write("\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n            " +
+                    "");
             parameterContainer.Controls[15].RenderControl(@__w);
-            @__w.Write("&nbsp;&nbsp;&nbsp;\r\n    </div>\r\n    <div class=\"col-xs-12 col-sm-3 col-md-1\">\r\n  " +
-                    "      ");
+            @__w.Write("&nbsp;&nbsp;&nbsp;\r\n        </div>\r\n        <div class=\"col-xs-12 col-sm-3 col-md" +
+                    "-1\">\r\n            ");
             parameterContainer.Controls[16].RenderControl(@__w);
-            @__w.Write("\r\n    </div>\r\n</div>\r\n<div class=\"row\">\r\n    <div class=\"col-xs-12 col-sm-12 col-" +
-                    "md-12\">\r\n        ");
+            @__w.Write("\r\n        </div>\r\n    </div>\r\n    <div class=\"row\">\r\n        <div class=\"col-xs-1" +
+                    "2 col-sm-12 col-md-12\">\r\n            ");
             parameterContainer.Controls[17].RenderControl(@__w);
-            @__w.Write("\r\n        ");
+            @__w.Write("\r\n            ");
             parameterContainer.Controls[18].RenderControl(@__w);
-            @__w.Write("\r\n    </div>\r\n</div>\r\n");
+            @__w.Write("\r\n        </div>\r\n    </div>\r\n");
         }
         
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
@@ -2154,57 +2160,78 @@ namespace Ferrara.Compass.WebParts.RequestRecipeSpecForm {
             parameterContainer.Controls[0].RenderControl(@__w);
             @__w.Write("\r\n");
             parameterContainer.Controls[1].RenderControl(@__w);
-            @__w.Write("\r\n<script type=\"text/javascript\">\r\n    var selctedItems =\'\';\r\n    $(document).rea" +
-                    "dy(function () {\r\n        $(\'#NewSemiComponent\').addClass(\'hide\');\r\n        $(\"#" +
-                    "");
-    @__w.Write(ddlRequestNewExistingSemi.ClientID );
-
-            @__w.Write("\").change(function (e) {\r\n\r\n            var s = $(\"#");
-                @__w.Write(ddlRequestNewExistingSemi.ClientID );
-
-            @__w.Write(" option:selected\").text();\r\n            if (s == \"New\") {\r\n                $(\'#di" +
-                    "vSpecDescriptionSemi\').removeClass(\'hide\');\r\n                $(\'#divLikeSemi\').r" +
-                    "emoveClass(\'hide\');\r\n                $(\'#divExistingSemi\').addClass(\'hide\');\r\n  " +
-                    "              //$(\'#txtProductFormDescription\').addClass(\'required\')\r\n          " +
-                    "  }\r\n            else {\r\n                $(\'#divSpecDescriptionSemi\').addClass(\'" +
-                    "hide\');\r\n                $(\'#divLikeSemi\').addClass(\'hide\');\r\n                $(" +
-                    "\'#divExistingSemi\').removeClass(\'hide\');\r\n            }\r\n        });\r\n    });\r\n<" +
-                    "/script>\r\n\r\n<script type=\"text/javascript\">\r\n    \r\n    function AddMakeItem() {\r" +
-                    "\n       \r\n    }\r\n    function AddSemi() {\r\n        \r\n    }\r\n    function removeR" +
-                    "ow(btnName) {\r\n        try {\r\n          \r\n            var table = document.getEl" +
-                    "ementById(\'NewSemiComponent\');\r\n            var rowCount = table.rows.length;\r\n " +
-                    "           for (var i = 0; i < rowCount; i++) {\r\n                var row = table" +
-                    ".rows[i];\r\n                var rowObj = row.cells[5].childNodes[0];\r\n           " +
-                    "     if (rowObj.name == btnName) {\r\n                    table.deleteRow(i);\r\n   " +
-                    "                 rowCount--;\r\n                }\r\n            }\r\n        }\r\n     " +
-                    "   catch (e) {\r\n            alert(e);\r\n        }\r\n    }\r\n    $(document).ready(f" +
-                    "unction () {\r\n        \r\n        //var table = document.getElementById(\'NewSemiCo" +
-                    "mponent\');\r\n        //var rowCount = table.rows.length;\r\n        //if (rowCount " +
-                    "== 0) {\r\n        //    $(\'#NewSemiComponent\').addClass(\'hide\');\r\n        //}\r\n  " +
-                    "    \r\n\r\n        $(\"#");
-    @__w.Write(ddlRequestNewExistingFG.ClientID );
-
-            @__w.Write("\").change(function (e) {\r\n\r\n            var s = $(\"#");
-                @__w.Write(ddlRequestNewExistingFG.ClientID );
+            @__w.Write("\r\n<script type=\"text/javascript\">\r\n    var selctedItems = \'\';\r\n    function Chang" +
+                    "eSEMIColumns() {\r\n        var s = $(\"#");
+            @__w.Write(ddlRequestNewExistingSemi.ClientID );
 
             @__w.Write(@" option:selected"").text();
-            if (s == ""New"") {
-                $('#divSpecDescription').removeClass('hide');
-                $('#divLikeFg').removeClass('hide');
-                $('#divExistingFg').addClass('hide');
-                //$('#txtProductFormDescription').addClass('required')
-            }
-            else {
-                $('#divSpecDescription').addClass('hide');
-                $('#divLikeFg').addClass('hide');
-                $('#divExistingFg').removeClass('hide');
-            }
+        if (s == ""New"") {
+            $('#divSpecDescriptionSemi').removeClass('hide');
+            $('#divLikeSemi').removeClass('hide');
+            $('#divExistingSemi').addClass('hide');
+            //$('#txtProductFormDescription').addClass('required')
+        }
+        else {
+            $('#divSpecDescriptionSemi').addClass('hide');
+            $('#divLikeSemi').addClass('hide');
+            $('#divExistingSemi').removeClass('hide');
+        }
+    }
+    $(document).ready(function () {
+        $('#NewSemiComponent').addClass('hide');
+        $(""#");
+    @__w.Write(ddlRequestNewExistingSemi.ClientID );
+
+            @__w.Write(@""").change(function (e) {
+            ChangeSEMIColumns();
         });
     });
 </script>
-<script>
 
+<script type=""text/javascript"">
 
+        function removeRow(btnName) {
+        try {
+
+            var table = document.getElementById('NewSemiComponent');
+            var rowCount = table.rows.length;
+            for (var i = 0; i < rowCount; i++) {
+                var row = table.rows[i];
+                var rowObj = row.cells[5].childNodes[0];
+                if (rowObj.name == btnName) {
+                    table.deleteRow(i);
+                    rowCount--;
+                }
+            }
+        }
+        catch (e) {
+            alert(e);
+        }
+    }
+    $(document).ready(function () {
+
+    
+
+        $(""#");
+    @__w.Write(ddlRequestNewExistingFG.ClientID );
+
+            @__w.Write("\").change(function (e) {\r\n\r\n            ChangeFGColumns();\r\n        });\r\n    });\r" +
+                    "\n</script>\r\n<script>\r\n\r\n    function ChangeFGColumns() {\r\n        var s = $(\"#");
+            @__w.Write(ddlRequestNewExistingFG.ClientID );
+
+            @__w.Write(@" option:selected"").text();
+        if (s == ""New"") {
+            $('#divSpecDescription').removeClass('hide');
+            $('#divLikeFg').removeClass('hide');
+            $('#divExistingFg').addClass('hide');
+            //$('#txtProductFormDescription').addClass('required')
+        }
+        else {
+            $('#divSpecDescription').addClass('hide');
+            $('#divLikeFg').addClass('hide');
+            $('#divExistingFg').removeClass('hide');
+        }
+    }
     function deleteRow(clicked, hdnDeletedStatus) {
         $('#error_message').empty();
         var button = $(clicked);

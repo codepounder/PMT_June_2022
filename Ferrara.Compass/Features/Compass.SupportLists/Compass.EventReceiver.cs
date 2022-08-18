@@ -3094,6 +3094,10 @@ namespace Ferrara.Compass.Features.Compass.SupportLists
             AddFormAccessItemToList(list, CompassForm.PACKAGINGENTRY,
                 string.Concat(GlobalConstants.GROUP_Marketing, ",", GlobalConstants.GROUP_MasterData, ",", GlobalConstants.GROUP_PackagingEngineer, ",", GlobalConstants.GROUP_ProcurementPackaging),
                 string.Concat(GlobalConstants.GROUP_Marketing, ",", GlobalConstants.GROUP_MasterData, ",", GlobalConstants.GROUP_PackagingEngineer, ",", GlobalConstants.GROUP_ProcurementPackaging));
+          
+            AddFormAccessItemToList(list, CompassForm.RequestRecipe,
+                string.Concat(GlobalConstants.GROUP_Marketing),
+                string.Concat(GlobalConstants.GROUP_Marketing));
 
             list.Update();
         }
